@@ -7,9 +7,7 @@ default: all
 all: variable static web
 
 # ---------------------------------------------------------------------------------
-# Variable fonts (split opsz into 2 files)
-
-variable: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf
+# Full variable font (opsz + wght, intermediate)
 
 build/InterCJK-full.ttf: src/InterCJK.glyphspackage src/features/*.fea | build
 	fontmake -g src/InterCJK.glyphspackage \
@@ -17,15 +15,20 @@ build/InterCJK-full.ttf: src/InterCJK.glyphspackage src/features/*.fea | build
 		--output-path $@ \
 		--verbose WARNING
 
-$(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf: build/InterCJK-full.ttf | $(DISTDIR)
+# ---------------------------------------------------------------------------------
+# Split into Text + Display via instancer (pins opsz axis)
+
+variable: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf
+
+$(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf: build/InterCJK-full.ttf misc/split-opsz.py | $(DISTDIR)
 	python3 misc/split-opsz.py $< $(DISTDIR)
 
 # ---------------------------------------------------------------------------------
-# Static fonts (from variable via instancer)
+# Static fonts (from split variable via instancer)
 
 static: $(DISTDIR)/extras/ttf/.ok
 
-$(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf | $(DISTDIR)/extras/ttf
+$(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf misc/gen-static.py | $(DISTDIR)/extras/ttf
 	python3 misc/gen-static.py \
 		$(DISTDIR)/InterCJKVariable.ttf \
 		$(DISTDIR)/InterCJKDisplayVariable.ttf \
@@ -33,7 +36,7 @@ $(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDi
 	touch $@
 
 # ---------------------------------------------------------------------------------
-# Web fonts (WOFF2 variable + static)
+# Web fonts (WOFF2)
 
 web: $(DISTDIR)/web/.ok
 
@@ -50,7 +53,7 @@ $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVa
 	touch $@
 
 # ---------------------------------------------------------------------------------
-# Package (zip for release)
+# Package
 
 package: all $(DISTDIR)/LICENSE.txt $(DISTDIR)/help.txt
 	cd build && zip -r InterCJK-$(VERSION).zip InterCJK-$(VERSION)/

@@ -379,7 +379,7 @@ axisValues = (32, 900);
 instances = (
 {
 interpolationWeight = 100;
-name = "Inter CJK Thin";
+name = "Thin";
 linkStyle = "";
 customParameters = (
 {
@@ -391,7 +391,7 @@ axisValues = (14, 100);
 },
 {
 interpolationWeight = 200;
-name = "Inter CJK ExtraLight";
+name = "ExtraLight";
 customParameters = (
 {
 name = postScriptFontName;
@@ -402,7 +402,7 @@ axisValues = (14, 200);
 },
 {
 interpolationWeight = 300;
-name = "Inter CJK Light";
+name = "Light";
 customParameters = (
 {
 name = postScriptFontName;
@@ -413,7 +413,7 @@ axisValues = (14, 300);
 },
 {
 interpolationWeight = 400;
-name = "Inter CJK Regular";
+name = "Regular";
 linkStyle = Bold;
 customParameters = (
 {
@@ -425,7 +425,7 @@ axisValues = (14, 400);
 },
 {
 interpolationWeight = 500;
-name = "Inter CJK Medium";
+name = "Medium";
 customParameters = (
 {
 name = postScriptFontName;
@@ -436,7 +436,7 @@ axisValues = (14, 500);
 },
 {
 interpolationWeight = 600;
-name = "Inter CJK SemiBold";
+name = "SemiBold";
 customParameters = (
 {
 name = postScriptFontName;
@@ -447,7 +447,7 @@ axisValues = (14, 600);
 },
 {
 interpolationWeight = 700;
-name = "Inter CJK Bold";
+name = "Bold";
 isBold = 1;
 customParameters = (
 {
@@ -459,7 +459,7 @@ axisValues = (14, 700);
 },
 {
 interpolationWeight = 800;
-name = "Inter CJK ExtraBold";
+name = "ExtraBold";
 customParameters = (
 {
 name = postScriptFontName;
@@ -470,7 +470,7 @@ axisValues = (14, 800);
 },
 {
 interpolationWeight = 900;
-name = "Inter CJK Black";
+name = "Black";
 customParameters = (
 {
 name = postScriptFontName;
@@ -481,7 +481,7 @@ axisValues = (14, 900);
 },
 {
 interpolationWeight = 100;
-name = "Inter CJK Display Thin";
+name = "Thin";
 familyName = "Inter CJK Display";
 customParameters = (
 {
@@ -493,7 +493,7 @@ axisValues = (32, 100);
 },
 {
 interpolationWeight = 200;
-name = "Inter CJK Display ExtraLight";
+name = "ExtraLight";
 familyName = "Inter CJK Display";
 customParameters = (
 {
@@ -505,7 +505,7 @@ axisValues = (32, 200);
 },
 {
 interpolationWeight = 300;
-name = "Inter CJK Display Light";
+name = "Light";
 familyName = "Inter CJK Display";
 customParameters = (
 {
@@ -517,7 +517,7 @@ axisValues = (32, 300);
 },
 {
 interpolationWeight = 400;
-name = "Inter CJK Display Regular";
+name = "Regular";
 familyName = "Inter CJK Display";
 linkStyle = Bold;
 customParameters = (
@@ -530,7 +530,7 @@ axisValues = (32, 400);
 },
 {
 interpolationWeight = 500;
-name = "Inter CJK Display Medium";
+name = "Medium";
 familyName = "Inter CJK Display";
 customParameters = (
 {
@@ -542,7 +542,7 @@ axisValues = (32, 500);
 },
 {
 interpolationWeight = 600;
-name = "Inter CJK Display SemiBold";
+name = "SemiBold";
 familyName = "Inter CJK Display";
 customParameters = (
 {
@@ -554,7 +554,7 @@ axisValues = (32, 600);
 },
 {
 interpolationWeight = 700;
-name = "Inter CJK Display Bold";
+name = "Bold";
 familyName = "Inter CJK Display";
 isBold = 1;
 customParameters = (
@@ -567,7 +567,7 @@ axisValues = (32, 700);
 },
 {
 interpolationWeight = 800;
-name = "Inter CJK Display ExtraBold";
+name = "ExtraBold";
 familyName = "Inter CJK Display";
 customParameters = (
 {
@@ -579,7 +579,7 @@ axisValues = (32, 800);
 },
 {
 interpolationWeight = 900;
-name = "Inter CJK Display Black";
+name = "Black";
 familyName = "Inter CJK Display";
 customParameters = (
 {
