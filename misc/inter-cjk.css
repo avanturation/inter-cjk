@@ -15,3 +15,25 @@
   font-weight: 100 900;
   src: url('./InterCJKDisplayVariable.woff2') format('woff2');
 }
+
+/* Inter CJK Static */
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 100; src: url('./InterCJK-Thin.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 200; src: url('./InterCJK-ExtraLight.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 300; src: url('./InterCJK-Light.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 400; src: url('./InterCJK-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 500; src: url('./InterCJK-Medium.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 600; src: url('./InterCJK-SemiBold.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 700; src: url('./InterCJK-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 800; src: url('./InterCJK-ExtraBold.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK'; font-style: normal; font-display: swap; font-weight: 900; src: url('./InterCJK-Black.woff2') format('woff2'); }
+
+/* Inter CJK Display Static */
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 100; src: url('./InterCJKDisplay-Thin.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 200; src: url('./InterCJKDisplay-ExtraLight.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 300; src: url('./InterCJKDisplay-Light.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 400; src: url('./InterCJKDisplay-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 500; src: url('./InterCJKDisplay-Medium.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 600; src: url('./InterCJKDisplay-SemiBold.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 700; src: url('./InterCJKDisplay-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 800; src: url('./InterCJKDisplay-ExtraBold.woff2') format('woff2'); }
+@font-face { font-family: 'Inter CJK Display'; font-style: normal; font-display: swap; font-weight: 900; src: url('./InterCJKDisplay-Black.woff2') format('woff2'); }

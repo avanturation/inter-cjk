@@ -4,7 +4,7 @@ DISTDIR  := build/InterCJK-$(VERSION)
 
 default: all
 
-all: variable web
+all: variable static web
 
 # ---------------------------------------------------------------------------------
 # Variable fonts (split opsz into 2 files)
@@ -21,38 +21,31 @@ $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf: build/In
 	python3 misc/split-opsz.py $< $(DISTDIR)
 
 # ---------------------------------------------------------------------------------
-# Static fonts (instances)
+# Static fonts (from variable via instancer)
 
-static: static-ttf static-otf
+static: $(DISTDIR)/extras/ttf/.ok
 
-static-ttf: $(DISTDIR)/extras/ttf/.ok
-
-$(DISTDIR)/extras/ttf/.ok: src/InterCJK.glyphspackage src/features/*.fea | $(DISTDIR)/extras/ttf
-	fontmake -g src/InterCJK.glyphspackage \
-		-o ttf \
-		--output-dir $(DISTDIR)/extras/ttf \
-		--verbose WARNING
-	touch $@
-
-static-otf: $(DISTDIR)/extras/otf/.ok
-
-$(DISTDIR)/extras/otf/.ok: src/InterCJK.glyphspackage src/features/*.fea | $(DISTDIR)/extras/otf
-	fontmake -g src/InterCJK.glyphspackage \
-		-o otf \
-		--output-dir $(DISTDIR)/extras/otf \
-		--verbose WARNING
+$(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf | $(DISTDIR)/extras/ttf
+	python3 misc/gen-static.py \
+		$(DISTDIR)/InterCJKVariable.ttf \
+		$(DISTDIR)/InterCJKDisplayVariable.ttf \
+		$(DISTDIR)/extras/ttf
 	touch $@
 
 # ---------------------------------------------------------------------------------
-# Web fonts (WOFF2)
+# Web fonts (WOFF2 variable + static)
 
 web: $(DISTDIR)/web/.ok
 
-$(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf | $(DISTDIR)/web
+$(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf $(DISTDIR)/extras/ttf/.ok | $(DISTDIR)/web
 	fonttools ttLib.woff2 compress $(DISTDIR)/InterCJKVariable.ttf \
 		-o $(DISTDIR)/web/InterCJKVariable.woff2
 	fonttools ttLib.woff2 compress $(DISTDIR)/InterCJKDisplayVariable.ttf \
 		-o $(DISTDIR)/web/InterCJKDisplayVariable.woff2
+	@for f in $(DISTDIR)/extras/ttf/*.ttf; do \
+		name=$$(basename "$$f" .ttf); \
+		fonttools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
+	done
 	cp misc/inter-cjk.css $(DISTDIR)/web/inter-cjk.css
 	touch $@
 
@@ -80,9 +73,6 @@ $(DISTDIR):
 $(DISTDIR)/extras/ttf:
 	mkdir -p $@
 
-$(DISTDIR)/extras/otf:
-	mkdir -p $@
-
 $(DISTDIR)/web:
 	mkdir -p $@
 
@@ -92,4 +82,4 @@ $(DISTDIR)/web:
 clean:
 	rm -rf build
 
-.PHONY: default all variable static static-ttf static-otf web package clean
+.PHONY: default all variable static web package clean
