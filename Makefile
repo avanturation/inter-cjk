@@ -2,21 +2,36 @@ SRCDIR   := $(abspath $(lastword $(MAKEFILE_LIST))/..)
 VERSION  := $(shell cat version.txt)
 DISTDIR  := build/InterCJK-$(VERSION)
 
+INTER_SRC     := src/inter/src/Inter-Roman.glyphspackage
+PRETENDARD_SRC := src/pretendard/src/PretendardJP.glyphspackage
+
 default: all
 
 all: variable static web
 
 # ---------------------------------------------------------------------------------
-# Full variable font (opsz + wght, intermediate)
+# Source variable fonts (built from submodule sources)
 
-build/InterCJK-full.ttf: src/InterCJK.glyphspackage src/features/*.fea | build
-	fontmake -g src/InterCJK.glyphspackage \
+build/inter-variable.ttf: $(INTER_SRC) | build
+	cd src/inter && fontmake -g src/Inter-Roman.glyphspackage \
 		-o variable \
-		--output-path $@ \
+		--output-path ../../$@ \
+		--verbose WARNING
+
+build/pretendard-variable.ttf: $(PRETENDARD_SRC) | build
+	cd src/pretendard && fontmake -g src/PretendardJP.glyphspackage \
+		-o variable \
+		--output-path ../../$@ \
 		--verbose WARNING
 
 # ---------------------------------------------------------------------------------
-# Split into Text + Display via instancer (pins opsz axis)
+# Merged full variable (opsz + wght)
+
+build/InterCJK-full.ttf: build/inter-variable.ttf build/pretendard-variable.ttf misc/build-full.py
+	python3 misc/build-full.py $< build/pretendard-variable.ttf $@
+
+# ---------------------------------------------------------------------------------
+# Split into Text + Display (pins opsz via instancer)
 
 variable: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf
 
@@ -24,7 +39,7 @@ $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf: build/In
 	python3 misc/split-opsz.py $< $(DISTDIR)
 
 # ---------------------------------------------------------------------------------
-# Static fonts (from split variable via instancer)
+# Static fonts (instancer per weight)
 
 static: $(DISTDIR)/extras/ttf/.ok
 
@@ -65,6 +80,13 @@ $(DISTDIR)/help.txt: misc/help.txt | $(DISTDIR)
 	cp $< $@
 
 # ---------------------------------------------------------------------------------
+# Setup
+
+setup:
+	git submodule update --init --depth 1
+	pip install -r requirements.txt
+
+# ---------------------------------------------------------------------------------
 # Directories
 
 build:
@@ -85,4 +107,4 @@ $(DISTDIR)/web:
 clean:
 	rm -rf build
 
-.PHONY: default all variable static web package clean
+.PHONY: default all variable static web package setup clean
