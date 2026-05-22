@@ -13,16 +13,17 @@ all: variable static web
 # Source variable fonts (built from submodule sources)
 
 build/inter-variable.ttf: $(INTER_SRC) | build
-	cd src/inter && fontmake -g src/Inter-Roman.glyphspackage \
+	cd src/inter && python3 -m fontmake -g src/Inter-Roman.glyphspackage \
 		-o variable \
 		--output-path ../../$@ \
 		--verbose WARNING
 
-build/pretendard-variable.ttf: $(PRETENDARD_SRC) | build
-	cd src/pretendard && fontmake -g src/PretendardJP.glyphspackage \
-		-o variable \
-		--output-path ../../$@ \
-		--verbose WARNING
+build/pretendard-variable.ttf: | build
+	curl -L -o build/pretendard-jp.zip \
+		"https://github.com/orioncactus/pretendard/releases/download/v1.3.9/PretendardJP-1.3.9.zip"
+	unzip -o build/pretendard-jp.zip "public/variable/PretendardJPVariable.ttf" -d build/
+	mv build/public/variable/PretendardJPVariable.ttf $@
+	rm -rf build/pretendard-jp.zip build/public
 
 # ---------------------------------------------------------------------------------
 # Merged full variable (opsz + wght)
@@ -56,13 +57,13 @@ $(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDi
 web: $(DISTDIR)/web/.ok
 
 $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf $(DISTDIR)/extras/ttf/.ok | $(DISTDIR)/web
-	fonttools ttLib.woff2 compress $(DISTDIR)/InterCJKVariable.ttf \
+	python3 -m fontTools ttLib.woff2 compress $(DISTDIR)/InterCJKVariable.ttf \
 		-o $(DISTDIR)/web/InterCJKVariable.woff2
-	fonttools ttLib.woff2 compress $(DISTDIR)/InterCJKDisplayVariable.ttf \
+	python3 -m fontTools ttLib.woff2 compress $(DISTDIR)/InterCJKDisplayVariable.ttf \
 		-o $(DISTDIR)/web/InterCJKDisplayVariable.woff2
 	@for f in $(DISTDIR)/extras/ttf/*.ttf; do \
 		name=$$(basename "$$f" .ttf); \
-		fonttools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
+		python3 -m fontTools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
 	done
 	cp misc/inter-cjk.css $(DISTDIR)/web/inter-cjk.css
 	touch $@
