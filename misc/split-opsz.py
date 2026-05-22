@@ -9,9 +9,13 @@ def make_single_axis_font(src_path, keep_opsz, family_name, ps_prefix, out_path)
     _ = font['gvar'].variations
 
     for gname in font['gvar'].variations:
+        new_tvs = []
         for tv in font['gvar'].variations[gname]:
             if 'opsz' in tv.axes:
                 del tv.axes['opsz']
+            if tv.axes:
+                new_tvs.append(tv)
+        font['gvar'].variations[gname] = new_tvs
 
     font['fvar'].axes = [a for a in font['fvar'].axes if a.axisTag != 'opsz']
 
