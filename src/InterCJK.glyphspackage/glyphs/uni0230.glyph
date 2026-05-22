@@ -1,0 +1,18 @@
+{
+unicode = "0230";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1566;
+components = (
+{
+name = "O";
+},
+{
+name = "dotmacron.lc";
+pos = (540,372);
+},
+);
+},
+);
+}

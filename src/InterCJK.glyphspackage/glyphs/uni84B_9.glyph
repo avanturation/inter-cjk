@@ -1,0 +1,153 @@
+{
+unicode = "84B9";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1807 1414 LINE" 
+"117 1414 LINE" 
+"117 1522 LINE" 
+"1807 1522 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1792 968 LINE" 
+"130 968 LINE" 
+"130 1066 LINE" 
+"1792 1066 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1815 564 LINE" 
+"111 564 LINE" 
+"111 664 LINE" 
+"1815 664 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"705 1312 LINE" 
+"572 1312 LINE" 
+"572 1650 LINE" 
+"705 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"829 -112 LINE" 
+"701 -112 LINE" 
+"701 1250 LINE" 
+"829 1250 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1206 -112 LINE" 
+"1075 -112 LINE" 
+"1075 1230 LINE" 
+"1206 1230 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1342 1312 LINE" 
+"1208 1312 LINE" 
+"1208 1650 LINE" 
+"1342 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1602 348 LINE" 
+"295 348 LINE" 
+"295 446 LINE" 
+"1473 446 LINE" 
+"1473 774 LINE" 
+"307 774 LINE" 
+"307 868 LINE" 
+"1602 868 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"903 1216 OFFCURVE"
+"538 1164 OFFCURVE"
+"336 1148 CURVE"
+"334 1156 OFFCURVE"
+"332 1164 OFFCURVE"
+"330 1172 CURVE"
+"320 1214 OFFCURVE"
+"303 1236 CURVE"
+"491 1254 OFFCURVE"
+"831 1304 OFFCURVE"
+"930 1332 CURVE"
+"1031 1252 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1493 1214 OFFCURVE"
+"1144 1162 OFFCURVE"
+"958 1146 CURVE"
+"956 1166 OFFCURVE"
+"936 1220 OFFCURVE"
+"924 1236 CURVE"
+"1087 1250 OFFCURVE"
+"1415 1304 OFFCURVE"
+"1514 1332 CURVE"
+"1613 1252 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"720 288 OFFCURVE"
+"518 106 OFFCURVE"
+"289 -42 OFFCURVE"
+"176 -90 CURVE"
+"160 -64 OFFCURVE"
+"111 -2 OFFCURVE"
+"91 16 CURVE"
+"200 54 OFFCURVE"
+"427 182 OFFCURVE"
+"623 344 OFFCURVE"
+"685 426 CURVE"
+"786 382 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1285 344 OFFCURVE"
+"1485 188 OFFCURVE"
+"1718 64 OFFCURVE"
+"1831 28 CURVE"
+"1811 10 OFFCURVE"
+"1760 -54 OFFCURVE"
+"1744 -82 CURVE"
+"1631 -38 OFFCURVE"
+"1396 108 OFFCURVE"
+"1192 286 OFFCURVE"
+"1122 380 CURVE"
+"1223 424 LINE" 
+);
+},
+);
+},
+);
+}

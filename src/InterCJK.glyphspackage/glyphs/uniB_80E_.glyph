@@ -1,0 +1,152 @@
+{
+unicode = "B80E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1246 634 LINE" 
+"1096 634 LINE" 
+"1096 1602 LINE" 
+"1246 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"805 1036 LINE" 
+"308 1036 LINE" 
+"308 678 LINE" 
+"159 678 LINE" 
+"159 1162 LINE" 
+"656 1162 LINE" 
+"656 1400 LINE" 
+"155 1400 LINE" 
+"155 1528 LINE" 
+"805 1528 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"450 772 OFFCURVE"
+"747 796 OFFCURVE"
+"912 824 CURVE"
+"930 692 LINE" 
+"761 664 OFFCURVE"
+"458 642 OFFCURVE"
+"274 642 CURVE"
+"159 642 LINE" 
+"159 770 LINE" 
+"274 770 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1579 630 LINE" 
+"1430 630 LINE" 
+"1430 1632 LINE" 
+"1579 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1207 1058 LINE" 
+"866 1058 LINE" 
+"866 1184 LINE" 
+"1207 1184 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"496 14 OFFCURVE"
+"728 44 OFFCURVE"
+"835 80 CURVE"
+"862 -52 LINE" 
+"741 -90 OFFCURVE"
+"496 -120 OFFCURVE"
+"383 -120 CURVE"
+"296 -120 LINE" 
+"296 12 LINE" 
+"383 12 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"448 -66 LINE" 
+"296 -66 LINE" 
+"296 458 LINE" 
+"448 458 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1670 296 LINE" 
+"787 296 LINE" 
+"787 416 LINE" 
+"1670 416 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1322 240 OFFCURVE"
+"1468 192 OFFCURVE"
+"1553 102 OFFCURVE"
+"1553 40 CURVE"
+"1553 -20 OFFCURVE"
+"1468 -112 OFFCURVE"
+"1322 -160 OFFCURVE"
+"1227 -160 CURVE"
+"1132 -160 OFFCURVE"
+"981 -112 OFFCURVE"
+"896 -20 OFFCURVE"
+"896 40 CURVE"
+"896 102 OFFCURVE"
+"981 192 OFFCURVE"
+"1132 240 OFFCURVE"
+"1227 240 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1171 138 OFFCURVE"
+"1084 116 OFFCURVE"
+"1036 70 OFFCURVE"
+"1036 40 CURVE"
+"1036 12 OFFCURVE"
+"1084 -32 OFFCURVE"
+"1171 -56 OFFCURVE"
+"1227 -56 CURVE"
+"1282 -56 OFFCURVE"
+"1367 -32 OFFCURVE"
+"1415 12 OFFCURVE"
+"1415 40 CURVE"
+"1415 70 OFFCURVE"
+"1367 116 OFFCURVE"
+"1282 138 OFFCURVE"
+"1227 136 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1312 344 LINE" 
+"1159 344 LINE" 
+"1159 564 LINE" 
+"1312 564 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,153 @@
+{
+unicode = "AF5F";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"425 1402 LINE" 
+"126 1402 LINE" 
+"126 1532 LINE" 
+"425 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"716 778 LINE" 
+"571 778 LINE" 
+"571 1158 LINE" 
+"716 1158 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"524 1412 OFFCURVE"
+"518 1278 OFFCURVE"
+"488 1084 OFFCURVE"
+"456 976 CURVE"
+"308 998 LINE" 
+"340 1108 OFFCURVE"
+"369 1290 OFFCURVE"
+"375 1404 OFFCURVE"
+"377 1478 CURVE"
+"377 1532 LINE" 
+"524 1532 LINE" 
+"524 1478 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"967 1402 LINE" 
+"633 1402 LINE" 
+"633 1532 LINE" 
+"967 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1076 1328 OFFCURVE"
+"1060 1114 OFFCURVE"
+"1031 980 CURVE"
+"882 1000 LINE" 
+"912 1134 OFFCURVE"
+"928 1334 OFFCURVE"
+"928 1442 CURVE"
+"928 1532 LINE" 
+"1076 1532 LINE" 
+"1076 1442 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1456 578 LINE" 
+"1298 578 LINE" 
+"1298 1634 LINE" 
+"1456 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1702 1038 LINE" 
+"1373 1038 LINE" 
+"1373 1170 LINE" 
+"1702 1170 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"375 836 OFFCURVE"
+"939 860 OFFCURVE"
+"1187 894 CURVE"
+"1197 782 LINE" 
+"947 738 OFFCURVE"
+"415 710 OFFCURVE"
+"84 708 CURVE"
+"66 836 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"949 220 OFFCURVE"
+"765 18 OFFCURVE"
+"456 -114 OFFCURVE"
+"274 -136 CURVE"
+"225 -16 LINE" 
+"379 0 OFFCURVE"
+"652 104 OFFCURVE"
+"815 258 OFFCURVE"
+"815 342 CURVE"
+"815 366 LINE" 
+"949 366 LINE" 
+"949 342 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"973 258 OFFCURVE"
+"1137 104 OFFCURVE"
+"1409 0 OFFCURVE"
+"1565 -16 CURVE"
+"1514 -136 LINE" 
+"1331 -114 OFFCURVE"
+"1023 16 OFFCURVE"
+"840 218 OFFCURVE"
+"840 342 CURVE"
+"840 366 LINE" 
+"973 366 LINE" 
+"973 342 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1488 320 LINE" 
+"304 320 LINE" 
+"304 446 LINE" 
+"1488 446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"973 400 LINE" 
+"815 400 LINE" 
+"815 622 LINE" 
+"973 622 LINE" 
+);
+},
+);
+},
+);
+}

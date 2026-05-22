@@ -1,0 +1,19 @@
+{
+unicode = "2023";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1152;
+paths = (
+{
+closed = 1;
+nodes = (
+"350 268 LINE" 
+"350 920 LINE" 
+"888 594 LINE" 
+);
+},
+);
+},
+);
+}

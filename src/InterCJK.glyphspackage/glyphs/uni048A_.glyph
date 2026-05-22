@@ -1,0 +1,22 @@
+{
+unicode = "048A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1543;
+components = (
+{
+name = "uni0418";
+},
+{
+name = "uni0306";
+pos = (383,372);
+},
+{
+name = "_part.cyrtail";
+pos = (1073,0);
+},
+);
+},
+);
+}

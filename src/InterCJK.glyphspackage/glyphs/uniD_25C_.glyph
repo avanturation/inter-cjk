@@ -1,0 +1,149 @@
+{
+unicode = "D25C";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1104 978 LINE" 
+"237 978 LINE" 
+"237 1090 LINE" 
+"1104 1090 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1090 1474 LINE" 
+"395 1474 LINE" 
+"395 1026 LINE" 
+"237 1026 LINE" 
+"237 1586 LINE" 
+"1090 1586 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1054 1236 LINE" 
+"345 1236 LINE" 
+"345 1340 LINE" 
+"1054 1340 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"714 484 LINE" 
+"561 484 LINE" 
+"561 820 LINE" 
+"714 820 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1531 476 LINE" 
+"1377 476 LINE" 
+"1377 1634 LINE" 
+"1531 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"395 852 OFFCURVE"
+"961 870 OFFCURVE"
+"1211 894 CURVE"
+"1225 794 LINE" 
+"1048 768 OFFCURVE"
+"656 744 OFFCURVE"
+"306 736 OFFCURVE"
+"88 736 CURVE"
+"70 852 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1427 568 LINE" 
+"1015 568 LINE" 
+"1015 678 LINE" 
+"1427 678 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"646 258 OFFCURVE"
+"547 62 OFFCURVE"
+"361 -86 OFFCURVE"
+"235 -122 CURVE"
+"161 -4 LINE" 
+"270 24 OFFCURVE"
+"435 140 OFFCURVE"
+"526 288 OFFCURVE"
+"526 366 CURVE"
+"526 398 LINE" 
+"646 398 LINE" 
+"646 366 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"672 292 OFFCURVE"
+"747 142 OFFCURVE"
+"892 18 OFFCURVE"
+"991 -18 CURVE"
+"928 -136 LINE" 
+"807 -96 OFFCURVE"
+"642 64 OFFCURVE"
+"559 264 OFFCURVE"
+"559 366 CURVE"
+"559 398 LINE" 
+"672 398 LINE" 
+"672 366 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1294 266 OFFCURVE"
+"1213 66 OFFCURVE"
+"1046 -96 OFFCURVE"
+"928 -136 CURVE"
+"868 -18 LINE" 
+"965 18 OFFCURVE"
+"1108 144 OFFCURVE"
+"1183 294 OFFCURVE"
+"1183 366 CURVE"
+"1183 398 LINE" 
+"1294 398 LINE" 
+"1294 366 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1333 286 OFFCURVE"
+"1421 138 OFFCURVE"
+"1587 24 OFFCURVE"
+"1698 -4 CURVE"
+"1625 -122 LINE" 
+"1498 -86 OFFCURVE"
+"1312 60 OFFCURVE"
+"1213 256 OFFCURVE"
+"1213 366 CURVE"
+"1213 398 LINE" 
+"1333 398 LINE" 
+"1333 366 LINE" 
+);
+},
+);
+},
+);
+}

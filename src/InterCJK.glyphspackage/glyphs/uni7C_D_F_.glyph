@@ -1,0 +1,169 @@
+{
+unicode = "7CDF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"479 -110 LINE" 
+"356 -110 LINE" 
+"356 1650 LINE" 
+"479 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"705 860 LINE" 
+"99 860 LINE" 
+"99 988 LINE" 
+"705 988 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"398 702 OFFCURVE"
+"223 280 OFFCURVE"
+"134 156 CURVE"
+"124 184 OFFCURVE"
+"83 260 OFFCURVE"
+"63 286 CURVE"
+"150 396 OFFCURVE"
+"316 768 OFFCURVE"
+"356 938 CURVE"
+"447 902 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"507 792 OFFCURVE"
+"691 506 OFFCURVE"
+"718 460 CURVE"
+"639 354 LINE" 
+"612 420 OFFCURVE"
+"459 694 OFFCURVE"
+"410 772 CURVE"
+"475 834 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"249 1420 OFFCURVE"
+"307 1190 OFFCURVE"
+"313 1102 CURVE"
+"210 1078 LINE" 
+"206 1162 OFFCURVE"
+"152 1392 OFFCURVE"
+"115 1490 CURVE"
+"208 1516 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"720 1432 LINE" 
+"683 1322 OFFCURVE"
+"615 1138 OFFCURVE"
+"586 1074 CURVE"
+"499 1104 LINE" 
+"532 1186 OFFCURVE"
+"606 1434 OFFCURVE"
+"627 1530 CURVE"
+"742 1496 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1192 686 LINE" 
+"1083 686 LINE" 
+"1083 1654 LINE" 
+"1192 1654 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1481 686 LINE" 
+"1370 686 LINE" 
+"1370 1654 LINE" 
+"1481 1654 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1655 202 LINE" 
+"924 202 LINE" 
+"924 302 LINE" 
+"1655 302 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1655 -40 LINE" 
+"924 -40 LINE" 
+"924 66 LINE" 
+"1655 66 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1825 1378 LINE" 
+"758 1378 LINE" 
+"758 1490 LINE" 
+"1825 1490 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1665 742 LINE" 
+"1665 900 LINE" 
+"912 900 LINE" 
+"912 742 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1665 996 LINE" 
+"1665 1154 LINE" 
+"912 1154 LINE" 
+"912 996 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1782 642 LINE" 
+"800 642 LINE" 
+"800 1252 LINE" 
+"1782 1252 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1740 -102 LINE" 
+"1611 -102 LINE" 
+"1611 432 LINE" 
+"968 432 LINE" 
+"968 -110 LINE" 
+"843 -110 LINE" 
+"843 540 LINE" 
+"1740 540 LINE" 
+);
+},
+);
+},
+);
+}

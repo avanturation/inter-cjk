@@ -1,0 +1,155 @@
+{
+unicode = "CC8E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1575 652 LINE" 
+"1425 652 LINE" 
+"1425 1632 LINE" 
+"1575 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 1238 LINE" 
+"1139 1238 LINE" 
+"1139 1370 LINE" 
+"1484 1370 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1197 658 LINE" 
+"1048 658 LINE" 
+"1048 1598 LINE" 
+"1197 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1383 302 OFFCURVE"
+"1298 78 OFFCURVE"
+"1132 -98 OFFCURVE"
+"1015 -148 CURVE"
+"926 -22 LINE" 
+"1029 18 OFFCURVE"
+"1175 160 OFFCURVE"
+"1254 334 OFFCURVE"
+"1254 422 CURVE"
+"1254 582 LINE" 
+"1383 582 LINE" 
+"1383 422 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1409 348 OFFCURVE"
+"1484 170 OFFCURVE"
+"1625 22 OFFCURVE"
+"1724 -22 CURVE"
+"1640 -146 LINE" 
+"1526 -94 OFFCURVE"
+"1365 90 OFFCURVE"
+"1284 318 OFFCURVE"
+"1284 436 CURVE"
+"1284 582 LINE" 
+"1409 582 LINE" 
+"1409 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 358 LINE" 
+"785 358 LINE" 
+"785 574 LINE" 
+"932 574 LINE" 
+"932 -128 LINE" 
+"308 -128 LINE" 
+"308 574 LINE" 
+"456 574 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"785 -2 LINE" 
+"785 234 LINE" 
+"456 234 LINE" 
+"456 -2 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 868 LINE" 
+"1139 868 LINE" 
+"1139 998 LINE" 
+"1484 998 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"575 1164 OFFCURVE"
+"476 924 OFFCURVE"
+"290 736 OFFCURVE"
+"163 686 CURVE"
+"88 804 LINE" 
+"199 846 OFFCURVE"
+"363 1000 OFFCURVE"
+"454 1194 OFFCURVE"
+"454 1294 CURVE"
+"454 1344 LINE" 
+"575 1344 LINE" 
+"575 1294 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"601 1202 OFFCURVE"
+"694 1020 OFFCURVE"
+"860 876 OFFCURVE"
+"969 836 CURVE"
+"900 718 LINE" 
+"771 764 OFFCURVE"
+"585 940 OFFCURVE"
+"484 1170 OFFCURVE"
+"484 1294 CURVE"
+"484 1344 LINE" 
+"601 1344 LINE" 
+"601 1294 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"920 1282 LINE" 
+"130 1282 LINE" 
+"130 1412 LINE" 
+"920 1412 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"601 1348 LINE" 
+"454 1348 LINE" 
+"454 1618 LINE" 
+"601 1618 LINE" 
+);
+},
+);
+},
+);
+}

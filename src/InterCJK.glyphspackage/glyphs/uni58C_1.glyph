@@ -1,0 +1,166 @@
+{
+unicode = "58C1";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1774 1402 LINE" 
+"966 1402 LINE" 
+"966 1516 LINE" 
+"1774 1516 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1780 794 LINE" 
+"950 794 LINE" 
+"950 904 LINE" 
+"1780 904 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1821 1066 LINE" 
+"918 1066 LINE" 
+"918 1178 LINE" 
+"1821 1178 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1215 1358 OFFCURVE"
+"1255 1242 OFFCURVE"
+"1263 1200 CURVE"
+"1148 1172 LINE" 
+"1142 1214 OFFCURVE"
+"1103 1334 OFFCURVE"
+"1079 1382 CURVE"
+"1190 1404 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"394 642 LINE" 
+"277 642 LINE" 
+"277 1008 LINE" 
+"394 1008 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1425 546 LINE" 
+"1299 546 LINE" 
+"1299 1122 LINE" 
+"1425 1122 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"313 1048 OFFCURVE"
+"243 696 OFFCURVE"
+"154 566 CURVE"
+"142 582 OFFCURVE"
+"132 592 CURVE"
+"117 612 OFFCURVE"
+"77 652 OFFCURVE"
+"63 660 CURVE"
+"140 774 OFFCURVE"
+"192 1068 OFFCURVE"
+"192 1236 CURVE"
+"192 1572 LINE" 
+"313 1572 LINE" 
+"313 1232 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1651 1362 OFFCURVE"
+"1641 1336 CURVE"
+"1623 1292 OFFCURVE"
+"1584 1202 OFFCURVE"
+"1570 1174 CURVE"
+"1461 1196 LINE" 
+"1473 1224 OFFCURVE"
+"1485 1256 CURVE"
+"1518 1346 OFFCURVE"
+"1536 1410 CURVE"
+"1661 1386 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"867 1156 LINE" 
+"257 1156 LINE" 
+"257 1268 LINE" 
+"742 1268 LINE" 
+"742 1462 LINE" 
+"257 1462 LINE" 
+"257 1572 LINE" 
+"867 1572 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"877 600 LINE" 
+"277 600 LINE" 
+"277 706 LINE" 
+"756 706 LINE" 
+"756 916 LINE" 
+"277 916 LINE" 
+"277 1024 LINE" 
+"877 1024 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1811 -48 LINE" 
+"113 -48 LINE" 
+"113 74 LINE" 
+"1811 74 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1641 296 LINE" 
+"295 296 LINE" 
+"295 418 LINE" 
+"1641 418 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1027 2 LINE" 
+"887 2 LINE" 
+"887 568 LINE" 
+"1027 568 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1425 1436 LINE" 
+"1299 1436 LINE" 
+"1299 1640 LINE" 
+"1425 1640 LINE" 
+);
+},
+);
+},
+);
+}

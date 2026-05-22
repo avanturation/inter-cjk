@@ -1,0 +1,32 @@
+{
+unicode = "1DCC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-304 1228 LINE" 
+"-389 1228 OFFCURVE"
+"-527 1288 OFFCURVE"
+"-568 1347 CURVE"
+"-1210 1347 LINE" 
+"-1210 1499 LINE" 
+"-445 1499 LINE" 
+"-445 1443 OFFCURVE"
+"-381 1356 OFFCURVE"
+"-304 1356 CURVE"
+"-228 1356 OFFCURVE"
+"-164 1443 OFFCURVE"
+"-164 1499 CURVE"
+"2 1499 LINE" 
+"2 1379 OFFCURVE"
+"-163 1228 OFFCURVE"
+);
+},
+);
+},
+);
+}

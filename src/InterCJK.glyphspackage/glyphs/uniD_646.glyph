@@ -1,0 +1,153 @@
+{
+unicode = "D646";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1591 1362 LINE" 
+"163 1362 LINE" 
+"163 1480 LINE" 
+"1591 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1149 1302 OFFCURVE"
+"1430 1184 OFFCURVE"
+"1430 1068 CURVE"
+"1430 952 OFFCURVE"
+"1151 834 OFFCURVE"
+"882 832 CURVE"
+"702 834 OFFCURVE"
+"456 886 OFFCURVE"
+"332 990 OFFCURVE"
+"332 1068 CURVE"
+"332 1184 OFFCURVE"
+"613 1302 OFFCURVE"
+"882 1300 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"755 1194 OFFCURVE"
+"583 1166 OFFCURVE"
+"494 1110 OFFCURVE"
+"494 1068 CURVE"
+"494 1028 OFFCURVE"
+"583 972 OFFCURVE"
+"755 942 OFFCURVE"
+"882 942 CURVE"
+"1009 942 OFFCURVE"
+"1183 972 OFFCURVE"
+"1272 1028 OFFCURVE"
+"1272 1068 CURVE"
+"1272 1110 OFFCURVE"
+"1183 1166 OFFCURVE"
+"1009 1194 OFFCURVE"
+"882 1194 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"959 1384 LINE" 
+"805 1384 LINE" 
+"805 1656 LINE" 
+"959 1656 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1684 608 LINE" 
+"80 608 LINE" 
+"80 726 LINE" 
+"1684 726 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"959 642 LINE" 
+"805 642 LINE" 
+"805 866 LINE" 
+"959 866 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"815 138 LINE" 
+"399 138 LINE" 
+"399 -90 LINE" 
+"250 -90 LINE" 
+"250 246 LINE" 
+"664 246 LINE" 
+"664 382 LINE" 
+"246 382 LINE" 
+"246 494 LINE" 
+"815 494 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"423 -16 LINE" 
+"573 -16 OFFCURVE"
+"751 -4 OFFCURVE"
+"842 14 CURVE"
+"862 -106 LINE" 
+"749 -126 OFFCURVE"
+"545 -138 OFFCURVE"
+"341 -138 CURVE"
+"250 -138 LINE" 
+"250 -16 LINE" 
+"341 -16 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1541 368 LINE" 
+"916 368 LINE" 
+"916 494 LINE" 
+"1541 494 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1553 -136 LINE" 
+"904 -136 LINE" 
+"904 -10 LINE" 
+"1553 -10 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1161 -100 LINE" 
+"1036 -100 LINE" 
+"1036 440 LINE" 
+"1161 440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1430 -104 LINE" 
+"1302 -104 LINE" 
+"1302 440 LINE" 
+"1430 440 LINE" 
+);
+},
+);
+},
+);
+}

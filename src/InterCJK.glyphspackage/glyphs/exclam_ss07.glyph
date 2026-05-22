@@ -1,0 +1,29 @@
+{
+unicode = "E2AF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 554;
+paths = (
+{
+closed = 1;
+nodes = (
+"187 479 LINE" 
+"175 1490 LINE" 
+"379 1490 LINE" 
+"366 479 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"160 0 LINE" 
+"160 232 LINE" 
+"394 232 LINE" 
+"394 0 LINE" 
+);
+},
+);
+},
+);
+}

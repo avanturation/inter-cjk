@@ -1,0 +1,18 @@
+{
+unicode = "0165";
+layers = (
+{
+layerId = "master-text-regular";
+width = 770;
+components = (
+{
+name = "t";
+},
+{
+name = "commaaccentright.cn";
+pos = (286,72);
+},
+);
+},
+);
+}

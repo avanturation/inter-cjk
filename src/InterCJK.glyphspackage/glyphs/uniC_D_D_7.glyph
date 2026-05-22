@@ -1,0 +1,161 @@
+{
+unicode = "CDD7";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1571 538 LINE" 
+"1423 538 LINE" 
+"1423 1634 LINE" 
+"1571 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1252 542 LINE" 
+"1104 542 LINE" 
+"1104 1608 LINE" 
+"1252 1608 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1149 624 LINE" 
+"783 624 LINE" 
+"783 718 LINE" 
+"1149 718 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"623 550 LINE" 
+"470 550 LINE" 
+"470 836 LINE" 
+"623 836 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"322 876 OFFCURVE"
+"815 898 OFFCURVE"
+"1007 926 CURVE"
+"1019 812 LINE" 
+"821 776 OFFCURVE"
+"330 746 OFFCURVE"
+"88 744 CURVE"
+"70 876 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"603 1216 OFFCURVE"
+"387 984 OFFCURVE"
+"189 936 CURVE"
+"122 1056 LINE" 
+"292 1088 OFFCURVE"
+"480 1260 OFFCURVE"
+"480 1388 CURVE"
+"480 1400 LINE" 
+"603 1400 LINE" 
+"603 1388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"633 1270 OFFCURVE"
+"817 1112 OFFCURVE"
+"979 1084 CURVE"
+"916 962 LINE" 
+"789 990 OFFCURVE"
+"609 1108 OFFCURVE"
+"514 1280 OFFCURVE"
+"514 1388 CURVE"
+"514 1400 LINE" 
+"633 1400 LINE" 
+"633 1388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"945 1322 LINE" 
+"161 1322 LINE" 
+"161 1446 LINE" 
+"945 1446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"633 1418 LINE" 
+"480 1418 LINE" 
+"480 1612 LINE" 
+"633 1612 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"876 132 LINE" 
+"440 132 LINE" 
+"440 -90 LINE" 
+"294 -90 LINE" 
+"294 238 LINE" 
+"728 238 LINE" 
+"728 372 LINE" 
+"288 372 LINE" 
+"288 488 LINE" 
+"876 488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"577 -14 OFFCURVE"
+"799 -2 OFFCURVE"
+"916 18 CURVE"
+"930 -94 LINE" 
+"813 -116 OFFCURVE"
+"607 -126 OFFCURVE"
+"387 -128 CURVE"
+"294 -128 LINE" 
+"294 -14 LINE" 
+"387 -14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1120 300 LINE" 
+"1425 300 LINE" 
+"1425 494 LINE" 
+"1571 494 LINE" 
+"1571 -134 LINE" 
+"975 -134 LINE" 
+"975 494 LINE" 
+"1120 494 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1425 -18 LINE" 
+"1425 188 LINE" 
+"1120 188 LINE" 
+"1120 -18 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,157 @@
+{
+unicode = "55C4";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1811 1440 LINE" 
+"687 1440 LINE" 
+"687 1554 LINE" 
+"1811 1554 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1293 1442 OFFCURVE"
+"1275 1386 CURVE"
+"1245 1292 OFFCURVE"
+"1221 1244 CURVE"
+"1107 1260 LINE" 
+"1112 1282 OFFCURVE"
+"1118 1304 OFFCURVE"
+"1124 1324 CURVE"
+"1152 1422 OFFCURVE"
+"1166 1510 CURVE"
+"1310 1498 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1564 886 LINE" 
+"1564 1004 LINE" 
+"932 1004 LINE" 
+"932 886 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1564 680 LINE" 
+"1564 800 LINE" 
+"932 800 LINE" 
+"932 680 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1564 1092 LINE" 
+"1564 1208 LINE" 
+"932 1208 LINE" 
+"932 1092 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1695 586 LINE" 
+"808 586 LINE" 
+"808 1300 LINE" 
+"1695 1300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1101 474 OFFCURVE"
+"827 242 OFFCURVE"
+"641 154 CURVE"
+"631 172 OFFCURVE"
+"596 214 OFFCURVE"
+"578 230 CURVE"
+"570 238 OFFCURVE"
+"558 246 CURVE"
+"730 322 OFFCURVE"
+"986 526 OFFCURVE"
+"1055 632 CURVE"
+"1188 604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1574 386 LINE" 
+"909 386 LINE" 
+"1004 490 LINE" 
+"1574 490 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1605 494 LINE" 
+"1687 446 LINE" 
+"1556 198 OFFCURVE"
+"1000 -62 OFFCURVE"
+"608 -114 CURVE"
+"598 -88 OFFCURVE"
+"554 -20 OFFCURVE"
+"534 -2 CURVE"
+"909 36 OFFCURVE"
+"1439 260 OFFCURVE"
+"1550 468 CURVE"
+"1550 490 LINE" 
+"1580 490 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1027 320 OFFCURVE"
+"1283 150 OFFCURVE"
+"1643 26 OFFCURVE"
+"1857 -2 CURVE"
+"1835 -30 OFFCURVE"
+"1823 -46 CURVE"
+"1811 -64 OFFCURVE"
+"1788 -100 OFFCURVE"
+"1780 -116 CURVE"
+"1564 -80 OFFCURVE"
+"1204 60 OFFCURVE"
+"944 248 OFFCURVE"
+"873 352 CURVE"
+"962 416 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"655 434 LINE" 
+"225 434 LINE" 
+"225 558 LINE" 
+"536 558 LINE" 
+"536 1324 LINE" 
+"225 1324 LINE" 
+"225 1448 LINE" 
+"655 1448 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"275 260 LINE" 
+"152 260 LINE" 
+"152 1448 LINE" 
+"275 1448 LINE" 
+);
+},
+);
+},
+);
+}

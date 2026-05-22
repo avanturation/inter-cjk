@@ -1,0 +1,152 @@
+{
+unicode = "D57F";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1575 658 LINE" 
+"1427 658 LINE" 
+"1427 1632 LINE" 
+"1575 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1470 1062 LINE" 
+"1133 1062 LINE" 
+"1133 1192 LINE" 
+"1470 1192 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1197 668 LINE" 
+"1048 668 LINE" 
+"1048 1604 LINE" 
+"1197 1604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"973 1322 LINE" 
+"70 1322 LINE" 
+"70 1446 LINE" 
+"973 1446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"635 1252 OFFCURVE"
+"807 1182 OFFCURVE"
+"902 1052 OFFCURVE"
+"902 964 CURVE"
+"902 878 OFFCURVE"
+"807 746 OFFCURVE"
+"635 672 OFFCURVE"
+"524 672 CURVE"
+"415 672 OFFCURVE"
+"242 746 OFFCURVE"
+"147 878 OFFCURVE"
+"147 964 CURVE"
+"147 1052 OFFCURVE"
+"242 1182 OFFCURVE"
+"413 1252 OFFCURVE"
+"524 1252 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"454 1138 OFFCURVE"
+"347 1094 OFFCURVE"
+"286 1016 OFFCURVE"
+"286 964 CURVE"
+"286 912 OFFCURVE"
+"347 832 OFFCURVE"
+"454 788 OFFCURVE"
+"524 788 CURVE"
+"593 788 OFFCURVE"
+"702 832 OFFCURVE"
+"761 912 OFFCURVE"
+"761 964 CURVE"
+"761 1016 OFFCURVE"
+"702 1094 OFFCURVE"
+"593 1138 OFFCURVE"
+"524 1136 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"601 1362 LINE" 
+"446 1362 LINE" 
+"446 1632 LINE" 
+"601 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"862 172 LINE" 
+"421 172 LINE" 
+"421 -62 LINE" 
+"270 -62 LINE" 
+"270 286 LINE" 
+"710 286 LINE" 
+"710 470 LINE" 
+"264 470 LINE" 
+"264 592 LINE" 
+"862 592 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"470 -14 LINE" 
+"613 -12 OFFCURVE"
+"799 0 OFFCURVE"
+"900 16 CURVE"
+"916 -104 LINE" 
+"803 -122 OFFCURVE"
+"597 -134 OFFCURVE"
+"442 -134 CURVE"
+"367 -134 LINE" 
+"270 -134 LINE" 
+"270 -14 LINE" 
+"367 -14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1106 344 LINE" 
+"1434 344 LINE" 
+"1434 592 LINE" 
+"1575 592 LINE" 
+"1575 -134 LINE" 
+"963 -134 LINE" 
+"963 592 LINE" 
+"1106 592 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1434 -8 LINE" 
+"1434 224 LINE" 
+"1106 224 LINE" 
+"1106 -8 LINE" 
+);
+},
+);
+},
+);
+}

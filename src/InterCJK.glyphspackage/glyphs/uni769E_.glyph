@@ -1,0 +1,157 @@
+{
+unicode = "769E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"665 224 LINE" 
+"219 224 LINE" 
+"219 346 LINE" 
+"542 346 LINE" 
+"542 1224 LINE" 
+"219 1224 LINE" 
+"219 1348 LINE" 
+"665 1348 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"277 62 LINE" 
+"158 62 LINE" 
+"158 1348 LINE" 
+"277 1348 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"621 734 LINE" 
+"221 734 LINE" 
+"221 858 LINE" 
+"621 858 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1813 638 LINE" 
+"718 638 LINE" 
+"718 758 LINE" 
+"1813 758 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1635 202 LINE" 
+"865 202 LINE" 
+"865 318 LINE" 
+"1635 318 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"514 1606 OFFCURVE"
+"509 1586 CURVE"
+"465 1444 OFFCURVE"
+"427 1336 OFFCURVE"
+"406 1286 CURVE"
+"299 1314 LINE" 
+"322 1384 OFFCURVE"
+"368 1576 OFFCURVE"
+"378 1650 CURVE"
+"520 1624 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1318 1600 OFFCURVE"
+"1293 1528 OFFCURVE"
+"1279 1492 CURVE"
+"1273 1474 OFFCURVE"
+"1259 1440 OFFCURVE"
+"1253 1422 CURVE"
+"1122 1422 LINE" 
+"1152 1512 OFFCURVE"
+"1178 1650 CURVE"
+"1330 1636 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1584 986 LINE" 
+"1584 1138 LINE" 
+"936 1138 LINE" 
+"936 986 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1584 1234 LINE" 
+"1584 1382 LINE" 
+"936 1382 LINE" 
+"936 1234 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1712 888 LINE" 
+"812 888 LINE" 
+"812 1480 LINE" 
+"1712 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1196 684 OFFCURVE"
+"930 362 OFFCURVE"
+"750 258 CURVE"
+"740 272 OFFCURVE"
+"695 318 CURVE"
+"677 336 OFFCURVE"
+"653 356 CURVE"
+"827 444 OFFCURVE"
+"1077 732 OFFCURVE"
+"1134 918 CURVE"
+"1263 894 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1518 602 OFFCURVE"
+"1736 422 OFFCURVE"
+"1857 376 CURVE"
+"1835 356 OFFCURVE"
+"1782 294 OFFCURVE"
+"1766 270 CURVE"
+"1641 326 OFFCURVE"
+"1415 544 OFFCURVE"
+"1350 668 CURVE"
+"1459 706 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1308 -112 LINE" 
+"1182 -112 LINE" 
+"1182 550 LINE" 
+"1308 550 LINE" 
+);
+},
+);
+},
+);
+}

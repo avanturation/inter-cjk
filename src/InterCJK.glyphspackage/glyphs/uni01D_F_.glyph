@@ -1,0 +1,18 @@
+{
+unicode = "01DF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1150;
+components = (
+{
+name = "a";
+},
+{
+name = "dieresismacroncomb.lc";
+pos = (-42,0);
+},
+);
+},
+);
+}

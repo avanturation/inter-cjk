@@ -1,0 +1,156 @@
+{
+unicode = "C616";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1264 692 LINE" 
+"1116 692 LINE" 
+"1116 1602 LINE" 
+"1264 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1205 1286 LINE" 
+"793 1286 LINE" 
+"793 1412 LINE" 
+"1205 1412 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1575 680 LINE" 
+"1429 680 LINE" 
+"1429 1632 LINE" 
+"1575 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"619 1548 OFFCURVE"
+"803 1450 OFFCURVE"
+"906 1272 OFFCURVE"
+"906 1156 CURVE"
+"906 1042 OFFCURVE"
+"803 864 OFFCURVE"
+"619 764 OFFCURVE"
+"500 764 CURVE"
+"383 764 OFFCURVE"
+"199 864 OFFCURVE"
+"94 1042 OFFCURVE"
+"94 1156 CURVE"
+"94 1272 OFFCURVE"
+"199 1450 OFFCURVE"
+"383 1548 OFFCURVE"
+"500 1546 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"427 1414 OFFCURVE"
+"310 1348 OFFCURVE"
+"246 1232 OFFCURVE"
+"246 1156 CURVE"
+"246 1082 OFFCURVE"
+"310 966 OFFCURVE"
+"427 900 OFFCURVE"
+"500 900 CURVE"
+"573 900 OFFCURVE"
+"690 966 OFFCURVE"
+"753 1082 OFFCURVE"
+"753 1156 CURVE"
+"753 1232 OFFCURVE"
+"690 1348 OFFCURVE"
+"573 1414 OFFCURVE"
+"500 1414 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1203 902 LINE" 
+"785 902 LINE" 
+"785 1028 LINE" 
+"1203 1028 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"892 194 LINE" 
+"456 194 LINE" 
+"456 -90 LINE" 
+"304 -90 LINE" 
+"304 300 LINE" 
+"737 300 LINE" 
+"737 478 LINE" 
+"298 478 LINE" 
+"298 604 LINE" 
+"892 604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"591 -8 OFFCURVE"
+"803 4 OFFCURVE"
+"914 26 CURVE"
+"932 -100 LINE" 
+"825 -120 OFFCURVE"
+"625 -134 OFFCURVE"
+"466 -134 CURVE"
+"399 -134 LINE" 
+"304 -134 LINE" 
+"304 -8 LINE" 
+"399 -8 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1619 478 LINE" 
+"981 478 LINE" 
+"981 604 LINE" 
+"1619 604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1632 -134 LINE" 
+"973 -134 LINE" 
+"973 -8 LINE" 
+"1632 -8 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1229 -66 LINE" 
+"1104 -66 LINE" 
+"1104 532 LINE" 
+"1229 532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1500 -66 LINE" 
+"1371 -66 LINE" 
+"1371 532 LINE" 
+"1500 532 LINE" 
+);
+},
+);
+},
+);
+}

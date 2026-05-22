@@ -1,0 +1,162 @@
+{
+unicode = "B551";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"490 1366 LINE" 
+"260 1366 LINE" 
+"260 778 LINE" 
+"118 778 LINE" 
+"118 1498 LINE" 
+"490 1498 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"231 838 OFFCURVE"
+"254 840 CURVE"
+"328 842 OFFCURVE"
+"452 854 OFFCURVE"
+"520 868 CURVE"
+"534 738 LINE" 
+"440 718 OFFCURVE"
+"290 706 OFFCURVE"
+"185 706 CURVE"
+"118 706 LINE" 
+"118 838 LINE" 
+"185 838 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1211 578 LINE" 
+"1070 578 LINE" 
+"1070 1598 LINE" 
+"1211 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"963 1366 LINE" 
+"720 1366 LINE" 
+"720 786 LINE" 
+"575 786 LINE" 
+"575 1498 LINE" 
+"963 1498 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"747 842 OFFCURVE"
+"908 856 OFFCURVE"
+"989 876 CURVE"
+"1007 746 LINE" 
+"945 730 OFFCURVE"
+"827 716 OFFCURVE"
+"732 712 OFFCURVE"
+"644 710 CURVE"
+"575 710 LINE" 
+"575 842 LINE" 
+"644 842 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1514 1040 LINE" 
+"1167 1040 LINE" 
+"1167 1172 LINE" 
+"1514 1172 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1589 572 LINE" 
+"1448 572 LINE" 
+"1448 1632 LINE" 
+"1589 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1310 236 OFFCURVE"
+"1217 32 OFFCURVE"
+"1038 -122 OFFCURVE"
+"916 -162 CURVE"
+"831 -46 LINE" 
+"941 -14 OFFCURVE"
+"1102 110 OFFCURVE"
+"1185 266 OFFCURVE"
+"1185 348 CURVE"
+"1185 488 LINE" 
+"1310 488 LINE" 
+"1310 348 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1341 258 OFFCURVE"
+"1425 112 OFFCURVE"
+"1577 -2 OFFCURVE"
+"1680 -36 CURVE"
+"1599 -152 LINE" 
+"1482 -114 OFFCURVE"
+"1310 34 OFFCURVE"
+"1219 230 OFFCURVE"
+"1219 336 CURVE"
+"1219 488 LINE" 
+"1341 488 LINE" 
+"1341 336 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 -44 LINE" 
+"308 -44 LINE" 
+"308 478 LINE" 
+"456 478 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 38 OFFCURVE"
+"619 54 OFFCURVE"
+"795 94 OFFCURVE"
+"856 126 CURVE"
+"900 -24 LINE" 
+"823 -56 OFFCURVE"
+"638 -98 OFFCURVE"
+"468 -114 OFFCURVE"
+"401 -114 CURVE"
+"308 -114 LINE" 
+"308 38 LINE" 
+"401 38 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1644 378 LINE" 
+"884 378 LINE" 
+"884 508 LINE" 
+"1644 508 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,160 @@
+{
+unicode = "6FC6";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1772 1384 LINE" 
+"665 1384 LINE" 
+"665 1494 LINE" 
+"1772 1494 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1835 1074 LINE" 
+"594 1074 LINE" 
+"594 1184 LINE" 
+"1835 1184 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1273 1242 LINE" 
+"1144 1242 LINE" 
+"1144 1650 LINE" 
+"1273 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1004 960 LINE" 
+"879 960 LINE" 
+"879 1326 LINE" 
+"1004 1326 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1548 960 LINE" 
+"1423 960 LINE" 
+"1423 1326 LINE" 
+"1548 1326 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1566 508 LINE" 
+"1566 626 LINE" 
+"865 626 LINE" 
+"865 508 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1566 298 LINE" 
+"1566 418 LINE" 
+"865 418 LINE" 
+"865 298 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1566 716 LINE" 
+"1566 832 LINE" 
+"865 832 LINE" 
+"865 716 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1695 202 LINE" 
+"740 202 LINE" 
+"740 928 LINE" 
+"1695 928 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1512 142 OFFCURVE"
+"1758 20 OFFCURVE"
+"1837 -30 CURVE"
+"1732 -114 LINE" 
+"1657 -62 OFFCURVE"
+"1425 62 OFFCURVE"
+"1308 112 CURVE"
+"1390 192 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"356 1592 OFFCURVE"
+"550 1476 OFFCURVE"
+"602 1428 CURVE"
+"524 1314 LINE" 
+"471 1366 OFFCURVE"
+"275 1492 OFFCURVE"
+"184 1534 CURVE"
+"259 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"251 1082 OFFCURVE"
+"451 972 OFFCURVE"
+"509 924 CURVE"
+"429 808 LINE" 
+"374 856 OFFCURVE"
+"178 972 OFFCURVE"
+"83 1014 CURVE"
+"158 1116 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"212 118 OFFCURVE"
+"402 464 OFFCURVE"
+"479 626 CURVE"
+"582 540 LINE" 
+"514 390 OFFCURVE"
+"338 52 OFFCURVE"
+"257 -86 CURVE"
+"138 4 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1011 52 OFFCURVE"
+"730 -74 OFFCURVE"
+"594 -114 CURVE"
+"558 -72 OFFCURVE"
+"544 -58 CURVE"
+"520 -34 OFFCURVE"
+"509 -24 CURVE"
+"641 14 OFFCURVE"
+"914 136 OFFCURVE"
+"988 194 CURVE"
+"1103 120 LINE" 
+);
+},
+);
+},
+);
+}

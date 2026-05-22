@@ -1,0 +1,82 @@
+{
+unicode = "B95F";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1502 -124 LINE" 
+"256 -124 LINE" 
+"256 2 LINE" 
+"1502 2 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 302 LINE" 
+"413 302 LINE" 
+"413 -68 LINE" 
+"256 -68 LINE" 
+"256 424 LINE" 
+"1484 424 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1462 1160 LINE" 
+"427 1160 LINE" 
+"427 916 LINE" 
+"270 916 LINE" 
+"270 1276 LINE" 
+"1302 1276 LINE" 
+"1302 1452 LINE" 
+"266 1452 LINE" 
+"266 1576 LINE" 
+"1462 1576 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1494 866 LINE" 
+"270 866 LINE" 
+"270 984 LINE" 
+"1494 984 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1670 606 LINE" 
+"66 606 LINE" 
+"66 732 LINE" 
+"1670 732 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"658 364 LINE" 
+"504 364 LINE" 
+"504 670 LINE" 
+"658 670 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1236 374 LINE" 
+"1078 374 LINE" 
+"1078 672 LINE" 
+"1236 672 LINE" 
+);
+},
+);
+},
+);
+}

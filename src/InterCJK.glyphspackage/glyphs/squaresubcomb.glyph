@@ -1,0 +1,29 @@
+{
+unicode = "EED8";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-788 -488 LINE" 
+"-788 -82 LINE" 
+"-381 -82 LINE" 
+"-381 -488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"-677 -193 LINE" 
+"-677 -376 LINE" 
+"-494 -376 LINE" 
+"-494 -193 LINE" 
+);
+},
+);
+},
+);
+}

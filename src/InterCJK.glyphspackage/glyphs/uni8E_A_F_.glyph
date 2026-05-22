@@ -1,0 +1,151 @@
+{
+unicode = "8EAF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"740 1066 LINE" 
+"299 1066 LINE" 
+"299 1172 LINE" 
+"740 1172 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"740 798 LINE" 
+"299 798 LINE" 
+"299 904 LINE" 
+"740 904 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1835 -10 LINE" 
+"1035 -10 LINE" 
+"1035 120 LINE" 
+"1835 120 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"530 1470 OFFCURVE"
+"485 1390 CURVE"
+"380 1416 LINE" 
+"400 1464 OFFCURVE"
+"439 1600 OFFCURVE"
+"451 1654 CURVE"
+"600 1630 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"742 1330 LINE" 
+"344 1330 LINE" 
+"344 540 LINE" 
+"221 540 LINE" 
+"221 1442 LINE" 
+"742 1442 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"804 -12 OFFCURVE"
+"774 -74 OFFCURVE"
+"736 -90 CURVE"
+"709 -104 OFFCURVE"
+"615 -114 OFFCURVE"
+"532 -114 CURVE"
+"483 -114 LINE" 
+"481 -88 OFFCURVE"
+"455 -18 OFFCURVE"
+"439 8 CURVE"
+"598 6 OFFCURVE"
+"641 8 CURVE"
+"661 8 OFFCURVE"
+"677 24 OFFCURVE"
+"677 44 CURVE"
+"677 1442 LINE" 
+"804 1442 LINE" 
+"804 44 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"160 588 OFFCURVE"
+"396 624 OFFCURVE"
+"516 642 CURVE"
+"716 672 LINE" 
+"720 566 LINE" 
+"481 522 OFFCURVE"
+"111 452 CURVE"
+"87 578 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"774 570 OFFCURVE"
+"394 150 OFFCURVE"
+"170 10 CURVE"
+"158 28 OFFCURVE"
+"99 92 OFFCURVE"
+"75 114 CURVE"
+"295 236 OFFCURVE"
+"661 624 OFFCURVE"
+"772 858 CURVE"
+"895 822 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1639 970 OFFCURVE"
+"1390 402 OFFCURVE"
+"1223 206 CURVE"
+"1209 224 OFFCURVE"
+"1140 276 OFFCURVE"
+"1114 290 CURVE"
+"1279 466 OFFCURVE"
+"1520 1008 OFFCURVE"
+"1592 1334 CURVE"
+"1718 1314 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1800 1426 LINE" 
+"1099 1426 LINE" 
+"1099 -112 LINE" 
+"966 -112 LINE" 
+"966 1554 LINE" 
+"1800 1554 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1417 990 OFFCURVE"
+"1712 540 OFFCURVE"
+"1784 374 CURVE"
+"1677 292 LINE" 
+"1607 460 OFFCURVE"
+"1312 924 OFFCURVE"
+"1160 1112 CURVE"
+"1257 1182 LINE" 
+);
+},
+);
+},
+);
+}

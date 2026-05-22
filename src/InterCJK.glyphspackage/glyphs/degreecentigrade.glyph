@@ -1,0 +1,18 @@
+{
+unicode = "2103";
+layers = (
+{
+layerId = "master-text-regular";
+width = 2406;
+components = (
+{
+name = "degree";
+},
+{
+name = "C";
+pos = (910,0);
+},
+);
+},
+);
+}

@@ -1,0 +1,167 @@
+{
+unicode = "8B28";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1811 1376 LINE" 
+"766 1376 LINE" 
+"766 1492 LINE" 
+"1811 1492 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1811 326 LINE" 
+"766 326 LINE" 
+"766 446 LINE" 
+"1811 446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1336 394 OFFCURVE"
+"1233 128 OFFCURVE"
+"1000 -58 OFFCURVE"
+"790 -114 CURVE"
+"788 -110 OFFCURVE"
+"786 -102 OFFCURVE"
+"782 -98 CURVE"
+"770 -72 OFFCURVE"
+"734 -24 OFFCURVE"
+"716 -10 CURVE"
+"909 38 OFFCURVE"
+"1118 194 OFFCURVE"
+"1206 422 OFFCURVE"
+"1219 598 CURVE"
+"1352 598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1435 248 OFFCURVE"
+"1671 40 OFFCURVE"
+"1845 -2 CURVE"
+"1825 -20 OFFCURVE"
+"1776 -86 OFFCURVE"
+"1760 -114 CURVE"
+"1574 -58 OFFCURVE"
+"1330 190 OFFCURVE"
+"1269 376 CURVE"
+"1384 400 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1152 1232 LINE" 
+"1025 1232 LINE" 
+"1025 1650 LINE" 
+"1152 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1564 1232 LINE" 
+"1437 1232 LINE" 
+"1437 1650 LINE" 
+"1564 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1598 694 LINE" 
+"1598 836 LINE" 
+"994 836 LINE" 
+"994 694 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1598 932 LINE" 
+"1598 1072 LINE" 
+"994 1072 LINE" 
+"994 932 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1726 590 LINE" 
+"869 590 LINE" 
+"869 1172 LINE" 
+"1726 1172 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"709 960 LINE" 
+"168 960 LINE" 
+"168 1070 LINE" 
+"709 1070 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"701 1472 LINE" 
+"176 1472 LINE" 
+"176 1582 LINE" 
+"701 1582 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"709 704 LINE" 
+"168 704 LINE" 
+"168 814 LINE" 
+"709 814 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"756 1216 LINE" 
+"83 1216 LINE" 
+"83 1332 LINE" 
+"756 1332 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"709 -4 LINE" 
+"231 -4 LINE" 
+"231 112 LINE" 
+"590 112 LINE" 
+"590 440 LINE" 
+"231 440 LINE" 
+"231 556 LINE" 
+"709 556 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"285 -92 LINE" 
+"166 -92 LINE" 
+"166 556 LINE" 
+"285 556 LINE" 
+);
+},
+);
+},
+);
+}

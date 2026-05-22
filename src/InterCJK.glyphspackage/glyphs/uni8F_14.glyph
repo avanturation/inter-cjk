@@ -1,0 +1,161 @@
+{
+unicode = "8F14";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1831 1260 LINE" 
+"889 1260 LINE" 
+"889 1382 LINE" 
+"1831 1382 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1728 642 LINE" 
+"998 642 LINE" 
+"998 760 LINE" 
+"1728 760 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1728 316 LINE" 
+"998 316 LINE" 
+"998 434 LINE" 
+"1728 434 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1413 -100 LINE" 
+"1291 -100 LINE" 
+"1291 1650 LINE" 
+"1413 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1704 958 LINE" 
+"1047 958 LINE" 
+"1047 -112 LINE" 
+"922 -112 LINE" 
+"922 1078 LINE" 
+"1704 1078 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1786 -12 OFFCURVE"
+"1764 -72 OFFCURVE"
+"1736 -90 CURVE"
+"1706 -104 OFFCURVE"
+"1613 -112 OFFCURVE"
+"1530 -112 CURVE"
+"1526 -82 OFFCURVE"
+"1506 -8 OFFCURVE"
+"1495 14 CURVE"
+"1552 12 LINE" 
+"1594 12 OFFCURVE"
+"1635 12 CURVE"
+"1649 12 OFFCURVE"
+"1659 24 OFFCURVE"
+"1659 40 CURVE"
+"1659 1078 LINE" 
+"1786 1078 LINE" 
+"1786 38 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1633 1610 OFFCURVE"
+"1770 1504 OFFCURVE"
+"1803 1462 CURVE"
+"1724 1388 LINE" 
+"1689 1430 OFFCURVE"
+"1554 1544 OFFCURVE"
+"1489 1586 CURVE"
+"1566 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"845 1318 LINE" 
+"111 1318 LINE" 
+"111 1440 LINE" 
+"845 1440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"873 226 LINE" 
+"83 226 LINE" 
+"83 346 LINE" 
+"873 346 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"548 1128 LINE" 
+"423 1128 LINE" 
+"423 1650 LINE" 
+"548 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"536 562 LINE" 
+"548 562 LINE" 
+"548 -114 LINE" 
+"423 -114 LINE" 
+"423 562 LINE" 
+"435 562 LINE" 
+"435 1120 LINE" 
+"536 1120 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"718 612 LINE" 
+"718 792 LINE" 
+"257 792 LINE" 
+"257 612 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"718 892 LINE" 
+"718 1068 LINE" 
+"257 1068 LINE" 
+"257 892 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"825 508 LINE" 
+"152 508 LINE" 
+"152 1174 LINE" 
+"825 1174 LINE" 
+);
+},
+);
+},
+);
+}

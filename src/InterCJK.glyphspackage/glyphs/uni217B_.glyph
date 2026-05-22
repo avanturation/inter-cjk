@@ -1,0 +1,30 @@
+{
+unicode = "217B";
+layers = (
+{
+layerId = "master-text-regular";
+width = 2110;
+components = (
+{
+name = "x";
+},
+{
+name = "dotlessi";
+pos = (1118,0);
+},
+{
+name = "uni0307";
+pos = (1120,0);
+},
+{
+name = "dotlessi";
+pos = (1614,0);
+},
+{
+name = "uni0307";
+pos = (1616,0);
+},
+);
+},
+);
+}

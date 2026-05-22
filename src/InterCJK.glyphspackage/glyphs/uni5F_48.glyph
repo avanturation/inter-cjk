@@ -1,0 +1,160 @@
+{
+unicode = "5F48";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1835 170 LINE" 
+"685 170 LINE" 
+"685 288 LINE" 
+"1835 288 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1613 538 LINE" 
+"1613 700 LINE" 
+"905 700 LINE" 
+"905 538 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1613 802 LINE" 
+"1613 960 LINE" 
+"905 960 LINE" 
+"905 802 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1740 430 LINE" 
+"784 430 LINE" 
+"784 1068 LINE" 
+"1740 1068 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1318 -112 LINE" 
+"1188 -112 LINE" 
+"1188 1030 LINE" 
+"1318 1030 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1081 1276 LINE" 
+"1081 1484 LINE" 
+"865 1484 LINE" 
+"865 1276 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1200 1178 LINE" 
+"750 1178 LINE" 
+"750 1582 LINE" 
+"1200 1582 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1655 1276 LINE" 
+"1655 1484 LINE" 
+"1425 1484 LINE" 
+"1425 1276 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1774 1178 LINE" 
+"1310 1178 LINE" 
+"1310 1582 LINE" 
+"1774 1582 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"659 710 OFFCURVE"
+"657 690 CURVE"
+"645 434 OFFCURVE"
+"619 140 OFFCURVE"
+"586 -20 OFFCURVE"
+"558 -52 CURVE"
+"534 -80 OFFCURVE"
+"477 -104 OFFCURVE"
+"433 -108 CURVE"
+"398 -110 OFFCURVE"
+"271 -110 OFFCURVE"
+"200 -108 CURVE"
+"200 -100 OFFCURVE"
+"198 -96 CURVE"
+"196 -64 OFFCURVE"
+"174 4 OFFCURVE"
+"158 28 CURVE"
+"253 20 OFFCURVE"
+"380 20 CURVE"
+"406 18 OFFCURVE"
+"435 28 OFFCURVE"
+"447 40 CURVE"
+"469 62 OFFCURVE"
+"499 208 OFFCURVE"
+"520 492 OFFCURVE"
+"530 728 CURVE"
+"530 752 LINE" 
+"659 752 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"269 1000 OFFCURVE"
+"233 664 OFFCURVE"
+"216 544 CURVE"
+"95 564 LINE" 
+"115 684 OFFCURVE"
+"150 1008 OFFCURVE"
+"156 1138 CURVE"
+"279 1138 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"578 632 LINE" 
+"164 632 LINE" 
+"180 752 LINE" 
+"578 752 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"522 1436 LINE" 
+"120 1436 LINE" 
+"120 1562 LINE" 
+"655 1562 LINE" 
+"655 1012 LINE" 
+"194 1012 LINE" 
+"194 1138 LINE" 
+"522 1138 LINE" 
+);
+},
+);
+},
+);
+}

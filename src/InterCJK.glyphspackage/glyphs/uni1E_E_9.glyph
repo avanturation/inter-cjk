@@ -1,0 +1,18 @@
+{
+unicode = "1EE9";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1269;
+components = (
+{
+name = "uhorn";
+},
+{
+name = "acutecomb";
+pos = (358,0);
+},
+);
+},
+);
+}

@@ -1,0 +1,155 @@
+{
+unicode = "8CCE";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1778 1258 LINE" 
+"821 1162 LINE" 
+"808 1278 LINE" 
+"1768 1374 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1754 968 LINE" 
+"867 866 LINE" 
+"853 984 LINE" 
+"1738 1080 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1831 656 LINE" 
+"821 544 LINE" 
+"806 660 LINE" 
+"1815 770 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1249 1196 OFFCURVE"
+"1356 452 OFFCURVE"
+"1552 18 OFFCURVE"
+"1673 18 CURVE"
+"1699 18 OFFCURVE"
+"1732 70 OFFCURVE"
+"1752 190 OFFCURVE"
+"1756 292 CURVE"
+"1774 274 OFFCURVE"
+"1833 236 OFFCURVE"
+"1861 220 CURVE"
+"1847 90 OFFCURVE"
+"1803 -52 OFFCURVE"
+"1726 -112 OFFCURVE"
+"1659 -112 CURVE"
+"1481 -112 OFFCURVE"
+"1241 362 OFFCURVE"
+"1122 1156 OFFCURVE"
+"1118 1646 CURVE"
+"1251 1646 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1605 326 OFFCURVE"
+"1160 -6 OFFCURVE"
+"887 -112 CURVE"
+"875 -88 OFFCURVE"
+"823 -16 OFFCURVE"
+"804 6 CURVE"
+"1067 96 OFFCURVE"
+"1495 394 OFFCURVE"
+"1607 590 CURVE"
+"1734 544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1512 1610 OFFCURVE"
+"1681 1500 OFFCURVE"
+"1724 1456 CURVE"
+"1643 1366 LINE" 
+"1598 1412 OFFCURVE"
+"1431 1526 OFFCURVE"
+"1350 1566 CURVE"
+"1433 1648 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"368 182 OFFCURVE"
+"251 -42 OFFCURVE"
+"182 -116 CURVE"
+"166 -100 OFFCURVE"
+"99 -52 OFFCURVE"
+"73 -36 CURVE"
+"140 32 OFFCURVE"
+"245 224 OFFCURVE"
+"273 328 CURVE"
+"404 300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"681 256 OFFCURVE"
+"772 98 OFFCURVE"
+"792 40 CURVE"
+"679 -16 LINE" 
+"657 44 OFFCURVE"
+"566 210 OFFCURVE"
+"518 282 CURVE"
+"629 328 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"615 852 LINE" 
+"615 1102 LINE" 
+"297 1102 LINE" 
+"297 852 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"615 488 LINE" 
+"615 742 LINE" 
+"297 742 LINE" 
+"297 488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"615 1212 LINE" 
+"615 1462 LINE" 
+"297 1462 LINE" 
+"297 1212 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"746 372 LINE" 
+"172 372 LINE" 
+"172 1576 LINE" 
+"746 1576 LINE" 
+);
+},
+);
+},
+);
+}

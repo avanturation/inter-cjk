@@ -1,0 +1,150 @@
+{
+unicode = "C92A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1528 540 LINE" 
+"1371 540 LINE" 
+"1371 1632 LINE" 
+"1528 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1438 634 LINE" 
+"997 634 LINE" 
+"997 748 LINE" 
+"1438 748 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"704 544 LINE" 
+"547 544 LINE" 
+"547 852 LINE" 
+"704 852 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"357 928 OFFCURVE"
+"951 946 OFFCURVE"
+"1211 966 CURVE"
+"1221 846 LINE" 
+"967 820 OFFCURVE"
+"379 794 OFFCURVE"
+"88 792 CURVE"
+"64 928 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"690 1346 OFFCURVE"
+"567 1162 OFFCURVE"
+"341 1034 OFFCURVE"
+"193 1002 CURVE"
+"128 1126 LINE" 
+"256 1146 OFFCURVE"
+"454 1242 OFFCURVE"
+"561 1380 OFFCURVE"
+"561 1460 CURVE"
+"561 1542 LINE" 
+"690 1542 LINE" 
+"690 1460 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"726 1392 OFFCURVE"
+"833 1266 OFFCURVE"
+"1029 1180 OFFCURVE"
+"1159 1160 CURVE"
+"1100 1042 LINE" 
+"949 1068 OFFCURVE"
+"722 1182 OFFCURVE"
+"597 1358 OFFCURVE"
+"597 1470 CURVE"
+"597 1542 LINE" 
+"726 1542 LINE" 
+"726 1470 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1112 1452 LINE" 
+"179 1452 LINE" 
+"179 1574 LINE" 
+"1112 1574 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1355 296 OFFCURVE"
+"1268 76 OFFCURVE"
+"1104 -98 OFFCURVE"
+"987 -146 CURVE"
+"898 -18 LINE" 
+"999 20 OFFCURVE"
+"1147 158 OFFCURVE"
+"1227 326 OFFCURVE"
+"1227 408 CURVE"
+"1227 484 LINE" 
+"1355 484 LINE" 
+"1355 408 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1379 330 OFFCURVE"
+"1454 162 OFFCURVE"
+"1599 22 OFFCURVE"
+"1696 -18 CURVE"
+"1609 -144 LINE" 
+"1498 -94 OFFCURVE"
+"1337 82 OFFCURVE"
+"1254 300 OFFCURVE"
+"1254 412 CURVE"
+"1254 484 LINE" 
+"1379 484 LINE" 
+"1379 412 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"421 296 LINE" 
+"757 296 LINE" 
+"757 476 LINE" 
+"906 476 LINE" 
+"906 -130 LINE" 
+"274 -130 LINE" 
+"274 476 LINE" 
+"421 476 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"757 -6 LINE" 
+"757 176 LINE" 
+"421 176 LINE" 
+"421 -6 LINE" 
+);
+},
+);
+},
+);
+}

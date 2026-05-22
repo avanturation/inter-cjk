@@ -1,0 +1,18 @@
+{
+unicode = "0104";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1413;
+components = (
+{
+name = "A";
+},
+{
+name = "ogonek.A";
+pos = (917,0);
+},
+);
+},
+);
+}

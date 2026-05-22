@@ -1,0 +1,15 @@
+{
+unicode = "E08B";
+layers = (
+{
+layerId = "master-text-regular";
+width = 2048;
+components = (
+{
+name = "emdash";
+pos = (0,107);
+},
+);
+},
+);
+}

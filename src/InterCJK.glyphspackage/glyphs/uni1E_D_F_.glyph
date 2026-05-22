@@ -1,0 +1,18 @@
+{
+unicode = "1EDF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1222;
+components = (
+{
+name = "ohorn";
+},
+{
+name = "hookabovecomb";
+pos = (346,0);
+},
+);
+},
+);
+}

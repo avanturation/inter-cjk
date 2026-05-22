@@ -1,0 +1,87 @@
+{
+unicode = "CEEC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1413 1074 LINE" 
+"997 1074 LINE" 
+"997 1204 LINE" 
+"1413 1204 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"991 1322 OFFCURVE"
+"817 974 OFFCURVE"
+"462 728 OFFCURVE"
+"189 654 CURVE"
+"132 778 LINE" 
+"373 840 OFFCURVE"
+"682 1044 OFFCURVE"
+"829 1314 OFFCURVE"
+"829 1478 CURVE"
+"829 1546 LINE" 
+"991 1546 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"930 1420 LINE" 
+"213 1420 LINE" 
+"213 1546 LINE" 
+"930 1546 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"149 1086 LINE" 
+"124 1212 LINE" 
+"835 1244 LINE" 
+"835 1136 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1539 712 LINE" 
+"1383 712 LINE" 
+"1383 1634 LINE" 
+"1539 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1539 206 LINE" 
+"555 206 LINE" 
+"555 -68 LINE" 
+"403 -68 LINE" 
+"403 324 LINE" 
+"1385 324 LINE" 
+"1385 506 LINE" 
+"399 506 LINE" 
+"399 632 LINE" 
+"1539 632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1599 -120 LINE" 
+"403 -120 LINE" 
+"403 6 LINE" 
+"1599 6 LINE" 
+);
+},
+);
+},
+);
+}

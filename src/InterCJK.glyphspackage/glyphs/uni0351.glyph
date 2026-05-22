@@ -1,0 +1,30 @@
+{
+unicode = "0351";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-423 1114 LINE" 
+"-509 1113 OFFCURVE"
+"-632 1221 OFFCURVE"
+"-632 1308 CURVE"
+"-632 1395 OFFCURVE"
+"-509 1511 OFFCURVE"
+"-423 1511 CURVE"
+"-423 1417 LINE" 
+"-467 1418 OFFCURVE"
+"-525 1354 OFFCURVE"
+"-525 1308 CURVE"
+"-525 1267 OFFCURVE"
+"-467 1204 OFFCURVE"
+"-423 1204 CURVE"
+);
+},
+);
+},
+);
+}

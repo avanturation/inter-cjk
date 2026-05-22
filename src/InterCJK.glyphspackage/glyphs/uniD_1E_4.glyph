@@ -1,0 +1,155 @@
+{
+unicode = "D1E4";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"623 722 LINE" 
+"470 722 LINE" 
+"470 988 LINE" 
+"623 988 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1223 648 LINE" 
+"1074 648 LINE" 
+"1074 1602 LINE" 
+"1223 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"908 1432 LINE" 
+"336 1432 LINE" 
+"336 988 LINE" 
+"183 988 LINE" 
+"183 1546 LINE" 
+"908 1546 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"880 1198 LINE" 
+"217 1198 LINE" 
+"217 1302 LINE" 
+"880 1302 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"918 948 LINE" 
+"183 948 LINE" 
+"183 1058 LINE" 
+"918 1058 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"290 788 OFFCURVE"
+"803 810 OFFCURVE"
+"991 830 CURVE"
+"1001 718 LINE" 
+"809 690 OFFCURVE"
+"312 662 OFFCURVE"
+"102 662 CURVE"
+"80 790 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1526 1052 LINE" 
+"1167 1052 LINE" 
+"1167 1184 LINE" 
+"1526 1184 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1589 638 LINE" 
+"1440 638 LINE" 
+"1440 1632 LINE" 
+"1589 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"898 160 LINE" 
+"446 160 LINE" 
+"446 -84 LINE" 
+"296 -84 LINE" 
+"296 268 LINE" 
+"745 268 LINE" 
+"745 426 LINE" 
+"292 426 LINE" 
+"292 544 LINE" 
+"898 544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1359 310 OFFCURVE"
+"1278 74 OFFCURVE"
+"1120 -108 OFFCURVE"
+"1005 -158 CURVE"
+"916 -42 LINE" 
+"1019 -2 OFFCURVE"
+"1163 148 OFFCURVE"
+"1234 340 OFFCURVE"
+"1234 446 CURVE"
+"1234 558 LINE" 
+"1359 558 LINE" 
+"1359 446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1387 340 OFFCURVE"
+"1454 160 OFFCURVE"
+"1593 18 OFFCURVE"
+"1694 -24 CURVE"
+"1611 -144 LINE" 
+"1496 -94 OFFCURVE"
+"1341 84 OFFCURVE"
+"1266 312 OFFCURVE"
+"1266 440 CURVE"
+"1266 558 LINE" 
+"1387 558 LINE" 
+"1387 440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"444 -14 OFFCURVE"
+"498 -14 CURVE"
+"644 -14 OFFCURVE"
+"829 0 OFFCURVE"
+"922 20 CURVE"
+"939 -100 LINE" 
+"827 -124 OFFCURVE"
+"609 -136 OFFCURVE"
+"391 -136 CURVE"
+"296 -136 LINE" 
+"296 -14 LINE" 
+"391 -14 LINE" 
+);
+},
+);
+},
+);
+}

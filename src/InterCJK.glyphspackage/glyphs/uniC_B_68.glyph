@@ -1,0 +1,155 @@
+{
+unicode = "CB68";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"452 1276 OFFCURVE"
+"379 1116 OFFCURVE"
+"233 988 OFFCURVE"
+"126 954 CURVE"
+"64 1066 LINE" 
+"149 1090 OFFCURVE"
+"276 1186 OFFCURVE"
+"343 1302 OFFCURVE"
+"343 1356 CURVE"
+"343 1436 LINE" 
+"452 1436 LINE" 
+"452 1356 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"490 1302 OFFCURVE"
+"532 1180 OFFCURVE"
+"625 1074 OFFCURVE"
+"698 1044 CURVE"
+"646 928 LINE" 
+"547 968 OFFCURVE"
+"431 1112 OFFCURVE"
+"385 1276 OFFCURVE"
+"385 1356 CURVE"
+"385 1436 LINE" 
+"490 1436 LINE" 
+"490 1356 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"906 1276 OFFCURVE"
+"860 1112 OFFCURVE"
+"745 968 OFFCURVE"
+"646 928 CURVE"
+"593 1044 LINE" 
+"666 1074 OFFCURVE"
+"759 1180 OFFCURVE"
+"801 1302 OFFCURVE"
+"801 1356 CURVE"
+"801 1436 LINE" 
+"906 1436 LINE" 
+"906 1356 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"949 1302 OFFCURVE"
+"1017 1186 OFFCURVE"
+"1143 1090 OFFCURVE"
+"1231 1066 CURVE"
+"1165 954 LINE" 
+"1060 988 OFFCURVE"
+"912 1116 OFFCURVE"
+"840 1276 OFFCURVE"
+"840 1356 CURVE"
+"840 1436 LINE" 
+"949 1436 LINE" 
+"949 1356 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"627 1388 LINE" 
+"120 1388 LINE" 
+"120 1512 LINE" 
+"627 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1177 1388 LINE" 
+"676 1388 LINE" 
+"676 1512 LINE" 
+"1177 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1524 276 LINE" 
+"1371 276 LINE" 
+"1371 1632 LINE" 
+"1524 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1460 456 LINE" 
+"1019 456 LINE" 
+"1019 586 LINE" 
+"1460 586 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"708 358 LINE" 
+"551 358 LINE" 
+"551 738 LINE" 
+"708 738 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"347 812 OFFCURVE"
+"945 832 OFFCURVE"
+"1211 852 CURVE"
+"1225 730 LINE" 
+"959 704 OFFCURVE"
+"361 678 OFFCURVE"
+"82 678 CURVE"
+"60 812 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"484 -30 LINE" 
+"328 -30 LINE" 
+"328 416 LINE" 
+"484 416 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1571 -110 LINE" 
+"328 -110 LINE" 
+"328 20 LINE" 
+"1571 20 LINE" 
+);
+},
+);
+},
+);
+}

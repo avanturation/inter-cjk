@@ -1,0 +1,155 @@
+{
+unicode = "CAF5";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"625 672 LINE" 
+"480 672 LINE" 
+"480 920 LINE" 
+"625 920 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"680 738 OFFCURVE"
+"1019 782 CURVE"
+"1029 668 LINE" 
+"827 634 OFFCURVE"
+"332 606 OFFCURVE"
+"88 604 CURVE"
+"68 738 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1589 536 LINE" 
+"1442 536 LINE" 
+"1442 1634 LINE" 
+"1589 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1508 1018 LINE" 
+"1197 1018 LINE" 
+"1197 1146 LINE" 
+"1508 1146 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1250 546 LINE" 
+"1106 546 LINE" 
+"1106 1604 LINE" 
+"1250 1604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"389 1294 OFFCURVE"
+"343 1120 OFFCURVE"
+"231 970 OFFCURVE"
+"136 928 CURVE"
+"64 1038 LINE" 
+"140 1072 OFFCURVE"
+"237 1188 OFFCURVE"
+"282 1320 OFFCURVE"
+"282 1380 CURVE"
+"282 1448 LINE" 
+"389 1448 LINE" 
+"389 1380 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"413 1328 OFFCURVE"
+"452 1202 OFFCURVE"
+"541 1088 OFFCURVE"
+"613 1054 CURVE"
+"557 942 LINE" 
+"462 984 OFFCURVE"
+"351 1134 OFFCURVE"
+"312 1302 OFFCURVE"
+"312 1380 CURVE"
+"312 1448 LINE" 
+"413 1448 LINE" 
+"413 1380 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"803 1250 OFFCURVE"
+"694 1002 OFFCURVE"
+"557 942 CURVE"
+"500 1054 LINE" 
+"571 1088 OFFCURVE"
+"660 1202 OFFCURVE"
+"700 1326 OFFCURVE"
+"700 1380 CURVE"
+"700 1448 LINE" 
+"803 1448 LINE" 
+"803 1380 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"833 1320 OFFCURVE"
+"878 1190 OFFCURVE"
+"975 1072 OFFCURVE"
+"1048 1038 CURVE"
+"979 928 LINE" 
+"886 970 OFFCURVE"
+"771 1122 OFFCURVE"
+"726 1294 OFFCURVE"
+"726 1380 CURVE"
+"726 1448 LINE" 
+"833 1448 LINE" 
+"833 1380 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"538 1404 LINE" 
+"104 1404 LINE" 
+"104 1532 LINE" 
+"538 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"997 1404 LINE" 
+"575 1404 LINE" 
+"575 1532 LINE" 
+"997 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1591 -152 LINE" 
+"1436 -152 LINE" 
+"1436 320 LINE" 
+"361 320 LINE" 
+"361 448 LINE" 
+"1591 448 LINE" 
+);
+},
+);
+},
+);
+}

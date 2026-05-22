@@ -1,0 +1,20 @@
+{
+unicode = "EEE1";
+layers = (
+{
+layerId = "master-text-regular";
+width = 745;
+paths = (
+{
+closed = 1;
+nodes = (
+"0 535 LINE" 
+"0 724 LINE" 
+"745 1154 LINE" 
+"745 965 LINE" 
+);
+},
+);
+},
+);
+}

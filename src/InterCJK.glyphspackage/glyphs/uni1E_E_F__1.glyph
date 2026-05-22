@@ -1,0 +1,18 @@
+{
+unicode = "EE3C";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1278;
+components = (
+{
+name = "uhorn.1";
+},
+{
+name = "tildecomb";
+pos = (88,0);
+},
+);
+},
+);
+}

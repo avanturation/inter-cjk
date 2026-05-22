@@ -1,0 +1,164 @@
+{
+unicode = "764C";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1679 -42 LINE" 
+"657 -42 LINE" 
+"657 76 LINE" 
+"1679 76 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1233 -10 LINE" 
+"1103 -10 LINE" 
+"1103 392 LINE" 
+"1233 392 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"722 -110 LINE" 
+"594 -110 LINE" 
+"594 334 LINE" 
+"722 334 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1750 -110 LINE" 
+"1621 -110 LINE" 
+"1621 334 LINE" 
+"1750 334 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1423 982 LINE" 
+"1423 1154 LINE" 
+"932 1154 LINE" 
+"932 982 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1546 884 LINE" 
+"817 884 LINE" 
+"817 1250 LINE" 
+"1546 1250 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1004 534 LINE" 
+"1004 708 LINE" 
+"681 708 LINE" 
+"681 534 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1114 438 LINE" 
+"574 438 LINE" 
+"574 806 LINE" 
+"1114 806 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1673 534 LINE" 
+"1673 708 LINE" 
+"1340 708 LINE" 
+"1340 534 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1786 438 LINE" 
+"1233 438 LINE" 
+"1233 806 LINE" 
+"1786 806 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1805 1354 LINE" 
+"425 1354 LINE" 
+"425 1472 LINE" 
+"1805 1472 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"483 572 OFFCURVE"
+"370 68 OFFCURVE"
+"212 -112 CURVE"
+"200 -92 OFFCURVE"
+"136 -34 OFFCURVE"
+"115 -20 CURVE"
+"218 96 OFFCURVE"
+"322 390 OFFCURVE"
+"354 684 OFFCURVE"
+"354 854 CURVE"
+"354 1472 LINE" 
+"483 1472 LINE" 
+"483 854 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1126 1414 LINE" 
+"984 1414 LINE" 
+"984 1650 LINE" 
+"1126 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"241 1218 OFFCURVE"
+"313 1010 OFFCURVE"
+"322 938 CURVE"
+"212 888 LINE" 
+"202 964 OFFCURVE"
+"134 1178 OFFCURVE"
+"91 1266 CURVE"
+"196 1306 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"120 584 OFFCURVE"
+"287 674 CURVE"
+"313 688 OFFCURVE"
+"366 716 OFFCURVE"
+"392 730 CURVE"
+"425 624 LINE" 
+"313 554 OFFCURVE"
+"111 436 CURVE"
+"63 556 LINE" 
+);
+},
+);
+},
+);
+}

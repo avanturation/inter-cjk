@@ -1,0 +1,33 @@
+{
+unicode = "3162,FFDB";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1551 -164 LINE" 
+"1399 -164 LINE" 
+"1399 1580 LINE" 
+"1551 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"486 554 OFFCURVE"
+"1038 574 OFFCURVE"
+"1286 606 CURVE"
+"1296 488 LINE" 
+"1036 450 OFFCURVE"
+"468 422 OFFCURVE"
+"155 422 CURVE"
+"132 552 LINE" 
+);
+},
+);
+},
+);
+}

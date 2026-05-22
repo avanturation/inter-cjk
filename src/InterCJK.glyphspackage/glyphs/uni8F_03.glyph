@@ -1,0 +1,156 @@
+{
+unicode = "8F03";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1435 1336 LINE" 
+"1301 1336 LINE" 
+"1301 1654 LINE" 
+"1435 1654 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1669 1138 OFFCURVE"
+"1817 914 OFFCURVE"
+"1851 836 CURVE"
+"1734 772 LINE" 
+"1702 850 OFFCURVE"
+"1560 1076 OFFCURVE"
+"1485 1176 CURVE"
+"1590 1232 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1208 1070 OFFCURVE"
+"1057 840 OFFCURVE"
+"976 758 CURVE"
+"956 776 OFFCURVE"
+"887 824 OFFCURVE"
+"863 836 CURVE"
+"944 908 OFFCURVE"
+"1083 1114 OFFCURVE"
+"1130 1226 CURVE"
+"1259 1192 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1827 1272 LINE" 
+"907 1272 LINE" 
+"907 1398 LINE" 
+"1827 1398 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1233 656 OFFCURVE"
+"1427 318 OFFCURVE"
+"1697 62 OFFCURVE"
+"1857 -6 CURVE"
+"1835 -24 OFFCURVE"
+"1782 -92 OFFCURVE"
+"1766 -118 CURVE"
+"1598 -38 OFFCURVE"
+"1322 238 OFFCURVE"
+"1122 604 OFFCURVE"
+"1057 822 CURVE"
+"1176 852 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1584 490 OFFCURVE"
+"1206 22 OFFCURVE"
+"897 -118 CURVE"
+"881 -94 OFFCURVE"
+"827 -30 OFFCURVE"
+"808 -14 CURVE"
+"1105 112 OFFCURVE"
+"1469 544 OFFCURVE"
+"1538 854 CURVE"
+"1667 828 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"875 1318 LINE" 
+"107 1318 LINE" 
+"107 1440 LINE" 
+"875 1440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"914 226 LINE" 
+"85 226 LINE" 
+"85 346 LINE" 
+"914 346 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"558 1128 LINE" 
+"433 1128 LINE" 
+"433 1650 LINE" 
+"558 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"548 562 LINE" 
+"558 562 LINE" 
+"558 -114 LINE" 
+"433 -114 LINE" 
+"433 562 LINE" 
+"443 562 LINE" 
+"443 1120 LINE" 
+"548 1120 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"738 612 LINE" 
+"738 792 LINE" 
+"255 792 LINE" 
+"255 612 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"738 892 LINE" 
+"738 1068 LINE" 
+"255 1068 LINE" 
+"255 892 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"847 508 LINE" 
+"148 508 LINE" 
+"148 1174 LINE" 
+"847 1174 LINE" 
+);
+},
+);
+},
+);
+}

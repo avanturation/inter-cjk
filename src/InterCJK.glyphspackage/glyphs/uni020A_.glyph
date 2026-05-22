@@ -1,0 +1,18 @@
+{
+unicode = "020A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 550;
+components = (
+{
+name = "I";
+},
+{
+name = "breveinvcomb";
+pos = (-145,372);
+},
+);
+},
+);
+}

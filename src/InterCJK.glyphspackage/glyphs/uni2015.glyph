@@ -1,0 +1,14 @@
+{
+unicode = "2015";
+layers = (
+{
+layerId = "master-text-regular";
+width = 2048;
+components = (
+{
+name = "emdash";
+},
+);
+},
+);
+}

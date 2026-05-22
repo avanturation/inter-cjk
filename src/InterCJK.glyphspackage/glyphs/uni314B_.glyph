@@ -1,0 +1,31 @@
+{
+unicode = "314B,FFBB";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1446 262 LINE" 
+"1290 262 LINE" 
+"1290 1104 LINE" 
+"355 1104 LINE" 
+"355 1234 LINE" 
+"1446 1234 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"338 618 LINE" 
+"318 762 LINE" 
+"1343 810 LINE" 
+"1343 686 LINE" 
+);
+},
+);
+},
+);
+}

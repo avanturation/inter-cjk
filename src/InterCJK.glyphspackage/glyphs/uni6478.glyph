@@ -1,0 +1,154 @@
+{
+unicode = "6478";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1794 1372 LINE" 
+"669 1372 LINE" 
+"669 1490 LINE" 
+"1794 1490 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1792 314 LINE" 
+"631 314 LINE" 
+"631 434 LINE" 
+"1792 434 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1089 1226 LINE" 
+"958 1226 LINE" 
+"958 1650 LINE" 
+"1089 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1520 1226 LINE" 
+"1388 1226 LINE" 
+"1388 1650 LINE" 
+"1520 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1558 700 LINE" 
+"1558 842 LINE" 
+"887 842 LINE" 
+"887 700 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1558 944 LINE" 
+"1558 1082 LINE" 
+"887 1082 LINE" 
+"887 944 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1691 596 LINE" 
+"760 596 LINE" 
+"760 1188 LINE" 
+"1691 1188 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1263 408 OFFCURVE"
+"1148 136 OFFCURVE"
+"889 -58 OFFCURVE"
+"655 -114 CURVE"
+"649 -90 OFFCURVE"
+"606 -24 OFFCURVE"
+"584 -2 CURVE"
+"800 44 OFFCURVE"
+"1033 208 OFFCURVE"
+"1132 436 OFFCURVE"
+"1150 612 CURVE"
+"1285 612 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1376 244 OFFCURVE"
+"1641 44 OFFCURVE"
+"1831 2 CURVE"
+"1809 -18 OFFCURVE"
+"1758 -84 OFFCURVE"
+"1744 -112 CURVE"
+"1542 -58 OFFCURVE"
+"1267 186 OFFCURVE"
+"1200 368 CURVE"
+"1314 394 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"221 668 OFFCURVE"
+"651 802 CURVE"
+"669 678 LINE" 
+"584 650 OFFCURVE"
+"414 592 OFFCURVE"
+"328 564 CURVE"
+"273 546 OFFCURVE"
+"168 512 OFFCURVE"
+"117 494 CURVE"
+"81 628 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"647 1132 LINE" 
+"101 1132 LINE" 
+"101 1262 LINE" 
+"647 1262 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"447 4 OFFCURVE"
+"417 -58 OFFCURVE"
+"382 -74 CURVE"
+"352 -90 OFFCURVE"
+"243 -102 OFFCURVE"
+"146 -100 CURVE"
+"144 -90 OFFCURVE"
+"136 -62 CURVE"
+"132 -40 OFFCURVE"
+"117 8 OFFCURVE"
+"107 28 CURVE"
+"247 26 OFFCURVE"
+"287 28 CURVE"
+"307 28 OFFCURVE"
+"320 42 OFFCURVE"
+"320 62 CURVE"
+"320 1650 LINE" 
+"447 1650 LINE" 
+"447 62 LINE" 
+);
+},
+);
+},
+);
+}

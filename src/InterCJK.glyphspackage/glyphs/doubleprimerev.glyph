@@ -1,0 +1,18 @@
+{
+unicode = "2036";
+layers = (
+{
+layerId = "master-text-regular";
+width = 906;
+components = (
+{
+name = "primerev";
+},
+{
+name = "primerev";
+pos = (450,0);
+},
+);
+},
+);
+}

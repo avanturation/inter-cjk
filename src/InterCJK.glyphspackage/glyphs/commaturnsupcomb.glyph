@@ -1,0 +1,27 @@
+{
+unicode = "EEB3";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-690 987 LINE" 
+"-690 1172 LINE" 
+"-690 1236 OFFCURVE"
+"-647 1379 OFFCURVE"
+"-566 1513 OFFCURVE"
+"-509 1563 CURVE"
+"-393 1486 LINE" 
+"-439 1413 OFFCURVE"
+"-488 1260 OFFCURVE"
+"-488 1174 CURVE"
+"-488 987 LINE" 
+);
+},
+);
+},
+);
+}

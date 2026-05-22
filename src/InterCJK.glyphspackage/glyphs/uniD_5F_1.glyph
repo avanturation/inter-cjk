@@ -1,0 +1,159 @@
+{
+unicode = "D5F1";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1573 636 LINE" 
+"1425 636 LINE" 
+"1425 1632 LINE" 
+"1573 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1193 1036 LINE" 
+"910 1036 LINE" 
+"910 1166 LINE" 
+"1193 1166 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1254 652 LINE" 
+"1108 652 LINE" 
+"1108 1602 LINE" 
+"1254 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"953 1326 LINE" 
+"70 1326 LINE" 
+"70 1450 LINE" 
+"953 1450 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"619 1254 OFFCURVE"
+"785 1182 OFFCURVE"
+"878 1050 OFFCURVE"
+"878 960 CURVE"
+"878 874 OFFCURVE"
+"785 740 OFFCURVE"
+"619 668 OFFCURVE"
+"512 668 CURVE"
+"405 668 OFFCURVE"
+"239 740 OFFCURVE"
+"145 874 OFFCURVE"
+"145 960 CURVE"
+"145 1050 OFFCURVE"
+"239 1182 OFFCURVE"
+"405 1254 OFFCURVE"
+"512 1252 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"444 1140 OFFCURVE"
+"340 1096 OFFCURVE"
+"282 1014 OFFCURVE"
+"282 960 CURVE"
+"282 908 OFFCURVE"
+"340 826 OFFCURVE"
+"444 782 OFFCURVE"
+"512 780 CURVE"
+"581 782 OFFCURVE"
+"684 826 OFFCURVE"
+"741 908 OFFCURVE"
+"741 960 CURVE"
+"741 1014 OFFCURVE"
+"684 1096 OFFCURVE"
+"579 1140 OFFCURVE"
+"512 1140 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"589 1364 LINE" 
+"435 1364 LINE" 
+"435 1634 LINE" 
+"589 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"896 166 LINE" 
+"439 166 LINE" 
+"439 -64 LINE" 
+"298 -64 LINE" 
+"298 278 LINE" 
+"753 278 LINE" 
+"753 452 LINE" 
+"294 452 LINE" 
+"294 572 LINE" 
+"896 572 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"433 -14 OFFCURVE"
+"476 -14 CURVE"
+"589 -14 OFFCURVE"
+"807 0 OFFCURVE"
+"932 16 CURVE"
+"943 -104 LINE" 
+"791 -124 OFFCURVE"
+"543 -136 OFFCURVE"
+"389 -136 CURVE"
+"298 -136 LINE" 
+"298 -14 LINE" 
+"389 -14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1575 168 LINE" 
+"1064 168 LINE" 
+"1064 280 LINE" 
+"1575 280 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1613 -130 LINE" 
+"991 -130 LINE" 
+"991 -8 LINE" 
+"1613 -8 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1597 452 LINE" 
+"1137 452 LINE" 
+"1137 -100 LINE" 
+"991 -100 LINE" 
+"991 572 LINE" 
+"1597 572 LINE" 
+);
+},
+);
+},
+);
+}

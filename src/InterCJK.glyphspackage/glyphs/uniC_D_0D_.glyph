@@ -1,0 +1,150 @@
+{
+unicode = "CD0D";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1684 574 LINE" 
+"80 574 LINE" 
+"80 704 LINE" 
+"1684 704 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"957 632 LINE" 
+"805 632 LINE" 
+"805 914 LINE" 
+"957 914 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"957 1398 LINE" 
+"805 1398 LINE" 
+"805 1646 LINE" 
+"957 1646 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"941 1192 OFFCURVE"
+"749 984 OFFCURVE"
+"429 860 OFFCURVE"
+"233 840 CURVE"
+"175 960 LINE" 
+"347 976 OFFCURVE"
+"635 1074 OFFCURVE"
+"805 1232 OFFCURVE"
+"805 1330 CURVE"
+"805 1382 LINE" 
+"941 1382 LINE" 
+"941 1330 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"959 1232 OFFCURVE"
+"1128 1074 OFFCURVE"
+"1415 976 OFFCURVE"
+"1589 960 CURVE"
+"1531 840 LINE" 
+"1335 860 OFFCURVE"
+"1015 984 OFFCURVE"
+"825 1192 OFFCURVE"
+"825 1330 CURVE"
+"825 1382 LINE" 
+"959 1382 LINE" 
+"959 1330 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1522 1332 LINE" 
+"246 1332 LINE" 
+"246 1460 LINE" 
+"1522 1460 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1227 200 OFFCURVE"
+"1133 18 OFFCURVE"
+"957 -128 OFFCURVE"
+"840 -166 CURVE"
+"763 -48 LINE" 
+"864 -16 OFFCURVE"
+"1019 96 OFFCURVE"
+"1106 230 OFFCURVE"
+"1106 294 CURVE"
+"1106 408 LINE" 
+"1227 408 LINE" 
+"1227 294 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1254 222 OFFCURVE"
+"1337 90 OFFCURVE"
+"1488 -10 OFFCURVE"
+"1589 -38 CURVE"
+"1514 -158 LINE" 
+"1397 -124 OFFCURVE"
+"1223 10 OFFCURVE"
+"1132 192 OFFCURVE"
+"1132 294 CURVE"
+"1132 408 LINE" 
+"1254 408 LINE" 
+"1254 294 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"399 -58 LINE" 
+"250 -58 LINE" 
+"250 402 LINE" 
+"399 402 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"387 16 OFFCURVE"
+"539 32 OFFCURVE"
+"726 68 OFFCURVE"
+"791 98 CURVE"
+"829 -36 LINE" 
+"747 -70 OFFCURVE"
+"553 -108 OFFCURVE"
+"389 -124 OFFCURVE"
+"338 -124 CURVE"
+"250 -124 LINE" 
+"250 14 LINE" 
+"338 14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1553 306 LINE" 
+"815 306 LINE" 
+"815 430 LINE" 
+"1553 430 LINE" 
+);
+},
+);
+},
+);
+}

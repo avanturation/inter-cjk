@@ -1,0 +1,150 @@
+{
+unicode = "C89E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1458 604 LINE" 
+"1300 604 LINE" 
+"1300 1632 LINE" 
+"1458 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1718 1030 LINE" 
+"1345 1030 LINE" 
+"1345 1166 LINE" 
+"1718 1166 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"720 736 LINE" 
+"561 736 LINE" 
+"561 1030 LINE" 
+"720 1030 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"351 788 OFFCURVE"
+"941 814 OFFCURVE"
+"1183 836 CURVE"
+"1197 712 LINE" 
+"947 684 OFFCURVE"
+"355 650 OFFCURVE"
+"94 646 CURVE"
+"74 784 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"690 1312 OFFCURVE"
+"567 1092 OFFCURVE"
+"347 940 OFFCURVE"
+"201 902 CURVE"
+"122 1026 LINE" 
+"254 1054 OFFCURVE"
+"452 1174 OFFCURVE"
+"561 1346 OFFCURVE"
+"561 1446 CURVE"
+"561 1490 LINE" 
+"690 1490 LINE" 
+"690 1446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"712 1362 OFFCURVE"
+"821 1204 OFFCURVE"
+"1023 1090 OFFCURVE"
+"1157 1064 CURVE"
+"1082 942 LINE" 
+"932 974 OFFCURVE"
+"706 1118 OFFCURVE"
+"579 1328 OFFCURVE"
+"579 1456 CURVE"
+"579 1490 LINE" 
+"712 1490 LINE" 
+"712 1456 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1112 1396 LINE" 
+"175 1396 LINE" 
+"175 1526 LINE" 
+"1112 1526 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1326 296 OFFCURVE"
+"1246 76 OFFCURVE"
+"1088 -100 OFFCURVE"
+"975 -148 CURVE"
+"886 -22 LINE" 
+"985 20 OFFCURVE"
+"1124 158 OFFCURVE"
+"1197 328 OFFCURVE"
+"1197 412 CURVE"
+"1197 532 LINE" 
+"1326 532 LINE" 
+"1326 412 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1349 342 OFFCURVE"
+"1421 168 OFFCURVE"
+"1557 20 OFFCURVE"
+"1652 -24 CURVE"
+"1567 -148 LINE" 
+"1456 -96 OFFCURVE"
+"1302 88 OFFCURVE"
+"1227 314 OFFCURVE"
+"1227 426 CURVE"
+"1227 532 LINE" 
+"1349 532 LINE" 
+"1349 426 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"413 318 LINE" 
+"732 318 LINE" 
+"732 526 LINE" 
+"878 526 LINE" 
+"878 -130 LINE" 
+"268 -130 LINE" 
+"268 526 LINE" 
+"413 526 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"732 -6 LINE" 
+"732 198 LINE" 
+"413 198 LINE" 
+"413 -6 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,158 @@
+{
+unicode = "D4EE";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1670 686 LINE" 
+"68 686 LINE" 
+"68 812 LINE" 
+"1670 812 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1518 1446 LINE" 
+"219 1446 LINE" 
+"219 1570 LINE" 
+"1518 1570 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1512 958 LINE" 
+"223 958 LINE" 
+"223 1078 LINE" 
+"1512 1078 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"646 974 LINE" 
+"490 974 LINE" 
+"490 1510 LINE" 
+"646 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1250 974 LINE" 
+"1092 974 LINE" 
+"1092 1510 LINE" 
+"1250 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"623 446 LINE" 
+"466 446 LINE" 
+"466 756 LINE" 
+"623 756 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1276 496 LINE" 
+"1122 496 LINE" 
+"1122 756 LINE" 
+"1276 756 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"415 16 OFFCURVE"
+"652 46 OFFCURVE"
+"759 84 CURVE"
+"785 -48 LINE" 
+"666 -86 OFFCURVE"
+"429 -114 OFFCURVE"
+"306 -114 CURVE"
+"219 -114 LINE" 
+"219 16 LINE" 
+"306 16 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"371 -64 LINE" 
+"219 -64 LINE" 
+"219 448 LINE" 
+"371 448 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1603 300 LINE" 
+"736 300 LINE" 
+"736 416 LINE" 
+"1603 416 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1264 234 OFFCURVE"
+"1413 184 OFFCURVE"
+"1498 94 OFFCURVE"
+"1498 34 CURVE"
+"1498 -26 OFFCURVE"
+"1413 -116 OFFCURVE"
+"1264 -164 OFFCURVE"
+"1169 -164 CURVE"
+"1074 -164 OFFCURVE"
+"926 -116 OFFCURVE"
+"842 -26 OFFCURVE"
+"842 34 CURVE"
+"842 94 OFFCURVE"
+"926 184 OFFCURVE"
+"1074 234 OFFCURVE"
+"1169 234 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1114 132 OFFCURVE"
+"1029 108 OFFCURVE"
+"981 64 OFFCURVE"
+"981 34 CURVE"
+"981 4 OFFCURVE"
+"1029 -40 OFFCURVE"
+"1114 -64 OFFCURVE"
+"1169 -64 CURVE"
+"1225 -64 OFFCURVE"
+"1310 -40 OFFCURVE"
+"1359 6 OFFCURVE"
+"1359 34 CURVE"
+"1359 64 OFFCURVE"
+"1310 108 OFFCURVE"
+"1225 132 OFFCURVE"
+"1169 132 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1242 334 LINE" 
+"1090 334 LINE" 
+"1090 522 LINE" 
+"1242 522 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,19 @@
+{
+unicode = "EE89";
+layers = (
+{
+layerId = "master-text-regular";
+width = 590;
+components = (
+{
+name = "quoteright.ss03";
+pos = (-2,-1256);
+},
+{
+name = "period";
+pos = (28,809);
+},
+);
+},
+);
+}

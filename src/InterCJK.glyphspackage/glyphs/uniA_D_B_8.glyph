@@ -1,0 +1,152 @@
+{
+unicode = "ADB8";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1571 532 LINE" 
+"1423 532 LINE" 
+"1423 1634 LINE" 
+"1571 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1238 546 LINE" 
+"1092 546 LINE" 
+"1092 1602 LINE" 
+"1238 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1139 668 LINE" 
+"767 668 LINE" 
+"767 788 LINE" 
+"1139 788 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"825 1388 LINE" 
+"165 1388 LINE" 
+"165 1518 LINE" 
+"825 1518 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"609 546 LINE" 
+"460 546 LINE" 
+"460 906 LINE" 
+"609 906 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"862 1314 OFFCURVE"
+"846 1110 OFFCURVE"
+"817 972 CURVE"
+"672 990 LINE" 
+"702 1130 OFFCURVE"
+"718 1334 OFFCURVE"
+"718 1440 CURVE"
+"718 1518 LINE" 
+"864 1518 LINE" 
+"864 1440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"330 990 OFFCURVE"
+"809 1010 OFFCURVE"
+"1001 1038 CURVE"
+"1013 926 LINE" 
+"809 888 OFFCURVE"
+"314 860 OFFCURVE"
+"80 862 CURVE"
+"64 988 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"654 300 OFFCURVE"
+"559 86 OFFCURVE"
+"377 -78 OFFCURVE"
+"250 -122 CURVE"
+"173 -4 LINE" 
+"284 32 OFFCURVE"
+"448 164 OFFCURVE"
+"536 330 OFFCURVE"
+"536 418 CURVE"
+"536 468 LINE" 
+"654 468 LINE" 
+"654 418 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"686 334 OFFCURVE"
+"759 164 OFFCURVE"
+"900 22 OFFCURVE"
+"1001 -18 CURVE"
+"935 -136 LINE" 
+"817 -90 OFFCURVE"
+"650 86 OFFCURVE"
+"569 306 OFFCURVE"
+"569 418 CURVE"
+"569 468 LINE" 
+"686 468 LINE" 
+"686 418 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1306 308 OFFCURVE"
+"1223 88 OFFCURVE"
+"1056 -90 OFFCURVE"
+"935 -136 CURVE"
+"870 -18 LINE" 
+"973 24 OFFCURVE"
+"1116 166 OFFCURVE"
+"1191 336 OFFCURVE"
+"1191 418 CURVE"
+"1191 468 LINE" 
+"1306 468 LINE" 
+"1306 418 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1339 330 OFFCURVE"
+"1429 162 OFFCURVE"
+"1593 30 OFFCURVE"
+"1702 -4 CURVE"
+"1627 -122 LINE" 
+"1500 -80 OFFCURVE"
+"1318 84 OFFCURVE"
+"1221 300 OFFCURVE"
+"1221 418 CURVE"
+"1221 468 LINE" 
+"1339 468 LINE" 
+"1339 418 LINE" 
+);
+},
+);
+},
+);
+}

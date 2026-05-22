@@ -1,0 +1,161 @@
+{
+unicode = "AF55";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1494 -136 LINE" 
+"896 -136 LINE" 
+"896 -18 LINE" 
+"1494 -18 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1452 166 LINE" 
+"953 166 LINE" 
+"953 272 LINE" 
+"1452 272 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1470 448 LINE" 
+"1048 448 LINE" 
+"1048 -108 LINE" 
+"896 -108 LINE" 
+"896 566 LINE" 
+"1470 566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"785 166 LINE" 
+"381 166 LINE" 
+"381 -104 LINE" 
+"221 -104 LINE" 
+"221 274 LINE" 
+"629 274 LINE" 
+"629 446 LINE" 
+"219 446 LINE" 
+"219 566 LINE" 
+"785 566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"377 -18 LINE" 
+"514 -20 OFFCURVE"
+"714 -8 OFFCURVE"
+"825 10 CURVE"
+"838 -106 LINE" 
+"714 -124 OFFCURVE"
+"494 -136 OFFCURVE"
+"314 -136 CURVE"
+"221 -136 LINE" 
+"221 -18 LINE" 
+"314 -18 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"425 1402 LINE" 
+"126 1402 LINE" 
+"126 1532 LINE" 
+"425 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"716 784 LINE" 
+"571 784 LINE" 
+"571 1160 LINE" 
+"716 1160 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"524 1402 OFFCURVE"
+"518 1270 OFFCURVE"
+"488 1082 OFFCURVE"
+"456 976 CURVE"
+"308 998 LINE" 
+"340 1104 OFFCURVE"
+"369 1280 OFFCURVE"
+"375 1394 OFFCURVE"
+"377 1470 CURVE"
+"377 1532 LINE" 
+"524 1532 LINE" 
+"524 1470 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"957 1402 LINE" 
+"623 1402 LINE" 
+"623 1532 LINE" 
+"957 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1076 1328 OFFCURVE"
+"1060 1114 OFFCURVE"
+"1031 980 CURVE"
+"882 1000 LINE" 
+"912 1134 OFFCURVE"
+"928 1334 OFFCURVE"
+"928 1442 CURVE"
+"928 1532 LINE" 
+"1076 1532 LINE" 
+"1076 1442 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1456 670 LINE" 
+"1298 670 LINE" 
+"1298 1634 LINE" 
+"1456 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1702 1072 LINE" 
+"1373 1072 LINE" 
+"1373 1200 LINE" 
+"1702 1200 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"393 850 OFFCURVE"
+"945 872 OFFCURVE"
+"1187 904 CURVE"
+"1197 790 LINE" 
+"945 750 OFFCURVE"
+"381 720 OFFCURVE"
+"84 720 CURVE"
+"66 848 LINE" 
+);
+},
+);
+},
+);
+}

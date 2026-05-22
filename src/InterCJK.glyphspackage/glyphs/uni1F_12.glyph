@@ -1,0 +1,18 @@
+{
+unicode = "1F12";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1100;
+components = (
+{
+name = "epsilon";
+},
+{
+name = "uni1FCD";
+pos = (177,0);
+},
+);
+},
+);
+}

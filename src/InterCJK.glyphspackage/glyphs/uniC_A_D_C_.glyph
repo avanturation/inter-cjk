@@ -1,0 +1,153 @@
+{
+unicode = "CADC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"482 1264 OFFCURVE"
+"415 1076 OFFCURVE"
+"274 924 OFFCURVE"
+"169 882 CURVE"
+"92 996 LINE" 
+"181 1030 OFFCURVE"
+"308 1148 OFFCURVE"
+"369 1292 OFFCURVE"
+"369 1362 CURVE"
+"369 1442 LINE" 
+"482 1442 LINE" 
+"482 1362 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"520 1304 OFFCURVE"
+"555 1174 OFFCURVE"
+"646 1056 OFFCURVE"
+"720 1020 CURVE"
+"660 902 LINE" 
+"522 966 OFFCURVE"
+"409 1226 OFFCURVE"
+"411 1362 CURVE"
+"411 1442 LINE" 
+"520 1442 LINE" 
+"520 1362 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"912 1222 OFFCURVE"
+"801 966 OFFCURVE"
+"660 902 CURVE"
+"603 1020 LINE" 
+"676 1056 OFFCURVE"
+"765 1176 OFFCURVE"
+"805 1306 OFFCURVE"
+"805 1362 CURVE"
+"805 1442 LINE" 
+"914 1442 LINE" 
+"914 1362 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"953 1292 OFFCURVE"
+"1017 1148 OFFCURVE"
+"1141 1030 OFFCURVE"
+"1229 996 CURVE"
+"1159 882 LINE" 
+"1052 924 OFFCURVE"
+"908 1076 OFFCURVE"
+"840 1264 OFFCURVE"
+"840 1362 CURVE"
+"840 1442 LINE" 
+"953 1442 LINE" 
+"953 1362 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"739 624 LINE" 
+"583 624 LINE" 
+"583 894 LINE" 
+"739 894 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 296 LINE" 
+"1328 296 LINE" 
+"1328 1634 LINE" 
+"1484 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"395 682 OFFCURVE"
+"985 706 OFFCURVE"
+"1240 740 CURVE"
+"1250 624 LINE" 
+"991 580 OFFCURVE"
+"437 550 OFFCURVE"
+"100 548 CURVE"
+"78 684 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"637 1382 LINE" 
+"145 1382 LINE" 
+"145 1510 LINE" 
+"637 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1173 1382 LINE" 
+"686 1382 LINE" 
+"686 1510 LINE" 
+"1173 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"482 -38 LINE" 
+"328 -38 LINE" 
+"328 396 LINE" 
+"482 396 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1528 -106 LINE" 
+"328 -106 LINE" 
+"328 26 LINE" 
+"1528 26 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1718 898 LINE" 
+"1345 898 LINE" 
+"1345 1030 LINE" 
+"1718 1030 LINE" 
+);
+},
+);
+},
+);
+}

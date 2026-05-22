@@ -1,0 +1,150 @@
+{
+unicode = "BC3F";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1189 744 LINE" 
+"1042 744 LINE" 
+"1042 1598 LINE" 
+"1189 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"318 1310 LINE" 
+"706 1310 LINE" 
+"706 1542 LINE" 
+"858 1542 LINE" 
+"858 788 LINE" 
+"161 788 LINE" 
+"161 1542 LINE" 
+"318 1542 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"706 918 LINE" 
+"706 1186 LINE" 
+"318 1186 LINE" 
+"318 918 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1526 1096 LINE" 
+"1126 1096 LINE" 
+"1126 1228 LINE" 
+"1526 1228 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1579 740 LINE" 
+"1429 740 LINE" 
+"1429 1632 LINE" 
+"1579 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"831 190 LINE" 
+"427 190 LINE" 
+"427 -58 LINE" 
+"278 -58 LINE" 
+"278 304 LINE" 
+"682 304 LINE" 
+"682 474 LINE" 
+"274 474 LINE" 
+"274 596 LINE" 
+"831 596 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"565 -4 OFFCURVE"
+"771 8 OFFCURVE"
+"880 32 CURVE"
+"896 -90 LINE" 
+"783 -112 OFFCURVE"
+"573 -124 OFFCURVE"
+"369 -126 CURVE"
+"278 -126 LINE" 
+"278 -4 LINE" 
+"369 -4 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1636 406 LINE" 
+"896 406 LINE" 
+"896 526 LINE" 
+"1636 526 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1345 336 OFFCURVE"
+"1484 276 OFFCURVE"
+"1561 166 OFFCURVE"
+"1561 92 CURVE"
+"1561 20 OFFCURVE"
+"1484 -88 OFFCURVE"
+"1345 -148 OFFCURVE"
+"1258 -150 CURVE"
+"1173 -148 OFFCURVE"
+"1034 -88 OFFCURVE"
+"955 20 OFFCURVE"
+"955 92 CURVE"
+"955 166 OFFCURVE"
+"1034 276 OFFCURVE"
+"1173 336 OFFCURVE"
+"1258 336 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1209 224 OFFCURVE"
+"1132 192 OFFCURVE"
+"1092 132 OFFCURVE"
+"1092 92 CURVE"
+"1092 54 OFFCURVE"
+"1133 -6 OFFCURVE"
+"1209 -38 OFFCURVE"
+"1258 -38 CURVE"
+"1308 -38 OFFCURVE"
+"1385 -6 OFFCURVE"
+"1429 54 OFFCURVE"
+"1429 92 CURVE"
+"1429 132 OFFCURVE"
+"1385 192 OFFCURVE"
+"1310 224 OFFCURVE"
+"1258 224 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1337 450 LINE" 
+"1185 450 LINE" 
+"1185 686 LINE" 
+"1337 686 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,33 @@
+{
+unicode = "EEB9";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-398 159 LINE" 
+"-195 159 LINE" 
+"-195 -88 LINE" 
+"-195 -257 OFFCURVE"
+"-338 -435 OFFCURVE"
+"-481 -435 CURVE"
+"-505 -435 OFFCURVE"
+"-575 -428 OFFCURVE"
+"-600 -421 CURVE"
+"-600 -259 LINE" 
+"-582 -264 OFFCURVE"
+"-549 -265 OFFCURVE"
+"-535 -265 CURVE"
+"-487 -265 OFFCURVE"
+"-426 -227 OFFCURVE"
+"-398 -148 OFFCURVE"
+"-398 -88 CURVE"
+);
+},
+);
+},
+);
+}

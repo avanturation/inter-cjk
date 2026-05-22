@@ -1,0 +1,164 @@
+{
+unicode = "9266";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1811 1390 LINE" 
+"871 1390 LINE" 
+"871 1526 LINE" 
+"1811 1526 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1431 16 LINE" 
+"1297 16 LINE" 
+"1297 1470 LINE" 
+"1431 1470 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1087 10 LINE" 
+"960 10 LINE" 
+"960 1064 LINE" 
+"1087 1064 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1833 -58 LINE" 
+"784 -58 LINE" 
+"784 80 LINE" 
+"1833 80 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1784 698 LINE" 
+"1366 698 LINE" 
+"1366 830 LINE" 
+"1784 830 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"768 1056 LINE" 
+"223 1056 LINE" 
+"223 1174 LINE" 
+"768 1174 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"825 726 LINE" 
+"124 726 LINE" 
+"124 846 LINE" 
+"825 846 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"291 534 OFFCURVE"
+"334 330 OFFCURVE"
+"338 256 CURVE"
+"235 230 LINE" 
+"233 306 OFFCURVE"
+"194 512 OFFCURVE"
+"166 600 CURVE"
+"261 622 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"261 102 OFFCURVE"
+"550 160 CURVE"
+"651 180 OFFCURVE"
+"750 200 OFFCURVE"
+"847 220 CURVE"
+"855 104 LINE" 
+"812 94 OFFCURVE"
+"770 86 OFFCURVE"
+"726 76 CURVE"
+"419 8 OFFCURVE"
+"130 -52 CURVE"
+"103 76 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"798 578 OFFCURVE"
+"782 514 OFFCURVE"
+"772 480 CURVE"
+"756 420 OFFCURVE"
+"724 294 OFFCURVE"
+"711 258 CURVE"
+"617 284 LINE" 
+"623 304 OFFCURVE"
+"629 324 CURVE"
+"651 400 OFFCURVE"
+"689 574 OFFCURVE"
+"697 638 CURVE"
+"806 610 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"542 84 LINE" 
+"421 66 LINE" 
+"421 1132 LINE" 
+"542 1132 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"489 1620 LINE" 
+"528 1620 LINE" 
+"528 1584 LINE" 
+"459 1448 OFFCURVE"
+"267 1178 OFFCURVE"
+"136 1066 CURVE"
+"122 1088 OFFCURVE"
+"71 1142 OFFCURVE"
+"51 1154 CURVE"
+"174 1256 OFFCURVE"
+"362 1524 OFFCURVE"
+"416 1650 CURVE"
+"489 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"637 1572 OFFCURVE"
+"829 1380 OFFCURVE"
+"881 1308 CURVE"
+"782 1206 LINE" 
+"726 1286 OFFCURVE"
+"546 1488 OFFCURVE"
+"463 1552 CURVE"
+"437 1552 LINE" 
+"437 1650 LINE" 
+"542 1650 LINE" 
+);
+},
+);
+},
+);
+}

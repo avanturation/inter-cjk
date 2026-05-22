@@ -1,0 +1,156 @@
+{
+unicode = "B606";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"478 1390 LINE" 
+"260 1390 LINE" 
+"260 822 LINE" 
+"122 822 LINE" 
+"122 1512 LINE" 
+"478 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"284 856 OFFCURVE"
+"427 868 OFFCURVE"
+"504 888 CURVE"
+"520 762 LINE" 
+"433 738 OFFCURVE"
+"290 726 OFFCURVE"
+"189 726 CURVE"
+"122 726 LINE" 
+"122 856 LINE" 
+"189 856 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1298 662 LINE" 
+"1157 662 LINE" 
+"1157 1598 LINE" 
+"1298 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"953 1390 LINE" 
+"700 1390 LINE" 
+"700 816 LINE" 
+"561 816 LINE" 
+"561 1512 LINE" 
+"953 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"686 858 LINE" 
+"773 860 OFFCURVE"
+"924 876 OFFCURVE"
+"999 894 CURVE"
+"1017 766 LINE" 
+"920 742 OFFCURVE"
+"745 726 OFFCURVE"
+"633 726 CURVE"
+"561 726 LINE" 
+"561 858 LINE" 
+"633 858 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1227 1244 LINE" 
+"916 1244 LINE" 
+"916 1372 LINE" 
+"1227 1372 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1589 654 LINE" 
+"1450 654 LINE" 
+"1450 1632 LINE" 
+"1589 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1227 918 LINE" 
+"916 918 LINE" 
+"916 1048 LINE" 
+"1227 1048 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1385 316 OFFCURVE"
+"1300 86 OFFCURVE"
+"1133 -94 OFFCURVE"
+"1017 -144 CURVE"
+"926 -22 LINE" 
+"1031 22 OFFCURVE"
+"1179 168 OFFCURVE"
+"1254 346 OFFCURVE"
+"1254 436 CURVE"
+"1254 582 LINE" 
+"1385 582 LINE" 
+"1385 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1411 348 OFFCURVE"
+"1486 170 OFFCURVE"
+"1628 22 OFFCURVE"
+"1727 -22 CURVE"
+"1642 -148 LINE" 
+"1528 -96 OFFCURVE"
+"1365 88 OFFCURVE"
+"1284 316 OFFCURVE"
+"1284 436 CURVE"
+"1284 582 LINE" 
+"1411 582 LINE" 
+"1411 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"450 358 LINE" 
+"781 358 LINE" 
+"781 574 LINE" 
+"930 574 LINE" 
+"930 -130 LINE" 
+"304 -130 LINE" 
+"304 574 LINE" 
+"450 574 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"781 -2 LINE" 
+"781 234 LINE" 
+"450 234 LINE" 
+"450 -2 LINE" 
+);
+},
+);
+},
+);
+}

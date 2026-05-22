@@ -1,0 +1,18 @@
+{
+unicode = "1FB0";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1360;
+components = (
+{
+name = "alpha";
+},
+{
+name = "uni0306";
+pos = (225,0);
+},
+);
+},
+);
+}

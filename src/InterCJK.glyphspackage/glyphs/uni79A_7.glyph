@@ -1,0 +1,168 @@
+{
+unicode = "79A7";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"760 1014 LINE" 
+"105 1014 LINE" 
+"105 1138 LINE" 
+"760 1138 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"720 1400 LINE" 
+"158 1400 LINE" 
+"158 1524 LINE" 
+"720 1524 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"734 170 LINE" 
+"635 170 LINE" 
+"635 876 LINE" 
+"734 876 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"499 -112 LINE" 
+"382 -112 LINE" 
+"382 1084 LINE" 
+"499 1084 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"247 462 OFFCURVE"
+"216 164 OFFCURVE"
+"166 42 CURVE"
+"154 60 OFFCURVE"
+"103 98 OFFCURVE"
+"79 108 CURVE"
+"120 218 OFFCURVE"
+"148 488 OFFCURVE"
+"148 646 CURVE"
+"148 874 LINE" 
+"247 874 LINE" 
+"247 644 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1800 1408 LINE" 
+"778 1408 LINE" 
+"778 1512 LINE" 
+"1800 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1758 1172 LINE" 
+"829 1172 LINE" 
+"829 1276 LINE" 
+"1758 1276 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1835 430 LINE" 
+"758 430 LINE" 
+"758 542 LINE" 
+"1835 542 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1685 -58 LINE" 
+"914 -58 LINE" 
+"914 48 LINE" 
+"1685 48 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1348 1212 LINE" 
+"1213 1212 LINE" 
+"1213 1650 LINE" 
+"1348 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1590 818 LINE" 
+"1590 980 LINE" 
+"992 980 LINE" 
+"992 818 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1716 718 LINE" 
+"871 718 LINE" 
+"871 1078 LINE" 
+"1716 1078 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1742 -106 LINE" 
+"1613 -106 LINE" 
+"1613 232 LINE" 
+"982 232 LINE" 
+"982 -112 LINE" 
+"857 -112 LINE" 
+"857 332 LINE" 
+"1742 332 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1101 676 OFFCURVE"
+"1142 578 OFFCURVE"
+"1150 546 CURVE"
+"1039 510 LINE" 
+"1029 552 OFFCURVE"
+"990 654 OFFCURVE"
+"968 696 CURVE"
+"1077 724 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1619 680 OFFCURVE"
+"1594 636 OFFCURVE"
+"1582 614 CURVE"
+"1552 562 OFFCURVE"
+"1522 510 CURVE"
+"1419 542 LINE" 
+"1445 592 OFFCURVE"
+"1495 698 OFFCURVE"
+"1506 736 CURVE"
+"1631 700 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,153 @@
+{
+unicode = "CBED";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1684 722 LINE" 
+"80 722 LINE" 
+"80 850 LINE" 
+"1684 850 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"860 1450 LINE" 
+"197 1450 LINE" 
+"197 1580 LINE" 
+"860 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1593 1450 LINE" 
+"930 1450 LINE" 
+"930 1580 LINE" 
+"1593 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"595 1322 OFFCURVE"
+"508 1136 OFFCURVE"
+"338 992 OFFCURVE"
+"217 956 CURVE"
+"145 1068 LINE" 
+"248 1096 OFFCURVE"
+"397 1208 OFFCURVE"
+"476 1350 OFFCURVE"
+"476 1422 CURVE"
+"476 1518 LINE" 
+"595 1518 LINE" 
+"595 1422 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"633 1350 OFFCURVE"
+"708 1206 OFFCURVE"
+"850 1090 OFFCURVE"
+"947 1058 CURVE"
+"896 938 LINE" 
+"773 976 OFFCURVE"
+"603 1128 OFFCURVE"
+"518 1322 OFFCURVE"
+"518 1422 CURVE"
+"518 1518 LINE" 
+"633 1518 LINE" 
+"633 1422 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1272 1322 OFFCURVE"
+"1187 1128 OFFCURVE"
+"1017 976 OFFCURVE"
+"896 938 CURVE"
+"840 1058 LINE" 
+"939 1090 OFFCURVE"
+"1082 1206 OFFCURVE"
+"1159 1350 OFFCURVE"
+"1159 1422 CURVE"
+"1159 1518 LINE" 
+"1272 1518 LINE" 
+"1272 1422 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1314 1350 OFFCURVE"
+"1391 1208 OFFCURVE"
+"1541 1096 OFFCURVE"
+"1642 1068 CURVE"
+"1573 952 LINE" 
+"1452 990 OFFCURVE"
+"1282 1134 OFFCURVE"
+"1195 1322 OFFCURVE"
+"1195 1422 CURVE"
+"1195 1518 LINE" 
+"1314 1518 LINE" 
+"1314 1422 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"860 1450 LINE" 
+"197 1450 LINE" 
+"197 1580 LINE" 
+"860 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1593 1450 LINE" 
+"930 1450 LINE" 
+"930 1580 LINE" 
+"1593 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1504 444 LINE" 
+"439 444 LINE" 
+"439 -68 LINE" 
+"280 -68 LINE" 
+"280 564 LINE" 
+"1504 564 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1464 166 LINE" 
+"351 166 LINE" 
+"351 278 LINE" 
+"1464 278 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1522 -128 LINE" 
+"280 -128 LINE" 
+"280 -6 LINE" 
+"1522 -6 LINE" 
+);
+},
+);
+},
+);
+}

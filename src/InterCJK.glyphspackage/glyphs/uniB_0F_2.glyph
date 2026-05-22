@@ -1,0 +1,155 @@
+{
+unicode = "B0F2";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"322 804 LINE" 
+"165 804 LINE" 
+"165 1518 LINE" 
+"322 1518 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"462 894 OFFCURVE"
+"751 920 OFFCURVE"
+"902 956 CURVE"
+"916 818 LINE" 
+"765 786 OFFCURVE"
+"472 762 OFFCURVE"
+"276 760 CURVE"
+"165 760 LINE" 
+"165 894 LINE" 
+"276 894 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1189 682 LINE" 
+"1038 682 LINE" 
+"1038 1598 LINE" 
+"1189 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1579 674 LINE" 
+"1430 674 LINE" 
+"1430 1632 LINE" 
+"1579 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1516 1256 LINE" 
+"1135 1256 LINE" 
+"1135 1386 LINE" 
+"1516 1386 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1518 882 LINE" 
+"1137 882 LINE" 
+"1137 1010 LINE" 
+"1518 1010 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"470 30 OFFCURVE"
+"704 60 OFFCURVE"
+"809 96 CURVE"
+"838 -34 LINE" 
+"718 -72 OFFCURVE"
+"474 -102 OFFCURVE"
+"357 -102 CURVE"
+"272 -102 LINE" 
+"272 28 LINE" 
+"357 28 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"427 -20 LINE" 
+"272 -20 LINE" 
+"272 502 LINE" 
+"427 502 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1644 328 LINE" 
+"761 328 LINE" 
+"761 446 LINE" 
+"1644 446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1302 266 OFFCURVE"
+"1450 216 OFFCURVE"
+"1535 124 OFFCURVE"
+"1535 60 CURVE"
+"1535 -2 OFFCURVE"
+"1450 -94 OFFCURVE"
+"1302 -144 OFFCURVE"
+"1207 -146 CURVE"
+"1112 -144 OFFCURVE"
+"961 -94 OFFCURVE"
+"878 -2 OFFCURVE"
+"878 60 CURVE"
+"878 124 OFFCURVE"
+"961 216 OFFCURVE"
+"1112 266 OFFCURVE"
+"1207 266 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1151 160 OFFCURVE"
+"1064 136 OFFCURVE"
+"1017 92 OFFCURVE"
+"1017 60 CURVE"
+"1017 30 OFFCURVE"
+"1064 -14 OFFCURVE"
+"1151 -38 OFFCURVE"
+"1207 -38 CURVE"
+"1262 -38 OFFCURVE"
+"1347 -14 OFFCURVE"
+"1395 30 OFFCURVE"
+"1395 60 CURVE"
+"1395 92 OFFCURVE"
+"1347 136 OFFCURVE"
+"1262 160 OFFCURVE"
+"1207 160 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1286 374 LINE" 
+"1135 374 LINE" 
+"1135 606 LINE" 
+"1286 606 LINE" 
+);
+},
+);
+},
+);
+}

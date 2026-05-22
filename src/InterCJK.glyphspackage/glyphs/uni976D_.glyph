@@ -1,0 +1,153 @@
+{
+unicode = "976D";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1699 1386 LINE" 
+"986 1386 LINE" 
+"986 1520 LINE" 
+"1699 1520 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1786 1440 LINE" 
+"1774 882 OFFCURVE"
+"1752 312 OFFCURVE"
+"1716 22 OFFCURVE"
+"1683 -26 CURVE"
+"1657 -68 OFFCURVE"
+"1598 -102 OFFCURVE"
+"1548 -108 CURVE"
+"1510 -112 OFFCURVE"
+"1390 -110 OFFCURVE"
+"1314 -108 CURVE"
+"1312 -76 OFFCURVE"
+"1291 2 OFFCURVE"
+"1277 28 CURVE"
+"1384 24 OFFCURVE"
+"1419 24 CURVE"
+"1451 22 OFFCURVE"
+"1493 22 CURVE"
+"1516 22 OFFCURVE"
+"1546 38 OFFCURVE"
+"1560 58 CURVE"
+"1588 96 OFFCURVE"
+"1621 382 OFFCURVE"
+"1645 972 OFFCURVE"
+"1653 1482 CURVE"
+"1653 1520 LINE" 
+"1786 1520 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1348 1108 OFFCURVE"
+"1289 564 OFFCURVE"
+"1091 48 OFFCURVE"
+"895 -116 CURVE"
+"881 -94 OFFCURVE"
+"821 -42 OFFCURVE"
+"794 -24 CURVE"
+"980 128 OFFCURVE"
+"1164 616 OFFCURVE"
+"1215 1118 OFFCURVE"
+"1221 1464 CURVE"
+"1354 1464 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1192 966 OFFCURVE"
+"1501 702 OFFCURVE"
+"1578 600 CURVE"
+"1497 486 LINE" 
+"1421 590 OFFCURVE"
+"1118 860 OFFCURVE"
+"958 972 CURVE"
+"1031 1070 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"962 1354 LINE" 
+"97 1354 LINE" 
+"97 1470 LINE" 
+"962 1470 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"974 238 LINE" 
+"87 238 LINE" 
+"87 358 LINE" 
+"974 358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"600 916 LINE" 
+"471 916 LINE" 
+"471 1150 LINE" 
+"600 1150 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"590 554 LINE" 
+"600 554 LINE" 
+"600 -114 LINE" 
+"471 -114 LINE" 
+"471 554 LINE" 
+"481 554 LINE" 
+"481 908 LINE" 
+"590 908 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"390 1202 LINE" 
+"679 1202 LINE" 
+"679 1650 LINE" 
+"808 1650 LINE" 
+"808 1090 LINE" 
+"267 1090 LINE" 
+"267 1650 LINE" 
+"390 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"796 608 LINE" 
+"796 848 LINE" 
+"287 848 LINE" 
+"287 608 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"914 498 LINE" 
+"170 498 LINE" 
+"170 960 LINE" 
+"914 960 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,159 @@
+{
+unicode = "9811";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"796 1424 LINE" 
+"166 1424 LINE" 
+"166 1554 LINE" 
+"796 1554 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"853 964 LINE" 
+"111 964 LINE" 
+"111 1092 LINE" 
+"853 1092 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"685 254 LINE" 
+"562 254 LINE" 
+"562 1006 LINE" 
+"685 1006 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"532 262 OFFCURVE"
+"705 326 OFFCURVE"
+"871 388 CURVE"
+"893 282 LINE" 
+"796 238 OFFCURVE"
+"594 152 OFFCURVE"
+"513 120 CURVE"
+"461 240 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1821 1438 LINE" 
+"857 1438 LINE" 
+"857 1558 LINE" 
+"1821 1558 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1627 656 LINE" 
+"1627 850 LINE" 
+"1061 850 LINE" 
+"1061 656 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1627 358 LINE" 
+"1627 554 LINE" 
+"1061 554 LINE" 
+"1061 358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1627 954 LINE" 
+"1627 1144 LINE" 
+"1061 1144 LINE" 
+"1061 954 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1758 250 LINE" 
+"934 250 LINE" 
+"934 1252 LINE" 
+"1758 1252 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1407 1420 OFFCURVE"
+"1398 1388 CURVE"
+"1380 1322 OFFCURVE"
+"1330 1166 CURVE"
+"1208 1192 LINE" 
+"1225 1262 OFFCURVE"
+"1261 1436 OFFCURVE"
+"1269 1500 CURVE"
+"1423 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1166 68 OFFCURVE"
+"924 -76 OFFCURVE"
+"806 -120 CURVE"
+"800 -114 OFFCURVE"
+"794 -108 CURVE"
+"778 -88 OFFCURVE"
+"732 -42 OFFCURVE"
+"714 -28 CURVE"
+"831 16 OFFCURVE"
+"1061 150 OFFCURVE"
+"1120 212 CURVE"
+"1241 142 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1611 154 OFFCURVE"
+"1807 14 OFFCURVE"
+"1863 -40 CURVE"
+"1752 -118 LINE" 
+"1702 -66 OFFCURVE"
+"1508 80 OFFCURVE"
+"1417 134 CURVE"
+"1520 206 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"384 554 OFFCURVE"
+"293 150 OFFCURVE"
+"160 -8 CURVE"
+"152 0 OFFCURVE"
+"146 4 CURVE"
+"128 22 OFFCURVE"
+"81 62 OFFCURVE"
+"63 74 CURVE"
+"182 218 OFFCURVE"
+"259 576 OFFCURVE"
+"259 778 CURVE"
+"259 1006 LINE" 
+"384 1006 LINE" 
+"384 778 LINE" 
+);
+},
+);
+},
+);
+}

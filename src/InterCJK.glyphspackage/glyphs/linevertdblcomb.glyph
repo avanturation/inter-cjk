@@ -1,0 +1,19 @@
+{
+unicode = "EEBD";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+components = (
+{
+name = "linevert";
+pos = (-840,0);
+},
+{
+name = "linevert";
+pos = (-592,0);
+},
+);
+},
+);
+}

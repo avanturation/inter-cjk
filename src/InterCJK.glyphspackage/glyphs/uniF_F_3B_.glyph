@@ -1,0 +1,24 @@
+{
+unicode = "FF3B";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1386 1700 LINE" 
+"1805 1700 LINE" 
+"1805 1558 LINE" 
+"1546 1558 LINE" 
+"1546 -74 LINE" 
+"1805 -74 LINE" 
+"1805 -218 LINE" 
+"1386 -218 LINE" 
+);
+},
+);
+},
+);
+}

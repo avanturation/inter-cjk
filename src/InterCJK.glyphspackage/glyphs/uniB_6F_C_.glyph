@@ -1,0 +1,152 @@
+{
+unicode = "B6FC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1331 310 OFFCURVE"
+"1254 84 OFFCURVE"
+"1098 -90 OFFCURVE"
+"985 -140 CURVE"
+"896 -24 LINE" 
+"999 18 OFFCURVE"
+"1139 158 OFFCURVE"
+"1211 338 OFFCURVE"
+"1211 436 CURVE"
+"1211 594 LINE" 
+"1331 594 LINE" 
+"1331 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1365 340 OFFCURVE"
+"1432 162 OFFCURVE"
+"1567 22 OFFCURVE"
+"1666 -18 CURVE"
+"1579 -134 LINE" 
+"1468 -84 OFFCURVE"
+"1320 88 OFFCURVE"
+"1244 312 OFFCURVE"
+"1244 436 CURVE"
+"1244 594 LINE" 
+"1365 594 LINE" 
+"1365 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"858 166 LINE" 
+"439 166 LINE" 
+"439 -90 LINE" 
+"288 -90 LINE" 
+"288 266 LINE" 
+"706 266 LINE" 
+"706 436 LINE" 
+"284 436 LINE" 
+"284 556 LINE" 
+"858 556 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"569 -20 OFFCURVE"
+"783 -8 OFFCURVE"
+"896 14 CURVE"
+"910 -106 LINE" 
+"793 -128 OFFCURVE"
+"575 -140 OFFCURVE"
+"379 -140 CURVE"
+"288 -140 LINE" 
+"288 -18 LINE" 
+"379 -18 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1199 1028 LINE" 
+"712 1028 LINE" 
+"712 1156 LINE" 
+"1199 1156 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1177 1406 LINE" 
+"860 1406 LINE" 
+"860 1092 LINE" 
+"712 1092 LINE" 
+"712 1532 LINE" 
+"1177 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"621 1406 LINE" 
+"322 1406 LINE" 
+"322 1088 LINE" 
+"173 1088 LINE" 
+"173 1532 LINE" 
+"621 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"369 1148 OFFCURVE"
+"545 1162 OFFCURVE"
+"646 1184 CURVE"
+"660 1060 LINE" 
+"551 1036 OFFCURVE"
+"365 1022 OFFCURVE"
+"250 1022 CURVE"
+"173 1022 LINE" 
+"173 1146 LINE" 
+"250 1146 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"737 500 LINE" 
+"581 500 LINE" 
+"581 832 LINE" 
+"737 832 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1528 672 LINE" 
+"1373 672 LINE" 
+"1373 1634 LINE" 
+"1528 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"444 886 OFFCURVE"
+"995 898 OFFCURVE"
+"1258 920 CURVE"
+"1268 806 LINE" 
+"997 772 OFFCURVE"
+"419 750 OFFCURVE"
+"86 750 CURVE"
+"64 886 LINE" 
+);
+},
+);
+},
+);
+}

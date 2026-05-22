@@ -1,0 +1,128 @@
+{
+unicode = "CE6A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1535 638 LINE" 
+"1379 638 LINE" 
+"1379 1632 LINE" 
+"1535 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1369 298 OFFCURVE"
+"1284 74 OFFCURVE"
+"1120 -102 OFFCURVE"
+"1003 -152 CURVE"
+"916 -28 LINE" 
+"1019 12 OFFCURVE"
+"1165 154 OFFCURVE"
+"1244 328 OFFCURVE"
+"1244 416 CURVE"
+"1244 558 LINE" 
+"1369 558 LINE" 
+"1369 416 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1395 340 OFFCURVE"
+"1470 166 OFFCURVE"
+"1613 22 OFFCURVE"
+"1710 -22 CURVE"
+"1630 -148 LINE" 
+"1516 -98 OFFCURVE"
+"1353 84 OFFCURVE"
+"1272 308 OFFCURVE"
+"1272 424 CURVE"
+"1272 558 LINE" 
+"1395 558 LINE" 
+"1395 424 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"440 340 LINE" 
+"779 340 LINE" 
+"779 550 LINE" 
+"922 550 LINE" 
+"922 -130 LINE" 
+"296 -130 LINE" 
+"296 550 LINE" 
+"440 550 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"779 -8 LINE" 
+"779 222 LINE" 
+"440 222 LINE" 
+"440 -8 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"694 1150 OFFCURVE"
+"565 888 OFFCURVE"
+"338 696 OFFCURVE"
+"189 648 CURVE"
+"112 772 LINE" 
+"244 814 OFFCURVE"
+"450 972 OFFCURVE"
+"565 1184 OFFCURVE"
+"565 1300 CURVE"
+"565 1374 LINE" 
+"694 1374 LINE" 
+"694 1300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"720 1192 OFFCURVE"
+"838 994 OFFCURVE"
+"1046 846 OFFCURVE"
+"1177 808 CURVE"
+"1106 684 LINE" 
+"955 730 OFFCURVE"
+"722 910 OFFCURVE"
+"593 1158 OFFCURVE"
+"593 1300 CURVE"
+"593 1374 LINE" 
+"720 1374 LINE" 
+"720 1300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1124 1310 LINE" 
+"159 1310 LINE" 
+"159 1436 LINE" 
+"1124 1436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"722 1386 LINE" 
+"565 1386 LINE" 
+"565 1646 LINE" 
+"722 1646 LINE" 
+);
+},
+);
+},
+);
+}

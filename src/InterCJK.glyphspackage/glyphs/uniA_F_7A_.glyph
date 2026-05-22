@@ -1,0 +1,153 @@
+{
+unicode = "AF7A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"638 706 LINE" 
+"504 706 LINE" 
+"504 1120 LINE" 
+"638 1120 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"318 772 OFFCURVE"
+"817 792 OFFCURVE"
+"1015 822 CURVE"
+"1025 706 LINE" 
+"823 668 OFFCURVE"
+"347 644 OFFCURVE"
+"86 644 CURVE"
+"68 774 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1500 1026 LINE" 
+"1193 1026 LINE" 
+"1193 1158 LINE" 
+"1500 1158 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1244 584 LINE" 
+"1098 584 LINE" 
+"1098 1598 LINE" 
+"1244 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"385 1388 LINE" 
+"110 1388 LINE" 
+"110 1520 LINE" 
+"385 1520 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"464 1384 OFFCURVE"
+"458 1242 OFFCURVE"
+"427 1038 OFFCURVE"
+"395 924 CURVE"
+"264 956 LINE" 
+"296 1070 OFFCURVE"
+"326 1260 OFFCURVE"
+"332 1390 OFFCURVE"
+"332 1460 CURVE"
+"332 1520 LINE" 
+"464 1520 LINE" 
+"464 1460 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"872 1388 LINE" 
+"559 1388 LINE" 
+"559 1520 LINE" 
+"872 1520 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"957 1296 OFFCURVE"
+"945 1070 OFFCURVE"
+"920 928 CURVE"
+"785 940 LINE" 
+"811 1082 OFFCURVE"
+"825 1300 OFFCURVE"
+"825 1424 CURVE"
+"825 1520 LINE" 
+"957 1520 LINE" 
+"957 1424 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1601 340 LINE" 
+"395 340 LINE" 
+"395 466 LINE" 
+"1601 466 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1048 240 OFFCURVE"
+"860 28 OFFCURVE"
+"543 -112 OFFCURVE"
+"355 -136 CURVE"
+"304 -16 LINE" 
+"462 2 OFFCURVE"
+"741 116 OFFCURVE"
+"912 280 OFFCURVE"
+"912 368 CURVE"
+"912 432 LINE" 
+"1048 432 LINE" 
+"1048 368 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1072 276 OFFCURVE"
+"1240 112 OFFCURVE"
+"1522 2 OFFCURVE"
+"1684 -16 CURVE"
+"1632 -136 LINE" 
+"1444 -114 OFFCURVE"
+"1126 22 OFFCURVE"
+"935 236 OFFCURVE"
+"935 368 CURVE"
+"935 432 LINE" 
+"1072 432 LINE" 
+"1072 368 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1585 572 LINE" 
+"1436 572 LINE" 
+"1436 1632 LINE" 
+"1585 1632 LINE" 
+);
+},
+);
+},
+);
+}

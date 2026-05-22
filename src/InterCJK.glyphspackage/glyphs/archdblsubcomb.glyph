@@ -1,0 +1,53 @@
+{
+unicode = "EEAA";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-986 -114 LINE" 
+"-889 -114 LINE" 
+"-889 -169 OFFCURVE"
+"-818 -237 OFFCURVE"
+"-767 -237 CURVE"
+"-700 -237 OFFCURVE"
+"-638 -169 OFFCURVE"
+"-638 -114 CURVE"
+"-540 -114 LINE" 
+"-539 -184 OFFCURVE"
+"-592 -292 OFFCURVE"
+"-694 -353 OFFCURVE"
+"-767 -353 CURVE"
+"-830 -353 OFFCURVE"
+"-929 -291 OFFCURVE"
+"-986 -183 OFFCURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-638 -114 LINE" 
+"-540 -114 LINE" 
+"-539 -168 OFFCURVE"
+"-477 -237 OFFCURVE"
+"-409 -237 CURVE"
+"-359 -237 OFFCURVE"
+"-287 -169 OFFCURVE"
+"-287 -114 CURVE"
+"-190 -114 LINE" 
+"-190 -183 OFFCURVE"
+"-246 -291 OFFCURVE"
+"-345 -353 OFFCURVE"
+"-409 -353 CURVE"
+"-483 -353 OFFCURVE"
+"-585 -291 OFFCURVE"
+"-637 -183 OFFCURVE"
+);
+},
+);
+},
+);
+}

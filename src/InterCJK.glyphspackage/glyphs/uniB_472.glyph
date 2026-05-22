@@ -1,0 +1,155 @@
+{
+unicode = "B472";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1068 1076 LINE" 
+"219 1076 LINE" 
+"219 1198 LINE" 
+"1068 1198 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"704 534 LINE" 
+"547 534 LINE" 
+"547 866 LINE" 
+"704 866 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1064 1450 LINE" 
+"377 1450 LINE" 
+"377 1112 LINE" 
+"219 1112 LINE" 
+"219 1570 LINE" 
+"1064 1570 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1528 532 LINE" 
+"1371 532 LINE" 
+"1371 1632 LINE" 
+"1528 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1456 632 LINE" 
+"997 632 LINE" 
+"997 740 LINE" 
+"1456 740 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"415 928 OFFCURVE"
+"961 944 OFFCURVE"
+"1207 968 CURVE"
+"1221 852 LINE" 
+"991 822 OFFCURVE"
+"474 798 OFFCURVE"
+"189 796 CURVE"
+"88 796 LINE" 
+"64 926 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 12 OFFCURVE"
+"694 42 OFFCURVE"
+"803 80 CURVE"
+"829 -52 LINE" 
+"708 -90 OFFCURVE"
+"466 -120 OFFCURVE"
+"345 -120 CURVE"
+"258 -120 LINE" 
+"258 12 LINE" 
+"345 12 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"411 -76 LINE" 
+"258 -76 LINE" 
+"258 438 LINE" 
+"411 438 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1630 292 LINE" 
+"761 292 LINE" 
+"761 412 LINE" 
+"1630 412 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1290 228 OFFCURVE"
+"1438 180 OFFCURVE"
+"1522 90 OFFCURVE"
+"1522 30 CURVE"
+"1522 -30 OFFCURVE"
+"1438 -120 OFFCURVE"
+"1290 -168 OFFCURVE"
+"1195 -168 CURVE"
+"1100 -168 OFFCURVE"
+"951 -120 OFFCURVE"
+"866 -30 OFFCURVE"
+"866 30 CURVE"
+"866 90 OFFCURVE"
+"951 180 OFFCURVE"
+"1100 228 OFFCURVE"
+"1195 228 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1139 126 OFFCURVE"
+"1052 102 OFFCURVE"
+"1005 60 OFFCURVE"
+"1005 30 CURVE"
+"1005 0 OFFCURVE"
+"1052 -42 OFFCURVE"
+"1139 -66 OFFCURVE"
+"1195 -66 CURVE"
+"1280 -66 OFFCURVE"
+"1385 -14 OFFCURVE"
+"1385 30 CURVE"
+"1385 60 OFFCURVE"
+"1335 102 OFFCURVE"
+"1250 126 OFFCURVE"
+"1195 124 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1272 332 LINE" 
+"1122 332 LINE" 
+"1122 556 LINE" 
+"1272 556 LINE" 
+);
+},
+);
+},
+);
+}

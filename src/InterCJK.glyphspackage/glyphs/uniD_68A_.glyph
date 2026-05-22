@@ -1,0 +1,156 @@
+{
+unicode = "D68A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"613 610 LINE" 
+"466 610 LINE" 
+"466 840 LINE" 
+"613 840 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"328 680 OFFCURVE"
+"807 698 OFFCURVE"
+"995 722 CURVE"
+"1005 612 LINE" 
+"813 580 OFFCURVE"
+"341 554 OFFCURVE"
+"92 552 CURVE"
+"74 680 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1581 480 LINE" 
+"1432 480 LINE" 
+"1432 1634 LINE" 
+"1581 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1480 984 LINE" 
+"1171 984 LINE" 
+"1171 1116 LINE" 
+"1480 1116 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1223 496 LINE" 
+"1076 496 LINE" 
+"1076 1600 LINE" 
+"1223 1600 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"967 1340 LINE" 
+"110 1340 LINE" 
+"110 1460 LINE" 
+"967 1460 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"646 1280 OFFCURVE"
+"813 1222 OFFCURVE"
+"906 1114 OFFCURVE"
+"906 1040 CURVE"
+"906 968 OFFCURVE"
+"813 860 OFFCURVE"
+"646 802 OFFCURVE"
+"539 802 CURVE"
+"433 802 OFFCURVE"
+"268 860 OFFCURVE"
+"177 968 OFFCURVE"
+"177 1040 CURVE"
+"177 1114 OFFCURVE"
+"268 1222 OFFCURVE"
+"433 1280 OFFCURVE"
+"539 1278 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"474 1172 OFFCURVE"
+"373 1140 OFFCURVE"
+"318 1080 OFFCURVE"
+"318 1040 CURVE"
+"318 1000 OFFCURVE"
+"373 940 OFFCURVE"
+"474 906 OFFCURVE"
+"539 906 CURVE"
+"607 906 OFFCURVE"
+"708 940 OFFCURVE"
+"761 1000 OFFCURVE"
+"761 1040 CURVE"
+"761 1080 OFFCURVE"
+"708 1140 OFFCURVE"
+"607 1172 OFFCURVE"
+"539 1170 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"613 1400 LINE" 
+"466 1400 LINE" 
+"466 1620 LINE" 
+"613 1620 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1613 264 LINE" 
+"347 264 LINE" 
+"347 388 LINE" 
+"1613 388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1627 -114 LINE" 
+"334 -114 LINE" 
+"334 6 LINE" 
+"1627 6 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"783 -96 LINE" 
+"629 -96 LINE" 
+"629 354 LINE" 
+"783 354 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1333 -92 LINE" 
+"1177 -92 LINE" 
+"1177 354 LINE" 
+"1333 354 LINE" 
+);
+},
+);
+},
+);
+}

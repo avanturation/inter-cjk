@@ -1,0 +1,150 @@
+{
+unicode = "91C9";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1770 -100 LINE" 
+"1643 -100 LINE" 
+"1643 1118 LINE" 
+"1025 1118 LINE" 
+"1025 -112 LINE" 
+"901 -112 LINE" 
+"901 1242 LINE" 
+"1770 1242 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1702 574 LINE" 
+"960 574 LINE" 
+"960 698 LINE" 
+"1702 698 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1706 -6 LINE" 
+"960 -6 LINE" 
+"960 120 LINE" 
+"1706 120 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1406 1182 LINE" 
+"1396 1182 LINE" 
+"1396 46 LINE" 
+"1273 46 LINE" 
+"1273 1182 LINE" 
+"1263 1182 LINE" 
+"1263 1650 LINE" 
+"1406 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"835 820 LINE" 
+"89 820 LINE" 
+"89 944 LINE" 
+"835 944 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"536 -114 LINE" 
+"408 -114 LINE" 
+"408 1504 LINE" 
+"536 1540 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"669 1500 OFFCURVE"
+"316 1436 OFFCURVE"
+"144 1420 CURVE"
+"138 1456 OFFCURVE"
+"107 1522 CURVE"
+"283 1542 OFFCURVE"
+"614 1608 OFFCURVE"
+"712 1648 CURVE"
+"786 1544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"269 1284 OFFCURVE"
+"320 1100 OFFCURVE"
+"328 1034 CURVE"
+"225 1000 LINE" 
+"219 1066 OFFCURVE"
+"170 1256 OFFCURVE"
+"140 1338 CURVE"
+"237 1368 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"435 658 OFFCURVE"
+"239 230 OFFCURVE"
+"142 108 CURVE"
+"134 130 OFFCURVE"
+"99 190 OFFCURVE"
+"83 216 CURVE"
+"81 220 OFFCURVE"
+"79 224 OFFCURVE"
+"75 228 CURVE"
+"134 302 OFFCURVE"
+"265 530 OFFCURVE"
+"376 782 OFFCURVE"
+"406 892 CURVE"
+"493 856 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"552 796 OFFCURVE"
+"659 662 OFFCURVE"
+"712 596 CURVE"
+"764 532 OFFCURVE"
+"815 466 CURVE"
+"734 370 LINE" 
+"691 440 OFFCURVE"
+"503 704 OFFCURVE"
+"457 758 CURVE"
+"530 816 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"804 1326 OFFCURVE"
+"780 1256 OFFCURVE"
+"766 1222 CURVE"
+"744 1160 OFFCURVE"
+"699 1032 OFFCURVE"
+"681 994 CURVE"
+"596 1030 LINE" 
+"623 1104 OFFCURVE"
+"685 1320 OFFCURVE"
+"701 1402 CURVE"
+"815 1358 LINE" 
+);
+},
+);
+},
+);
+}

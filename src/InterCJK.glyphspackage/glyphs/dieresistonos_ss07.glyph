@@ -1,0 +1,38 @@
+{
+unicode = "E2BB";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1366;
+paths = (
+{
+closed = 1;
+nodes = (
+"297 1294 LINE" 
+"297 1490 LINE" 
+"493 1490 LINE" 
+"493 1294 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"873 1294 LINE" 
+"873 1490 LINE" 
+"1069 1490 LINE" 
+"1069 1294 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"614 1489 LINE" 
+"648 1783 LINE" 
+"841 1783 LINE" 
+"739 1489 LINE" 
+);
+},
+);
+},
+);
+}

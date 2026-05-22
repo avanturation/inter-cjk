@@ -1,0 +1,23 @@
+{
+unicode = "215E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1681;
+components = (
+{
+name = "seven.dnom";
+pos = (0,678);
+},
+{
+name = "fraction";
+pos = (515,0);
+},
+{
+name = "eight.dnom";
+pos = (908,0);
+},
+);
+},
+);
+}

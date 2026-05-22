@@ -1,0 +1,18 @@
+{
+unicode = "020B";
+layers = (
+{
+layerId = "master-text-regular";
+width = 496;
+components = (
+{
+name = "dotlessi";
+},
+{
+name = "breveinvcomb";
+pos = (-171,0);
+},
+);
+},
+);
+}

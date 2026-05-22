@@ -1,0 +1,163 @@
+{
+unicode = "7482";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"659 1366 LINE" 
+"91 1366 LINE" 
+"91 1492 LINE" 
+"659 1492 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"637 828 LINE" 
+"117 828 LINE" 
+"117 950 LINE" 
+"637 950 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"275 342 OFFCURVE"
+"641 492 CURVE"
+"665 368 LINE" 
+"423 268 OFFCURVE"
+"184 174 CURVE"
+"166 166 OFFCURVE"
+"128 152 OFFCURVE"
+"111 144 CURVE"
+"71 272 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"433 322 LINE" 
+"315 294 LINE" 
+"315 1440 LINE" 
+"433 1440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1782 1326 LINE" 
+"718 1326 LINE" 
+"718 1446 LINE" 
+"1782 1446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1796 -62 LINE" 
+"669 -62 LINE" 
+"669 50 LINE" 
+"1796 50 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1538 1092 LINE" 
+"932 1092 LINE" 
+"932 1194 LINE" 
+"1538 1194 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1538 860 LINE" 
+"932 860 LINE" 
+"932 962 LINE" 
+"1538 962 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1829 612 LINE" 
+"671 612 LINE" 
+"671 728 LINE" 
+"1829 728 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1558 256 LINE" 
+"897 256 LINE" 
+"897 372 LINE" 
+"1558 372 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1000 660 LINE" 
+"879 660 LINE" 
+"879 1650 LINE" 
+"1000 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1586 660 LINE" 
+"1465 660 LINE" 
+"1465 1650 LINE" 
+"1586 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1293 -6 LINE" 
+"1172 -6 LINE" 
+"1172 548 LINE" 
+"1293 548 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"992 506 OFFCURVE"
+"782 274 OFFCURVE"
+"667 212 CURVE"
+"655 236 OFFCURVE"
+"612 304 OFFCURVE"
+"594 324 CURVE"
+"703 376 OFFCURVE"
+"903 574 OFFCURVE"
+"956 686 CURVE"
+"1051 640 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1528 568 OFFCURVE"
+"1732 376 OFFCURVE"
+"1845 326 CURVE"
+"1827 308 OFFCURVE"
+"1782 244 OFFCURVE"
+"1770 216 CURVE"
+"1657 278 OFFCURVE"
+"1447 506 OFFCURVE"
+"1384 634 CURVE"
+"1473 678 LINE" 
+);
+},
+);
+},
+);
+}

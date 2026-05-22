@@ -1,0 +1,150 @@
+{
+unicode = "C615";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1264 692 LINE" 
+"1116 692 LINE" 
+"1116 1602 LINE" 
+"1264 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1205 1286 LINE" 
+"793 1286 LINE" 
+"793 1412 LINE" 
+"1205 1412 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1575 680 LINE" 
+"1429 680 LINE" 
+"1429 1632 LINE" 
+"1575 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"619 1548 OFFCURVE"
+"803 1450 OFFCURVE"
+"906 1272 OFFCURVE"
+"906 1156 CURVE"
+"906 1042 OFFCURVE"
+"803 864 OFFCURVE"
+"619 764 OFFCURVE"
+"500 764 CURVE"
+"383 764 OFFCURVE"
+"199 864 OFFCURVE"
+"94 1042 OFFCURVE"
+"94 1156 CURVE"
+"94 1272 OFFCURVE"
+"199 1450 OFFCURVE"
+"383 1548 OFFCURVE"
+"500 1546 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"427 1414 OFFCURVE"
+"310 1348 OFFCURVE"
+"246 1232 OFFCURVE"
+"246 1156 CURVE"
+"246 1082 OFFCURVE"
+"310 966 OFFCURVE"
+"427 900 OFFCURVE"
+"500 900 CURVE"
+"573 900 OFFCURVE"
+"690 966 OFFCURVE"
+"753 1082 OFFCURVE"
+"753 1156 CURVE"
+"753 1232 OFFCURVE"
+"690 1348 OFFCURVE"
+"573 1414 OFFCURVE"
+"500 1414 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1203 902 LINE" 
+"785 902 LINE" 
+"785 1028 LINE" 
+"1203 1028 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1619 -130 LINE" 
+"987 -130 LINE" 
+"987 -10 LINE" 
+"1619 -10 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1575 186 LINE" 
+"1046 186 LINE" 
+"1046 300 LINE" 
+"1575 300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1595 484 LINE" 
+"1137 484 LINE" 
+"1137 -68 LINE" 
+"987 -68 LINE" 
+"987 608 LINE" 
+"1595 608 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"896 182 LINE" 
+"439 182 LINE" 
+"439 -76 LINE" 
+"296 -76 LINE" 
+"296 296 LINE" 
+"749 296 LINE" 
+"749 484 LINE" 
+"290 484 LINE" 
+"290 604 LINE" 
+"896 604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"440 -14 OFFCURVE"
+"490 -14 CURVE"
+"607 -12 OFFCURVE"
+"815 2 OFFCURVE"
+"934 16 CURVE"
+"943 -104 LINE" 
+"797 -124 OFFCURVE"
+"549 -136 OFFCURVE"
+"389 -136 CURVE"
+"296 -136 LINE" 
+"296 -14 LINE" 
+"389 -14 LINE" 
+);
+},
+);
+},
+);
+}

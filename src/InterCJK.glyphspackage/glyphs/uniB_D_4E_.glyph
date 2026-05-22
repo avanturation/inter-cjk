@@ -1,0 +1,151 @@
+{
+unicode = "BD4E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"399 1382 LINE" 
+"904 1382 LINE" 
+"904 1566 LINE" 
+"1060 1566 LINE" 
+"1060 962 LINE" 
+"241 962 LINE" 
+"241 1566 LINE" 
+"399 1566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"904 1086 LINE" 
+"904 1266 LINE" 
+"399 1266 LINE" 
+"399 1086 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"730 702 LINE" 
+"575 702 LINE" 
+"575 1016 LINE" 
+"730 1016 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"108 778 OFFCURVE"
+"163 780 OFFCURVE"
+"193 780 CURVE"
+"452 786 OFFCURVE"
+"989 810 OFFCURVE"
+"1219 828 CURVE"
+"1231 706 LINE" 
+"973 680 OFFCURVE"
+"373 646 OFFCURVE"
+"98 640 CURVE"
+"78 778 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1518 600 LINE" 
+"1361 600 LINE" 
+"1361 1632 LINE" 
+"1518 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"476 10 OFFCURVE"
+"714 40 OFFCURVE"
+"819 78 CURVE"
+"848 -54 LINE" 
+"728 -92 OFFCURVE"
+"486 -120 OFFCURVE"
+"367 -120 CURVE"
+"280 -120 LINE" 
+"280 10 LINE" 
+"367 10 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"435 -46 LINE" 
+"280 -46 LINE" 
+"280 484 LINE" 
+"435 484 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1658 316 LINE" 
+"789 316 LINE" 
+"789 430 LINE" 
+"1658 430 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1318 242 OFFCURVE"
+"1468 190 OFFCURVE"
+"1551 96 OFFCURVE"
+"1551 34 CURVE"
+"1551 -26 OFFCURVE"
+"1468 -118 OFFCURVE"
+"1318 -168 OFFCURVE"
+"1223 -168 CURVE"
+"1128 -168 OFFCURVE"
+"979 -118 OFFCURVE"
+"896 -26 OFFCURVE"
+"896 34 CURVE"
+"896 96 OFFCURVE"
+"979 190 OFFCURVE"
+"1128 242 OFFCURVE"
+"1223 242 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1167 136 OFFCURVE"
+"1082 112 OFFCURVE"
+"1034 64 OFFCURVE"
+"1034 34 CURVE"
+"1034 4 OFFCURVE"
+"1082 -42 OFFCURVE"
+"1167 -64 OFFCURVE"
+"1223 -64 CURVE"
+"1278 -64 OFFCURVE"
+"1365 -42 OFFCURVE"
+"1413 4 OFFCURVE"
+"1413 34 CURVE"
+"1413 64 OFFCURVE"
+"1365 112 OFFCURVE"
+"1278 136 OFFCURVE"
+"1223 136 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1300 370 LINE" 
+"1149 370 LINE" 
+"1149 596 LINE" 
+"1300 596 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,18 @@
+{
+unicode = "00CC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 550;
+components = (
+{
+name = "I";
+},
+{
+name = "gravecomb";
+pos = (-139,372);
+},
+);
+},
+);
+}

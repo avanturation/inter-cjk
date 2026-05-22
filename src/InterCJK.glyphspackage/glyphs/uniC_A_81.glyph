@@ -1,0 +1,153 @@
+{
+unicode = "CA81";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"407 1248 OFFCURVE"
+"351 1014 OFFCURVE"
+"229 806 OFFCURVE"
+"132 744 CURVE"
+"48 850 LINE" 
+"136 904 OFFCURVE"
+"246 1082 OFFCURVE"
+"298 1274 OFFCURVE"
+"298 1358 CURVE"
+"298 1442 LINE" 
+"407 1442 LINE" 
+"407 1358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"437 1278 OFFCURVE"
+"464 1092 OFFCURVE"
+"551 894 OFFCURVE"
+"635 828 CURVE"
+"565 714 LINE" 
+"466 784 OFFCURVE"
+"363 1020 OFFCURVE"
+"330 1252 OFFCURVE"
+"330 1358 CURVE"
+"330 1442 LINE" 
+"437 1442 LINE" 
+"437 1358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"803 1238 OFFCURVE"
+"771 1004 OFFCURVE"
+"664 780 OFFCURVE"
+"565 714 CURVE"
+"496 828 LINE" 
+"579 890 OFFCURVE"
+"668 1078 OFFCURVE"
+"696 1266 OFFCURVE"
+"696 1358 CURVE"
+"696 1442 LINE" 
+"803 1442 LINE" 
+"803 1358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"835 1264 OFFCURVE"
+"884 1070 OFFCURVE"
+"995 902 OFFCURVE"
+"1084 850 CURVE"
+"1007 742 LINE" 
+"906 800 OFFCURVE"
+"781 1004 OFFCURVE"
+"728 1238 OFFCURVE"
+"728 1358 CURVE"
+"728 1442 LINE" 
+"835 1442 LINE" 
+"835 1358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"539 1382 LINE" 
+"108 1382 LINE" 
+"108 1510 LINE" 
+"539 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1015 1382 LINE" 
+"595 1382 LINE" 
+"595 1510 LINE" 
+"1015 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1613 696 LINE" 
+"1468 696 LINE" 
+"1468 1634 LINE" 
+"1613 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1302 698 LINE" 
+"1155 698 LINE" 
+"1155 1598 LINE" 
+"1302 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1248 1128 LINE" 
+"955 1128 LINE" 
+"955 1256 LINE" 
+"1248 1256 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1615 484 LINE" 
+"547 484 LINE" 
+"547 -54 LINE" 
+"389 -54 LINE" 
+"389 608 LINE" 
+"1615 608 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1597 186 LINE" 
+"494 186 LINE" 
+"494 300 LINE" 
+"1597 300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1652 -126 LINE" 
+"389 -126 LINE" 
+"389 -4 LINE" 
+"1652 -4 LINE" 
+);
+},
+);
+},
+);
+}

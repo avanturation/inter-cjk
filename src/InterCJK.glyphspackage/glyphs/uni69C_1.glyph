@@ -1,0 +1,154 @@
+{
+unicode = "69C1";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1809 1328 LINE" 
+"742 1328 LINE" 
+"742 1442 LINE" 
+"1809 1442 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1340 1400 LINE" 
+"1206 1400 LINE" 
+"1206 1650 LINE" 
+"1340 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1520 930 LINE" 
+"1520 1124 LINE" 
+"1045 1124 LINE" 
+"1045 930 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1649 830 LINE" 
+"918 830 LINE" 
+"918 1224 LINE" 
+"1649 1224 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1718 616 LINE" 
+"897 616 LINE" 
+"897 -114 LINE" 
+"772 -114 LINE" 
+"772 726 LINE" 
+"1718 726 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1530 142 LINE" 
+"1095 142 LINE" 
+"1095 238 LINE" 
+"1429 238 LINE" 
+"1429 418 LINE" 
+"1095 418 LINE" 
+"1095 514 LINE" 
+"1530 514 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1136 50 LINE" 
+"1035 50 LINE" 
+"1035 514 LINE" 
+"1136 514 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1790 -28 OFFCURVE"
+"1764 -80 OFFCURVE"
+"1730 -96 CURVE"
+"1701 -108 OFFCURVE"
+"1605 -114 OFFCURVE"
+"1508 -114 CURVE"
+"1506 -98 OFFCURVE"
+"1491 -52 OFFCURVE"
+"1481 -32 CURVE"
+"1469 -4 LINE" 
+"1522 -6 OFFCURVE"
+"1617 -8 OFFCURVE"
+"1633 -6 CURVE"
+"1651 -6 OFFCURVE"
+"1661 6 OFFCURVE"
+"1661 22 CURVE"
+"1661 726 LINE" 
+"1790 726 LINE" 
+"1790 20 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"738 1108 LINE" 
+"111 1108 LINE" 
+"111 1240 LINE" 
+"738 1240 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"509 -110 LINE" 
+"382 -110 LINE" 
+"382 1650 LINE" 
+"509 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"416 884 OFFCURVE"
+"237 390 OFFCURVE"
+"138 250 CURVE"
+"126 278 OFFCURVE"
+"85 352 OFFCURVE"
+"67 374 CURVE"
+"130 460 OFFCURVE"
+"253 722 OFFCURVE"
+"352 1020 OFFCURVE"
+"378 1158 CURVE"
+"463 1126 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"526 932 OFFCURVE"
+"661 764 OFFCURVE"
+"720 684 CURVE"
+"730 670 OFFCURVE"
+"740 658 OFFCURVE"
+"750 644 CURVE"
+"669 538 LINE" 
+"637 600 OFFCURVE"
+"477 842 OFFCURVE"
+"431 900 CURVE"
+"499 958 LINE" 
+);
+},
+);
+},
+);
+}

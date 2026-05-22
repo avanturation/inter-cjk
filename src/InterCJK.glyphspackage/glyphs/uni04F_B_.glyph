@@ -1,0 +1,22 @@
+{
+unicode = "04FB";
+layers = (
+{
+layerId = "master-text-regular";
+width = 893;
+components = (
+{
+name = "uni0433";
+},
+{
+name = "crossbar";
+pos = (-131,-187);
+},
+{
+name = "_part.cyrtic_hook";
+pos = (28,0);
+},
+);
+},
+);
+}

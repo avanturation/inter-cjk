@@ -1,0 +1,160 @@
+{
+unicode = "BF8A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1244 624 LINE" 
+"1112 624 LINE" 
+"1112 1604 LINE" 
+"1244 1604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1559 1034 LINE" 
+"1159 1034 LINE" 
+"1159 1168 LINE" 
+"1559 1168 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"629 706 LINE" 
+"484 706 LINE" 
+"484 976 LINE" 
+"629 976 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"298 780 OFFCURVE"
+"829 802 OFFCURVE"
+"1031 820 CURVE"
+"1044 702 LINE" 
+"835 678 OFFCURVE"
+"312 646 OFFCURVE"
+"100 644 CURVE"
+"80 778 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1599 610 LINE" 
+"1462 610 LINE" 
+"1462 1632 LINE" 
+"1599 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"225 1380 LINE" 
+"409 1380 LINE" 
+"409 1542 LINE" 
+"522 1542 LINE" 
+"522 980 LINE" 
+"110 980 LINE" 
+"110 1542 LINE" 
+"225 1542 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"409 1108 LINE" 
+"409 1258 LINE" 
+"225 1258 LINE" 
+"225 1108 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"706 1380 LINE" 
+"886 1380 LINE" 
+"886 1542 LINE" 
+"1001 1542 LINE" 
+"1001 980 LINE" 
+"593 980 LINE" 
+"593 1542 LINE" 
+"706 1542 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"886 1108 LINE" 
+"886 1256 LINE" 
+"706 1256 LINE" 
+"706 1108 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1383 304 OFFCURVE"
+"1298 84 OFFCURVE"
+"1132 -98 OFFCURVE"
+"1015 -148 CURVE"
+"924 -22 LINE" 
+"1023 20 OFFCURVE"
+"1173 166 OFFCURVE"
+"1254 334 OFFCURVE"
+"1254 410 CURVE"
+"1254 546 LINE" 
+"1383 546 LINE" 
+"1383 410 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1407 344 OFFCURVE"
+"1482 168 OFFCURVE"
+"1627 24 OFFCURVE"
+"1724 -18 CURVE"
+"1642 -146 LINE" 
+"1528 -96 OFFCURVE"
+"1363 86 OFFCURVE"
+"1282 314 OFFCURVE"
+"1282 430 CURVE"
+"1282 546 LINE" 
+"1407 546 LINE" 
+"1407 430 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"442 324 LINE" 
+"781 324 LINE" 
+"781 540 LINE" 
+"926 540 LINE" 
+"926 -134 LINE" 
+"294 -134 LINE" 
+"294 540 LINE" 
+"442 540 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"781 -8 LINE" 
+"781 204 LINE" 
+"442 204 LINE" 
+"442 -8 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,163 @@
+{
+unicode = "66A6";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1803 1432 LINE" 
+"328 1432 LINE" 
+"328 1558 LINE" 
+"1803 1558 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1025 1102 LINE" 
+"435 1102 LINE" 
+"435 1214 LINE" 
+"1025 1214 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"376 680 OFFCURVE"
+"299 104 OFFCURVE"
+"192 -110 CURVE"
+"172 -92 OFFCURVE"
+"103 -52 OFFCURVE"
+"77 -42 CURVE"
+"148 100 OFFCURVE"
+"221 454 OFFCURVE"
+"243 796 OFFCURVE"
+"243 990 CURVE"
+"243 1558 LINE" 
+"376 1558 LINE" 
+"376 990 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"800 642 LINE" 
+"685 642 LINE" 
+"685 1384 LINE" 
+"800 1384 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"714 1000 OFFCURVE"
+"546 746 OFFCURVE"
+"459 672 CURVE"
+"441 696 OFFCURVE"
+"394 746 OFFCURVE"
+"376 760 CURVE"
+"463 820 OFFCURVE"
+"635 1044 OFFCURVE"
+"681 1156 CURVE"
+"762 1126 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1778 1102 LINE" 
+"1083 1102 LINE" 
+"1083 1214 LINE" 
+"1778 1214 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1544 222 LINE" 
+"627 222 LINE" 
+"627 324 LINE" 
+"1544 324 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1544 -48 LINE" 
+"627 -48 LINE" 
+"627 62 LINE" 
+"1544 62 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1459 642 LINE" 
+"1342 642 LINE" 
+"1342 1384 LINE" 
+"1459 1384 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1348 996 OFFCURVE"
+"1162 750 OFFCURVE"
+"1065 680 CURVE"
+"1053 700 OFFCURVE"
+"1006 754 OFFCURVE"
+"984 770 CURVE"
+"1081 824 OFFCURVE"
+"1265 1040 OFFCURVE"
+"1318 1154 CURVE"
+"1402 1124 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"827 1046 OFFCURVE"
+"994 926 OFFCURVE"
+"1017 902 CURVE"
+"946 812 LINE" 
+"920 844 OFFCURVE"
+"790 962 OFFCURVE"
+"724 1016 CURVE"
+"792 1068 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1538 1036 OFFCURVE"
+"1726 832 OFFCURVE"
+"1829 782 CURVE"
+"1811 768 OFFCURVE"
+"1764 714 OFFCURVE"
+"1748 690 CURVE"
+"1645 754 OFFCURVE"
+"1455 990 OFFCURVE"
+"1402 1120 CURVE"
+"1487 1148 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1623 -110 LINE" 
+"1489 -110 LINE" 
+"1489 474 LINE" 
+"687 474 LINE" 
+"687 -112 LINE" 
+"556 -112 LINE" 
+"556 584 LINE" 
+"1623 584 LINE" 
+);
+},
+);
+},
+);
+}

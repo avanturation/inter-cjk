@@ -1,0 +1,31 @@
+{
+unicode = "02EF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 736;
+paths = (
+{
+closed = 1;
+nodes = (
+"319 -545 LINE" 
+"110 -72 LINE" 
+"234 -72 LINE" 
+"355 -365 LINE" 
+"405 -545 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"333 -545 LINE" 
+"383 -365 LINE" 
+"500 -72 LINE" 
+"624 -72 LINE" 
+"419 -545 LINE" 
+);
+},
+);
+},
+);
+}

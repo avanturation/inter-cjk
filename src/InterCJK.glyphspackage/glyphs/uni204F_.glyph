@@ -1,0 +1,37 @@
+{
+unicode = "204F";
+layers = (
+{
+layerId = "master-text-regular";
+width = 618;
+paths = (
+{
+closed = 1;
+nodes = (
+"490 -359 LINE" 
+"352 -359 LINE" 
+"196 208 LINE" 
+"402 208 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"295 796 LINE" 
+"239 796 OFFCURVE"
+"160 875 OFFCURVE"
+"160 931 CURVE"
+"160 987 OFFCURVE"
+"239 1066 OFFCURVE"
+"295 1066 CURVE"
+"351 1066 OFFCURVE"
+"430 987 OFFCURVE"
+"430 931 CURVE"
+"430 875 OFFCURVE"
+"351 796 OFFCURVE"
+);
+},
+);
+},
+);
+}

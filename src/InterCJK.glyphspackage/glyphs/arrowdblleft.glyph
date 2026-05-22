@@ -1,0 +1,40 @@
+{
+unicode = "21D0";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1954;
+paths = (
+{
+closed = 1;
+nodes = (
+"860 -6 LINE" 
+"202 652 LINE" 
+"860 1310 LINE" 
+"976 1194 LINE" 
+"432 652 LINE" 
+"976 108 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"570 393 LINE" 
+"405 559 LINE" 
+"1698 559 LINE" 
+"1698 393 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"405 743 LINE" 
+"570 909 LINE" 
+"1698 909 LINE" 
+"1698 743 LINE" 
+);
+},
+);
+},
+);
+}

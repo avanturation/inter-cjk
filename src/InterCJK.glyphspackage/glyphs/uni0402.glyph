@@ -1,0 +1,18 @@
+{
+unicode = "0402";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1723;
+components = (
+{
+name = "T";
+},
+{
+name = "largerighthook";
+pos = (600,0);
+},
+);
+},
+);
+}

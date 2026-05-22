@@ -1,0 +1,157 @@
+{
+unicode = "CADF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"482 1290 OFFCURVE"
+"415 1102 OFFCURVE"
+"274 948 OFFCURVE"
+"169 906 CURVE"
+"92 1020 LINE" 
+"181 1054 OFFCURVE"
+"308 1172 OFFCURVE"
+"369 1318 OFFCURVE"
+"369 1388 CURVE"
+"369 1468 LINE" 
+"482 1468 LINE" 
+"482 1388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"520 1330 OFFCURVE"
+"555 1200 OFFCURVE"
+"646 1082 OFFCURVE"
+"720 1046 CURVE"
+"660 928 LINE" 
+"522 990 OFFCURVE"
+"409 1250 OFFCURVE"
+"411 1388 CURVE"
+"411 1468 LINE" 
+"520 1468 LINE" 
+"520 1388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"912 1246 OFFCURVE"
+"801 990 OFFCURVE"
+"660 928 CURVE"
+"603 1046 LINE" 
+"676 1082 OFFCURVE"
+"765 1202 OFFCURVE"
+"805 1332 OFFCURVE"
+"805 1388 CURVE"
+"805 1468 LINE" 
+"914 1468 LINE" 
+"914 1388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"953 1318 OFFCURVE"
+"1017 1172 OFFCURVE"
+"1141 1054 OFFCURVE"
+"1229 1022 CURVE"
+"1159 906 LINE" 
+"1052 948 OFFCURVE"
+"908 1100 OFFCURVE"
+"840 1290 OFFCURVE"
+"840 1388 CURVE"
+"840 1468 LINE" 
+"953 1468 LINE" 
+"953 1388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"739 660 LINE" 
+"583 660 LINE" 
+"583 914 LINE" 
+"739 914 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 536 LINE" 
+"1328 536 LINE" 
+"1328 1634 LINE" 
+"1484 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1718 982 LINE" 
+"1399 982 LINE" 
+"1399 1118 LINE" 
+"1718 1118 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"341 740 OFFCURVE"
+"662 748 OFFCURVE"
+"1058 772 OFFCURVE"
+"1234 798 CURVE"
+"1246 682 LINE" 
+"1064 650 OFFCURVE"
+"666 618 OFFCURVE"
+"300 606 OFFCURVE"
+"92 604 CURVE"
+"72 736 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"637 1406 LINE" 
+"145 1406 LINE" 
+"145 1536 LINE" 
+"637 1536 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1173 1406 LINE" 
+"686 1406 LINE" 
+"686 1536 LINE" 
+"1173 1536 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1496 -124 LINE" 
+"312 -124 LINE" 
+"312 6 LINE" 
+"1496 6 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1480 324 LINE" 
+"468 324 LINE" 
+"468 -76 LINE" 
+"312 -76 LINE" 
+"312 452 LINE" 
+"1480 452 LINE" 
+);
+},
+);
+},
+);
+}

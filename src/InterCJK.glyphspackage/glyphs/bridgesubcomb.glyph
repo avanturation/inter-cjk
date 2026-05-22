@@ -1,0 +1,38 @@
+{
+unicode = "EEAF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-952 -467 LINE" 
+"-952 -109 LINE" 
+"-797 -109 LINE" 
+"-797 -467 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"-818 -235 LINE" 
+"-818 -109 LINE" 
+"-406 -109 LINE" 
+"-406 -235 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"-421 -467 LINE" 
+"-421 -109 LINE" 
+"-266 -109 LINE" 
+"-266 -467 LINE" 
+);
+},
+);
+},
+);
+}

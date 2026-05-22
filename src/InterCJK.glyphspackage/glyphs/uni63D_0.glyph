@@ -1,0 +1,153 @@
+{
+unicode = "63D0";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1556 1070 LINE" 
+"1556 1226 LINE" 
+"912 1226 LINE" 
+"912 1070 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1556 1326 LINE" 
+"1556 1482 LINE" 
+"912 1482 LINE" 
+"912 1326 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1687 962 LINE" 
+"786 962 LINE" 
+"786 1588 LINE" 
+"1687 1588 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1792 704 LINE" 
+"703 704 LINE" 
+"703 820 LINE" 
+"1792 820 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1299 -22 LINE" 
+"1170 32 LINE" 
+"1170 764 LINE" 
+"1299 764 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"956 256 OFFCURVE"
+"1120 96 OFFCURVE"
+"1334 40 OFFCURVE"
+"1485 40 CURVE"
+"1790 40 OFFCURVE"
+"1853 42 CURVE"
+"1841 20 OFFCURVE"
+"1817 -56 OFFCURVE"
+"1811 -84 CURVE"
+"1479 -84 LINE" 
+"1305 -84 OFFCURVE"
+"1061 -12 OFFCURVE"
+"881 188 OFFCURVE"
+"825 376 CURVE"
+"909 410 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1701 358 LINE" 
+"1257 358 LINE" 
+"1257 474 LINE" 
+"1701 474 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"924 356 OFFCURVE"
+"772 2 OFFCURVE"
+"643 -112 CURVE"
+"633 -102 OFFCURVE"
+"606 -78 CURVE"
+"588 -64 OFFCURVE"
+"552 -36 OFFCURVE"
+"540 -30 CURVE"
+"665 70 OFFCURVE"
+"804 390 OFFCURVE"
+"825 610 CURVE"
+"952 596 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"140 648 OFFCURVE"
+"378 722 OFFCURVE"
+"497 760 CURVE"
+"534 772 OFFCURVE"
+"610 794 OFFCURVE"
+"645 806 CURVE"
+"665 680 LINE" 
+"554 644 OFFCURVE"
+"340 570 CURVE"
+"277 550 OFFCURVE"
+"156 512 OFFCURVE"
+"101 492 CURVE"
+"65 628 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"665 1132 LINE" 
+"87 1132 LINE" 
+"87 1262 LINE" 
+"665 1262 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"453 4 OFFCURVE"
+"423 -58 OFFCURVE"
+"388 -74 CURVE"
+"358 -90 OFFCURVE"
+"247 -102 OFFCURVE"
+"150 -100 CURVE"
+"144 -66 OFFCURVE"
+"142 -62 CURVE"
+"136 -38 OFFCURVE"
+"120 10 OFFCURVE"
+"111 28 CURVE"
+"253 26 OFFCURVE"
+"291 28 CURVE"
+"311 28 OFFCURVE"
+"324 42 OFFCURVE"
+"324 62 CURVE"
+"324 1650 LINE" 
+"453 1650 LINE" 
+"453 62 LINE" 
+);
+},
+);
+},
+);
+}

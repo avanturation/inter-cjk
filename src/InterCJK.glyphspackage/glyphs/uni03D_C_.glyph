@@ -1,0 +1,26 @@
+{
+unicode = "03DC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1215;
+paths = (
+{
+closed = 1;
+nodes = (
+"180 0 LINE" 
+"180 1490 LINE" 
+"1081 1490 LINE" 
+"1081 1323 LINE" 
+"370 1323 LINE" 
+"370 811 LINE" 
+"1081 811 LINE" 
+"1081 644 LINE" 
+"370 644 LINE" 
+"370 0 LINE" 
+);
+},
+);
+},
+);
+}

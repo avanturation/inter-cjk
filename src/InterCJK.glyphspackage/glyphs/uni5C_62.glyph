@@ -1,0 +1,156 @@
+{
+unicode = "5C62,F94B";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1144 484 LINE" 
+"1019 484 LINE" 
+"1019 1262 LINE" 
+"1144 1262 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1792 286 LINE" 
+"427 286 LINE" 
+"427 382 LINE" 
+"1792 382 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"960 374 OFFCURVE"
+"778 162 OFFCURVE"
+"705 86 CURVE"
+"594 122 LINE" 
+"667 198 OFFCURVE"
+"847 414 OFFCURVE"
+"918 510 CURVE"
+"1039 472 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1445 178 OFFCURVE"
+"1182 2 OFFCURVE"
+"774 -94 OFFCURVE"
+"477 -116 CURVE"
+"469 -92 OFFCURVE"
+"443 -32 OFFCURVE"
+"431 -16 CURVE"
+"711 -2 OFFCURVE"
+"1091 76 OFFCURVE"
+"1336 224 OFFCURVE"
+"1392 344 CURVE"
+"1504 320 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1031 160 OFFCURVE"
+"1572 40 OFFCURVE"
+"1750 -24 CURVE"
+"1675 -112 LINE" 
+"1501 -48 OFFCURVE"
+"976 72 OFFCURVE"
+"691 112 CURVE"
+"750 196 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1485 860 LINE" 
+"1485 1096 LINE" 
+"709 1096 LINE" 
+"709 860 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1611 784 LINE" 
+"586 784 LINE" 
+"586 1172 LINE" 
+"1611 1172 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1516 542 LINE" 
+"1516 632 LINE" 
+"667 632 LINE" 
+"667 542 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1641 466 LINE" 
+"548 466 LINE" 
+"548 710 LINE" 
+"1641 710 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"404 688 OFFCURVE"
+"316 104 OFFCURVE"
+"194 -110 CURVE"
+"178 -94 OFFCURVE"
+"105 -54 OFFCURVE"
+"77 -42 CURVE"
+"160 100 OFFCURVE"
+"245 460 OFFCURVE"
+"271 810 OFFCURVE"
+"271 1006 CURVE"
+"271 1580 LINE" 
+"404 1580 LINE" 
+"404 1006 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1683 1266 LINE" 
+"340 1266 LINE" 
+"340 1358 LINE" 
+"1550 1358 LINE" 
+"1550 1488 LINE" 
+"340 1488 LINE" 
+"340 1580 LINE" 
+"1683 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"653 1018 LINE" 
+"1546 1018 LINE" 
+"1546 1026 LINE" 
+"1782 1026 LINE" 
+"1782 936 LINE" 
+"1546 936 LINE" 
+"1546 944 LINE" 
+"653 944 LINE" 
+"653 936 LINE" 
+"443 936 LINE" 
+"443 1026 LINE" 
+"653 1026 LINE" 
+);
+},
+);
+},
+);
+}

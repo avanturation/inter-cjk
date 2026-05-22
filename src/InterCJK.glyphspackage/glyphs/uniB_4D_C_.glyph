@@ -1,0 +1,40 @@
+{
+unicode = "B4DC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1502 648 LINE" 
+"286 648 LINE" 
+"286 778 LINE" 
+"1502 778 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1692 98 LINE" 
+"80 98 LINE" 
+"80 230 LINE" 
+"1692 230 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 1338 LINE" 
+"440 1338 LINE" 
+"440 720 LINE" 
+"286 720 LINE" 
+"286 1468 LINE" 
+"1484 1468 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,29 @@
+{
+unicode = "EEDB";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-786 -451 LINE" 
+"-786 -62 LINE" 
+"-634 -62 LINE" 
+"-634 -451 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"-775 -326 LINE" 
+"-775 -185 LINE" 
+"-378 -185 LINE" 
+"-378 -326 LINE" 
+);
+},
+);
+},
+);
+}

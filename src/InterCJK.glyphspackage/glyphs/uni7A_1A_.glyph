@@ -1,0 +1,153 @@
+{
+unicode = "7A1A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1118 1396 OFFCURVE"
+"910 998 OFFCURVE"
+"790 862 CURVE"
+"766 892 OFFCURVE"
+"758 900 CURVE"
+"722 942 OFFCURVE"
+"691 968 CURVE"
+"806 1090 OFFCURVE"
+"998 1452 OFFCURVE"
+"1057 1650 CURVE"
+"1190 1618 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1805 1166 LINE" 
+"1033 1166 LINE" 
+"1033 -112 LINE" 
+"901 -112 LINE" 
+"901 1184 LINE" 
+"1004 1288 LINE" 
+"1033 1288 LINE" 
+"1805 1288 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1762 780 LINE" 
+"966 780 LINE" 
+"966 898 LINE" 
+"1762 898 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1762 382 LINE" 
+"966 382 LINE" 
+"966 506 LINE" 
+"1762 506 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1837 -16 LINE" 
+"970 -16 LINE" 
+"970 106 LINE" 
+"1837 106 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1459 34 LINE" 
+"1328 34 LINE" 
+"1328 1220 LINE" 
+"1459 1220 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1556 1482 OFFCURVE"
+"1449 1254 OFFCURVE"
+"1406 1176 CURVE"
+"1299 1212 LINE" 
+"1344 1294 OFFCURVE"
+"1439 1540 OFFCURVE"
+"1467 1638 CURVE"
+"1607 1600 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"550 -110 LINE" 
+"416 -110 LINE" 
+"416 1492 LINE" 
+"550 1492 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"778 980 LINE" 
+"105 980 LINE" 
+"105 1110 LINE" 
+"778 1110 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"471 888 OFFCURVE"
+"350 592 OFFCURVE"
+"206 328 OFFCURVE"
+"136 240 CURVE"
+"126 268 OFFCURVE"
+"85 340 OFFCURVE"
+"65 368 CURVE"
+"132 444 OFFCURVE"
+"273 678 OFFCURVE"
+"390 940 OFFCURVE"
+"423 1060 CURVE"
+"509 1024 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"673 1468 OFFCURVE"
+"316 1388 OFFCURVE"
+"134 1362 CURVE"
+"132 1378 OFFCURVE"
+"117 1424 OFFCURVE"
+"105 1444 CURVE"
+"93 1468 LINE" 
+"279 1500 OFFCURVE"
+"602 1578 OFFCURVE"
+"699 1624 CURVE"
+"794 1516 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"580 836 OFFCURVE"
+"778 630 OFFCURVE"
+"812 590 CURVE"
+"728 482 LINE" 
+"697 538 OFFCURVE"
+"526 758 OFFCURVE"
+"479 808 CURVE"
+"544 866 LINE" 
+);
+},
+);
+},
+);
+}

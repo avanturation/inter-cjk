@@ -1,0 +1,154 @@
+{
+unicode = "CC16";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1551 706 LINE" 
+"1397 706 LINE" 
+"1397 1634 LINE" 
+"1551 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"464 1202 OFFCURVE"
+"395 982 OFFCURVE"
+"252 796 OFFCURVE"
+"145 742 CURVE"
+"68 852 LINE" 
+"161 896 OFFCURVE"
+"290 1050 OFFCURVE"
+"355 1228 OFFCURVE"
+"355 1306 CURVE"
+"355 1454 LINE" 
+"464 1454 LINE" 
+"464 1306 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"500 1234 OFFCURVE"
+"545 1060 OFFCURVE"
+"650 894 OFFCURVE"
+"734 842 CURVE"
+"670 726 LINE" 
+"567 784 OFFCURVE"
+"444 986 OFFCURVE"
+"395 1208 OFFCURVE"
+"395 1306 CURVE"
+"395 1454 LINE" 
+"500 1454 LINE" 
+"500 1306 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"943 1202 OFFCURVE"
+"896 982 OFFCURVE"
+"773 782 OFFCURVE"
+"670 726 CURVE"
+"603 842 LINE" 
+"688 892 OFFCURVE"
+"793 1054 OFFCURVE"
+"838 1228 OFFCURVE"
+"838 1306 CURVE"
+"838 1454 LINE" 
+"943 1454 LINE" 
+"943 1306 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"985 1218 OFFCURVE"
+"1048 1042 OFFCURVE"
+"1177 894 OFFCURVE"
+"1270 852 CURVE"
+"1193 740 LINE" 
+"1084 792 OFFCURVE"
+"941 972 OFFCURVE"
+"874 1192 OFFCURVE"
+"874 1306 CURVE"
+"874 1454 LINE" 
+"985 1454 LINE" 
+"985 1306 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"637 1402 LINE" 
+"126 1402 LINE" 
+"126 1532 LINE" 
+"637 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1207 1402 LINE" 
+"704 1402 LINE" 
+"704 1532 LINE" 
+"1207 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"868 200 LINE" 
+"433 200 LINE" 
+"433 -40 LINE" 
+"278 -40 LINE" 
+"278 316 LINE" 
+"714 316 LINE" 
+"714 484 LINE" 
+"274 484 LINE" 
+"274 610 LINE" 
+"868 610 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1551 -128 LINE" 
+"973 -128 LINE" 
+"973 610 LINE" 
+"1551 610 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1112 -4 LINE" 
+"1409 -4 LINE" 
+"1409 488 LINE" 
+"1112 488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"571 0 OFFCURVE"
+"791 12 OFFCURVE"
+"910 30 CURVE"
+"924 -92 LINE" 
+"801 -114 OFFCURVE"
+"581 -126 OFFCURVE"
+"373 -128 CURVE"
+"278 -128 LINE" 
+"278 0 LINE" 
+"373 0 LINE" 
+);
+},
+);
+},
+);
+}

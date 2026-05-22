@@ -1,0 +1,160 @@
+{
+unicode = "B5C1";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"480 1386 LINE" 
+"264 1386 LINE" 
+"264 792 LINE" 
+"122 792 LINE" 
+"122 1510 LINE" 
+"480 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"284 828 OFFCURVE"
+"429 840 OFFCURVE"
+"504 860 CURVE"
+"522 736 LINE" 
+"437 714 OFFCURVE"
+"290 702 OFFCURVE"
+"189 702 CURVE"
+"122 702 LINE" 
+"122 828 LINE" 
+"189 828 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1276 596 LINE" 
+"1137 596 LINE" 
+"1137 1596 LINE" 
+"1276 1596 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"967 1386 LINE" 
+"706 1386 LINE" 
+"706 782 LINE" 
+"563 782 LINE" 
+"563 1510 LINE" 
+"967 1510 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"674 828 LINE" 
+"773 830 OFFCURVE"
+"935 846 OFFCURVE"
+"1017 866 CURVE"
+"1036 736 LINE" 
+"937 714 OFFCURVE"
+"761 700 OFFCURVE"
+"638 700 CURVE"
+"563 700 LINE" 
+"563 828 LINE" 
+"638 828 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1221 1058 LINE" 
+"888 1058 LINE" 
+"888 1184 LINE" 
+"1221 1184 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1589 588 LINE" 
+"1448 588 LINE" 
+"1448 1632 LINE" 
+"1589 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1310 236 OFFCURVE"
+"1217 32 OFFCURVE"
+"1038 -122 OFFCURVE"
+"916 -162 CURVE"
+"831 -46 LINE" 
+"941 -14 OFFCURVE"
+"1102 110 OFFCURVE"
+"1185 266 OFFCURVE"
+"1185 348 CURVE"
+"1185 488 LINE" 
+"1310 488 LINE" 
+"1310 348 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1341 258 OFFCURVE"
+"1425 112 OFFCURVE"
+"1577 -2 OFFCURVE"
+"1680 -36 CURVE"
+"1599 -152 LINE" 
+"1482 -114 OFFCURVE"
+"1310 34 OFFCURVE"
+"1219 230 OFFCURVE"
+"1219 336 CURVE"
+"1219 488 LINE" 
+"1341 488 LINE" 
+"1341 336 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 -44 LINE" 
+"308 -44 LINE" 
+"308 478 LINE" 
+"456 478 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 38 OFFCURVE"
+"619 54 OFFCURVE"
+"795 94 OFFCURVE"
+"856 126 CURVE"
+"900 -24 LINE" 
+"823 -56 OFFCURVE"
+"638 -98 OFFCURVE"
+"468 -114 OFFCURVE"
+"401 -114 CURVE"
+"308 -114 LINE" 
+"308 38 LINE" 
+"401 38 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1644 378 LINE" 
+"884 378 LINE" 
+"884 508 LINE" 
+"1644 508 LINE" 
+);
+},
+);
+},
+);
+}

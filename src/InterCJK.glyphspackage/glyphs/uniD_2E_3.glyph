@@ -1,0 +1,153 @@
+{
+unicode = "D2E3";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1518 638 LINE" 
+"1363 638 LINE" 
+"1363 1634 LINE" 
+"1518 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1072 1442 LINE" 
+"389 1442 LINE" 
+"389 960 LINE" 
+"229 960 LINE" 
+"229 1552 LINE" 
+"1072 1552 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1048 1196 LINE" 
+"268 1196 LINE" 
+"268 1304 LINE" 
+"1048 1304 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1090 936 LINE" 
+"229 936 LINE" 
+"229 1052 LINE" 
+"1090 1052 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"359 796 OFFCURVE"
+"959 818 OFFCURVE"
+"1219 840 CURVE"
+"1227 726 LINE" 
+"971 696 OFFCURVE"
+"385 666 OFFCURVE"
+"102 664 CURVE"
+"78 798 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"823 154 LINE" 
+"419 154 LINE" 
+"419 -96 LINE" 
+"272 -96 LINE" 
+"272 262 LINE" 
+"676 262 LINE" 
+"676 426 LINE" 
+"264 426 LINE" 
+"264 544 LINE" 
+"823 544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"551 -10 OFFCURVE"
+"761 4 OFFCURVE"
+"872 26 CURVE"
+"886 -96 LINE" 
+"809 -112 OFFCURVE"
+"660 -128 OFFCURVE"
+"500 -132 OFFCURVE"
+"365 -132 CURVE"
+"272 -132 LINE" 
+"272 -10 LINE" 
+"365 -10 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1615 354 LINE" 
+"882 354 LINE" 
+"882 472 LINE" 
+"1615 472 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1331 292 OFFCURVE"
+"1468 238 OFFCURVE"
+"1545 140 OFFCURVE"
+"1545 72 CURVE"
+"1545 4 OFFCURVE"
+"1468 -96 OFFCURVE"
+"1331 -152 OFFCURVE"
+"1246 -152 CURVE"
+"1159 -152 OFFCURVE"
+"1025 -96 OFFCURVE"
+"947 4 OFFCURVE"
+"947 72 CURVE"
+"947 140 OFFCURVE"
+"1025 238 OFFCURVE"
+"1159 292 OFFCURVE"
+"1246 292 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1197 184 OFFCURVE"
+"1120 158 OFFCURVE"
+"1080 106 OFFCURVE"
+"1080 72 CURVE"
+"1080 36 OFFCURVE"
+"1122 -16 OFFCURVE"
+"1197 -44 OFFCURVE"
+"1246 -44 CURVE"
+"1296 -44 OFFCURVE"
+"1371 -16 OFFCURVE"
+"1413 36 OFFCURVE"
+"1413 72 CURVE"
+"1413 106 OFFCURVE"
+"1371 158 OFFCURVE"
+"1296 184 OFFCURVE"
+"1246 184 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1320 392 LINE" 
+"1169 392 LINE" 
+"1169 624 LINE" 
+"1320 624 LINE" 
+);
+},
+);
+},
+);
+}

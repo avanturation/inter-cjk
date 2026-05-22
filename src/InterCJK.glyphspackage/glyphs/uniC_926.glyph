@@ -1,0 +1,159 @@
+{
+unicode = "C926";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1524 582 LINE" 
+"1371 582 LINE" 
+"1371 1632 LINE" 
+"1524 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1438 668 LINE" 
+"997 668 LINE" 
+"997 774 LINE" 
+"1438 774 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"704 584 LINE" 
+"547 584 LINE" 
+"547 898 LINE" 
+"704 898 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"720 950 OFFCURVE"
+"1211 990 CURVE"
+"1221 870 LINE" 
+"955 844 OFFCURVE"
+"357 816 OFFCURVE"
+"88 816 CURVE"
+"64 950 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"684 1362 OFFCURVE"
+"559 1180 OFFCURVE"
+"338 1056 OFFCURVE"
+"189 1026 CURVE"
+"130 1140 LINE" 
+"258 1162 OFFCURVE"
+"452 1258 OFFCURVE"
+"563 1394 OFFCURVE"
+"563 1472 CURVE"
+"563 1552 LINE" 
+"684 1552 LINE" 
+"684 1472 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"726 1406 OFFCURVE"
+"833 1282 OFFCURVE"
+"1031 1198 OFFCURVE"
+"1159 1180 CURVE"
+"1098 1064 LINE" 
+"949 1088 OFFCURVE"
+"726 1200 OFFCURVE"
+"601 1372 OFFCURVE"
+"601 1482 CURVE"
+"601 1552 LINE" 
+"726 1552 LINE" 
+"726 1482 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1112 1466 LINE" 
+"179 1466 LINE" 
+"179 1582 LINE" 
+"1112 1582 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"854 154 LINE" 
+"427 154 LINE" 
+"427 -106 LINE" 
+"274 -106 LINE" 
+"274 260 LINE" 
+"702 260 LINE" 
+"702 410 LINE" 
+"268 410 LINE" 
+"268 528 LINE" 
+"854 528 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"553 -18 OFFCURVE"
+"767 -6 OFFCURVE"
+"882 16 CURVE"
+"896 -100 LINE" 
+"781 -122 OFFCURVE"
+"571 -134 OFFCURVE"
+"367 -134 CURVE"
+"274 -134 LINE" 
+"274 -16 LINE" 
+"367 -16 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1569 410 LINE" 
+"939 410 LINE" 
+"939 528 LINE" 
+"1569 528 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1585 -134 LINE" 
+"932 -134 LINE" 
+"932 -10 LINE" 
+"1585 -10 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1187 -94 LINE" 
+"1058 -94 LINE" 
+"1058 474 LINE" 
+"1187 474 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1446 -94 LINE" 
+"1320 -94 LINE" 
+"1320 474 LINE" 
+"1446 474 LINE" 
+);
+},
+);
+},
+);
+}

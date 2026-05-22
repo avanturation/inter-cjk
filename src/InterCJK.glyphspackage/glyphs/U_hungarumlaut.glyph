@@ -1,0 +1,18 @@
+{
+unicode = "0170";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1524;
+components = (
+{
+name = "U";
+},
+{
+name = "hungarumlaut";
+pos = (275,372);
+},
+);
+},
+);
+}

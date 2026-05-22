@@ -1,0 +1,150 @@
+{
+unicode = "B567";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1524 1094 LINE" 
+"1177 1094 LINE" 
+"1177 1226 LINE" 
+"1524 1226 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"498 1402 LINE" 
+"266 1402 LINE" 
+"266 836 LINE" 
+"122 836 LINE" 
+"122 1530 LINE" 
+"498 1530 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"237 922 LINE" 
+"312 922 OFFCURVE"
+"448 934 OFFCURVE"
+"526 952 CURVE"
+"541 818 LINE" 
+"446 798 OFFCURVE"
+"296 788 OFFCURVE"
+"193 788 CURVE"
+"122 788 LINE" 
+"122 922 LINE" 
+"193 922 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1227 698 LINE" 
+"1086 698 LINE" 
+"1086 1598 LINE" 
+"1227 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"969 1402 LINE" 
+"724 1402 LINE" 
+"724 840 LINE" 
+"581 840 LINE" 
+"581 1530 LINE" 
+"969 1530 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"724 922 OFFCURVE"
+"823 926 OFFCURVE"
+"937 942 OFFCURVE"
+"997 958 CURVE"
+"1013 824 LINE" 
+"920 802 OFFCURVE"
+"755 788 OFFCURVE"
+"652 790 CURVE"
+"581 790 LINE" 
+"581 922 LINE" 
+"652 922 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1589 656 LINE" 
+"1448 656 LINE" 
+"1448 1632 LINE" 
+"1589 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1609 404 LINE" 
+"375 404 LINE" 
+"375 528 LINE" 
+"1609 528 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1149 334 OFFCURVE"
+"1373 280 OFFCURVE"
+"1488 174 OFFCURVE"
+"1488 98 CURVE"
+"1488 22 OFFCURVE"
+"1373 -86 OFFCURVE"
+"1149 -140 OFFCURVE"
+"991 -140 CURVE"
+"835 -140 OFFCURVE"
+"611 -86 OFFCURVE"
+"494 22 OFFCURVE"
+"494 98 CURVE"
+"494 174 OFFCURVE"
+"611 280 OFFCURVE"
+"835 334 OFFCURVE"
+"991 334 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"886 224 OFFCURVE"
+"736 196 OFFCURVE"
+"656 140 OFFCURVE"
+"656 98 CURVE"
+"656 36 OFFCURVE"
+"831 -30 OFFCURVE"
+"991 -28 CURVE"
+"1151 -30 OFFCURVE"
+"1326 36 OFFCURVE"
+"1326 98 CURVE"
+"1326 140 OFFCURVE"
+"1246 196 OFFCURVE"
+"1098 224 OFFCURVE"
+"991 224 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1072 430 LINE" 
+"916 430 LINE" 
+"916 674 LINE" 
+"1072 674 LINE" 
+);
+},
+);
+},
+);
+}

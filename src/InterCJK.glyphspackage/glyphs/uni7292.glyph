@@ -1,0 +1,160 @@
+{
+unicode = "7292";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1330 1406 LINE" 
+"1198 1406 LINE" 
+"1198 1650 LINE" 
+"1330 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1805 1356 LINE" 
+"728 1356 LINE" 
+"728 1474 LINE" 
+"1805 1474 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1516 954 LINE" 
+"1516 1142 LINE" 
+"1031 1142 LINE" 
+"1031 954 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1653 850 LINE" 
+"905 850 LINE" 
+"905 1244 LINE" 
+"1653 1244 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1740 622 LINE" 
+"893 622 LINE" 
+"893 -112 LINE" 
+"762 -112 LINE" 
+"762 738 LINE" 
+"1740 738 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1803 -10 OFFCURVE"
+"1778 -70 OFFCURVE"
+"1742 -90 CURVE"
+"1710 -104 OFFCURVE"
+"1611 -110 OFFCURVE"
+"1508 -110 CURVE"
+"1506 -92 OFFCURVE"
+"1491 -40 OFFCURVE"
+"1481 -16 CURVE"
+"1477 -6 OFFCURVE"
+"1469 12 OFFCURVE"
+"1465 20 CURVE"
+"1592 14 OFFCURVE"
+"1643 18 CURVE"
+"1661 20 OFFCURVE"
+"1671 32 OFFCURVE"
+"1671 46 CURVE"
+"1671 738 LINE" 
+"1803 738 LINE" 
+"1803 44 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1130 50 LINE" 
+"1023 50 LINE" 
+"1023 506 LINE" 
+"1130 506 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1524 134 LINE" 
+"1077 134 LINE" 
+"1077 230 LINE" 
+"1419 230 LINE" 
+"1419 408 LINE" 
+"1077 408 LINE" 
+"1077 506 LINE" 
+"1524 506 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"160 624 OFFCURVE"
+"412 698 OFFCURVE"
+"540 738 CURVE"
+"596 754 OFFCURVE"
+"707 786 OFFCURVE"
+"760 802 CURVE"
+"778 678 LINE" 
+"687 648 OFFCURVE"
+"499 592 OFFCURVE"
+"408 562 CURVE"
+"330 538 OFFCURVE"
+"186 494 OFFCURVE"
+"118 472 CURVE"
+"75 602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"542 -112 LINE" 
+"414 -112 LINE" 
+"414 1650 LINE" 
+"542 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"289 1330 OFFCURVE"
+"219 968 OFFCURVE"
+"172 846 CURVE"
+"160 856 OFFCURVE"
+"120 880 OFFCURVE"
+"101 890 CURVE"
+"93 894 OFFCURVE"
+"77 904 OFFCURVE"
+"69 906 CURVE"
+"117 1020 OFFCURVE"
+"174 1346 OFFCURVE"
+"192 1552 CURVE"
+"307 1530 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"742 1122 LINE" 
+"186 1122 LINE" 
+"208 1256 LINE" 
+"742 1256 LINE" 
+);
+},
+);
+},
+);
+}

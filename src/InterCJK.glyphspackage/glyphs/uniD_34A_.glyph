@@ -1,0 +1,162 @@
+{
+unicode = "D34A";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1082 1370 LINE" 
+"138 1370 LINE" 
+"138 1502 LINE" 
+"1082 1502 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"385 832 OFFCURVE"
+"935 852 OFFCURVE"
+"1169 880 CURVE"
+"1179 762 LINE" 
+"941 726 OFFCURVE"
+"407 698 OFFCURVE"
+"104 696 CURVE"
+"86 832 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"466 788 LINE" 
+"314 788 LINE" 
+"314 1418 LINE" 
+"466 1418 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"906 788 LINE" 
+"753 788 LINE" 
+"753 1418 LINE" 
+"906 1418 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1444 662 LINE" 
+"1288 662 LINE" 
+"1288 1632 LINE" 
+"1444 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1710 1232 LINE" 
+"1405 1232 LINE" 
+"1405 1364 LINE" 
+"1710 1364 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1712 844 LINE" 
+"1407 844 LINE" 
+"1407 976 LINE" 
+"1712 976 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"435 30 OFFCURVE"
+"674 60 OFFCURVE"
+"781 98 CURVE"
+"807 -32 LINE" 
+"686 -70 OFFCURVE"
+"444 -100 OFFCURVE"
+"330 -100 CURVE"
+"244 -100 LINE" 
+"244 30 LINE" 
+"330 30 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"395 -44 LINE" 
+"244 -44 LINE" 
+"244 492 LINE" 
+"395 492 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1632 346 LINE" 
+"741 346 LINE" 
+"741 464 LINE" 
+"1632 464 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1282 280 OFFCURVE"
+"1430 230 OFFCURVE"
+"1514 134 OFFCURVE"
+"1514 70 CURVE"
+"1514 8 OFFCURVE"
+"1430 -86 OFFCURVE"
+"1282 -138 OFFCURVE"
+"1187 -138 CURVE"
+"1090 -138 OFFCURVE"
+"941 -86 OFFCURVE"
+"858 8 OFFCURVE"
+"858 70 CURVE"
+"858 134 OFFCURVE"
+"941 230 OFFCURVE"
+"1090 280 OFFCURVE"
+"1187 280 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1132 176 OFFCURVE"
+"1044 150 OFFCURVE"
+"997 102 OFFCURVE"
+"997 70 CURVE"
+"997 38 OFFCURVE"
+"1044 -10 OFFCURVE"
+"1132 -36 OFFCURVE"
+"1187 -36 CURVE"
+"1242 -36 OFFCURVE"
+"1328 -10 OFFCURVE"
+"1375 38 OFFCURVE"
+"1375 70 CURVE"
+"1375 102 OFFCURVE"
+"1328 150 OFFCURVE"
+"1242 176 OFFCURVE"
+"1187 176 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1264 390 LINE" 
+"1112 390 LINE" 
+"1112 614 LINE" 
+"1264 614 LINE" 
+);
+},
+);
+},
+);
+}

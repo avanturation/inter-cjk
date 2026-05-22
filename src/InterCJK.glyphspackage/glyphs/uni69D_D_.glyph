@@ -1,0 +1,182 @@
+{
+unicode = "69DD";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1607 1136 LINE" 
+"879 1136 LINE" 
+"879 1236 LINE" 
+"1607 1236 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1837 674 LINE" 
+"875 674 LINE" 
+"875 776 LINE" 
+"1837 776 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1697 436 LINE" 
+"790 436 LINE" 
+"790 544 LINE" 
+"1697 544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1124 94 LINE" 
+"1010 94 LINE" 
+"1010 452 LINE" 
+"1124 452 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"782 -30 LINE" 
+"671 -30 LINE" 
+"671 370 LINE" 
+"782 370 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1685 898 LINE" 
+"877 898 LINE" 
+"877 1002 LINE" 
+"1558 1002 LINE" 
+"1558 1374 LINE" 
+"877 1374 LINE" 
+"877 1480 LINE" 
+"1685 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"920 492 LINE" 
+"790 492 LINE" 
+"790 1480 LINE" 
+"920 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1800 504 OFFCURVE"
+"1798 486 CURVE"
+"1790 302 OFFCURVE"
+"1768 84 OFFCURVE"
+"1738 -36 OFFCURVE"
+"1716 -62 CURVE"
+"1695 -86 OFFCURVE"
+"1645 -106 OFFCURVE"
+"1607 -110 CURVE"
+"1580 -112 OFFCURVE"
+"1485 -110 OFFCURVE"
+"1431 -110 CURVE"
+"1394 -110 LINE" 
+"1392 -80 OFFCURVE"
+"1374 -12 OFFCURVE"
+"1360 8 CURVE"
+"1443 2 OFFCURVE"
+"1548 2 CURVE"
+"1572 2 OFFCURVE"
+"1600 10 OFFCURVE"
+"1609 20 CURVE"
+"1631 48 OFFCURVE"
+"1661 274 OFFCURVE"
+"1673 522 CURVE"
+"1673 544 LINE" 
+"1800 544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1285 1534 LINE" 
+"1271 1500 OFFCURVE"
+"1245 1438 OFFCURVE"
+"1231 1412 CURVE"
+"1103 1430 LINE" 
+"1122 1478 OFFCURVE"
+"1160 1606 OFFCURVE"
+"1170 1654 CURVE"
+"1326 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1469 46 LINE" 
+"754 46 LINE" 
+"754 156 LINE" 
+"1358 156 LINE" 
+"1358 370 LINE" 
+"1469 370 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"726 1104 LINE" 
+"111 1104 LINE" 
+"111 1232 LINE" 
+"726 1232 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"505 -110 LINE" 
+"378 -110 LINE" 
+"378 1650 LINE" 
+"505 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"431 974 OFFCURVE"
+"330 640 OFFCURVE"
+"206 346 OFFCURVE"
+"140 254 CURVE"
+"128 280 OFFCURVE"
+"89 350 OFFCURVE"
+"69 374 CURVE"
+"132 458 OFFCURVE"
+"253 720 OFFCURVE"
+"348 1020 OFFCURVE"
+"374 1158 CURVE"
+"461 1128 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"524 958 OFFCURVE"
+"703 688 OFFCURVE"
+"734 636 CURVE"
+"657 532 LINE" 
+"629 598 OFFCURVE"
+"479 864 OFFCURVE"
+"431 936 CURVE"
+"495 992 LINE" 
+);
+},
+);
+},
+);
+}

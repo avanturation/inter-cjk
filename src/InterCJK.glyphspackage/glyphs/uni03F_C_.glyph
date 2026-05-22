@@ -1,0 +1,18 @@
+{
+unicode = "03FC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1254;
+components = (
+{
+name = "rho";
+},
+{
+name = "crossbar";
+pos = (-169,-931);
+},
+);
+},
+);
+}

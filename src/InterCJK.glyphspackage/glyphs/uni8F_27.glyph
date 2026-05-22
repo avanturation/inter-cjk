@@ -1,0 +1,168 @@
+{
+unicode = "8F27";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"827 1316 LINE" 
+"111 1316 LINE" 
+"111 1438 LINE" 
+"827 1438 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"853 234 LINE" 
+"85 234 LINE" 
+"85 356 LINE" 
+"853 356 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"530 1122 LINE" 
+"408 1122 LINE" 
+"408 1650 LINE" 
+"530 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"520 564 LINE" 
+"530 564 LINE" 
+"530 -112 LINE" 
+"408 -112 LINE" 
+"408 564 LINE" 
+"419 564 LINE" 
+"419 1124 LINE" 
+"520 1124 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"689 618 LINE" 
+"689 788 LINE" 
+"259 788 LINE" 
+"259 618 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"689 892 LINE" 
+"689 1056 LINE" 
+"259 1056 LINE" 
+"259 892 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"802 512 LINE" 
+"148 512 LINE" 
+"148 1164 LINE" 
+"802 1164 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1623 -110 LINE" 
+"1497 -110 LINE" 
+"1497 1206 LINE" 
+"1623 1206 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1714 1496 OFFCURVE"
+"1609 1264 OFFCURVE"
+"1568 1186 CURVE"
+"1461 1226 LINE" 
+"1503 1312 OFFCURVE"
+"1596 1556 OFFCURVE"
+"1619 1650 CURVE"
+"1758 1608 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1231 1484 OFFCURVE"
+"1142 1256 OFFCURVE"
+"1105 1180 CURVE"
+"998 1220 LINE" 
+"1035 1304 OFFCURVE"
+"1116 1554 OFFCURVE"
+"1138 1650 CURVE"
+"1275 1610 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1310 1120 LINE" 
+"843 1120 LINE" 
+"843 1248 LINE" 
+"1310 1248 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1819 1120 LINE" 
+"1346 1120 LINE" 
+"1346 1248 LINE" 
+"1819 1248 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1835 552 LINE" 
+"1332 552 LINE" 
+"1332 680 LINE" 
+"1835 680 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1152 518 OFFCURVE"
+"1112 242 OFFCURVE"
+"990 -12 OFFCURVE"
+"869 -116 CURVE"
+"849 -94 OFFCURVE"
+"788 -40 OFFCURVE"
+"766 -28 CURVE"
+"877 66 OFFCURVE"
+"992 296 OFFCURVE"
+"1027 538 OFFCURVE"
+"1027 692 CURVE"
+"1027 1204 LINE" 
+"1152 1204 LINE" 
+"1152 694 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1299 552 LINE" 
+"845 552 LINE" 
+"845 680 LINE" 
+"1299 680 LINE" 
+);
+},
+);
+},
+);
+}

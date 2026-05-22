@@ -1,0 +1,20 @@
+{
+unicode = "2014";
+layers = (
+{
+layerId = "master-text-regular";
+width = 2048;
+paths = (
+{
+closed = 1;
+nodes = (
+"2048 719 LINE" 
+"2048 553 LINE" 
+"0 553 LINE" 
+"0 719 LINE" 
+);
+},
+);
+},
+);
+}

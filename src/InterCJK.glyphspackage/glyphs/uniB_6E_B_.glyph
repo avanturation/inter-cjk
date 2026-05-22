@@ -1,0 +1,158 @@
+{
+unicode = "B6EB";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"629 532 LINE" 
+"480 532 LINE" 
+"480 900 LINE" 
+"629 900 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1290 554 LINE" 
+"1147 554 LINE" 
+"1147 1604 LINE" 
+"1290 1604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"341 968 OFFCURVE"
+"844 988 OFFCURVE"
+"1052 1018 CURVE"
+"1062 908 LINE" 
+"848 868 OFFCURVE"
+"363 840 OFFCURVE"
+"84 838 CURVE"
+"68 968 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1246 668 LINE" 
+"825 668 LINE" 
+"825 778 LINE" 
+"1246 778 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1599 498 LINE" 
+"1454 498 LINE" 
+"1454 1632 LINE" 
+"1599 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"504 1426 LINE" 
+"278 1426 LINE" 
+"278 1104 LINE" 
+"138 1104 LINE" 
+"138 1552 LINE" 
+"504 1552 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"292 1204 OFFCURVE"
+"439 1214 OFFCURVE"
+"518 1234 CURVE"
+"538 1112 LINE" 
+"446 1090 OFFCURVE"
+"306 1080 OFFCURVE"
+"203 1080 CURVE"
+"138 1080 LINE" 
+"138 1204 LINE" 
+"203 1204 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"967 1430 LINE" 
+"720 1430 LINE" 
+"720 1108 LINE" 
+"579 1108 LINE" 
+"579 1556 LINE" 
+"967 1556 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"983 1084 LINE" 
+"579 1084 LINE" 
+"579 1208 LINE" 
+"983 1208 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1056 182 OFFCURVE"
+"868 -6 OFFCURVE"
+"551 -120 OFFCURVE"
+"365 -136 CURVE"
+"318 -18 LINE" 
+"478 -6 OFFCURVE"
+"757 84 OFFCURVE"
+"924 220 OFFCURVE"
+"924 300 CURVE"
+"924 320 LINE" 
+"1056 320 LINE" 
+"1056 300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1082 222 OFFCURVE"
+"1248 84 OFFCURVE"
+"1528 -6 OFFCURVE"
+"1686 -18 CURVE"
+"1642 -136 LINE" 
+"1454 -120 OFFCURVE"
+"1137 -6 OFFCURVE"
+"947 182 OFFCURVE"
+"947 300 CURVE"
+"947 320 LINE" 
+"1082 320 LINE" 
+"1082 300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1615 256 LINE" 
+"395 256 LINE" 
+"395 378 LINE" 
+"1615 378 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1082 340 LINE" 
+"926 340 LINE" 
+"926 526 LINE" 
+"1082 526 LINE" 
+);
+},
+);
+},
+);
+}

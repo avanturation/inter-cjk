@@ -1,0 +1,155 @@
+{
+unicode = "B006";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1252 554 LINE" 
+"1104 554 LINE" 
+"1104 1604 LINE" 
+"1252 1604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1173 664 LINE" 
+"791 664 LINE" 
+"791 782 LINE" 
+"1173 782 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"629 542 LINE" 
+"478 542 LINE" 
+"478 904 LINE" 
+"629 904 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"363 990 OFFCURVE"
+"823 1008 OFFCURVE"
+"1021 1036 CURVE"
+"1033 926 LINE" 
+"888 898 OFFCURVE"
+"551 868 OFFCURVE"
+"258 860 OFFCURVE"
+"78 858 CURVE"
+"60 988 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"421 1386 LINE" 
+"140 1386 LINE" 
+"140 1514 LINE" 
+"421 1514 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"498 1380 OFFCURVE"
+"492 1244 OFFCURVE"
+"464 1050 OFFCURVE"
+"435 942 CURVE"
+"300 962 LINE" 
+"328 1070 OFFCURVE"
+"355 1254 OFFCURVE"
+"361 1380 OFFCURVE"
+"361 1452 CURVE"
+"361 1514 LINE" 
+"498 1514 LINE" 
+"498 1452 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"868 1386 LINE" 
+"569 1386 LINE" 
+"569 1514 LINE" 
+"868 1514 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"928 1338 OFFCURVE"
+"924 1222 OFFCURVE"
+"900 1050 OFFCURVE"
+"876 954 CURVE"
+"739 970 LINE" 
+"773 1108 OFFCURVE"
+"791 1304 OFFCURVE"
+"793 1426 CURVE"
+"793 1514 LINE" 
+"930 1514 LINE" 
+"930 1426 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1571 536 LINE" 
+"1423 536 LINE" 
+"1423 1634 LINE" 
+"1571 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1587 320 LINE" 
+"373 320 LINE" 
+"373 446 LINE" 
+"1587 446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1034 242 OFFCURVE"
+"842 28 OFFCURVE"
+"526 -112 OFFCURVE"
+"340 -136 CURVE"
+"288 -16 LINE" 
+"446 2 OFFCURVE"
+"726 116 OFFCURVE"
+"896 280 OFFCURVE"
+"896 368 CURVE"
+"896 422 LINE" 
+"1034 422 LINE" 
+"1034 368 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1058 276 OFFCURVE"
+"1227 112 OFFCURVE"
+"1506 2 OFFCURVE"
+"1668 -16 CURVE"
+"1613 -136 LINE" 
+"1427 -114 OFFCURVE"
+"1110 22 OFFCURVE"
+"920 236 OFFCURVE"
+"920 368 CURVE"
+"920 422 LINE" 
+"1058 422 LINE" 
+"1058 368 LINE" 
+);
+},
+);
+},
+);
+}

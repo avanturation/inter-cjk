@@ -1,0 +1,18 @@
+{
+unicode = "029D";
+layers = (
+{
+layerId = "master-text-regular";
+width = 710;
+components = (
+{
+name = "jcrosstail.ccmp";
+},
+{
+name = "uni0307";
+pos = (226,0);
+},
+);
+},
+);
+}

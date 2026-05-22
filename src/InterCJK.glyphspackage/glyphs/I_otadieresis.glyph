@@ -1,0 +1,18 @@
+{
+unicode = "03AA";
+layers = (
+{
+layerId = "master-text-regular";
+width = 550;
+components = (
+{
+name = "I";
+},
+{
+name = "uni0308";
+pos = (-330,372);
+},
+);
+},
+);
+}

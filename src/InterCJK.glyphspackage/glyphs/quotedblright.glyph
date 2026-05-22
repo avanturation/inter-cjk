@@ -1,0 +1,18 @@
+{
+unicode = "02EE,201D";
+layers = (
+{
+layerId = "master-text-regular";
+width = 902;
+components = (
+{
+name = "quoteright";
+},
+{
+name = "quoteright";
+pos = (368,0);
+},
+);
+},
+);
+}

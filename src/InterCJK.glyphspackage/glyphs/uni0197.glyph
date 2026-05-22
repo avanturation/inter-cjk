@@ -1,0 +1,19 @@
+{
+unicode = "0197";
+layers = (
+{
+layerId = "master-text-regular";
+width = 690;
+components = (
+{
+name = "I";
+pos = (70,0);
+},
+{
+name = "_part.crossbar_compact";
+pos = (-18,24);
+},
+);
+},
+);
+}

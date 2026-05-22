@@ -1,0 +1,27 @@
+{
+unicode = "20DC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+components = (
+{
+name = "period";
+pos = (0,1298);
+},
+{
+name = "period";
+pos = (590,1298);
+},
+{
+name = "period";
+pos = (1180,1298);
+},
+{
+name = "period";
+pos = (1770,1298);
+},
+);
+},
+);
+}

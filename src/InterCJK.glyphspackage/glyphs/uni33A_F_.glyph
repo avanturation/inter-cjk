@@ -1,0 +1,35 @@
+{
+unicode = "33AF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 5530;
+components = (
+{
+name = "r";
+pos = (0,18);
+},
+{
+name = "a";
+pos = (714,18);
+},
+{
+name = "d";
+pos = (1810,18);
+},
+{
+name = "slash";
+pos = (3020,18);
+},
+{
+name = "s";
+pos = (3704,18);
+},
+{
+name = "uni00B2";
+pos = (4720,18);
+},
+);
+},
+);
+}

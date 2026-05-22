@@ -1,0 +1,153 @@
+{
+unicode = "BACA";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1458 600 LINE" 
+"1300 600 LINE" 
+"1300 1632 LINE" 
+"1458 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1718 1020 LINE" 
+"1353 1020 LINE" 
+"1353 1152 LINE" 
+"1718 1152 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"720 706 LINE" 
+"557 706 LINE" 
+"557 1062 LINE" 
+"720 1062 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1056 990 LINE" 
+"231 990 LINE" 
+"231 1552 LINE" 
+"1056 1552 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"387 1114 LINE" 
+"900 1114 LINE" 
+"900 1426 LINE" 
+"387 1426 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"355 778 OFFCURVE"
+"939 804 OFFCURVE"
+"1185 828 CURVE"
+"1197 706 LINE" 
+"947 672 OFFCURVE"
+"369 640 OFFCURVE"
+"94 638 CURVE"
+"72 776 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 16 OFFCURVE"
+"686 44 OFFCURVE"
+"791 82 CURVE"
+"819 -50 LINE" 
+"698 -90 OFFCURVE"
+"454 -118 OFFCURVE"
+"340 -116 CURVE"
+"252 -116 LINE" 
+"252 14 LINE" 
+"340 14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"405 -42 LINE" 
+"252 -42 LINE" 
+"252 488 LINE" 
+"405 488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1625 310 LINE" 
+"753 310 LINE" 
+"753 428 LINE" 
+"1625 428 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1286 244 OFFCURVE"
+"1434 194 OFFCURVE"
+"1518 102 OFFCURVE"
+"1518 40 CURVE"
+"1518 -22 OFFCURVE"
+"1434 -116 OFFCURVE"
+"1286 -166 OFFCURVE"
+"1191 -166 CURVE"
+"1094 -166 OFFCURVE"
+"945 -116 OFFCURVE"
+"862 -22 OFFCURVE"
+"862 40 CURVE"
+"862 102 OFFCURVE"
+"945 194 OFFCURVE"
+"1094 244 OFFCURVE"
+"1191 244 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1135 138 OFFCURVE"
+"1048 116 OFFCURVE"
+"1001 72 OFFCURVE"
+"1001 40 CURVE"
+"1001 10 OFFCURVE"
+"1048 -38 OFFCURVE"
+"1135 -62 OFFCURVE"
+"1191 -62 CURVE"
+"1246 -62 OFFCURVE"
+"1331 -38 OFFCURVE"
+"1379 8 OFFCURVE"
+"1379 40 CURVE"
+"1379 72 OFFCURVE"
+"1331 116 OFFCURVE"
+"1246 138 OFFCURVE"
+"1191 136 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1264 366 LINE" 
+"1114 366 LINE" 
+"1114 592 LINE" 
+"1264 592 LINE" 
+);
+},
+);
+},
+);
+}

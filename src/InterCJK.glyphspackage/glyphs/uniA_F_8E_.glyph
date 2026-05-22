@@ -1,0 +1,160 @@
+{
+unicode = "AF8E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1563 446 LINE" 
+"920 446 LINE" 
+"920 566 LINE" 
+"1563 566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1573 -136 LINE" 
+"912 -136 LINE" 
+"912 -14 LINE" 
+"1573 -14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1163 -92 LINE" 
+"1034 -92 LINE" 
+"1034 488 LINE" 
+"1163 488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1450 -92 LINE" 
+"1320 -92 LINE" 
+"1320 488 LINE" 
+"1450 488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"819 166 LINE" 
+"401 166 LINE" 
+"401 -104 LINE" 
+"246 -104 LINE" 
+"246 274 LINE" 
+"662 274 LINE" 
+"662 446 LINE" 
+"239 446 LINE" 
+"239 566 LINE" 
+"819 566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"510 -22 OFFCURVE"
+"730 -12 OFFCURVE"
+"852 8 CURVE"
+"866 -106 LINE" 
+"737 -124 OFFCURVE"
+"516 -136 OFFCURVE"
+"336 -136 CURVE"
+"246 -136 LINE" 
+"246 -20 LINE" 
+"336 -20 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"476 1406 LINE" 
+"153 1406 LINE" 
+"153 1536 LINE" 
+"476 1536 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"561 1402 OFFCURVE"
+"555 1270 OFFCURVE"
+"526 1082 OFFCURVE"
+"494 976 CURVE"
+"347 996 LINE" 
+"379 1104 OFFCURVE"
+"411 1282 OFFCURVE"
+"417 1404 OFFCURVE"
+"417 1472 CURVE"
+"417 1536 LINE" 
+"561 1536 LINE" 
+"561 1472 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1048 1406 LINE" 
+"668 1406 LINE" 
+"668 1536 LINE" 
+"1048 1536 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1153 1316 OFFCURVE"
+"1137 1114 OFFCURVE"
+"1108 980 CURVE"
+"965 1000 LINE" 
+"995 1134 OFFCURVE"
+"1011 1324 OFFCURVE"
+"1013 1446 CURVE"
+"1013 1536 LINE" 
+"1155 1536 LINE" 
+"1155 1446 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"761 788 LINE" 
+"617 788 LINE" 
+"617 1166 LINE" 
+"761 1166 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"163 844 LINE" 
+"474 846 OFFCURVE"
+"1011 870 OFFCURVE"
+"1250 900 CURVE"
+"1262 788 LINE" 
+"1078 758 OFFCURVE"
+"680 728 OFFCURVE"
+"318 718 OFFCURVE"
+"100 716 CURVE"
+"78 844 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1533 658 LINE" 
+"1377 658 LINE" 
+"1377 1634 LINE" 
+"1533 1634 LINE" 
+);
+},
+);
+},
+);
+}

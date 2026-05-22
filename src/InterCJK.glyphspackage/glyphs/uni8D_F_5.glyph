@@ -1,0 +1,153 @@
+{
+unicode = "8DF5";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"641 1102 LINE" 
+"641 1448 LINE" 
+"295 1448 LINE" 
+"295 1102 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"766 982 LINE" 
+"176 982 LINE" 
+"176 1566 LINE" 
+"766 1566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"548 150 LINE" 
+"425 150 LINE" 
+"425 1042 LINE" 
+"548 1042 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"293 88 LINE" 
+"178 88 LINE" 
+"178 798 LINE" 
+"293 798 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"283 158 OFFCURVE"
+"837 296 CURVE"
+"851 176 LINE" 
+"720 142 OFFCURVE"
+"459 74 OFFCURVE"
+"334 42 CURVE"
+"275 26 OFFCURVE"
+"162 -2 OFFCURVE"
+"111 -16 CURVE"
+"81 114 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"812 578 LINE" 
+"481 578 LINE" 
+"481 700 LINE" 
+"812 700 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1770 1272 LINE" 
+"855 1178 LINE" 
+"841 1300 LINE" 
+"1756 1392 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1736 974 LINE" 
+"901 882 LINE" 
+"887 1000 LINE" 
+"1722 1092 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1835 672 LINE" 
+"857 560 LINE" 
+"845 680 LINE" 
+"1821 790 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1279 1194 OFFCURVE"
+"1374 452 OFFCURVE"
+"1550 24 OFFCURVE"
+"1667 24 CURVE"
+"1693 24 OFFCURVE"
+"1724 76 OFFCURVE"
+"1742 192 OFFCURVE"
+"1748 294 CURVE"
+"1768 274 OFFCURVE"
+"1827 232 OFFCURVE"
+"1853 222 CURVE"
+"1841 92 OFFCURVE"
+"1800 -50 OFFCURVE"
+"1720 -112 OFFCURVE"
+"1653 -112 CURVE"
+"1477 -112 OFFCURVE"
+"1251 356 OFFCURVE"
+"1146 1146 OFFCURVE"
+"1142 1650 CURVE"
+"1281 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1530 1624 OFFCURVE"
+"1689 1532 OFFCURVE"
+"1734 1494 CURVE"
+"1653 1398 LINE" 
+"1611 1438 OFFCURVE"
+"1455 1538 OFFCURVE"
+"1380 1572 CURVE"
+"1459 1656 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1659 394 OFFCURVE"
+"1378 152 OFFCURVE"
+"1037 -38 OFFCURVE"
+"849 -102 CURVE"
+"837 -78 OFFCURVE"
+"792 -12 OFFCURVE"
+"768 12 CURVE"
+"950 68 OFFCURVE"
+"1281 238 OFFCURVE"
+"1548 460 OFFCURVE"
+"1633 586 CURVE"
+"1752 534 LINE" 
+);
+},
+);
+},
+);
+}

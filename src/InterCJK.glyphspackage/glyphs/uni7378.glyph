@@ -1,0 +1,170 @@
+{
+unicode = "7378";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"875 742 LINE" 
+"875 866 LINE" 
+"295 866 LINE" 
+"295 742 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"875 958 LINE" 
+"875 1080 LINE" 
+"295 1080 LINE" 
+"295 958 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1002 650 LINE" 
+"170 650 LINE" 
+"170 1172 LINE" 
+"1002 1172 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1093 460 LINE" 
+"85 460 LINE" 
+"85 566 LINE" 
+"1093 566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"903 -22 LINE" 
+"267 -22 LINE" 
+"267 84 LINE" 
+"903 84 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1819 988 LINE" 
+"1031 988 LINE" 
+"1031 1118 LINE" 
+"1819 1118 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"637 682 LINE" 
+"518 682 LINE" 
+"518 1128 LINE" 
+"637 1128 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1453 940 OFFCURVE"
+"1402 512 OFFCURVE"
+"1233 66 OFFCURVE"
+"1071 -112 CURVE"
+"1051 -90 OFFCURVE"
+"992 -34 OFFCURVE"
+"968 -18 CURVE"
+"1126 144 OFFCURVE"
+"1279 558 OFFCURVE"
+"1318 942 OFFCURVE"
+"1318 1172 CURVE"
+"1318 1648 LINE" 
+"1453 1648 LINE" 
+"1453 1172 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1526 678 OFFCURVE"
+"1701 138 OFFCURVE"
+"1853 -4 CURVE"
+"1829 -24 OFFCURVE"
+"1770 -88 OFFCURVE"
+"1752 -116 CURVE"
+"1594 50 OFFCURVE"
+"1415 628 OFFCURVE"
+"1372 1032 CURVE"
+"1485 1048 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1687 1514 OFFCURVE"
+"1790 1340 OFFCURVE"
+"1811 1276 CURVE"
+"1699 1224 LINE" 
+"1677 1286 OFFCURVE"
+"1578 1464 OFFCURVE"
+"1520 1542 CURVE"
+"1627 1586 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"427 1336 LINE" 
+"427 1502 LINE" 
+"259 1502 LINE" 
+"259 1336 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"536 1244 LINE" 
+"156 1244 LINE" 
+"156 1594 LINE" 
+"536 1594 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"909 1336 LINE" 
+"909 1502 LINE" 
+"726 1502 LINE" 
+"726 1336 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1017 1244 LINE" 
+"623 1244 LINE" 
+"623 1594 LINE" 
+"1017 1594 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"978 -74 LINE" 
+"847 -74 LINE" 
+"847 270 LINE" 
+"332 270 LINE" 
+"332 -110 LINE" 
+"208 -110 LINE" 
+"208 372 LINE" 
+"978 372 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,150 @@
+{
+unicode = "C262";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1268 542 LINE" 
+"1122 542 LINE" 
+"1122 1602 LINE" 
+"1268 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1227 628 LINE" 
+"801 628 LINE" 
+"801 738 LINE" 
+"1227 738 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"629 546 LINE" 
+"480 546 LINE" 
+"480 866 LINE" 
+"629 866 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"312 918 OFFCURVE"
+"829 940 OFFCURVE"
+"1017 962 CURVE"
+"1031 846 LINE" 
+"835 820 OFFCURVE"
+"320 788 OFFCURVE"
+"106 784 CURVE"
+"86 918 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"595 1368 OFFCURVE"
+"500 1178 OFFCURVE"
+"320 1044 OFFCURVE"
+"193 1010 CURVE"
+"110 1136 LINE" 
+"221 1162 OFFCURVE"
+"381 1262 OFFCURVE"
+"466 1400 OFFCURVE"
+"466 1482 CURVE"
+"466 1570 LINE" 
+"595 1570 LINE" 
+"595 1482 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"629 1404 OFFCURVE"
+"714 1286 OFFCURVE"
+"874 1202 OFFCURVE"
+"979 1182 CURVE"
+"904 1056 LINE" 
+"779 1086 OFFCURVE"
+"599 1204 OFFCURVE"
+"504 1372 OFFCURVE"
+"504 1470 CURVE"
+"504 1570 LINE" 
+"629 1570 LINE" 
+"629 1470 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1591 538 LINE" 
+"1440 538 LINE" 
+"1440 1632 LINE" 
+"1591 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1383 296 OFFCURVE"
+"1298 78 OFFCURVE"
+"1133 -98 OFFCURVE"
+"1019 -146 CURVE"
+"926 -18 LINE" 
+"1027 20 OFFCURVE"
+"1177 158 OFFCURVE"
+"1254 328 OFFCURVE"
+"1254 408 CURVE"
+"1254 480 LINE" 
+"1383 480 LINE" 
+"1383 408 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1409 328 OFFCURVE"
+"1484 162 OFFCURVE"
+"1628 22 OFFCURVE"
+"1727 -18 CURVE"
+"1640 -144 LINE" 
+"1528 -96 OFFCURVE"
+"1365 80 OFFCURVE"
+"1284 298 OFFCURVE"
+"1284 410 CURVE"
+"1284 480 LINE" 
+"1409 480 LINE" 
+"1409 410 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"456 284 LINE" 
+"787 284 LINE" 
+"787 472 LINE" 
+"932 472 LINE" 
+"932 -130 LINE" 
+"308 -130 LINE" 
+"308 472 LINE" 
+"456 472 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"787 -6 LINE" 
+"787 164 LINE" 
+"456 164 LINE" 
+"456 -6 LINE" 
+);
+},
+);
+},
+);
+}

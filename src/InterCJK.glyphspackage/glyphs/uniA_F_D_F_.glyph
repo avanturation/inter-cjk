@@ -1,0 +1,157 @@
+{
+unicode = "AFDF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"833 142 LINE" 
+"391 142 LINE" 
+"391 -114 LINE" 
+"241 -114 LINE" 
+"241 252 LINE" 
+"680 252 LINE" 
+"680 400 LINE" 
+"237 400 LINE" 
+"237 518 LINE" 
+"833 518 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"532 -20 OFFCURVE"
+"751 -8 OFFCURVE"
+"868 12 CURVE"
+"886 -100 LINE" 
+"775 -120 OFFCURVE"
+"569 -134 OFFCURVE"
+"403 -134 CURVE"
+"334 -134 LINE" 
+"241 -134 LINE" 
+"241 -18 LINE" 
+"334 -18 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1092 308 LINE" 
+"1383 308 LINE" 
+"1383 528 LINE" 
+"1533 528 LINE" 
+"1533 -144 LINE" 
+"945 -144 LINE" 
+"945 528 LINE" 
+"1092 528 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1383 -24 LINE" 
+"1383 192 LINE" 
+"1092 192 LINE" 
+"1092 -24 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"538 1420 LINE" 
+"181 1420 LINE" 
+"181 1552 LINE" 
+"538 1552 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1048 1420 LINE" 
+"690 1420 LINE" 
+"690 1552 LINE" 
+"1048 1552 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"605 1388 OFFCURVE"
+"599 1256 OFFCURVE"
+"567 1060 OFFCURVE"
+"534 950 CURVE"
+"389 978 LINE" 
+"421 1088 OFFCURVE"
+"450 1272 OFFCURVE"
+"456 1392 OFFCURVE"
+"458 1474 CURVE"
+"458 1552 LINE" 
+"607 1552 LINE" 
+"607 1474 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1122 1426 OFFCURVE"
+"1116 1288 OFFCURVE"
+"1092 1090 OFFCURVE"
+"1066 978 CURVE"
+"916 1000 LINE" 
+"941 1110 OFFCURVE"
+"963 1298 OFFCURVE"
+"969 1412 OFFCURVE"
+"971 1494 CURVE"
+"971 1552 LINE" 
+"1122 1552 LINE" 
+"1122 1494 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"690 602 LINE" 
+"536 602 LINE" 
+"536 964 LINE" 
+"690 964 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"322 1036 LINE" 
+"603 1040 OFFCURVE"
+"1033 1054 OFFCURVE"
+"1229 1070 CURVE"
+"1238 952 LINE" 
+"973 924 OFFCURVE"
+"393 900 OFFCURVE"
+"88 900 CURVE"
+"66 1034 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1533 602 LINE" 
+"1383 602 LINE" 
+"1383 1632 LINE" 
+"1533 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1452 716 LINE" 
+"975 716 LINE" 
+"975 826 LINE" 
+"1452 826 LINE" 
+);
+},
+);
+},
+);
+}

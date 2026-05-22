@@ -1,0 +1,151 @@
+{
+unicode = "B535";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"573 1380 LINE" 
+"262 1380 LINE" 
+"262 800 LINE" 
+"122 800 LINE" 
+"122 1508 LINE" 
+"573 1508 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"241 856 LINE" 
+"343 856 OFFCURVE"
+"516 872 OFFCURVE"
+"603 894 CURVE"
+"621 768 LINE" 
+"516 746 OFFCURVE"
+"324 730 OFFCURVE"
+"199 730 CURVE"
+"122 730 LINE" 
+"122 856 LINE" 
+"199 856 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1470 600 LINE" 
+"1316 600 LINE" 
+"1316 1632 LINE" 
+"1470 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1135 1380 LINE" 
+"819 1380 LINE" 
+"819 800 LINE" 
+"666 800 LINE" 
+"666 1508 LINE" 
+"1135 1508 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"906 856 OFFCURVE"
+"1100 870 OFFCURVE"
+"1209 894 CURVE"
+"1227 770 LINE" 
+"1108 744 OFFCURVE"
+"894 726 OFFCURVE"
+"751 726 CURVE"
+"666 726 LINE" 
+"666 854 LINE" 
+"751 854 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1714 1040 LINE" 
+"1395 1040 LINE" 
+"1395 1174 LINE" 
+"1714 1174 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1229 270 OFFCURVE"
+"1135 58 OFFCURVE"
+"959 -106 OFFCURVE"
+"836 -148 CURVE"
+"753 -28 LINE" 
+"860 8 OFFCURVE"
+"1019 138 OFFCURVE"
+"1104 302 OFFCURVE"
+"1104 388 CURVE"
+"1104 498 LINE" 
+"1229 498 LINE" 
+"1229 388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1258 294 OFFCURVE"
+"1339 138 OFFCURVE"
+"1492 16 OFFCURVE"
+"1595 -18 CURVE"
+"1516 -138 LINE" 
+"1397 -96 OFFCURVE"
+"1227 60 OFFCURVE"
+"1137 264 OFFCURVE"
+"1137 378 CURVE"
+"1137 498 LINE" 
+"1258 498 LINE" 
+"1258 378 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"393 -40 LINE" 
+"241 -40 LINE" 
+"241 500 LINE" 
+"393 500 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"387 26 OFFCURVE"
+"547 42 OFFCURVE"
+"722 84 OFFCURVE"
+"781 118 CURVE"
+"817 -14 LINE" 
+"743 -48 OFFCURVE"
+"563 -90 OFFCURVE"
+"397 -106 OFFCURVE"
+"330 -106 CURVE"
+"241 -106 LINE" 
+"241 26 LINE" 
+"330 26 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1555 394 LINE" 
+"805 394 LINE" 
+"805 524 LINE" 
+"1555 524 LINE" 
+);
+},
+);
+},
+);
+}

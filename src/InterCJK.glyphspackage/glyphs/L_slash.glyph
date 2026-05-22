@@ -1,0 +1,19 @@
+{
+unicode = "0141";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1218;
+components = (
+{
+name = "L";
+pos = (60,0);
+},
+{
+name = "slashshort.uc";
+pos = (50,-24);
+},
+);
+},
+);
+}

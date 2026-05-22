@@ -1,0 +1,19 @@
+{
+unicode = "01C1";
+layers = (
+{
+layerId = "master-text-regular";
+width = 734;
+components = (
+{
+name = "pipe";
+pos = (-56,0);
+},
+{
+name = "pipe";
+pos = (216,0);
+},
+);
+},
+);
+}

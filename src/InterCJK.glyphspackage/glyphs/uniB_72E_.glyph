@@ -1,0 +1,152 @@
+{
+unicode = "B72E";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"811 1448 LINE" 
+"375 1448 LINE" 
+"375 1052 LINE" 
+"217 1052 LINE" 
+"217 1580 LINE" 
+"811 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"349 1128 LINE" 
+"470 1130 OFFCURVE"
+"706 1148 OFFCURVE"
+"833 1170 CURVE"
+"848 1042 LINE" 
+"720 1020 OFFCURVE"
+"488 1000 OFFCURVE"
+"373 998 CURVE"
+"312 998 LINE" 
+"217 998 LINE" 
+"217 1128 LINE" 
+"312 1128 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1516 1450 LINE" 
+"1064 1450 LINE" 
+"1064 1040 LINE" 
+"910 1040 LINE" 
+"910 1584 LINE" 
+"1516 1584 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1533 1006 LINE" 
+"910 1006 LINE" 
+"910 1136 LINE" 
+"1533 1136 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1670 686 LINE" 
+"66 686 LINE" 
+"66 814 LINE" 
+"1670 814 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"425 18 OFFCURVE"
+"662 46 OFFCURVE"
+"769 84 CURVE"
+"795 -46 LINE" 
+"674 -84 OFFCURVE"
+"435 -114 OFFCURVE"
+"316 -114 CURVE"
+"229 -114 LINE" 
+"229 18 LINE" 
+"316 18 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"383 -38 LINE" 
+"229 -38 LINE" 
+"229 492 LINE" 
+"383 492 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1603 320 LINE" 
+"734 320 LINE" 
+"734 440 LINE" 
+"1603 440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1264 248 OFFCURVE"
+"1413 198 OFFCURVE"
+"1496 104 OFFCURVE"
+"1496 40 CURVE"
+"1496 -20 OFFCURVE"
+"1413 -112 OFFCURVE"
+"1264 -162 OFFCURVE"
+"1169 -162 CURVE"
+"1074 -162 OFFCURVE"
+"926 -112 OFFCURVE"
+"840 -20 OFFCURVE"
+"840 40 CURVE"
+"840 104 OFFCURVE"
+"924 198 OFFCURVE"
+"1074 248 OFFCURVE"
+"1169 248 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1112 142 OFFCURVE"
+"1027 118 OFFCURVE"
+"979 72 OFFCURVE"
+"979 40 CURVE"
+"979 10 OFFCURVE"
+"1027 -34 OFFCURVE"
+"1112 -58 OFFCURVE"
+"1169 -58 CURVE"
+"1225 -58 OFFCURVE"
+"1308 -34 OFFCURVE"
+"1357 10 OFFCURVE"
+"1357 40 CURVE"
+"1357 72 OFFCURVE"
+"1310 118 OFFCURVE"
+"1225 142 OFFCURVE"
+"1169 142 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1240 368 LINE" 
+"1090 368 LINE" 
+"1090 592 LINE" 
+"1240 592 LINE" 
+);
+},
+);
+},
+);
+}

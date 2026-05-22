@@ -1,0 +1,153 @@
+{
+unicode = "B7BA";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1442 686 LINE" 
+"1288 686 LINE" 
+"1288 1632 LINE" 
+"1442 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"935 1068 LINE" 
+"298 1068 LINE" 
+"298 736 LINE" 
+"143 736 LINE" 
+"143 1190 LINE" 
+"783 1190 LINE" 
+"783 1412 LINE" 
+"138 1412 LINE" 
+"138 1538 LINE" 
+"935 1538 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"557 826 OFFCURVE"
+"920 846 OFFCURVE"
+"1116 876 CURVE"
+"1132 750 LINE" 
+"945 722 OFFCURVE"
+"597 700 OFFCURVE"
+"367 698 CURVE"
+"282 698 LINE" 
+"143 698 LINE" 
+"143 824 LINE" 
+"282 824 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1712 1244 LINE" 
+"1335 1244 LINE" 
+"1335 1374 LINE" 
+"1712 1374 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1712 906 LINE" 
+"1337 906 LINE" 
+"1337 1036 LINE" 
+"1712 1036 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"429 18 OFFCURVE"
+"668 48 OFFCURVE"
+"775 86 CURVE"
+"805 -44 LINE" 
+"684 -82 OFFCURVE"
+"440 -110 OFFCURVE"
+"320 -110 CURVE"
+"235 -110 LINE" 
+"235 18 LINE" 
+"320 18 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"389 -26 LINE" 
+"235 -26 LINE" 
+"235 526 LINE" 
+"389 526 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1623 360 LINE" 
+"730 360 LINE" 
+"730 480 LINE" 
+"1623 480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1272 296 OFFCURVE"
+"1421 242 OFFCURVE"
+"1504 142 OFFCURVE"
+"1504 74 CURVE"
+"1504 6 OFFCURVE"
+"1421 -98 OFFCURVE"
+"1272 -154 OFFCURVE"
+"1177 -154 CURVE"
+"1082 -154 OFFCURVE"
+"934 -98 OFFCURVE"
+"848 6 OFFCURVE"
+"848 74 CURVE"
+"848 142 OFFCURVE"
+"934 242 OFFCURVE"
+"1082 296 OFFCURVE"
+"1177 296 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1124 190 OFFCURVE"
+"1036 160 OFFCURVE"
+"989 108 OFFCURVE"
+"989 74 CURVE"
+"989 38 OFFCURVE"
+"1036 -18 OFFCURVE"
+"1122 -46 OFFCURVE"
+"1177 -46 CURVE"
+"1232 -46 OFFCURVE"
+"1318 -18 OFFCURVE"
+"1367 38 OFFCURVE"
+"1367 74 CURVE"
+"1367 108 OFFCURVE"
+"1318 160 OFFCURVE"
+"1231 190 OFFCURVE"
+"1177 190 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1254 398 LINE" 
+"1104 398 LINE" 
+"1104 650 LINE" 
+"1254 650 LINE" 
+);
+},
+);
+},
+);
+}

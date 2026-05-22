@@ -1,0 +1,19 @@
+{
+unicode = "E2B9";
+layers = (
+{
+layerId = "master-text-regular";
+width = 550;
+components = (
+{
+name = "period.ss07";
+pos = (-20,217);
+},
+{
+name = "period.ss07";
+pos = (-20,1040);
+},
+);
+},
+);
+}

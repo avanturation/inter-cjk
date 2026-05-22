@@ -1,0 +1,18 @@
+{
+unicode = "2049";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1636;
+components = (
+{
+name = "exclam";
+},
+{
+name = "question";
+pos = (589,0);
+},
+);
+},
+);
+}

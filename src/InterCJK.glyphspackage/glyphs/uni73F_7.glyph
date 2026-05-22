@@ -1,0 +1,154 @@
+{
+unicode = "73F7";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"659 1366 LINE" 
+"93 1366 LINE" 
+"93 1492 LINE" 
+"659 1492 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"633 826 LINE" 
+"115 826 LINE" 
+"115 950 LINE" 
+"633 950 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"146 308 OFFCURVE"
+"384 376 OFFCURVE"
+"503 412 CURVE"
+"663 460 LINE" 
+"679 336 LINE" 
+"617 318 OFFCURVE"
+"495 280 OFFCURVE"
+"433 260 CURVE"
+"320 226 OFFCURVE"
+"212 192 OFFCURVE"
+"101 158 CURVE"
+"69 288 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"439 318 LINE" 
+"316 290 LINE" 
+"316 1440 LINE" 
+"439 1440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1829 1074 LINE" 
+"669 1074 LINE" 
+"669 1194 LINE" 
+"1829 1194 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1336 576 LINE" 
+"1079 576 LINE" 
+"1079 688 LINE" 
+"1336 688 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1267 1400 LINE" 
+"750 1400 LINE" 
+"750 1518 LINE" 
+"1267 1518 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1483 1220 OFFCURVE"
+"1552 462 OFFCURVE"
+"1661 8 OFFCURVE"
+"1716 8 CURVE"
+"1736 8 OFFCURVE"
+"1760 172 OFFCURVE"
+"1762 334 CURVE"
+"1780 314 OFFCURVE"
+"1833 276 OFFCURVE"
+"1861 262 CURVE"
+"1851 116 OFFCURVE"
+"1815 -44 OFFCURVE"
+"1752 -114 OFFCURVE"
+"1695 -114 CURVE"
+"1588 -114 OFFCURVE"
+"1443 376 OFFCURVE"
+"1370 1172 OFFCURVE"
+"1364 1648 CURVE"
+"1485 1648 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1691 1546 OFFCURVE"
+"1790 1398 OFFCURVE"
+"1813 1342 CURVE"
+"1714 1292 LINE" 
+"1691 1348 OFFCURVE"
+"1592 1502 OFFCURVE"
+"1540 1562 CURVE"
+"1633 1606 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1136 84 LINE" 
+"1019 84 LINE" 
+"1019 1024 LINE" 
+"1136 1024 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"869 48 LINE" 
+"756 48 LINE" 
+"756 868 LINE" 
+"869 868 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"712 86 OFFCURVE"
+"1067 152 OFFCURVE"
+"1245 186 CURVE"
+"1301 196 OFFCURVE"
+"1354 206 OFFCURVE"
+"1406 216 CURVE"
+"1415 94 LINE" 
+"1326 78 OFFCURVE"
+"1148 42 OFFCURVE"
+"1059 24 CURVE"
+"633 -58 LINE" 
+"608 70 LINE" 
+);
+},
+);
+},
+);
+}

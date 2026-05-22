@@ -1,0 +1,156 @@
+{
+unicode = "B647";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1718 1072 LINE" 
+"1365 1072 LINE" 
+"1365 1208 LINE" 
+"1718 1208 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"694 770 LINE" 
+"538 770 LINE" 
+"538 1010 LINE" 
+"694 1010 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"284 818 OFFCURVE"
+"627 824 OFFCURVE"
+"1019 850 OFFCURVE"
+"1189 878 CURVE"
+"1203 770 LINE" 
+"971 726 OFFCURVE"
+"470 694 OFFCURVE"
+"161 690 CURVE"
+"120 690 OFFCURVE"
+"78 690 CURVE"
+"60 818 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1135 1016 LINE" 
+"666 1016 LINE" 
+"666 1136 LINE" 
+"1135 1136 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1120 1412 LINE" 
+"819 1412 LINE" 
+"819 1074 LINE" 
+"666 1074 LINE" 
+"666 1536 LINE" 
+"1120 1536 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"579 1412 LINE" 
+"300 1412 LINE" 
+"300 1074 LINE" 
+"145 1074 LINE" 
+"145 1536 LINE" 
+"579 1536 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"330 1138 OFFCURVE"
+"506 1154 OFFCURVE"
+"599 1174 CURVE"
+"615 1054 LINE" 
+"514 1030 OFFCURVE"
+"336 1016 OFFCURVE"
+"219 1016 CURVE"
+"145 1016 LINE" 
+"145 1136 LINE" 
+"219 1136 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1470 620 LINE" 
+"1312 620 LINE" 
+"1312 1632 LINE" 
+"1470 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1541 366 LINE" 
+"278 366 LINE" 
+"278 488 LINE" 
+"1541 488 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1157 286 OFFCURVE"
+"1413 180 OFFCURVE"
+"1413 72 CURVE"
+"1413 -34 OFFCURVE"
+"1157 -140 OFFCURVE"
+"912 -140 CURVE"
+"666 -140 OFFCURVE"
+"411 -34 OFFCURVE"
+"411 72 CURVE"
+"411 180 OFFCURVE"
+"666 286 OFFCURVE"
+"912 286 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"799 180 OFFCURVE"
+"644 156 OFFCURVE"
+"565 108 OFFCURVE"
+"565 72 CURVE"
+"565 38 OFFCURVE"
+"644 -8 OFFCURVE"
+"799 -32 OFFCURVE"
+"912 -32 CURVE"
+"1025 -32 OFFCURVE"
+"1179 -8 OFFCURVE"
+"1258 38 OFFCURVE"
+"1258 72 CURVE"
+"1258 108 OFFCURVE"
+"1179 156 OFFCURVE"
+"1025 180 OFFCURVE"
+"912 180 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"991 402 LINE" 
+"835 402 LINE" 
+"835 644 LINE" 
+"991 644 LINE" 
+);
+},
+);
+},
+);
+}

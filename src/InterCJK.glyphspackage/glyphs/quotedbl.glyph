@@ -1,0 +1,18 @@
+{
+unicode = "0022";
+layers = (
+{
+layerId = "master-text-regular";
+width = 954;
+components = (
+{
+name = "quotesingle";
+},
+{
+name = "quotesingle";
+pos = (340,0);
+},
+);
+},
+);
+}

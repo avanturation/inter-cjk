@@ -1,0 +1,154 @@
+{
+unicode = "D6B5";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"815 142 LINE" 
+"403 142 LINE" 
+"403 -76 LINE" 
+"254 -76 LINE" 
+"254 246 LINE" 
+"664 246 LINE" 
+"664 384 LINE" 
+"250 384 LINE" 
+"250 490 LINE" 
+"815 490 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"536 -14 OFFCURVE"
+"747 -2 OFFCURVE"
+"860 18 CURVE"
+"874 -94 LINE" 
+"773 -112 OFFCURVE"
+"579 -124 OFFCURVE"
+"425 -124 CURVE"
+"345 -124 LINE" 
+"254 -124 LINE" 
+"254 -14 LINE" 
+"345 -14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1522 -124 LINE" 
+"941 -124 LINE" 
+"941 -14 LINE" 
+"1522 -14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1504 380 LINE" 
+"1092 380 LINE" 
+"1092 -74 LINE" 
+"941 -74 LINE" 
+"941 490 LINE" 
+"1504 490 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 136 LINE" 
+"1038 136 LINE" 
+"1038 244 LINE" 
+"1484 244 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1591 1362 LINE" 
+"163 1362 LINE" 
+"163 1480 LINE" 
+"1591 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1149 1302 OFFCURVE"
+"1430 1184 OFFCURVE"
+"1430 1068 CURVE"
+"1430 952 OFFCURVE"
+"1151 832 OFFCURVE"
+"882 832 CURVE"
+"611 832 OFFCURVE"
+"332 950 OFFCURVE"
+"332 1068 CURVE"
+"332 1184 OFFCURVE"
+"613 1302 OFFCURVE"
+"882 1300 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"757 1194 OFFCURVE"
+"583 1164 OFFCURVE"
+"494 1108 OFFCURVE"
+"494 1068 CURVE"
+"494 1028 OFFCURVE"
+"583 972 OFFCURVE"
+"755 942 OFFCURVE"
+"882 942 CURVE"
+"1009 942 OFFCURVE"
+"1183 972 OFFCURVE"
+"1272 1028 OFFCURVE"
+"1272 1068 CURVE"
+"1272 1108 OFFCURVE"
+"1183 1164 OFFCURVE"
+"1009 1194 OFFCURVE"
+"882 1194 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"959 1384 LINE" 
+"805 1384 LINE" 
+"805 1656 LINE" 
+"959 1656 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1684 600 LINE" 
+"80 600 LINE" 
+"80 720 LINE" 
+"1684 720 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"682 662 LINE" 
+"528 662 LINE" 
+"528 912 LINE" 
+"682 912 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1231 662 LINE" 
+"1076 662 LINE" 
+"1076 912 LINE" 
+"1231 912 LINE" 
+);
+},
+);
+},
+);
+}

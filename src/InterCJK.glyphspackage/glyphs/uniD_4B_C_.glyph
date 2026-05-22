@@ -1,0 +1,161 @@
+{
+unicode = "D4BC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"941 1416 LINE" 
+"147 1416 LINE" 
+"147 1532 LINE" 
+"941 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"932 1042 LINE" 
+"145 1042 LINE" 
+"145 1160 LINE" 
+"932 1160 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"440 1074 LINE" 
+"298 1074 LINE" 
+"298 1502 LINE" 
+"440 1502 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"787 1070 LINE" 
+"646 1070 LINE" 
+"646 1498 LINE" 
+"787 1498 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"633 584 LINE" 
+"476 584 LINE" 
+"476 884 LINE" 
+"633 884 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1268 578 LINE" 
+"1122 578 LINE" 
+"1122 1602 LINE" 
+"1268 1602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"169 928 LINE" 
+"395 932 OFFCURVE"
+"844 954 OFFCURVE"
+"1015 972 CURVE"
+"1025 862 LINE" 
+"831 834 OFFCURVE"
+"328 804 OFFCURVE"
+"104 802 CURVE"
+"88 928 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1211 658 LINE" 
+"801 658 LINE" 
+"801 766 LINE" 
+"1211 766 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1591 578 LINE" 
+"1440 578 LINE" 
+"1440 1632 LINE" 
+"1591 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"898 144 LINE" 
+"458 144 LINE" 
+"458 -114 LINE" 
+"308 -114 LINE" 
+"308 256 LINE" 
+"745 256 LINE" 
+"745 400 LINE" 
+"304 400 LINE" 
+"304 518 LINE" 
+"898 518 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1355 300 OFFCURVE"
+"1278 72 OFFCURVE"
+"1122 -106 OFFCURVE"
+"1007 -156 CURVE"
+"920 -38 LINE" 
+"1021 2 OFFCURVE"
+"1163 146 OFFCURVE"
+"1234 330 OFFCURVE"
+"1234 430 CURVE"
+"1234 530 LINE" 
+"1355 530 LINE" 
+"1355 430 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1389 332 OFFCURVE"
+"1456 152 OFFCURVE"
+"1591 10 OFFCURVE"
+"1690 -32 CURVE"
+"1603 -148 LINE" 
+"1492 -98 OFFCURVE"
+"1341 76 OFFCURVE"
+"1268 304 OFFCURVE"
+"1268 430 CURVE"
+"1268 530 LINE" 
+"1389 530 LINE" 
+"1389 430 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"617 -18 OFFCURVE"
+"819 -6 OFFCURVE"
+"922 16 CURVE"
+"939 -100 LINE" 
+"827 -124 OFFCURVE"
+"613 -136 OFFCURVE"
+"401 -136 CURVE"
+"308 -136 LINE" 
+"308 -18 LINE" 
+"401 -18 LINE" 
+);
+},
+);
+},
+);
+}

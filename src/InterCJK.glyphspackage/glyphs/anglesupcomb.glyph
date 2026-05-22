@@ -1,0 +1,29 @@
+{
+unicode = "EED4";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-742 1532 LINE" 
+"-742 1658 LINE" 
+"-191 1658 LINE" 
+"-191 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"-214 1282 LINE" 
+"-214 1658 LINE" 
+"-60 1658 LINE" 
+"-60 1282 LINE" 
+);
+},
+);
+},
+);
+}

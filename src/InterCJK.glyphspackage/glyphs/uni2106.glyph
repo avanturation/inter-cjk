@@ -1,0 +1,22 @@
+{
+unicode = "2106";
+layers = (
+{
+layerId = "master-text-regular";
+width = 2055;
+components = (
+{
+name = "c.sups";
+},
+{
+name = "fraction";
+pos = (771,0);
+},
+{
+name = "u.sups";
+pos = (1164,-898);
+},
+);
+},
+);
+}

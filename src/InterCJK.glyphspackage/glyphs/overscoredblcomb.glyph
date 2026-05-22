@@ -1,0 +1,29 @@
+{
+unicode = "EEC1";
+layers = (
+{
+layerId = "master-text-regular";
+width = 0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-125 1645 LINE" 
+"-125 1486 LINE" 
+"-1050 1486 LINE" 
+"-1050 1645 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"-125 1903 LINE" 
+"-125 1744 LINE" 
+"-1050 1744 LINE" 
+"-1050 1903 LINE" 
+);
+},
+);
+},
+);
+}

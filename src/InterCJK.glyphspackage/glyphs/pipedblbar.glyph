@@ -1,0 +1,23 @@
+{
+unicode = "01C2";
+layers = (
+{
+layerId = "master-text-regular";
+width = 496;
+components = (
+{
+name = "pipe";
+pos = (-28,0);
+},
+{
+name = "crossbar";
+pos = (-216,276);
+},
+{
+name = "crossbar";
+pos = (-216,-218);
+},
+);
+},
+);
+}

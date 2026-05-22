@@ -1,0 +1,163 @@
+{
+unicode = "66DC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1150 1240 LINE" 
+"760 1240 LINE" 
+"760 1338 LINE" 
+"1150 1338 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1204 992 LINE" 
+"724 992 LINE" 
+"724 1092 LINE" 
+"1083 1092 LINE" 
+"1083 1478 LINE" 
+"726 1478 LINE" 
+"726 1580 LINE" 
+"1204 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1714 1240 LINE" 
+"1312 1240 LINE" 
+"1312 1338 LINE" 
+"1714 1338 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1772 992 LINE" 
+"1281 992 LINE" 
+"1281 1092 LINE" 
+"1649 1092 LINE" 
+"1649 1478 LINE" 
+"1283 1478 LINE" 
+"1283 1580 LINE" 
+"1772 1580 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1740 476 LINE" 
+"895 476 LINE" 
+"895 578 LINE" 
+"1740 578 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1740 228 LINE" 
+"895 228 LINE" 
+"895 326 LINE" 
+"1740 326 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1833 -44 LINE" 
+"899 -44 LINE" 
+"899 66 LINE" 
+"1833 66 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1002 834 OFFCURVE"
+"802 552 OFFCURVE"
+"691 456 CURVE"
+"673 480 OFFCURVE"
+"625 532 OFFCURVE"
+"608 546 CURVE"
+"712 636 OFFCURVE"
+"895 896 OFFCURVE"
+"940 1016 CURVE"
+"1069 976 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1786 728 LINE" 
+"946 728 LINE" 
+"946 -102 LINE" 
+"821 -102 LINE" 
+"821 726 LINE" 
+"928 836 LINE" 
+"946 836 LINE" 
+"1786 836 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1443 912 OFFCURVE"
+"1374 782 OFFCURVE"
+"1348 742 CURVE"
+"1245 776 LINE" 
+"1271 830 OFFCURVE"
+"1324 960 OFFCURVE"
+"1338 1006 CURVE"
+"1475 974 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1370 26 LINE" 
+"1249 26 LINE" 
+"1249 754 LINE" 
+"1370 754 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"645 258 LINE" 
+"221 258 LINE" 
+"221 382 LINE" 
+"520 382 LINE" 
+"520 1406 LINE" 
+"221 1406 LINE" 
+"221 1530 LINE" 
+"645 1530 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"586 844 LINE" 
+"229 844 LINE" 
+"229 968 LINE" 
+"586 968 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"279 100 LINE" 
+"158 100 LINE" 
+"158 1530 LINE" 
+"279 1530 LINE" 
+);
+},
+);
+},
+);
+}

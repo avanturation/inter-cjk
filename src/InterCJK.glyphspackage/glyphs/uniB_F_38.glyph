@@ -1,0 +1,159 @@
+{
+unicode = "BF38";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"221 1236 LINE" 
+"403 1236 LINE" 
+"403 1512 LINE" 
+"524 1512 LINE" 
+"524 696 LINE" 
+"102 696 LINE" 
+"102 1512 LINE" 
+"221 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"403 824 LINE" 
+"403 1108 LINE" 
+"221 1108 LINE" 
+"221 824 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"728 1236 LINE" 
+"908 1236 LINE" 
+"908 1512 LINE" 
+"1025 1512 LINE" 
+"1025 696 LINE" 
+"609 696 LINE" 
+"609 1512 LINE" 
+"728 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"908 824 LINE" 
+"908 1108 LINE" 
+"728 1108 LINE" 
+"728 824 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1322 590 LINE" 
+"1187 590 LINE" 
+"1187 1598 LINE" 
+"1322 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1258 1228 LINE" 
+"969 1228 LINE" 
+"969 1348 LINE" 
+"1258 1348 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1595 586 LINE" 
+"1458 586 LINE" 
+"1458 1632 LINE" 
+"1595 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1258 876 LINE" 
+"967 876 LINE" 
+"967 1002 LINE" 
+"1258 1002 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"682 302 OFFCURVE"
+"585 78 OFFCURVE"
+"401 -94 OFFCURVE"
+"274 -140 CURVE"
+"193 -24 LINE" 
+"306 14 OFFCURVE"
+"472 156 OFFCURVE"
+"559 334 OFFCURVE"
+"559 426 CURVE"
+"559 538 LINE" 
+"682 538 LINE" 
+"682 426 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"710 334 OFFCURVE"
+"781 150 OFFCURVE"
+"922 2 OFFCURVE"
+"1025 -42 CURVE"
+"953 -166 LINE" 
+"833 -114 OFFCURVE"
+"668 72 OFFCURVE"
+"589 306 OFFCURVE"
+"589 430 CURVE"
+"589 538 LINE" 
+"710 538 LINE" 
+"710 430 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1318 306 OFFCURVE"
+"1238 74 OFFCURVE"
+"1074 -114 OFFCURVE"
+"953 -166 CURVE"
+"882 -42 LINE" 
+"985 4 OFFCURVE"
+"1128 156 OFFCURVE"
+"1197 338 OFFCURVE"
+"1197 430 CURVE"
+"1197 538 LINE" 
+"1318 538 LINE" 
+"1318 430 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1349 334 OFFCURVE"
+"1438 156 OFFCURVE"
+"1605 14 OFFCURVE"
+"1718 -24 CURVE"
+"1636 -140 LINE" 
+"1510 -94 OFFCURVE"
+"1324 78 OFFCURVE"
+"1227 302 OFFCURVE"
+"1227 426 CURVE"
+"1227 538 LINE" 
+"1349 538 LINE" 
+"1349 426 LINE" 
+);
+},
+);
+},
+);
+}

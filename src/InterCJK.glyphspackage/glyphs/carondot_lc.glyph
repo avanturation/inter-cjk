@@ -1,0 +1,42 @@
+{
+unicode = "EECC";
+layers = (
+{
+layerId = "master-text-regular";
+width = 828;
+paths = (
+{
+closed = 1;
+nodes = (
+"277 1536 LINE" 
+"421 1361 LINE" 
+"563 1536 LINE" 
+"742 1536 LINE" 
+"742 1527 LINE" 
+"506 1260 LINE" 
+"335 1260 LINE" 
+"100 1527 LINE" 
+"100 1536 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"417 1598 LINE" 
+"366 1598 OFFCURVE"
+"292 1668 OFFCURVE"
+"292 1717 CURVE"
+"292 1767 OFFCURVE"
+"366 1836 OFFCURVE"
+"417 1836 CURVE"
+"469 1836 OFFCURVE"
+"543 1767 OFFCURVE"
+"543 1717 CURVE"
+"543 1668 OFFCURVE"
+"469 1598 OFFCURVE"
+);
+},
+);
+},
+);
+}

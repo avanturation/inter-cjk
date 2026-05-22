@@ -1,0 +1,18 @@
+{
+unicode = "02A2";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1111;
+components = (
+{
+name = "glottalstoprevinv";
+},
+{
+name = "crossbar";
+pos = (109,-537);
+},
+);
+},
+);
+}

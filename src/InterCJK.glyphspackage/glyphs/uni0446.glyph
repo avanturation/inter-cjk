@@ -1,0 +1,18 @@
+{
+unicode = "0446";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1223;
+components = (
+{
+name = "pecyrillicturn";
+},
+{
+name = "_part.cyrtic";
+pos = (887,0);
+},
+);
+},
+);
+}

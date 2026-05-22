@@ -1,0 +1,160 @@
+{
+unicode = "CA49";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1260 692 LINE" 
+"1116 692 LINE" 
+"1116 1598 LINE" 
+"1260 1598 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1524 1276 LINE" 
+"1199 1276 LINE" 
+"1199 1410 LINE" 
+"1524 1410 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1609 684 LINE" 
+"1460 684 LINE" 
+"1460 1634 LINE" 
+"1609 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"407 1214 OFFCURVE"
+"349 1002 OFFCURVE"
+"225 810 OFFCURVE"
+"128 752 CURVE"
+"48 856 LINE" 
+"134 906 OFFCURVE"
+"244 1066 OFFCURVE"
+"298 1238 OFFCURVE"
+"298 1312 CURVE"
+"298 1444 LINE" 
+"407 1444 LINE" 
+"407 1312 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"437 1246 OFFCURVE"
+"464 1080 OFFCURVE"
+"551 902 OFFCURVE"
+"629 844 CURVE"
+"565 730 LINE" 
+"468 794 OFFCURVE"
+"363 1008 OFFCURVE"
+"330 1220 OFFCURVE"
+"330 1312 CURVE"
+"330 1444 LINE" 
+"437 1444 LINE" 
+"437 1312 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"805 1142 OFFCURVE"
+"706 816 OFFCURVE"
+"565 730 CURVE"
+"502 844 LINE" 
+"615 922 OFFCURVE"
+"698 1184 OFFCURVE"
+"700 1312 CURVE"
+"700 1444 LINE" 
+"805 1444 LINE" 
+"805 1312 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"835 1230 OFFCURVE"
+"886 1056 OFFCURVE"
+"999 904 OFFCURVE"
+"1086 860 CURVE"
+"1009 750 LINE" 
+"908 802 OFFCURVE"
+"781 986 OFFCURVE"
+"728 1204 OFFCURVE"
+"728 1312 CURVE"
+"728 1444 LINE" 
+"835 1444 LINE" 
+"835 1312 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"539 1394 LINE" 
+"108 1394 LINE" 
+"108 1524 LINE" 
+"539 1524 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1015 1394 LINE" 
+"595 1394 LINE" 
+"595 1524 LINE" 
+"1015 1524 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1599 480 LINE" 
+"534 480 LINE" 
+"534 -54 LINE" 
+"377 -54 LINE" 
+"377 608 LINE" 
+"1599 608 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1583 182 LINE" 
+"480 182 LINE" 
+"480 300 LINE" 
+"1583 300 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1636 -124 LINE" 
+"377 -124 LINE" 
+"377 2 LINE" 
+"1636 2 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1524 922 LINE" 
+"1199 922 LINE" 
+"1199 1052 LINE" 
+"1524 1052 LINE" 
+);
+},
+);
+},
+);
+}

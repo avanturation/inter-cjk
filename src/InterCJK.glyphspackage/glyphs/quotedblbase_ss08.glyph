@@ -1,0 +1,18 @@
+{
+layers = (
+{
+layerId = "master-text-regular";
+width = 970;
+components = (
+{
+name = "comma.ss07";
+pos = (-40,0);
+},
+{
+name = "comma.ss07";
+pos = (420,0);
+},
+);
+},
+);
+}

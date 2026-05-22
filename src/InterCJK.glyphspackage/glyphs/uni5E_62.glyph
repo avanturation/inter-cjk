@@ -1,0 +1,163 @@
+{
+unicode = "5E62";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1330 1436 LINE" 
+"1208 1436 LINE" 
+"1208 1650 LINE" 
+"1330 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1330 -30 LINE" 
+"1208 -30 LINE" 
+"1208 900 LINE" 
+"1330 900 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1778 1380 LINE" 
+"782 1380 LINE" 
+"782 1492 LINE" 
+"1778 1492 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1817 1058 LINE" 
+"734 1058 LINE" 
+"734 1172 LINE" 
+"1817 1172 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1835 -80 LINE" 
+"685 -80 LINE" 
+"685 34 LINE" 
+"1835 34 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1760 184 LINE" 
+"786 184 LINE" 
+"786 294 LINE" 
+"1760 294 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1083 1342 OFFCURVE"
+"1128 1226 OFFCURVE"
+"1134 1186 CURVE"
+"1019 1152 LINE" 
+"1013 1196 OFFCURVE"
+"970 1316 OFFCURVE"
+"946 1364 CURVE"
+"1053 1388 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1598 1320 OFFCURVE"
+"1556 1246 OFFCURVE"
+"1538 1218 CURVE"
+"1528 1200 OFFCURVE"
+"1508 1166 OFFCURVE"
+"1497 1150 CURVE"
+"1396 1182 LINE" 
+"1421 1230 OFFCURVE"
+"1479 1348 OFFCURVE"
+"1495 1390 CURVE"
+"1615 1356 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1613 506 LINE" 
+"1613 646 LINE" 
+"944 646 LINE" 
+"944 506 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1613 736 LINE" 
+"1613 870 LINE" 
+"944 870 LINE" 
+"944 736 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1734 412 LINE" 
+"827 412 LINE" 
+"827 964 LINE" 
+"1734 964 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"479 -112 LINE" 
+"364 -112 LINE" 
+"364 1650 LINE" 
+"479 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"657 1162 LINE" 
+"231 1162 LINE" 
+"231 286 LINE" 
+"128 286 LINE" 
+"128 1286 LINE" 
+"657 1286 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"711 404 OFFCURVE"
+"695 350 OFFCURVE"
+"675 332 CURVE"
+"653 318 OFFCURVE"
+"598 308 OFFCURVE"
+"544 308 CURVE"
+"542 336 OFFCURVE"
+"522 404 OFFCURVE"
+"509 428 CURVE"
+"548 426 OFFCURVE"
+"594 426 CURVE"
+"606 428 OFFCURVE"
+"610 434 OFFCURVE"
+"610 444 CURVE"
+"610 1286 LINE" 
+"711 1286 LINE" 
+"711 442 LINE" 
+);
+},
+);
+},
+);
+}

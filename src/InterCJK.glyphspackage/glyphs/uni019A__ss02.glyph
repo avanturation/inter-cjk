@@ -1,0 +1,19 @@
+{
+unicode = "E052";
+layers = (
+{
+layerId = "master-text-regular";
+width = 686;
+components = (
+{
+name = "l.ss02";
+pos = (94,0);
+},
+{
+name = "crossbar";
+pos = (-120,24);
+},
+);
+},
+);
+}

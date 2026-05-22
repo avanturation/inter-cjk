@@ -1,0 +1,159 @@
+{
+unicode = "9163";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"1835 1116 LINE" 
+"907 1116 LINE" 
+"907 1250 LINE" 
+"1835 1250 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1647 576 LINE" 
+"1083 576 LINE" 
+"1083 706 LINE" 
+"1647 706 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1647 -6 LINE" 
+"1083 -6 LINE" 
+"1083 126 LINE" 
+"1647 126 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1164 -112 LINE" 
+"1039 -112 LINE" 
+"1039 1650 LINE" 
+"1164 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1697 -108 LINE" 
+"1568 -108 LINE" 
+"1568 1650 LINE" 
+"1697 1650 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"877 -78 LINE" 
+"760 -78 LINE" 
+"760 1104 LINE" 
+"247 1104 LINE" 
+"247 -106 LINE" 
+"132 -106 LINE" 
+"132 1226 LINE" 
+"877 1226 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"817 346 LINE" 
+"180 346 LINE" 
+"180 452 LINE" 
+"817 452 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"817 28 LINE" 
+"180 28 LINE" 
+"180 140 LINE" 
+"817 140 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"897 1458 LINE" 
+"99 1458 LINE" 
+"99 1576 LINE" 
+"897 1576 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"439 1138 LINE" 
+"328 1138 LINE" 
+"328 1542 LINE" 
+"439 1542 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"675 1138 LINE" 
+"562 1138 LINE" 
+"562 1542 LINE" 
+"675 1542 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"445 844 OFFCURVE"
+"380 640 OFFCURVE"
+"297 566 CURVE"
+"287 580 OFFCURVE"
+"245 614 OFFCURVE"
+"231 622 CURVE"
+"309 690 OFFCURVE"
+"364 858 OFFCURVE"
+"364 952 CURVE"
+"364 1142 LINE" 
+"445 1142 LINE" 
+"445 950 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"635 730 LINE" 
+"635 720 OFFCURVE"
+"645 714 OFFCURVE"
+"659 714 CURVE"
+"732 714 LINE" 
+"760 714 OFFCURVE"
+"760 718 CURVE"
+"772 712 OFFCURVE"
+"804 698 OFFCURVE"
+"819 692 CURVE"
+"829 690 OFFCURVE"
+"837 686 CURVE"
+"829 658 OFFCURVE"
+"788 632 OFFCURVE"
+"748 632 CURVE"
+"653 632 LINE" 
+"612 632 OFFCURVE"
+"572 648 OFFCURVE"
+"554 694 OFFCURVE"
+"554 740 CURVE"
+"554 1142 LINE" 
+"635 1142 LINE" 
+"635 742 LINE" 
+);
+},
+);
+},
+);
+}

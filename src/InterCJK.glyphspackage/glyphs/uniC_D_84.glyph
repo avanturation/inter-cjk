@@ -1,0 +1,154 @@
+{
+unicode = "CD84";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"686 722 LINE" 
+"532 722 LINE" 
+"532 970 LINE" 
+"686 970 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1684 678 LINE" 
+"82 678 LINE" 
+"82 798 LINE" 
+"1684 798 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"957 1416 LINE" 
+"805 1416 LINE" 
+"805 1644 LINE" 
+"957 1644 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"943 1240 OFFCURVE"
+"751 1044 OFFCURVE"
+"429 930 OFFCURVE"
+"231 912 CURVE"
+"173 1032 LINE" 
+"351 1046 OFFCURVE"
+"638 1134 OFFCURVE"
+"805 1280 OFFCURVE"
+"805 1376 CURVE"
+"805 1402 LINE" 
+"943 1402 LINE" 
+"943 1376 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"957 1280 OFFCURVE"
+"1126 1134 OFFCURVE"
+"1413 1046 OFFCURVE"
+"1589 1032 CURVE"
+"1531 912 LINE" 
+"1333 930 OFFCURVE"
+"1013 1044 OFFCURVE"
+"823 1240 OFFCURVE"
+"823 1376 CURVE"
+"823 1402 LINE" 
+"957 1402 LINE" 
+"957 1376 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1522 1350 LINE" 
+"246 1350 LINE" 
+"246 1474 LINE" 
+"1522 1474 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1274 306 OFFCURVE"
+"1197 74 OFFCURVE"
+"1038 -106 OFFCURVE"
+"926 -158 CURVE"
+"838 -38 LINE" 
+"941 4 OFFCURVE"
+"1082 150 OFFCURVE"
+"1153 334 OFFCURVE"
+"1153 436 CURVE"
+"1153 570 LINE" 
+"1274 570 LINE" 
+"1274 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1306 340 OFFCURVE"
+"1373 160 OFFCURVE"
+"1510 18 OFFCURVE"
+"1609 -24 CURVE"
+"1522 -144 LINE" 
+"1409 -94 OFFCURVE"
+"1256 84 OFFCURVE"
+"1183 310 OFFCURVE"
+"1183 436 CURVE"
+"1183 570 LINE" 
+"1306 570 LINE" 
+"1306 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"815 166 LINE" 
+"391 166 LINE" 
+"391 -60 LINE" 
+"244 -60 LINE" 
+"244 276 LINE" 
+"666 276 LINE" 
+"666 426 LINE" 
+"239 426 LINE" 
+"239 544 LINE" 
+"815 544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"528 -8 OFFCURVE"
+"734 4 OFFCURVE"
+"838 24 CURVE"
+"852 -96 LINE" 
+"745 -116 OFFCURVE"
+"543 -128 OFFCURVE"
+"336 -130 CURVE"
+"244 -130 LINE" 
+"244 -8 LINE" 
+"336 -8 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1227 722 LINE" 
+"1072 722 LINE" 
+"1072 970 LINE" 
+"1227 970 LINE" 
+);
+},
+);
+},
+);
+}

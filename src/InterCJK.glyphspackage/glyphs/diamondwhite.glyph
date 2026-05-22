@@ -1,0 +1,29 @@
+{
+unicode = "25C7";
+layers = (
+{
+layerId = "master-text-regular";
+width = 2152;
+paths = (
+{
+closed = 1;
+nodes = (
+"2054 744 LINE" 
+"1082 -232 LINE" 
+"98 744 LINE" 
+"1082 1722 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1820 744 LINE" 
+"1082 1488 LINE" 
+"334 744 LINE" 
+"1082 2 LINE" 
+);
+},
+);
+},
+);
+}

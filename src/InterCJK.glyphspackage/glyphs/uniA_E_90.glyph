@@ -1,0 +1,152 @@
+{
+unicode = "AE90";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"842 186 LINE" 
+"417 186 LINE" 
+"417 -102 LINE" 
+"266 -102 LINE" 
+"266 302 LINE" 
+"692 302 LINE" 
+"692 482 LINE" 
+"262 482 LINE" 
+"262 604 LINE" 
+"842 604 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1312 316 OFFCURVE"
+"1232 76 OFFCURVE"
+"1074 -110 OFFCURVE"
+"955 -164 CURVE"
+"868 -42 LINE" 
+"971 2 OFFCURVE"
+"1116 154 OFFCURVE"
+"1187 348 OFFCURVE"
+"1187 454 CURVE"
+"1187 616 LINE" 
+"1312 616 LINE" 
+"1312 454 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1337 338 OFFCURVE"
+"1407 158 OFFCURVE"
+"1547 16 OFFCURVE"
+"1650 -28 CURVE"
+"1557 -148 LINE" 
+"1444 -96 OFFCURVE"
+"1292 80 OFFCURVE"
+"1217 308 OFFCURVE"
+"1217 436 CURVE"
+"1217 616 LINE" 
+"1337 616 LINE" 
+"1337 436 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"547 -8 OFFCURVE"
+"755 4 OFFCURVE"
+"864 26 CURVE"
+"882 -100 LINE" 
+"767 -124 OFFCURVE"
+"553 -136 OFFCURVE"
+"361 -136 CURVE"
+"266 -136 LINE" 
+"266 -8 LINE" 
+"361 -8 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"547 1400 LINE" 
+"122 1400 LINE" 
+"122 1532 LINE" 
+"547 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"595 1364 OFFCURVE"
+"504 1102 OFFCURVE"
+"326 894 OFFCURVE"
+"191 800 CURVE"
+"82 900 LINE" 
+"203 980 OFFCURVE"
+"359 1144 OFFCURVE"
+"444 1362 OFFCURVE"
+"444 1508 CURVE"
+"444 1532 LINE" 
+"595 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1038 1400 LINE" 
+"666 1400 LINE" 
+"666 1532 LINE" 
+"1038 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1100 1356 OFFCURVE"
+"1025 1070 OFFCURVE"
+"862 826 OFFCURVE"
+"734 718 CURVE"
+"605 812 LINE" 
+"726 906 OFFCURVE"
+"874 1106 OFFCURVE"
+"945 1354 OFFCURVE"
+"945 1514 CURVE"
+"945 1532 LINE" 
+"1100 1532 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1470 706 LINE" 
+"1316 706 LINE" 
+"1316 1632 LINE" 
+"1470 1632 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1712 1266 LINE" 
+"1349 1266 LINE" 
+"1349 1398 LINE" 
+"1712 1398 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1712 920 LINE" 
+"1349 920 LINE" 
+"1349 1052 LINE" 
+"1712 1052 LINE" 
+);
+},
+);
+},
+);
+}

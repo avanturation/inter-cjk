@@ -1,0 +1,56 @@
+{
+unicode = "BBC4";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1480 916 LINE" 
+"288 916 LINE" 
+"288 1544 LINE" 
+"1480 1544 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"440 1046 LINE" 
+"1326 1046 LINE" 
+"1326 1416 LINE" 
+"440 1416 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1684 588 LINE" 
+"80 588 LINE" 
+"80 718 LINE" 
+"1684 718 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1506 -106 LINE" 
+"288 -106 LINE" 
+"288 26 LINE" 
+"1506 26 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"444 -14 LINE" 
+"288 -14 LINE" 
+"288 416 LINE" 
+"444 416 LINE" 
+);
+},
+);
+},
+);
+}

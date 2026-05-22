@@ -1,0 +1,152 @@
+{
+unicode = "AD2C";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"829 1384 LINE" 
+"161 1384 LINE" 
+"161 1512 LINE" 
+"829 1512 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"522 730 LINE" 
+"375 730 LINE" 
+"375 1122 LINE" 
+"522 1122 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"898 1368 LINE" 
+"896 1254 OFFCURVE"
+"882 1054 OFFCURVE"
+"860 934 CURVE"
+"714 950 LINE" 
+"737 1078 OFFCURVE"
+"749 1266 OFFCURVE"
+"751 1400 CURVE"
+"751 1512 LINE" 
+"898 1512 LINE" 
+"898 1400 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"664 774 OFFCURVE"
+"975 820 CURVE"
+"983 708 LINE" 
+"791 670 OFFCURVE"
+"341 646 OFFCURVE"
+"82 646 CURVE"
+"64 774 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1575 566 LINE" 
+"1423 566 LINE" 
+"1423 1634 LINE" 
+"1575 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1474 1018 LINE" 
+"1163 1018 LINE" 
+"1163 1146 LINE" 
+"1474 1146 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1207 582 LINE" 
+"1062 582 LINE" 
+"1062 1600 LINE" 
+"1207 1600 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"658 318 OFFCURVE"
+"561 96 OFFCURVE"
+"379 -76 OFFCURVE"
+"254 -124 CURVE"
+"175 -4 LINE" 
+"286 34 OFFCURVE"
+"450 174 OFFCURVE"
+"538 350 OFFCURVE"
+"538 440 CURVE"
+"538 504 LINE" 
+"658 504 LINE" 
+"658 440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"686 352 OFFCURVE"
+"759 174 OFFCURVE"
+"904 24 OFFCURVE"
+"1007 -18 CURVE"
+"939 -136 LINE" 
+"819 -88 OFFCURVE"
+"652 96 OFFCURVE"
+"571 324 OFFCURVE"
+"571 440 CURVE"
+"571 504 LINE" 
+"686 504 LINE" 
+"686 440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1308 326 OFFCURVE"
+"1227 98 OFFCURVE"
+"1060 -86 OFFCURVE"
+"939 -136 CURVE"
+"870 -18 LINE" 
+"973 26 OFFCURVE"
+"1120 176 OFFCURVE"
+"1193 354 OFFCURVE"
+"1193 440 CURVE"
+"1193 504 LINE" 
+"1308 504 LINE" 
+"1308 440 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1341 346 OFFCURVE"
+"1429 170 OFFCURVE"
+"1591 32 OFFCURVE"
+"1702 -4 CURVE"
+"1627 -124 LINE" 
+"1500 -76 OFFCURVE"
+"1316 94 OFFCURVE"
+"1221 316 OFFCURVE"
+"1221 440 CURVE"
+"1221 504 LINE" 
+"1341 504 LINE" 
+"1341 440 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,155 @@
+{
+unicode = "55E3";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"718 1212 LINE" 
+"718 1458 LINE" 
+"309 1458 LINE" 
+"309 1212 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"847 1096 LINE" 
+"186 1096 LINE" 
+"186 1572 LINE" 
+"847 1572 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1445 822 LINE" 
+"1150 822 LINE" 
+"1150 202 LINE" 
+"1045 202 LINE" 
+"1045 936 LINE" 
+"1445 936 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"916 -14 OFFCURVE"
+"897 -68 OFFCURVE"
+"873 -84 CURVE"
+"849 -96 OFFCURVE"
+"780 -108 OFFCURVE"
+"726 -108 CURVE"
+"722 -80 OFFCURVE"
+"701 -14 OFFCURVE"
+"687 8 CURVE"
+"734 8 OFFCURVE"
+"782 8 CURVE"
+"792 8 OFFCURVE"
+"800 18 OFFCURVE"
+"800 28 CURVE"
+"800 934 LINE" 
+"916 934 LINE" 
+"916 28 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1758 2 OFFCURVE"
+"1724 -70 OFFCURVE"
+"1681 -88 CURVE"
+"1643 -102 OFFCURVE"
+"1512 -110 OFFCURVE"
+"1370 -110 CURVE"
+"1364 -78 OFFCURVE"
+"1336 2 OFFCURVE"
+"1322 26 CURVE"
+"1382 24 OFFCURVE"
+"1516 24 OFFCURVE"
+"1560 24 CURVE"
+"1570 24 OFFCURVE"
+"1578 24 OFFCURVE"
+"1586 24 CURVE"
+"1611 26 OFFCURVE"
+"1629 46 OFFCURVE"
+"1629 70 CURVE"
+"1629 1566 LINE" 
+"1758 1566 LINE" 
+"1758 68 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"455 -84 LINE" 
+"364 -84 LINE" 
+"364 894 LINE" 
+"455 894 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"667 -84 LINE" 
+"582 -84 LINE" 
+"582 894 LINE" 
+"667 894 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1503 326 LINE" 
+"1107 326 LINE" 
+"1107 438 LINE" 
+"1392 438 LINE" 
+"1392 936 LINE" 
+"1503 936 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"873 814 LINE" 
+"243 814 LINE" 
+"243 -108 LINE" 
+"138 -108 LINE" 
+"138 934 LINE" 
+"873 934 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"873 402 LINE" 
+"186 402 LINE" 
+"186 516 LINE" 
+"873 516 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1675 1438 LINE" 
+"972 1438 LINE" 
+"972 1566 LINE" 
+"1675 1566 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1556 1126 LINE" 
+"1000 1126 LINE" 
+"1000 1244 LINE" 
+"1556 1244 LINE" 
+);
+},
+);
+},
+);
+}

@@ -1,0 +1,161 @@
+{
+unicode = "615D";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"724 50 OFFCURVE"
+"742 28 OFFCURVE"
+"792 18 OFFCURVE"
+"843 18 CURVE"
+"1194 18 LINE" 
+"1235 18 OFFCURVE"
+"1275 42 OFFCURVE"
+"1291 108 OFFCURVE"
+"1295 184 CURVE"
+"1316 170 OFFCURVE"
+"1382 146 OFFCURVE"
+"1413 138 CURVE"
+"1406 40 OFFCURVE"
+"1364 -58 OFFCURVE"
+"1285 -98 OFFCURVE"
+"1208 -98 CURVE"
+"833 -98 LINE" 
+"734 -98 OFFCURVE"
+"631 -68 OFFCURVE"
+"590 2 OFFCURVE"
+"590 72 CURVE"
+"590 310 LINE" 
+"724 310 LINE" 
+"724 74 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"948 378 OFFCURVE"
+"1126 264 OFFCURVE"
+"1174 212 CURVE"
+"1087 130 LINE" 
+"1039 182 OFFCURVE"
+"865 300 OFFCURVE"
+"778 340 CURVE"
+"861 414 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1590 250 OFFCURVE"
+"1788 84 OFFCURVE"
+"1837 14 CURVE"
+"1730 -68 LINE" 
+"1683 2 OFFCURVE"
+"1487 178 OFFCURVE"
+"1384 242 CURVE"
+"1485 316 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"425 150 OFFCURVE"
+"291 -26 OFFCURVE"
+"198 -82 CURVE"
+"91 -4 LINE" 
+"180 46 OFFCURVE"
+"318 212 OFFCURVE"
+"356 306 CURVE"
+"473 256 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1675 1242 LINE" 
+"467 1242 LINE" 
+"467 1334 LINE" 
+"1675 1334 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1691 1018 LINE" 
+"451 1018 LINE" 
+"451 1110 LINE" 
+"1691 1110 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"887 1168 LINE" 
+"766 1168 LINE" 
+"766 1448 LINE" 
+"887 1448 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1360 1168 LINE" 
+"1233 1168 LINE" 
+"1233 1448 LINE" 
+"1360 1448 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1435 702 LINE" 
+"1435 836 LINE" 
+"851 836 LINE" 
+"851 702 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1564 618 LINE" 
+"728 618 LINE" 
+"728 918 LINE" 
+"1564 918 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"952 1038 OFFCURVE"
+"685 776 OFFCURVE"
+"514 686 CURVE"
+"505 702 OFFCURVE"
+"451 756 OFFCURVE"
+"431 772 CURVE"
+"594 848 OFFCURVE"
+"847 1082 OFFCURVE"
+"910 1226 CURVE"
+"1023 1202 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"380 1470 LINE" 
+"380 516 LINE" 
+"1762 516 LINE" 
+"1762 404 LINE" 
+"247 404 LINE" 
+"247 1580 LINE" 
+"1724 1580 LINE" 
+"1724 1470 LINE" 
+);
+},
+);
+},
+);
+}

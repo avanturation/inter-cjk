@@ -1,0 +1,67 @@
+{
+unicode = "BAAF";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"1502 -124 LINE" 
+"256 -124 LINE" 
+"256 6 LINE" 
+"1502 6 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1484 350 LINE" 
+"411 350 LINE" 
+"411 -80 LINE" 
+"256 -80 LINE" 
+"256 480 LINE" 
+"1484 480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1470 972 LINE" 
+"270 972 LINE" 
+"270 1576 LINE" 
+"1470 1576 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"427 1098 LINE" 
+"1312 1098 LINE" 
+"1312 1450 LINE" 
+"427 1450 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"949 682 LINE" 
+"789 682 LINE" 
+"789 1012 LINE" 
+"949 1012 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1670 624 LINE" 
+"66 624 LINE" 
+"66 754 LINE" 
+"1670 754 LINE" 
+);
+},
+);
+},
+);
+}

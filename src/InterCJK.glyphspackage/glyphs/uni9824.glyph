@@ -1,0 +1,159 @@
+{
+unicode = "9824";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1920;
+paths = (
+{
+closed = 1;
+nodes = (
+"980 104 LINE" 
+"231 104 LINE" 
+"231 228 LINE" 
+"980 228 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"669 1080 LINE" 
+"560 1080 LINE" 
+"560 1530 LINE" 
+"669 1530 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"461 440 LINE" 
+"372 440 LINE" 
+"372 1208 LINE" 
+"461 1208 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"891 538 LINE" 
+"560 538 LINE" 
+"560 650 LINE" 
+"786 650 LINE" 
+"786 1030 LINE" 
+"560 1030 LINE" 
+"560 1144 LINE" 
+"891 1144 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"912 1436 LINE" 
+"283 1436 LINE" 
+"283 -18 LINE" 
+"170 -18 LINE" 
+"170 1560 LINE" 
+"912 1560 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"669 160 LINE" 
+"560 160 LINE" 
+"560 602 LINE" 
+"669 602 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1811 1438 LINE" 
+"960 1438 LINE" 
+"960 1558 LINE" 
+"1811 1558 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1649 656 LINE" 
+"1649 848 LINE" 
+"1136 848 LINE" 
+"1136 656 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1649 358 LINE" 
+"1649 550 LINE" 
+"1136 550 LINE" 
+"1136 358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1649 952 LINE" 
+"1649 1142 LINE" 
+"1136 1142 LINE" 
+"1136 952 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1774 250 LINE" 
+"1015 250 LINE" 
+"1015 1250 LINE" 
+"1774 1250 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1469 1456 OFFCURVE"
+"1455 1404 OFFCURVE"
+"1447 1376 CURVE"
+"1433 1320 OFFCURVE"
+"1402 1208 OFFCURVE"
+"1388 1172 CURVE"
+"1271 1194 LINE" 
+"1287 1256 OFFCURVE"
+"1322 1434 OFFCURVE"
+"1330 1500 CURVE"
+"1475 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1241 70 OFFCURVE"
+"1023 -74 OFFCURVE"
+"918 -120 CURVE"
+"887 -80 OFFCURVE"
+"825 -28 CURVE"
+"928 14 OFFCURVE"
+"1136 150 OFFCURVE"
+"1192 212 CURVE"
+"1310 142 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1649 146 OFFCURVE"
+"1819 8 OFFCURVE"
+"1863 -42 CURVE"
+"1758 -116 LINE" 
+"1708 -64 OFFCURVE"
+"1536 82 OFFCURVE"
+"1459 136 CURVE"
+"1562 204 LINE" 
+);
+},
+);
+},
+);
+}

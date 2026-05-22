@@ -1,0 +1,161 @@
+{
+unicode = "D742";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"666 440 LINE" 
+"512 440 LINE" 
+"512 724 LINE" 
+"666 724 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1246 440 LINE" 
+"1092 440 LINE" 
+"1092 724 LINE" 
+"1246 724 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1591 1384 LINE" 
+"163 1384 LINE" 
+"163 1502 LINE" 
+"1591 1502 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1163 1312 OFFCURVE"
+"1452 1196 OFFCURVE"
+"1452 1076 CURVE"
+"1452 958 OFFCURVE"
+"1163 840 OFFCURVE"
+"882 840 CURVE"
+"603 840 OFFCURVE"
+"310 958 OFFCURVE"
+"310 1076 CURVE"
+"310 1196 OFFCURVE"
+"601 1312 OFFCURVE"
+"882 1312 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"749 1204 OFFCURVE"
+"567 1176 OFFCURVE"
+"476 1118 OFFCURVE"
+"476 1076 CURVE"
+"476 1034 OFFCURVE"
+"567 978 OFFCURVE"
+"749 948 OFFCURVE"
+"882 948 CURVE"
+"1015 948 OFFCURVE"
+"1197 978 OFFCURVE"
+"1290 1034 OFFCURVE"
+"1290 1076 CURVE"
+"1290 1118 OFFCURVE"
+"1197 1176 OFFCURVE"
+"1015 1204 OFFCURVE"
+"882 1204 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"959 1406 LINE" 
+"805 1406 LINE" 
+"805 1656 LINE" 
+"959 1656 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1684 628 LINE" 
+"80 628 LINE" 
+"80 744 LINE" 
+"1684 744 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1539 354 LINE" 
+"914 354 LINE" 
+"914 474 LINE" 
+"1539 474 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"825 126 LINE" 
+"393 126 LINE" 
+"393 -104 LINE" 
+"246 -104 LINE" 
+"246 224 LINE" 
+"678 224 LINE" 
+"678 366 LINE" 
+"242 366 LINE" 
+"242 474 LINE" 
+"825 474 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"411 -26 LINE" 
+"557 -28 OFFCURVE"
+"751 -14 OFFCURVE"
+"852 6 CURVE"
+"866 -106 LINE" 
+"749 -126 OFFCURVE"
+"532 -138 OFFCURVE"
+"338 -138 CURVE"
+"246 -138 LINE" 
+"246 -26 LINE" 
+"338 -26 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1551 -136 LINE" 
+"906 -136 LINE" 
+"906 -14 LINE" 
+"1551 -14 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1153 -96 LINE" 
+"1025 -96 LINE" 
+"1025 426 LINE" 
+"1153 426 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1425 -96 LINE" 
+"1298 -96 LINE" 
+"1298 426 LINE" 
+"1425 426 LINE" 
+);
+},
+);
+},
+);
+}

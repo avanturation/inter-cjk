@@ -1,0 +1,155 @@
+{
+unicode = "CD3B";
+layers = (
+{
+layerId = "master-text-regular";
+width = 1770;
+paths = (
+{
+closed = 1;
+nodes = (
+"680 1246 OFFCURVE"
+"553 1064 OFFCURVE"
+"332 940 OFFCURVE"
+"185 912 CURVE"
+"126 1026 LINE" 
+"250 1048 OFFCURVE"
+"446 1142 OFFCURVE"
+"557 1278 OFFCURVE"
+"557 1358 CURVE"
+"557 1382 LINE" 
+"680 1382 LINE" 
+"680 1358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"710 1284 OFFCURVE"
+"823 1158 OFFCURVE"
+"1017 1072 OFFCURVE"
+"1139 1052 CURVE"
+"1080 936 LINE" 
+"935 962 OFFCURVE"
+"714 1080 OFFCURVE"
+"591 1252 OFFCURVE"
+"591 1358 CURVE"
+"591 1382 LINE" 
+"710 1382 LINE" 
+"710 1358 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1096 1362 LINE" 
+"165 1362 LINE" 
+"165 1480 LINE" 
+"1096 1480 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"710 740 LINE" 
+"557 740 LINE" 
+"557 994 LINE" 
+"710 994 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"710 1408 LINE" 
+"557 1408 LINE" 
+"557 1638 LINE" 
+"710 1638 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1460 528 LINE" 
+"1302 528 LINE" 
+"1302 1634 LINE" 
+"1460 1634 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1718 1026 LINE" 
+"1389 1026 LINE" 
+"1389 1160 LINE" 
+"1718 1160 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"377 776 OFFCURVE"
+"951 798 OFFCURVE"
+"1195 828 CURVE"
+"1205 720 LINE" 
+"955 678 OFFCURVE"
+"409 652 OFFCURVE"
+"92 652 CURVE"
+"74 776 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"939 192 OFFCURVE"
+"751 -4 OFFCURVE"
+"435 -126 OFFCURVE"
+"246 -148 CURVE"
+"195 -26 LINE" 
+"355 -12 OFFCURVE"
+"637 86 OFFCURVE"
+"805 232 OFFCURVE"
+"805 314 CURVE"
+"805 330 LINE" 
+"939 330 LINE" 
+"939 314 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"963 232 OFFCURVE"
+"1130 88 OFFCURVE"
+"1411 -8 OFFCURVE"
+"1571 -22 CURVE"
+"1518 -144 LINE" 
+"1331 -124 OFFCURVE"
+"1017 -2 OFFCURVE"
+"827 192 OFFCURVE"
+"827 314 CURVE"
+"827 330 LINE" 
+"963 330 LINE" 
+"963 314 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"1492 272 LINE" 
+"276 272 LINE" 
+"276 402 LINE" 
+"1492 402 LINE" 
+);
+},
+{
+closed = 1;
+nodes = (
+"959 348 LINE" 
+"807 348 LINE" 
+"807 580 LINE" 
+"959 580 LINE" 
+);
+},
+);
+},
+);
+}
