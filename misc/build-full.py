@@ -4,7 +4,7 @@ Applies all design adjustments:
 - CJK vertical alignment: Y offset +21 (matches Pretendard's 가-H center diff of +3)
 - CJK weight matching: 1% horizontal thinning (gray-level balance with Latin)
 - CJK optical size: 3% tighter at opsz=32 (Display)
-- Symbol vertical alignment: @, (), [], {}, etc. repositioned for Korean context
+- Contextual symbol alignment: CJK added to calt @UC class so symbols get .case forms
 - Latin-CJK kern: +100 units between script transitions
 - SUIT-matched vertical metrics: ratio 1.248, symmetric around cap center
 - GSUB/GPOS: CJK script support (hang, kana, hani)
@@ -21,30 +21,6 @@ Y_OFFSET = 21
 CJK_HSCALE = 0.99
 OPSZ_SCALE = 0.03
 LATIN_CJK_SPACING = 100
-
-SYMBOL_SHIFTS = {
-    'at': 110,
-    'underscore': 25,
-    'colon': 14,
-    'colon.case': 14,
-    'parenleft': -79,
-    'parenright': -79,
-    'bracketleft': -79,
-    'bracketright': -79,
-    'braceleft': -79,
-    'braceright': -79,
-    'parenleft.case': -79,
-    'parenright.case': -79,
-    'bracketleft.case': -79,
-    'bracketright.case': -79,
-    'braceleft.case': -79,
-    'braceright.case': -79,
-    'periodcentered': -54,
-    'semicolon': -12,
-    'asciicircum': -10,
-    'asterisk': -9,
-    'asterisk.case': -9,
-}
 
 CJK_RANGES = [
     (0x1100, 0x11FF), (0x2E80, 0x2EFF), (0x2F00, 0x2FDF),
@@ -188,25 +164,30 @@ def merge(inter_ttf, pretendard_ttf, output_path):
 
         inter_gvar.variations[target] = variations
 
-    # Symbol vertical alignment (match Pretendard's relationship to Hangul)
-    print("  Adjusting symbol vertical positions...")
-    for gname, shift in SYMBOL_SHIFTS.items():
-        if gname not in inter_glyf.glyphs:
-            continue
-        g = inter_glyf[gname]
-        if g.numberOfContours == 0 and not g.isComposite():
-            continue
-        if g.isComposite():
-            for comp in g.components:
-                if hasattr(comp, 'y'):
-                    comp.y += shift
-        else:
-            coords = g.coordinates
-            if coords:
-                g.coordinates = type(coords)([(x, y + shift) for x, y in coords])
-        if hasattr(g, 'yMin') and g.yMin is not None:
-            g.yMin += shift
-            g.yMax += shift
+    # Add CJK glyphs to calt @UC coverages (triggers .case substitution for adjacent symbols)
+    print("  Patching calt: adding CJK to @UC coverages...")
+    gsub = inter['GSUB'].table
+    cjk_glyph_set = set(glyph_order[2937:])
+    calt_lookups = []
+    for fr in gsub.FeatureList.FeatureRecord:
+        if fr.FeatureTag == 'calt':
+            calt_lookups = fr.Feature.LookupListIndex
+            break
+
+    patched_coverages = 0
+    for li in calt_lookups:
+        lookup = gsub.LookupList.Lookup[li]
+        for st in lookup.SubTable:
+            for cov_list in [
+                getattr(st, 'BacktrackCoverage', None) or [],
+                getattr(st, 'LookAheadCoverage', None) or [],
+            ]:
+                for cov in cov_list:
+                    if hasattr(cov, 'glyphs') and 'A' in cov.glyphs and len(cov.glyphs) > 100:
+                        cov.glyphs = sorted(set(cov.glyphs) | cjk_glyph_set,
+                                            key=lambda g: glyph_order.index(g) if g in glyph_order else 999999)
+                        patched_coverages += 1
+    print(f"    Patched {patched_coverages} coverage tables")
 
     # GSUB/GPOS scripts
     print("  Adding CJK scripts to GSUB/GPOS...")
