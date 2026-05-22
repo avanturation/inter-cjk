@@ -1,0 +1,18 @@
+/* Inter CJK Variable */
+@font-face {
+  font-family: 'Inter CJK Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./InterCJKVariable.woff2') format('woff2');
+}
+
+/* Inter CJK Display Variable (optical size 32) */
+@font-face {
+  font-family: 'Inter CJK Display Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./InterCJKVariable.woff2') format('woff2');
+  font-variation-settings: 'opsz' 32;
+}
