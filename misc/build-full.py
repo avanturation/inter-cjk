@@ -164,30 +164,91 @@ def merge(inter_ttf, pretendard_ttf, output_path):
 
         inter_gvar.variations[target] = variations
 
-    # Add CJK glyphs to calt @UC coverages (triggers .case substitution for adjacent symbols)
-    print("  Patching calt: adding CJK to @UC coverages...")
+    # Add CJK contextual symbol alignment via rclt feature
+    # rclt (Required Contextual Alternates) fires for ALL scripts including Hangul
+    # When CJK glyph is adjacent to a symbol, substitute symbol with .case version
+    print("  Adding rclt: CJK-context symbol .case substitution...")
     gsub = inter['GSUB'].table
-    cjk_glyph_set = set(glyph_order[2937:])
-    calt_lookups = []
-    for fr in gsub.FeatureList.FeatureRecord:
-        if fr.FeatureTag == 'calt':
-            calt_lookups = fr.Feature.LookupListIndex
-            break
+    cjk_glyph_list = sorted(set(glyph_order[2937:]), key=lambda g: glyph_order.index(g))
 
-    patched_coverages = 0
-    for li in calt_lookups:
-        lookup = gsub.LookupList.Lookup[li]
-        for st in lookup.SubTable:
-            for cov_list in [
-                getattr(st, 'BacktrackCoverage', None) or [],
-                getattr(st, 'LookAheadCoverage', None) or [],
-            ]:
-                for cov in cov_list:
-                    if hasattr(cov, 'glyphs') and 'A' in cov.glyphs and len(cov.glyphs) > 100:
-                        cov.glyphs = sorted(set(cov.glyphs) | cjk_glyph_set,
-                                            key=lambda g: glyph_order.index(g) if g in glyph_order else 999999)
-                        patched_coverages += 1
-    print(f"    Patched {patched_coverages} coverage tables")
+    # Get case mapping: find all glyph.case pairs in the font
+    case_mapping = {}
+    for g in glyph_order:
+        if '.case' in g and '.case.' not in g:
+            base = g.replace('.case', '')
+            if base in set(glyph_order):
+                case_mapping[base] = g
+
+    # Create SingleSubst lookup for case substitution
+    single_st = otTables.SingleSubst()
+    single_st.mapping = case_mapping
+    single_lookup = otTables.Lookup()
+    single_lookup.LookupType = 1
+    single_lookup.LookupFlag = 0
+    single_lookup.SubTable = [single_st]
+    single_lookup.SubTableCount = 1
+    single_idx = len(gsub.LookupList.Lookup)
+    gsub.LookupList.Lookup.append(single_lookup)
+
+    # Create ChainContextSubst: [CJK] symbol' → .case
+    input_glyphs = sorted(case_mapping.keys(), key=lambda g: glyph_order.index(g) if g in glyph_order else 999999)
+
+    chain_st1 = otTables.ChainContextSubst()
+    chain_st1.Format = 3
+    bt_cov = otTables.Coverage()
+    bt_cov.Format = 1
+    bt_cov.glyphs = cjk_glyph_list
+    chain_st1.BacktrackCoverage = [bt_cov]
+    chain_st1.BacktrackCount = 1
+    in_cov = otTables.Coverage()
+    in_cov.Format = 1
+    in_cov.glyphs = input_glyphs
+    chain_st1.InputCoverage = [in_cov]
+    chain_st1.InputCount = 1
+    chain_st1.LookAheadCoverage = []
+    chain_st1.LookAheadCount = 0
+    slr1 = otTables.SubstLookupRecord()
+    slr1.SequenceIndex = 0
+    slr1.LookupListIndex = single_idx
+    chain_st1.SubstLookupRecord = [slr1]
+    chain_st1.SubstCount = 1
+
+    # ChainContextSubst: symbol' [CJK] → .case
+    chain_st2 = copy.deepcopy(chain_st1)
+    chain_st2.BacktrackCoverage = []
+    chain_st2.BacktrackCount = 0
+    la_cov = otTables.Coverage()
+    la_cov.Format = 1
+    la_cov.glyphs = cjk_glyph_list
+    chain_st2.LookAheadCoverage = [la_cov]
+    chain_st2.LookAheadCount = 1
+
+    chain_lookup = otTables.Lookup()
+    chain_lookup.LookupType = 6
+    chain_lookup.LookupFlag = 0
+    chain_lookup.SubTable = [chain_st1, chain_st2]
+    chain_lookup.SubTableCount = 2
+    chain_idx = len(gsub.LookupList.Lookup)
+    gsub.LookupList.Lookup.append(chain_lookup)
+    gsub.LookupList.LookupCount = len(gsub.LookupList.Lookup)
+
+    # Register as rclt feature for all scripts
+    rclt_fr = otTables.FeatureRecord()
+    rclt_fr.FeatureTag = 'rclt'
+    rclt_fr.Feature = otTables.Feature()
+    rclt_fr.Feature.LookupListIndex = [chain_idx]
+    rclt_fr.Feature.LookupCount = 1
+    rclt_fr.Feature.FeatureParams = None
+    rclt_idx = len(gsub.FeatureList.FeatureRecord)
+    gsub.FeatureList.FeatureRecord.append(rclt_fr)
+    gsub.FeatureList.FeatureCount = len(gsub.FeatureList.FeatureRecord)
+
+    for sr in gsub.ScriptList.ScriptRecord:
+        if sr.Script.DefaultLangSys:
+            sr.Script.DefaultLangSys.FeatureIndex.append(rclt_idx)
+            sr.Script.DefaultLangSys.FeatureCount = len(sr.Script.DefaultLangSys.FeatureIndex)
+
+    print(f"    {len(case_mapping)} symbol→.case pairs via rclt")
 
     # GSUB/GPOS scripts
     print("  Adding CJK scripts to GSUB/GPOS...")
