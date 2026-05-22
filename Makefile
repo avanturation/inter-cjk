@@ -4,18 +4,21 @@ DISTDIR  := build/InterCJK-$(VERSION)
 
 default: all
 
-all: variable static web
+all: variable web
 
 # ---------------------------------------------------------------------------------
-# Variable font
+# Variable fonts (split opsz into 2 files)
 
-variable: $(DISTDIR)/InterCJKVariable.ttf
+variable: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf
 
-$(DISTDIR)/InterCJKVariable.ttf: src/InterCJK.glyphspackage src/features/*.fea | $(DISTDIR)
+build/InterCJK-full.ttf: src/InterCJK.glyphspackage src/features/*.fea | build
 	fontmake -g src/InterCJK.glyphspackage \
 		-o variable \
 		--output-path $@ \
 		--verbose WARNING
+
+$(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf: build/InterCJK-full.ttf | $(DISTDIR)
+	python3 misc/split-opsz.py $< $(DISTDIR)
 
 # ---------------------------------------------------------------------------------
 # Static fonts (instances)
@@ -45,16 +48,12 @@ $(DISTDIR)/extras/otf/.ok: src/InterCJK.glyphspackage src/features/*.fea | $(DIS
 
 web: $(DISTDIR)/web/.ok
 
-$(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf static-ttf | $(DISTDIR)/web
-	# Variable WOFF2
-	fonttools ttLib.woff2 compress $(DISTDIR)/InterCJKVariable.ttf -o $(DISTDIR)/web/InterCJKVariable.woff2
-	# Static WOFF2 from TTF instances
-	@for f in $(DISTDIR)/extras/ttf/*.ttf; do \
-		name=$$(basename "$$f" .ttf); \
-		fonttools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
-	done
-	# Generate CSS
-	@python3 misc/gen-css.py $(DISTDIR)/web > $(DISTDIR)/web/inter-cjk.css
+$(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf | $(DISTDIR)/web
+	fonttools ttLib.woff2 compress $(DISTDIR)/InterCJKVariable.ttf \
+		-o $(DISTDIR)/web/InterCJKVariable.woff2
+	fonttools ttLib.woff2 compress $(DISTDIR)/InterCJKDisplayVariable.ttf \
+		-o $(DISTDIR)/web/InterCJKDisplayVariable.woff2
+	cp misc/inter-cjk.css $(DISTDIR)/web/inter-cjk.css
 	touch $@
 
 # ---------------------------------------------------------------------------------
@@ -71,6 +70,9 @@ $(DISTDIR)/help.txt: misc/help.txt | $(DISTDIR)
 
 # ---------------------------------------------------------------------------------
 # Directories
+
+build:
+	mkdir -p $@
 
 $(DISTDIR):
 	mkdir -p $@
