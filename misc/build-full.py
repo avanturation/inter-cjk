@@ -250,6 +250,21 @@ def merge(inter_ttf, pretendard_ttf, output_path):
 
     print(f"    {len(case_mapping)} symbol→.case pairs via rclt")
 
+    # Replace ₩ with Pretendard's Korean-style won sign
+    print("  Replacing ₩ with Pretendard glyph...")
+    won_cp = 0x20A9
+    if won_cp in pretendard_cmap:
+        p_won_name = pretendard_cmap[won_cp]
+        i_won_name = inter.getBestCmap()[won_cp]
+        inter_glyf[i_won_name] = copy.deepcopy(pretendard_glyf[p_won_name])
+        inter_hmtx[i_won_name] = pretendard_hmtx[p_won_name]
+        if p_won_name in pretendard_gvar and pretendard_gvar[p_won_name]:
+            won_variations = []
+            for tv in pretendard_gvar[p_won_name]:
+                if 'wght' in tv.axes:
+                    won_variations.append(TupleVariation({'wght': tv.axes['wght']}, tv.coordinates))
+            inter_gvar.variations[i_won_name] = won_variations
+
     # GSUB/GPOS scripts
     print("  Adding CJK scripts to GSUB/GPOS...")
     for table_tag in ['GSUB', 'GPOS']:
@@ -333,17 +348,17 @@ def merge(inter_ttf, pretendard_ttf, output_path):
             fr.Feature.LookupCount = len(fr.Feature.LookupListIndex)
 
     # Vertical metrics (SUIT-matched)
-    print("  Setting vertical metrics (ratio 1.125)...")
+    print("  Setting vertical metrics (ratio 1.075, even line heights in Figma)...")
     os2 = inter['OS/2']
     hhea = inter['hhea']
-    os2.sTypoAscender = 1897
-    os2.sTypoDescender = -407
+    os2.sTypoAscender = 1792
+    os2.sTypoDescender = -409
     os2.sTypoLineGap = 0
-    os2.usWinAscent = 1897
-    os2.usWinDescent = 407
+    os2.usWinAscent = 1792
+    os2.usWinDescent = 409
     os2.fsSelection |= (1 << 7)
-    hhea.ascent = 1897
-    hhea.descent = -407
+    hhea.ascent = 1792
+    hhea.descent = -409
     hhea.lineGap = 0
 
     # OS/2 ranges
