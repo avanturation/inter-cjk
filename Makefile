@@ -7,7 +7,7 @@ PRETENDARD_SRC := src/pretendard/src/PretendardJP.glyphspackage
 
 default: all
 
-all: variable static web
+all: variable static web dynamic-subset
 
 # ---------------------------------------------------------------------------------
 # Source variable fonts (built from submodule sources)
@@ -67,6 +67,37 @@ $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVa
 	done
 	cp misc/inter-cjk.css $(DISTDIR)/web/inter-cjk.css
 	touch $@
+
+# ---------------------------------------------------------------------------------
+# Dynamic subset (unicode-range split for fast web loading)
+
+PRETENDARD_CSS := src/pretendard/dist/web/variable/pretendardvariable-jp-dynamic-subset.css
+
+dynamic-subset: $(DISTDIR)/web/dynamic-subset/.ok $(DISTDIR)/web/dynamic-subset-display/.ok
+
+$(DISTDIR)/web/dynamic-subset/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-dynamic-subset.py | $(DISTDIR)/web/dynamic-subset
+	python3 misc/gen-dynamic-subset.py \
+		$(DISTDIR)/InterCJKVariable.ttf \
+		$(PRETENDARD_CSS) \
+		$(DISTDIR)/web/dynamic-subset \
+		"Inter CJK Variable" \
+		"inter-cjk-variable-dynamic-subset.css"
+	touch $@
+
+$(DISTDIR)/web/dynamic-subset-display/.ok: $(DISTDIR)/InterCJKDisplayVariable.ttf misc/gen-dynamic-subset.py | $(DISTDIR)/web/dynamic-subset-display
+	python3 misc/gen-dynamic-subset.py \
+		$(DISTDIR)/InterCJKDisplayVariable.ttf \
+		$(PRETENDARD_CSS) \
+		$(DISTDIR)/web/dynamic-subset-display \
+		"Inter CJK Display Variable" \
+		"inter-cjk-display-variable-dynamic-subset.css"
+	touch $@
+
+$(DISTDIR)/web/dynamic-subset:
+	mkdir -p $@
+
+$(DISTDIR)/web/dynamic-subset-display:
+	mkdir -p $@
 
 # ---------------------------------------------------------------------------------
 # Package
