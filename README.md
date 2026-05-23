@@ -1,6 +1,8 @@
 # Inter CJK
 
-Inter CJK는 [Inter](https://rsms.me/inter)에 [Pretendard JP](https://github.com/orioncactus/pretendard)의 한국어, 일본어, 중국어 Glyph를 결합한 후, UI 등 주요 사용 용도에 맞게 보정한 폰트입니다.
+Inter CJK는 [Inter](https://rsms.me/inter)와 [Pretendard JP](https://github.com/orioncactus/pretendard)의 한국어, 일본어, 중국어 Glyph를 결합한 후, UI 등 주요 사용 용도에 맞게 보정한 폰트입니다.
+
+<br/>
 
 ![overview](docs/overview.png)
 
