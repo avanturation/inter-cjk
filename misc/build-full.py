@@ -20,7 +20,7 @@ from fontTools.ttLib.tables._f_v_a_r import NamedInstance
 Y_OFFSET = 21
 CJK_HSCALE = 0.99
 OPSZ_SCALE = 0.03
-LATIN_CJK_SPACING = 100
+LATIN_CJK_SPACING = 0
 
 CJK_RANGES = [
     (0x1100, 0x11FF), (0x2E80, 0x2EFF), (0x2F00, 0x2FDF),
