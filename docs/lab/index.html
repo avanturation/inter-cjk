@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Inter CJK Lab</title>
+<style>
+@font-face {
+  font-family: 'Inter CJK Variable';
+  font-weight: 100 900;
+  font-style: normal;
+  src: url('../../fonts/InterCJKVariable.ttf');
+}
+@font-face {
+  font-family: 'Inter CJK Display Variable';
+  font-weight: 100 900;
+  font-style: normal;
+  src: url('../../fonts/InterCJKDisplayVariable.ttf');
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter CJK Variable', sans-serif; background: #fff; color: #111; padding: 24px; }
+.controls { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #eee; padding: 16px 0; z-index: 10; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.controls label { font-size: 12px; color: #666; display: flex; align-items: center; gap: 4px; }
+.controls input[type="range"] { width: 120px; }
+.controls select, .controls input[type="number"] { font-size: 12px; padding: 2px 6px; border: 1px solid #ddd; border-radius: 4px; }
+h2 { font-size: 13px; font-weight: 600; color: #999; margin: 32px 0 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+.sample { font-size: var(--size, 20px); font-weight: var(--weight, 400); line-height: 1.5; padding: 12px 0; border-bottom: 1px solid #f5f5f5; }
+.sample[contenteditable]:focus { outline: none; background: #f8f8ff; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.feature-card { border: 1px solid #eee; border-radius: 8px; padding: 16px; }
+.feature-card .tag { font-size: 11px; font-weight: 600; color: #666; font-family: monospace; margin-bottom: 8px; }
+.feature-card .demo { font-size: 24px; line-height: 1.4; }
+.feature-card .demo.on { color: #000; }
+.feature-card .demo.off { color: #ccc; text-decoration: line-through; }
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #eee; border-radius: 8px; overflow: hidden; }
+.compare > div { background: #fff; padding: 16px; }
+.compare .label { font-size: 11px; color: #999; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+
+<div class="controls">
+  <label>Size: <input type="range" id="size" min="10" max="72" value="20"><span id="size-val">20</span>px</label>
+  <label>Weight: <input type="range" id="weight" min="100" max="900" step="100" value="400"><span id="weight-val">400</span></label>
+  <label>Family: <select id="family"><option value="Inter CJK Variable">Inter CJK</option><option value="Inter CJK Display Variable">Inter CJK Display</option></select></label>
+</div>
+
+<h2>Korean + Latin Mixed</h2>
+<div class="sample" contenteditable spellcheck="false">안녕하세요 Hello World 반갑습니다</div>
+<div class="sample" contenteditable spellcheck="false">₩1,234,567 결제하기 → 배송비 무료</div>
+<div class="sample" contenteditable spellcheck="false">가@나 한→글 test@한글 가(나) 가:나 한-글</div>
+<div class="sample" contenteditable spellcheck="false">Apple의 system-ui가 익숙한 나로서는 San Francisco와 Apple SD 산돌고딕 Neo가 없는 다른 환경에서 이를 대체할 수 있는 글꼴을 꾸준히 갈망해왔다.</div>
+
+<h2>rclt — Contextual Symbol Alignment</h2>
+<div class="compare">
+  <div><div class="label">한글 컨텍스트 (기호 .case 자동 적용)</div><div class="sample">가@나 한→글 가:나 한-글 가(나)</div></div>
+  <div><div class="label">영어 소문자 컨텍스트 (기호 원본)</div><div class="sample">a@b test→end a:b x-y a(b)</div></div>
+</div>
+
+<h2>OpenType Features</h2>
+<div class="feature-grid">
+  <div class="feature-card">
+    <div class="tag">tnum — Tabular Numbers</div>
+    <div class="demo on" style="font-feature-settings:'tnum' 1;">₩1,111,111<br>₩3,333,333<br>₩7,777,777</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">zero — Slashed Zero</div>
+    <div class="demo on" style="font-feature-settings:'zero' 1;">0123456789 가격: ₩10,000</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">ss01 — Open Digits (6, 9)</div>
+    <div class="demo on" style="font-feature-settings:'ss01' 1;">1234567890 주문번호: 960429</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">ss02 — Open Four</div>
+    <div class="demo on" style="font-feature-settings:'ss02' 1;">1234567890 4월 14일</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">ss03 — Centered Colon</div>
+    <div class="demo on" style="font-feature-settings:'ss03' 1;">12:34 A:가 시간:분</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">ss05 — Korean Localization (Ellipsis)</div>
+    <div class="demo on" style="font-feature-settings:'ss05' 1;">…저기… 있잖아… …알겠어…….</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">ss06 — Enhanced Readability</div>
+    <div class="demo on" style="font-feature-settings:'ss06' 1;">WP0ACO4XSI16O9 Illegal βeta</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">ss07 — Single-storey a</div>
+    <div class="demo on" style="font-feature-settings:'ss07' 1;">hamburger 안녕하세요 abcdefg</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">ss08 — Straight Three</div>
+    <div class="demo on" style="font-feature-settings:'ss08' 1;">1234567890 3월 30일</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">case — Case-Sensitive Forms</div>
+    <div class="demo on" style="font-feature-settings:'case' 1;">(HELLO) [WORLD] {9000} «한» ‹A가›</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">frac — Fractions</div>
+    <div class="demo on" style="font-feature-settings:'frac' 1;">1/3 3/4 1/5 16/5</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">dlig — Discretionary Ligatures</div>
+    <div class="demo on" style="font-feature-settings:'dlig' 1;">¡¿What?! 뭐라고?!</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">cv01~cv04 — Alternate Digits</div>
+    <div class="demo on" style="font-feature-settings:'cv01' 1,'cv02' 1,'cv03' 1,'cv04' 1;">1234567890</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">cv08 — Upper-case I with Serif</div>
+    <div class="demo on" style="font-feature-settings:'cv08' 1;">Illinois 일리노이 I l 1</div>
+  </div>
+  <div class="feature-card">
+    <div class="tag">cv11 — Single-storey a (variant)</div>
+    <div class="demo on" style="font-feature-settings:'cv11' 1;">abcdefg 안녕 alphabet</div>
+  </div>
+</div>
+
+<h2>Vertical Metrics — Button Centering</h2>
+<div class="sample" style="display:flex;gap:8px;flex-wrap:wrap;">
+  <span style="display:inline-flex;align-items:center;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">로그인</span>
+  <span style="display:inline-flex;align-items:center;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">Sign Up</span>
+  <span style="display:inline-flex;align-items:center;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">가입 →</span>
+  <span style="display:inline-flex;align-items:center;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">₩10,000 결제</span>
+  <span style="display:inline-flex;align-items:center;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">🔔 알림 3</span>
+</div>
+
+<h2>Weight Ramp</h2>
+<div id="weight-ramp"></div>
+
+<h2>Japanese</h2>
+<div class="sample" contenteditable spellcheck="false">東京タワー Tokyo Tower 2024年 こんにちは</div>
+<div class="sample" contenteditable spellcheck="false">お会計: ¥1,234 → カートに追加</div>
+
+<script>
+const sizeSlider = document.getElementById('size');
+const weightSlider = document.getElementById('weight');
+const familySelect = document.getElementById('family');
+const sizeVal = document.getElementById('size-val');
+const weightVal = document.getElementById('weight-val');
+
+function update() {
+  document.body.style.setProperty('--size', sizeSlider.value + 'px');
+  document.body.style.setProperty('--weight', weightSlider.value);
+  document.body.style.fontFamily = `'${familySelect.value}', sans-serif`;
+  sizeVal.textContent = sizeSlider.value;
+  weightVal.textContent = weightSlider.value;
+}
+
+sizeSlider.addEventListener('input', update);
+weightSlider.addEventListener('input', update);
+familySelect.addEventListener('change', update);
+
+const ramp = document.getElementById('weight-ramp');
+for (let w = 100; w <= 900; w += 100) {
+  const div = document.createElement('div');
+  div.className = 'sample';
+  div.style.fontWeight = w;
+  div.textContent = `${w} — 안녕하세요 Hello 가격: ₩1,000 → 결제`;
+  ramp.appendChild(div);
+}
+</script>
+</body>
+</html>
