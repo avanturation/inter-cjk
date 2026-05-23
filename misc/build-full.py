@@ -348,17 +348,17 @@ def merge(inter_ttf, pretendard_ttf, output_path):
             fr.Feature.LookupCount = len(fr.Feature.LookupListIndex)
 
     # Vertical metrics (SUIT-matched)
-    print("  Setting vertical metrics (ratio 1.075, even line heights in Figma)...")
+    print("  Setting vertical metrics (ratio 1.125, total=2304)...")
     os2 = inter['OS/2']
     hhea = inter['hhea']
-    os2.sTypoAscender = 1792
-    os2.sTypoDescender = -409
+    os2.sTypoAscender = 1810
+    os2.sTypoDescender = -494
     os2.sTypoLineGap = 0
-    os2.usWinAscent = 1792
-    os2.usWinDescent = 409
+    os2.usWinAscent = 1810
+    os2.usWinDescent = 494
     os2.fsSelection |= (1 << 7)
-    hhea.ascent = 1792
-    hhea.descent = -409
+    hhea.ascent = 1810
+    hhea.descent = -494
     hhea.lineGap = 0
 
     # OS/2 ranges
