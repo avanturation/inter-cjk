@@ -333,17 +333,17 @@ def merge(inter_ttf, pretendard_ttf, output_path):
             fr.Feature.LookupCount = len(fr.Feature.LookupListIndex)
 
     # Vertical metrics (SUIT-matched)
-    print("  Setting vertical metrics (SUIT ratio 1.248)...")
+    print("  Setting vertical metrics (ratio 1.125)...")
     os2 = inter['OS/2']
     hhea = inter['hhea']
-    os2.sTypoAscender = 2023
-    os2.sTypoDescender = -532
+    os2.sTypoAscender = 1897
+    os2.sTypoDescender = -407
     os2.sTypoLineGap = 0
     os2.usWinAscent = 2269
     os2.usWinDescent = 660
     os2.fsSelection |= (1 << 7)
-    hhea.ascent = 2023
-    hhea.descent = -532
+    hhea.ascent = 1897
+    hhea.descent = -407
     hhea.lineGap = 0
 
     # OS/2 ranges
