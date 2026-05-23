@@ -1,23 +1,44 @@
 # Inter CJK
 
-Inter CJK는 [Inter](https://rsms.me/inter)와 [Pretendard JP](https://github.com/orioncactus/pretendard)의 한국어, 일본어, 중국어 Glyph를 결합한 후, UI 등 주요 사용 용도에 맞게 보정한 폰트입니다.
+Inter CJK는 [Inter](https://rsms.me/inter)와 [Pretendard](https://github.com/orioncactus/pretendard)를 결합하고, UI 설계 등 주요 사용 환경에 맞게 보정하여 한국어 · 일본어 · 중국어까지 커버하는 서체입니다. Inter와 Pretendard가 지원하는 모든 OpenType 기능을 그대로 포함하며, 9가지 굵기와 가변 (Variable) 글꼴을 지원합니다.
 
 <br/>
 
 ![overview](docs/overview.png)
 
+<br/>
+
 ## 도대체 왜
+
+<br/>
 
 ![why](docs/why.png)
 
-Pretendard JP는 다국어를 폭넓게 지원해 범용 서체로 쓰기 좋지만, 영미권 텍스트의 가독성이나 `@`, `[`, `(` 같은 기호 디테일까지 고려하면 Inter가 더 적합합니다.
+<br/>
 
-다만 Inter는 CJK를 지원하지 않아 한국·일본·중국어가 포함된 환경에선 단독으로 쓰기 어렵습니다. Inter CJK는 Pretendard JP의 CJK 글리프를 Inter에 결합하고 calt 피처 보완과 Line Height 조정을 거쳐 Pretendard의 설계 원칙을 유지하면서도 Inter의 라틴 품질을 그대로 살린 서체입니다.
+Pretendard는 다국어를 폭넓게 지원해 한국을 기반으로 하는 UI에서 범용 서체로 쓰기 좋지만, 영미권 텍스트의 가독성이나 `@`, `[`, `(`와 같은 기호 디테일까지 고려하면 Inter가 더 적합합니다. 또한 40px 이상의 Hero 문구에서는 시인성을 위해 Inter Display를 사용합니다. 다만 Inter는 CJK를 지원하지 않아 한국 · 일본 · 중국어가 포함된 환경에선 단독으로 쓰기 어렵습니다.
+
+Inter CJK는 이를 해결하고자 Pretendard JP의 CJK 글리프를 Inter에 결합하고, `calt` 피처 보완 · Line Height 조정 · Figma 등 상용 디자인 툴에서의 UI 설계 시 호환성까지 보완하며 Pretendard의 설계 원칙은 유지하였고, Inter의 라틴 품질을 그대로 살렸습니다.
+
+# Inter CJK 사용하기
+
+[최신 버전 다운로드하기](https://github.com/avanturation/inter-cjk/releases/tag/v1.0)
+
+## font-family
+
+권장하는 `font-family` 조합은 아래와 같습니다.
+
+```css
+font-family: "Inter CJK Variable", "Inter CJK",
+  -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+  "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+```
 
 # Font Families
 
-- **Inter CJK** — Text-optimized (optical size 14)
-- **Inter CJK Display** — Display-optimized (optical size 32)
+- **Inter CJK** — UI, 본문에 최적화 (optical size 14)
+- **Inter CJK Display** — Display, Hero에 최적화 (optical size 32)
 
 ## Variable Axes
 
@@ -26,17 +47,17 @@ Pretendard JP는 다국어를 폭넓게 지원해 범용 서체로 쓰기 좋지
 | Optical Size | `opsz` | 14–32 | 14 |
 | Weight | `wght` | 100–900 | 400 |
 
-## Coverage
+## 언어 커버리지
 
-- Latin, Cyrillic, Greek (from Inter)
-- Hangul Syllables: 11,172
-- Hiragana + Katakana: 184
-- CJK Unified Ideographs: 7,138
-- CJK Symbols, Compatibility, Halfwidth/Fullwidth Forms
+- 라틴 · 키릴 · 그리스 문자 계열 (Inter 기반)
+- 11,172자 한글 음절 (Pretendard 기반)
+- 184자 히라가나 + 가타카나 (Pretendard 기반)
+- 7,138자 CJK 통합 한자 (Pretendard 기반)
+- CJK 기호·호환·반각/전각 문자 (Inter & Pretendard 혼합)
 
-## Design Philosophy
+## 디자인 원칙
 
-Adjustments applied from [Pretendard](https://cactus.tistory.com/306) and [SUIT](https://sun.fo/suit/) design principles:
+[Pretendard](https://cactus.tistory.com/306)의 제작 비하인드와 [SUIT](https://sun.fo/suit/)의 디자인 원칙을 참고해, 
 
 - **Vertical alignment**: CJK glyph center aligned to Latin cap height center
 - **Gray-level matching**: CJK strokes 1% thinner for visual weight balance with Latin
@@ -45,6 +66,8 @@ Adjustments applied from [Pretendard](https://cactus.tistory.com/306) and [SUIT]
 - **Tabular numbers**: Consistent width across all weights (tnum)
 
 ## OpenType Features
+
+Inter CJK는 Inter와 Pretendard가 지원하는 모든 OpenType 기능들을 지원합니다.
 
 `calt` `ccmp` `case` `dlig` `frac` `sups` `subs` `sinf` `dnom` `numr` `tnum` `zero` `cpsp` `kern` `mark` `mkmk`
 
@@ -59,33 +82,24 @@ Stylistic Sets:
 
 Character Variants: `cv01`–`cv14`
 
-## Build
+# Build
+
+Inter와 Pretendard의 원본 소스를 `git submodule`로 연결해 최신 버전으로 빌드한 후, Inter CJK 설계 원칙에 맞는 패치를 진행해 빌드합니다.
 
 ```bash
-pip install -r requirements.txt
-make variable    # builds InterCJK-Variable.ttf
-make static      # builds static instances
+python3 -m pip install -r requirements.txt
+make clean
+make all
 ```
 
-## Source Structure
+# Credits
 
-```
-src/
-  InterCJK.glyphspackage/   # Glyphs 3 source
-    fontinfo.plist           # Font metadata, axes, instances
-    order.plist              # Glyph order
-    glyphs/                  # Individual glyph files
-  features/                  # OpenType feature files (.fea)
-fonts/
-  variable/                  # Pre-built variable font
-```
+- [Inter](https://rsms.me/inter/) by @rsms
+- [Pretendard](https://github.com/orioncactus/pretendard) by @orioncactus
 
-## Credits
+## Contribute
 
-- **Latin base**: [Inter](https://rsms.me/inter/) by Rasmus Andersson
-- **CJK base**: [Pretendard JP](https://github.com/orioncactus/pretendard) by Kil Hyung-jin
-- **CJK Hangul source**: [Noto Sans CJK KR](https://github.com/adobe-fonts/source-han-sans)
-- **CJK Kana source**: [M PLUS 1p](https://github.com/coz-m/MPLUS_FONTS)
+Inter CJK는 UI 디자이너로서 평소 가지고 있던 생각들을 조합해, `Glyphs`와 같은 서체 전용 툴 없이 OpenCode & Sisyphus (oh-my-opencode) 만으로 제작되었습니다. 폰트에 대한 지식이 부족한 만큼, 오픈소스 커뮤니티의 많은 피드백과 기여가 필요합니다. Issue와 Pull Request를 통해 기여해주시면 감사하겠습니다.
 
 ## License
 
