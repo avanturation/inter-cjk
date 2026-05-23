@@ -339,8 +339,8 @@ def merge(inter_ttf, pretendard_ttf, output_path):
     os2.sTypoAscender = 1897
     os2.sTypoDescender = -407
     os2.sTypoLineGap = 0
-    os2.usWinAscent = 2269
-    os2.usWinDescent = 660
+    os2.usWinAscent = 1897
+    os2.usWinDescent = 407
     os2.fsSelection |= (1 << 7)
     hhea.ascent = 1897
     hhea.descent = -407
