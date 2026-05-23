@@ -1,8 +1,18 @@
 # Inter CJK
 
-A variable font combining [Inter](https://rsms.me/inter) with Korean, Japanese, and CJK glyphs from [Pretendard JP](https://github.com/orioncactus/pretendard).
+Inter CJK는 [Inter](https://rsms.me/inter)에 [Pretendard JP](https://github.com/orioncactus/pretendard)의 한국어, 일본어, 중국어 Glyph를 결합한 후, UI 등 주요 사용 용도에 맞게 보정한 폰트입니다.
 
-## Families
+![overview](docs/overview.png)
+
+## 도대체 왜
+
+![why](docs/why.png)
+
+Pretendard JP는 다국어를 폭넓게 지원해 범용 서체로 쓰기 좋지만, 영미권 텍스트의 가독성이나 `@`, `[`, `(` 같은 기호 디테일까지 고려하면 Inter가 더 적합합니다.
+
+다만 Inter는 CJK를 지원하지 않아 한국·일본·중국어가 포함된 환경에선 단독으로 쓰기 어렵습니다. Inter CJK는 Pretendard JP의 CJK 글리프를 Inter에 결합하고 calt 피처 보완과 Line Height 조정을 거쳐 Pretendard의 설계 원칙을 유지하면서도 Inter의 라틴 품질을 그대로 살린 서체입니다.
+
+# Font Families
 
 - **Inter CJK** — Text-optimized (optical size 14)
 - **Inter CJK Display** — Display-optimized (optical size 32)
@@ -47,7 +57,7 @@ Stylistic Sets:
 
 Character Variants: `cv01`–`cv14`
 
-## Building
+## Build
 
 ```bash
 pip install -r requirements.txt
