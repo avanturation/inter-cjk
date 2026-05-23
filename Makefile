@@ -134,9 +134,24 @@ $(DISTDIR)/web:
 	mkdir -p $@
 
 # ---------------------------------------------------------------------------------
+# npm dist (copies build output to dist/ for npm publish)
+
+dist: all
+	rm -rf dist
+	mkdir -p dist/variable dist/static dist/web/dynamic-subset dist/web/dynamic-subset-display
+	cp $(DISTDIR)/InterCJKVariable.ttf dist/variable/
+	cp $(DISTDIR)/InterCJKDisplayVariable.ttf dist/variable/
+	cp $(DISTDIR)/extras/ttf/*.ttf dist/static/
+	cp $(DISTDIR)/web/*.woff2 dist/web/
+	cp $(DISTDIR)/web/inter-cjk.css dist/web/
+	cp -r $(DISTDIR)/web/dynamic-subset/* dist/web/dynamic-subset/
+	cp -r $(DISTDIR)/web/dynamic-subset-display/* dist/web/dynamic-subset-display/
+	cp LICENSE.txt dist/
+
+# ---------------------------------------------------------------------------------
 # Clean
 
 clean:
-	rm -rf build
+	rm -rf build dist
 
-.PHONY: default all variable static web package setup clean
+.PHONY: default all variable static web dynamic-subset package setup dist clean

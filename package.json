@@ -1,0 +1,39 @@
+{
+  "name": "inter-cjk",
+  "version": "1.0.0",
+  "description": "Inter + CJK (Korean, Japanese) variable font with contextual symbol alignment",
+  "license": "OFL-1.1",
+  "author": "avanturation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avanturation/inter-cjk"
+  },
+  "homepage": "https://github.com/avanturation/inter-cjk",
+  "keywords": [
+    "font",
+    "inter",
+    "cjk",
+    "korean",
+    "japanese",
+    "variable-font",
+    "webfont",
+    "hangul",
+    "pretendard",
+    "opentype"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    ".": "./dist/web/inter-cjk.css",
+    "./css": "./dist/web/inter-cjk.css",
+    "./css/dynamic-subset": "./dist/web/dynamic-subset/inter-cjk-variable-dynamic-subset.css",
+    "./css/dynamic-subset-display": "./dist/web/dynamic-subset-display/inter-cjk-display-variable-dynamic-subset.css",
+    "./variable": "./dist/variable/InterCJKVariable.ttf",
+    "./variable/display": "./dist/variable/InterCJKDisplayVariable.ttf"
+  },
+  "scripts": {
+    "build": "make all",
+    "dist": "make dist"
+  }
+}
