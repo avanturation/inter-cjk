@@ -46,6 +46,19 @@ def check_metrics(font_path):
     check(os2.achVendID == "ICJK", f"vendorID = ICJK (got '{os2.achVendID}')")
 
 
+def check_line_height(font_path):
+    font = TTFont(font_path)
+    os2 = font['OS/2']
+    upm = font['head'].unitsPerEm
+    total = os2.sTypoAscender - os2.sTypoDescender
+
+    expected = {12: 14, 14: 16, 16: 18, 18: 20}
+    for size, want in expected.items():
+        got = round(size * total / upm)
+        check(got == want, f"{size}px → line-height {got} (기대값 {want})")
+        check(want % 2 == 0, f"{size}px line-height {want}은 짝수")
+
+
 def check_rclt(font_path):
     try:
         import uharfbuzz as hb
@@ -138,6 +151,9 @@ def main():
 
     print("[Metrics]")
     check_metrics(text_path)
+
+    print("\n[Line Height]")
+    check_line_height(text_path)
 
     print("\n[rclt 컨텍스트 치환]")
     check_rclt(text_path)
