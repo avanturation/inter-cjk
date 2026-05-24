@@ -156,9 +156,12 @@ dist: all
 	cp $(DISTDIR)/extras/ttf/*.otf dist/static/otf/
 	cp $(DISTDIR)/web/*.woff2 dist/web/
 	cp $(DISTDIR)/web/inter-cjk.css dist/web/
+	cp $(DISTDIR)/web/inter-cjk.min.css dist/web/ 2>/dev/null || true
 	cp -r $(DISTDIR)/web/dynamic-subset/* dist/web/dynamic-subset/
 	cp -r $(DISTDIR)/web/dynamic-subset-display/* dist/web/dynamic-subset-display/
 	cp LICENSE.txt dist/
+	cp dist/web/InterCJKVariable.woff2 packages/next/dist/fonts/
+	cp dist/web/InterCJKDisplayVariable.woff2 packages/next/dist/fonts/
 
 # ---------------------------------------------------------------------------------
 # Clean
