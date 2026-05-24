@@ -1,6 +1,8 @@
 # Inter CJK
 
-Inter CJK는 [Inter](https://rsms.me/inter)와 [Pretendard](https://github.com/orioncactus/pretendard)를 결합하고, UI 설계 등 주요 사용 환경에 맞게 보정하여 한국어 · 일본어 · 중국어까지 커버하는 서체입니다. Inter와 Pretendard가 지원하는 모든 OpenType 기능을 그대로 포함하며, 9가지 굵기와 가변 (Variable) 글꼴을 지원합니다.
+Inter CJK는 [Inter](https://rsms.me/inter)와 [Pretendard](https://github.com/orioncactus/pretendard)를 결합하고, UI 등 주요 사용 환경에 맞게 보정해 한국어, 일본어, 중국어까지 커버하는 서체입니다. Inter와 Pretendard가 지원하는 모든 OpenType 기능을 그대로 포함하며, 9가지 굵기와 가변 (Variable) 글꼴을 지원합니다.
+
+[최신 버전 다운로드하기](https://github.com/avanturation/inter-cjk/releases/tag/v1.0.0)
 
 <br/>
 
@@ -16,15 +18,21 @@ Inter CJK는 [Inter](https://rsms.me/inter)와 [Pretendard](https://github.com/o
 
 <br/>
 
-Pretendard는 다국어를 폭넓게 지원해 한국을 기반으로 하는 UI에서 범용 서체로 쓰기 좋지만, 영미권 텍스트의 가독성이나 `@`, `[`, `(`와 같은 기호 디테일까지 고려하면 Inter가 더 적합합니다. 또한 40px 이상의 Hero 문구에서는 시인성을 위해 Inter Display를 사용합니다. 다만 Inter는 CJK를 지원하지 않아 한국 · 일본 · 중국어가 포함된 환경에선 단독으로 쓰기 어렵습니다.
+Pretendard는 다국어를 폭넓게 지원해 UI에서 범용 서체로 쓰기 좋지만, 영미권 텍스트의 가독성이나 `@`, `[`, `(`와 같은 기호 디테일까지 고려하면 Inter가 더 적합합니다. 또한 40px 이상의 Hero 문구에서는 시인성을 위해 Inter Display를 사용합니다—Pretendard는 Display용 optical size를 제공하지 않아 Hero에서의 시인성 확보가 어렵기 때문입니다. 다만 Inter는 CJK를 지원하지 않아 한국 · 일본 · 중국어가 포함된 환경에선 단독으로 쓰기 어렵습니다.
 
 Inter CJK는 이를 해결하고자 Pretendard JP의 CJK 글리프를 Inter에 결합하고, `calt` 피처 보완 · Line Height 조정 · Figma 등 상용 디자인 툴에서의 UI 설계 시 호환성까지 보완하며 Pretendard의 설계 원칙은 유지하였고, Inter의 라틴 품질을 그대로 살렸습니다.
 
 # Inter CJK 사용하기
 
-[최신 버전 다운로드하기](https://github.com/avanturation/inter-cjk/releases/tag/v1.0)
+[최신 버전 다운로드하기](https://github.com/avanturation/inter-cjk/releases/tag/v1.0.0)
 
-## font-family
+## 웹 폰트로 사용하기
+
+```html
+<link href="https://cdn.jsdelivr.net/npm/inter-cjk/dist/web/inter-cjk.css" rel="stylesheet">
+```
+
+### font-family
 
 권장하는 `font-family` 조합은 아래와 같습니다.
 
@@ -49,7 +57,7 @@ font-family: "Inter CJK Variable", "Inter CJK",
 
 ## 언어 커버리지
 
-- 라틴 · 키릴 · 그리스 문자 계열 (Inter 기반)
+- 라틴, 키릴, 그리스 문자 계열 (Inter 기반)
 - 11,172자 한글 음절 (Pretendard 기반)
 - 184자 히라가나 + 가타카나 (Pretendard 기반)
 - 7,138자 CJK 통합 한자 (Pretendard 기반)
@@ -99,7 +107,9 @@ make all
 
 ## Contribute
 
-Inter CJK는 UI 디자이너로서 평소 가지고 있던 생각들을 조합해, `Glyphs`와 같은 서체 전용 툴 없이 OpenCode & Sisyphus (oh-my-opencode) 만으로 제작되었습니다. 폰트에 대한 지식이 부족한 만큼, 오픈소스 커뮤니티의 많은 피드백과 기여가 필요합니다. Issue와 Pull Request를 통해 기여해주시면 감사하겠습니다.
+Inter CJK는 UI 디자이너로서 평소 가지고 있던 생각들을 조합해, `Glyphs`와 같은 서체 전용 툴 없이 OpenCode 만으로 제작되었습니다. 
+
+폰트에 대한 지식이 부족한 만큼, 오픈소스 커뮤니티의 많은 피드백과 기여가 필요합니다. Issues와 Pull Request를 통해 기여해주시면 감사하겠습니다.
 
 ## License
 

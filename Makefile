@@ -3,7 +3,7 @@ VERSION  := $(shell cat version.txt)
 DISTDIR  := build/InterCJK-$(VERSION)
 
 INTER_SRC     := src/inter/src/Inter-Roman.glyphspackage
-PRETENDARD_SRC := src/pretendard/src/PretendardJP.glyphspackage
+PRETENDARD_CSS := src/pretendard/dist/web/variable/pretendardvariable-jp-dynamic-subset.css
 
 default: all
 
@@ -26,29 +26,20 @@ build/pretendard-variable.ttf: | build
 	rm -rf build/pretendard-jp.zip build/public
 
 # ---------------------------------------------------------------------------------
-# Merged full variable (opsz + wght)
+# Merged variable (opsz + wght) — single file, Inter-style
 
-build/InterCJK-full.ttf: build/inter-variable.ttf build/pretendard-variable.ttf misc/build-full.py
+variable: $(DISTDIR)/InterCJKVariable.ttf
+
+$(DISTDIR)/InterCJKVariable.ttf: build/inter-variable.ttf build/pretendard-variable.ttf misc/build-full.py | $(DISTDIR)
 	python3 misc/build-full.py $< build/pretendard-variable.ttf $@
 
 # ---------------------------------------------------------------------------------
-# Split into Text + Display (pins opsz via instancer)
-
-variable: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf
-
-$(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf: build/InterCJK-full.ttf misc/split-opsz.py | $(DISTDIR)
-	python3 misc/split-opsz.py $< $(DISTDIR)
-
-# ---------------------------------------------------------------------------------
-# Static fonts (instancer per weight)
+# Static fonts (instancer pins opsz then wght)
 
 static: $(DISTDIR)/extras/ttf/.ok
 
-$(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf misc/gen-static.py | $(DISTDIR)/extras/ttf
-	python3 misc/gen-static.py \
-		$(DISTDIR)/InterCJKVariable.ttf \
-		$(DISTDIR)/InterCJKDisplayVariable.ttf \
-		$(DISTDIR)/extras/ttf
+$(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-static.py | $(DISTDIR)/extras/ttf
+	python3 misc/gen-static.py $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf
 	python3 misc/gen-weight-css.py $(DISTDIR)/web
 	touch $@
 
@@ -57,11 +48,9 @@ $(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDi
 
 web: $(DISTDIR)/web/.ok
 
-$(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVariable.ttf $(DISTDIR)/extras/ttf/.ok | $(DISTDIR)/web
+$(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf/.ok | $(DISTDIR)/web
 	python3 -m fontTools ttLib.woff2 compress $(DISTDIR)/InterCJKVariable.ttf \
 		-o $(DISTDIR)/web/InterCJKVariable.woff2
-	python3 -m fontTools ttLib.woff2 compress $(DISTDIR)/InterCJKDisplayVariable.ttf \
-		-o $(DISTDIR)/web/InterCJKDisplayVariable.woff2
 	@for f in $(DISTDIR)/extras/ttf/*.ttf; do \
 		name=$$(basename "$$f" .ttf); \
 		python3 -m fontTools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
@@ -73,9 +62,7 @@ $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVa
 # ---------------------------------------------------------------------------------
 # Dynamic subset (unicode-range split for fast web loading)
 
-PRETENDARD_CSS := src/pretendard/dist/web/variable/pretendardvariable-jp-dynamic-subset.css
-
-dynamic-subset: $(DISTDIR)/web/dynamic-subset/.ok $(DISTDIR)/web/dynamic-subset-display/.ok
+dynamic-subset: $(DISTDIR)/web/dynamic-subset/.ok
 
 $(DISTDIR)/web/dynamic-subset/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-dynamic-subset.py | $(DISTDIR)/web/dynamic-subset
 	python3 misc/gen-dynamic-subset.py \
@@ -86,19 +73,7 @@ $(DISTDIR)/web/dynamic-subset/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-dyna
 		"inter-cjk-variable-dynamic-subset.css"
 	touch $@
 
-$(DISTDIR)/web/dynamic-subset-display/.ok: $(DISTDIR)/InterCJKDisplayVariable.ttf misc/gen-dynamic-subset.py | $(DISTDIR)/web/dynamic-subset-display
-	python3 misc/gen-dynamic-subset.py \
-		$(DISTDIR)/InterCJKDisplayVariable.ttf \
-		$(PRETENDARD_CSS) \
-		$(DISTDIR)/web/dynamic-subset-display \
-		"Inter CJK Display Variable" \
-		"inter-cjk-display-variable-dynamic-subset.css"
-	touch $@
-
 $(DISTDIR)/web/dynamic-subset:
-	mkdir -p $@
-
-$(DISTDIR)/web/dynamic-subset-display:
 	mkdir -p $@
 
 # ---------------------------------------------------------------------------------
@@ -136,33 +111,29 @@ $(DISTDIR)/web:
 	mkdir -p $@
 
 # ---------------------------------------------------------------------------------
-# Validate (fontbakery)
+# Validate
 
 check: variable
-	python3 misc/check-font.py \
-		$(DISTDIR)/InterCJKVariable.ttf \
-		$(DISTDIR)/InterCJKDisplayVariable.ttf
+	python3 misc/check-font.py $(DISTDIR)/InterCJKVariable.ttf
 	python3 -m fontbakery check-universal $(DISTDIR)/InterCJKVariable.ttf \
 		--no-progress --succinct 2>&1 | tail -5
 
 # ---------------------------------------------------------------------------------
-# npm dist (copies build output to dist/ for npm publish)
+# npm dist
 
 dist: all
 	rm -rf dist
-	mkdir -p dist/variable dist/static/ttf dist/static/otf dist/web/dynamic-subset dist/web/dynamic-subset-display
+	mkdir -p dist/variable dist/static/ttf dist/static/otf dist/web/dynamic-subset
 	cp $(DISTDIR)/InterCJKVariable.ttf dist/variable/
-	cp $(DISTDIR)/InterCJKDisplayVariable.ttf dist/variable/
 	cp $(DISTDIR)/extras/ttf/*.ttf dist/static/ttf/
 	cp $(DISTDIR)/extras/ttf/*.otf dist/static/otf/
 	cp $(DISTDIR)/web/*.woff2 dist/web/
 	cp $(DISTDIR)/web/inter-cjk.css dist/web/
 	cp $(DISTDIR)/web/inter-cjk.min.css dist/web/ 2>/dev/null || true
 	cp -r $(DISTDIR)/web/dynamic-subset/* dist/web/dynamic-subset/
-	cp -r $(DISTDIR)/web/dynamic-subset-display/* dist/web/dynamic-subset-display/
 	cp LICENSE.txt dist/
+	mkdir -p packages/next/dist/fonts
 	cp dist/web/InterCJKVariable.woff2 packages/next/dist/fonts/
-	cp dist/web/InterCJKDisplayVariable.woff2 packages/next/dist/fonts/
 
 # ---------------------------------------------------------------------------------
 # Clean
@@ -170,4 +141,4 @@ dist: all
 clean:
 	rm -rf build dist
 
-.PHONY: default all variable static web dynamic-subset package setup dist clean
+.PHONY: default all variable static web dynamic-subset package setup dist check clean

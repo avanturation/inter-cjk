@@ -109,15 +109,16 @@ def check_weight_variation(font_path):
             check(has_coords, f"wght={wght}: 가 글리프 좌표 존재")
 
 
-def check_display_diff(text_path, display_path):
-    t = TTFont(text_path)
-    d = TTFont(display_path)
+def check_opsz_axis(font_path):
+    font = TTFont(font_path)
+    axes = {a.axisTag: (a.minValue, a.maxValue) for a in font['fvar'].axes}
 
-    t_w = t['hmtx']['H'][0]
-    d_w = d['hmtx']['H'][0]
-
-    check(t_w != d_w, f"Text H={t_w} ≠ Display H={d_w}")
-    check(d_w < t_w, f"Display가 Text보다 좁음 ({d_w} < {t_w})")
+    check('opsz' in axes, "opsz 축 존재")
+    check('wght' in axes, "wght 축 존재")
+    if 'opsz' in axes:
+        check(axes['opsz'] == (14.0, 32.0), f"opsz 범위 14-32 (got {axes['opsz']})")
+    if 'wght' in axes:
+        check(axes['wght'] == (100.0, 900.0), f"wght 범위 100-900 (got {axes['wght']})")
 
 
 def check_glyph_count(font_path):
@@ -139,11 +140,10 @@ def check_features(font_path):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 misc/check-font.py <text.ttf> [display.ttf]")
+        print("Usage: python3 misc/check-font.py <variable.ttf>")
         sys.exit(1)
 
     text_path = sys.argv[1]
-    display_path = sys.argv[2] if len(sys.argv) > 2 else None
 
     print(f"\n{'='*50}")
     print(f"Inter CJK QA: {os.path.basename(text_path)}")
@@ -154,6 +154,9 @@ def main():
 
     print("\n[Line Height]")
     check_line_height(text_path)
+
+    print("\n[Variable Axes]")
+    check_opsz_axis(text_path)
 
     print("\n[rclt 컨텍스트 치환]")
     check_rclt(text_path)
@@ -166,10 +169,6 @@ def main():
 
     print("\n[OpenType Features]")
     check_features(text_path)
-
-    if display_path:
-        print(f"\n[Display vs Text]")
-        check_display_diff(text_path, display_path)
 
     print(f"\n{'='*50}")
     if failures:

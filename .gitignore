@@ -15,6 +15,5 @@ web/*.woff2
 web/dynamic-subset/
 web/dynamic-subset-display/
 
-# Keep variable TTFs for direct download
+# Keep variable TTF for direct download
 !fonts/InterCJKVariable.ttf
-!fonts/InterCJKDisplayVariable.ttf

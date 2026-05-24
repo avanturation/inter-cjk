@@ -30,9 +30,7 @@
     ".": "./dist/web/inter-cjk.css",
     "./css": "./dist/web/inter-cjk.css",
     "./css/dynamic-subset": "./dist/web/dynamic-subset/inter-cjk-variable-dynamic-subset.css",
-    "./css/dynamic-subset-display": "./dist/web/dynamic-subset-display/inter-cjk-display-variable-dynamic-subset.css",
     "./variable": "./dist/variable/InterCJKVariable.ttf",
-    "./variable/display": "./dist/variable/InterCJKDisplayVariable.ttf",
     "./font": "./packages/next/dist/font.js",
     "./font/sans": "./packages/next/dist/sans.js",
     "./font/display": "./packages/next/dist/display.js"

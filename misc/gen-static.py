@@ -1,4 +1,4 @@
-"""Generate static font instances from variable TTF via instancer."""
+"""Generate static font instances from a single opsz+wght variable TTF."""
 import sys
 import os
 from multiprocessing import Pool, cpu_count
@@ -17,15 +17,20 @@ WEIGHTS = [
     ("Black", 900),
 ]
 
+FAMILIES = [
+    (14.0, "InterCJK", "Inter CJK"),
+    (32.0, "InterCJKDisplay", "Inter CJK Display"),
+]
+
 
 def _generate_one(args):
-    variable_ttf, prefix, family_name, out_dir, weight_name, weight_value = args
+    variable_ttf, out_dir, opsz_val, prefix, family_name, weight_name, weight_value = args
 
     font = TTFont(variable_ttf)
     for tag in ['MVAR', 'HVAR', 'GDEF']:
         if tag in font:
             del font[tag]
-    instance = instantiateVariableFont(font, {"wght": weight_value}, inplace=True, overlap=True)
+    instance = instantiateVariableFont(font, {"opsz": opsz_val, "wght": weight_value}, inplace=True, overlap=True)
 
     for tag in ['fvar', 'STAT', 'gvar', 'avar', 'HVAR', 'MVAR']:
         if tag in instance:
@@ -65,18 +70,14 @@ def _generate_one(args):
 
 
 def main():
-    text_ttf = sys.argv[1]
-    display_ttf = sys.argv[2]
-    out_dir = sys.argv[3]
+    variable_ttf = sys.argv[1]
+    out_dir = sys.argv[2]
     os.makedirs(out_dir, exist_ok=True)
 
     jobs = []
-    for variable_ttf, prefix, family_name in [
-        (text_ttf, "InterCJK", "Inter CJK"),
-        (display_ttf, "InterCJKDisplay", "Inter CJK Display"),
-    ]:
+    for opsz_val, prefix, family_name in FAMILIES:
         for weight_name, weight_value in WEIGHTS:
-            jobs.append((variable_ttf, prefix, family_name, out_dir, weight_name, weight_value))
+            jobs.append((variable_ttf, out_dir, opsz_val, prefix, family_name, weight_name, weight_value))
 
     workers = min(cpu_count(), 6)
     print(f"Generating {len(jobs)} static instances ({workers} parallel workers):")
