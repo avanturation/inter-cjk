@@ -1,6 +1,7 @@
 """Generate static font instances from variable TTF via instancer."""
 import sys
 import os
+from multiprocessing import Pool, cpu_count
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
 
@@ -17,64 +18,72 @@ WEIGHTS = [
 ]
 
 
-def generate_statics(variable_ttf, prefix, family_name, out_dir):
-    os.makedirs(out_dir, exist_ok=True)
+def _generate_one(args):
+    variable_ttf, prefix, family_name, out_dir, weight_name, weight_value = args
 
-    for weight_name, weight_value in WEIGHTS:
-        font = TTFont(variable_ttf)
-        for tag in ['MVAR', 'HVAR', 'GDEF']:
-            if tag in font:
-                del font[tag]
-        instance = instantiateVariableFont(font, {"wght": weight_value}, inplace=True, overlap=True)
+    font = TTFont(variable_ttf)
+    for tag in ['MVAR', 'HVAR', 'GDEF']:
+        if tag in font:
+            del font[tag]
+    instance = instantiateVariableFont(font, {"wght": weight_value}, inplace=True, overlap=True)
 
-        for tag in ['fvar', 'STAT', 'gvar', 'avar', 'HVAR', 'MVAR']:
-            if tag in instance:
-                del instance[tag]
+    for tag in ['fvar', 'STAT', 'gvar', 'avar', 'HVAR', 'MVAR']:
+        if tag in instance:
+            del instance[tag]
 
-        name_table = instance['name']
-        subfamily = "Regular" if weight_name == "Regular" else weight_name
-        full_name = f"{family_name} {weight_name}" if weight_name != "Regular" else family_name
-        ps_name = f"{prefix}-{weight_name}"
+    name_table = instance['name']
+    subfamily = "Regular" if weight_name == "Regular" else weight_name
+    full_name = f"{family_name} {weight_name}" if weight_name != "Regular" else family_name
+    ps_name = f"{prefix}-{weight_name}"
 
-        for record in name_table.names:
-            try:
-                record.toUnicode()
-            except:
-                continue
-            if record.nameID == 1:
-                name_table.setName(family_name, record.nameID, record.platformID, record.platEncID, record.langID)
-            elif record.nameID == 2:
-                name_table.setName(subfamily, record.nameID, record.platformID, record.platEncID, record.langID)
-            elif record.nameID == 4:
-                name_table.setName(full_name, record.nameID, record.platformID, record.platEncID, record.langID)
-            elif record.nameID == 6:
-                name_table.setName(ps_name, record.nameID, record.platformID, record.platEncID, record.langID)
-            elif record.nameID == 3:
-                name_table.setName(f"1.000;{ps_name}", record.nameID, record.platformID, record.platEncID, record.langID)
+    for record in name_table.names:
+        try:
+            record.toUnicode()
+        except:
+            continue
+        if record.nameID == 1:
+            name_table.setName(family_name, record.nameID, record.platformID, record.platEncID, record.langID)
+        elif record.nameID == 2:
+            name_table.setName(subfamily, record.nameID, record.platformID, record.platEncID, record.langID)
+        elif record.nameID == 4:
+            name_table.setName(full_name, record.nameID, record.platformID, record.platEncID, record.langID)
+        elif record.nameID == 6:
+            name_table.setName(ps_name, record.nameID, record.platformID, record.platEncID, record.langID)
+        elif record.nameID == 3:
+            name_table.setName(f"1.000;{ps_name}", record.nameID, record.platformID, record.platEncID, record.langID)
 
-        instance['OS/2'].usWeightClass = weight_value
+    instance['OS/2'].usWeightClass = weight_value
 
-        out_path = os.path.join(out_dir, f"{prefix}-{weight_name}.ttf")
-        instance.save(out_path)
-        size_kb = os.path.getsize(out_path) / 1024
-        print(f"  {prefix}-{weight_name}.ttf ({size_kb:.0f} KB)")
+    out_path = os.path.join(out_dir, f"{prefix}-{weight_name}.ttf")
+    instance.save(out_path)
 
-        otf_path = os.path.join(out_dir, f"{prefix}-{weight_name}.otf")
-        instance.flavor = None
-        instance.save(otf_path)
+    otf_path = os.path.join(out_dir, f"{prefix}-{weight_name}.otf")
+    instance.flavor = None
+    instance.save(otf_path)
+
+    return f"{prefix}-{weight_name}.ttf ({os.path.getsize(out_path) / 1024:.0f} KB)"
 
 
 def main():
     text_ttf = sys.argv[1]
     display_ttf = sys.argv[2]
     out_dir = sys.argv[3]
-
     os.makedirs(out_dir, exist_ok=True)
-    print("Generating Inter CJK static instances:")
-    generate_statics(text_ttf, "InterCJK", "Inter CJK", out_dir)
 
-    print("\nGenerating Inter CJK Display static instances:")
-    generate_statics(display_ttf, "InterCJKDisplay", "Inter CJK Display", out_dir)
+    jobs = []
+    for variable_ttf, prefix, family_name in [
+        (text_ttf, "InterCJK", "Inter CJK"),
+        (display_ttf, "InterCJKDisplay", "Inter CJK Display"),
+    ]:
+        for weight_name, weight_value in WEIGHTS:
+            jobs.append((variable_ttf, prefix, family_name, out_dir, weight_name, weight_value))
+
+    workers = min(cpu_count(), 6)
+    print(f"Generating {len(jobs)} static instances ({workers} parallel workers):")
+
+    with Pool(workers) as pool:
+        for result in pool.imap_unordered(_generate_one, jobs):
+            print(f"  {result}")
 
 
 if __name__ == "__main__":
