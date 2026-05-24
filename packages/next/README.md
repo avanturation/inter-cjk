@@ -1,18 +1,15 @@
 # Inter CJK for Next.js
 
-## Installation
+## 설치
 
 ```bash
 npm install inter-cjk
 ```
 
-## Usage
+## 사용법
 
 ```tsx
-import { InterCJK } from "inter-cjk/font/sans";
-// or
-import { InterCJKDisplay } from "inter-cjk/font/display";
-// or both
+// app/layout.tsx
 import { InterCJK, InterCJKDisplay } from "inter-cjk/font";
 
 export default function RootLayout({ children }) {
@@ -24,23 +21,28 @@ export default function RootLayout({ children }) {
 }
 ```
 
-## Tailwind CSS
+개별 import도 가능:
 
-```js
-// tailwind.config.js
-module.exports = {
-  theme: {
-    fontFamily: {
-      sans: ["var(--font-inter-cjk)", "sans-serif"],
-      display: ["var(--font-inter-cjk-display)", "sans-serif"],
-    },
-  },
-};
+```tsx
+import { InterCJK } from "inter-cjk/font/sans";
+import { InterCJKDisplay } from "inter-cjk/font/display";
+```
+
+## CSS에서 사용
+
+```css
+body {
+  font-family: var(--font-inter-cjk), sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-inter-cjk-display), sans-serif;
+}
 ```
 
 ## CSS Variables
 
-| Variable | Font |
+| Variable | 폰트 |
 |----------|------|
-| `--font-inter-cjk` | Inter CJK (text, opsz=14) |
-| `--font-inter-cjk-display` | Inter CJK Display (display, opsz=32) |
+| `--font-inter-cjk` | Inter CJK (본문, opsz=14) |
+| `--font-inter-cjk-display` | Inter CJK Display (제목, opsz=32) |
