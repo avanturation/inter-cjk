@@ -372,8 +372,33 @@ def merge(inter_ttf, pretendard_ttf, output_path):
         del inter['HVAR']
 
     # Named instances
-    print("  Setting named instances...")
+    print("  Setting font metadata...")
     name_table = inter['name']
+
+    VERSION = "0.1.0"
+    metadata = {
+        0: f"Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)\n"
+           f"Copyright 2021 The Pretendard Project Authors (https://github.com/orioncactus/pretendard)\n"
+           f"Copyright 2025 The Inter CJK Project Authors (https://github.com/avanturation/inter-cjk)",
+        5: f"Version {VERSION}",
+        7: "Inter CJK is a trademark of the Inter CJK Project Authors.",
+        8: "Inter CJK Project Authors",
+        9: "Rasmus Andersson, Kil Hyung-jin, avanturation",
+        10: "Inter CJK combines Inter and Pretendard JP for seamless Latin-CJK mixed typography.",
+        11: "https://github.com/avanturation/inter-cjk",
+        12: "https://github.com/avanturation/inter-cjk",
+        13: "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        14: "https://scripts.sil.org/OFL",
+    }
+
+    for nid, value in metadata.items():
+        for record in name_table.names:
+            if record.nameID == nid:
+                name_table.setName(value, nid, record.platformID, record.platEncID, record.langID)
+
+    inter['OS/2'].achVendID = "ICJK"
+
+    print("  Setting named instances...")
     for record in name_table.names:
         try:
             record.toUnicode()

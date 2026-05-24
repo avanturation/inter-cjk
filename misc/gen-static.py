@@ -59,12 +59,17 @@ def generate_statics(variable_ttf, prefix, family_name, out_dir):
         size_kb = os.path.getsize(out_path) / 1024
         print(f"  {prefix}-{weight_name}.ttf ({size_kb:.0f} KB)")
 
+        otf_path = os.path.join(out_dir, f"{prefix}-{weight_name}.otf")
+        instance.flavor = None
+        instance.save(otf_path)
+
 
 def main():
     text_ttf = sys.argv[1]
     display_ttf = sys.argv[2]
     out_dir = sys.argv[3]
 
+    os.makedirs(out_dir, exist_ok=True)
     print("Generating Inter CJK static instances:")
     generate_statics(text_ttf, "InterCJK", "Inter CJK", out_dir)
 

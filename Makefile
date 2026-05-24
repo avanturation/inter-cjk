@@ -49,6 +49,7 @@ $(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDi
 		$(DISTDIR)/InterCJKVariable.ttf \
 		$(DISTDIR)/InterCJKDisplayVariable.ttf \
 		$(DISTDIR)/extras/ttf
+	python3 misc/gen-weight-css.py $(DISTDIR)/web
 	touch $@
 
 # ---------------------------------------------------------------------------------
@@ -66,6 +67,7 @@ $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/InterCJKDisplayVa
 		python3 -m fontTools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
 	done
 	cp misc/inter-cjk.css $(DISTDIR)/web/inter-cjk.css
+	python3 -c "import re,sys;f=open(sys.argv[1]);c=f.read();f.close();m=re.sub(r'/\*[^*]*\*+(?:[^/*][^*]*\*+)*/','',c);m=re.sub(r'\s+',' ',m).strip();open(sys.argv[1].replace('.css','.min.css'),'w').write(m)" $(DISTDIR)/web/inter-cjk.css
 	touch $@
 
 # ---------------------------------------------------------------------------------
@@ -134,14 +136,24 @@ $(DISTDIR)/web:
 	mkdir -p $@
 
 # ---------------------------------------------------------------------------------
+# Validate (fontbakery)
+
+check: variable
+	python3 -m fontbakery check-universal $(DISTDIR)/InterCJKVariable.ttf \
+		--no-progress --succinct 2>&1 | tail -20
+	python3 -m fontbakery check-universal $(DISTDIR)/InterCJKDisplayVariable.ttf \
+		--no-progress --succinct 2>&1 | tail -20
+
+# ---------------------------------------------------------------------------------
 # npm dist (copies build output to dist/ for npm publish)
 
 dist: all
 	rm -rf dist
-	mkdir -p dist/variable dist/static dist/web/dynamic-subset dist/web/dynamic-subset-display
+	mkdir -p dist/variable dist/static/ttf dist/static/otf dist/web/dynamic-subset dist/web/dynamic-subset-display
 	cp $(DISTDIR)/InterCJKVariable.ttf dist/variable/
 	cp $(DISTDIR)/InterCJKDisplayVariable.ttf dist/variable/
-	cp $(DISTDIR)/extras/ttf/*.ttf dist/static/
+	cp $(DISTDIR)/extras/ttf/*.ttf dist/static/ttf/
+	cp $(DISTDIR)/extras/ttf/*.otf dist/static/otf/
 	cp $(DISTDIR)/web/*.woff2 dist/web/
 	cp $(DISTDIR)/web/inter-cjk.css dist/web/
 	cp -r $(DISTDIR)/web/dynamic-subset/* dist/web/dynamic-subset/
