@@ -405,7 +405,7 @@ def merge(inter_ttf, pretendard_ttf, output_path):
         except:
             continue
         if record.nameID == 1:
-            name_table.setName("Inter CJK", record.nameID, record.platformID, record.platEncID, record.langID)
+            name_table.setName("Inter CJK Variable", record.nameID, record.platformID, record.platEncID, record.langID)
         elif record.nameID == 4:
             name_table.setName("Inter CJK Variable", record.nameID, record.platformID, record.platEncID, record.langID)
         elif record.nameID == 6:

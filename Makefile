@@ -2,15 +2,19 @@ SRCDIR   := $(abspath $(lastword $(MAKEFILE_LIST))/..)
 VERSION  := $(shell cat version.txt)
 DISTDIR  := build/InterCJK-$(VERSION)
 
-INTER_SRC     := src/inter/src/Inter-Roman.glyphspackage
+INTER_SRC      := src/inter/src/Inter-Roman.glyphspackage
 PRETENDARD_CSS := src/pretendard/dist/web/variable/pretendardvariable-jp-dynamic-subset.css
 
 default: all
 
-all: variable static web dynamic-subset
+all: fonts web
 
-# ---------------------------------------------------------------------------------
-# Source variable fonts (built from submodule sources)
+# =================================================================================
+# CORE: Variable font (single source of truth for everything else)
+# =================================================================================
+
+build/InterCJKVariable.ttf: build/inter-variable.ttf build/pretendard-variable.ttf misc/build-full.py | build
+	python3 misc/build-full.py $< build/pretendard-variable.ttf $@
 
 build/inter-variable.ttf: $(INTER_SRC) | build
 	cd src/inter && python3 -m fontmake -g src/Inter-Roman.glyphspackage \
@@ -25,28 +29,33 @@ build/pretendard-variable.ttf: | build
 	mv build/public/variable/PretendardJPVariable.ttf $@
 	rm -rf build/pretendard-jp.zip build/public
 
-# ---------------------------------------------------------------------------------
-# Merged variable (opsz + wght) — single file, Inter-style
+# =================================================================================
+# FONTS: Inter 4.1-style release (Variable TTF, Static TTF/OTF, TTC)
+# =================================================================================
 
-variable: $(DISTDIR)/InterCJKVariable.ttf
+fonts: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf/.ok $(DISTDIR)/InterCJK.ttc
 
-$(DISTDIR)/InterCJKVariable.ttf: build/inter-variable.ttf build/pretendard-variable.ttf misc/build-full.py | $(DISTDIR)
-	python3 misc/build-full.py $< build/pretendard-variable.ttf $@
+$(DISTDIR)/InterCJKVariable.ttf: build/InterCJKVariable.ttf | $(DISTDIR)
+	cp $< $@
 
-# ---------------------------------------------------------------------------------
-# Static fonts (instancer pins opsz then wght)
-
-static: $(DISTDIR)/extras/ttf/.ok
-
-$(DISTDIR)/extras/ttf/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-static.py | $(DISTDIR)/extras/ttf
-	python3 misc/gen-static.py $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf
-	python3 misc/gen-weight-css.py $(DISTDIR)/web
+$(DISTDIR)/extras/ttf/.ok: build/InterCJKVariable.ttf misc/gen-static.py | $(DISTDIR)/extras/ttf
+	python3 misc/gen-static.py $< $(DISTDIR)/extras/ttf
 	touch $@
 
-# ---------------------------------------------------------------------------------
-# Web fonts (WOFF2)
+$(DISTDIR)/InterCJK.ttc: $(DISTDIR)/extras/ttf/.ok
+	python3 -c "\
+from fontTools.ttLib import TTFont; \
+from fontTools.ttLib.ttCollection import TTCollection; \
+import glob; \
+fonts = [TTFont(f) for f in sorted(glob.glob('$(DISTDIR)/extras/ttf/InterCJK-*.ttf')) + sorted(glob.glob('$(DISTDIR)/extras/ttf/InterCJKDisplay-*.ttf'))]; \
+ttc = TTCollection(); ttc.fonts = fonts; ttc.save('$@')"
+	@echo "  InterCJK.ttc: $$(du -h $@ | cut -f1)"
 
-web: $(DISTDIR)/web/.ok
+# =================================================================================
+# WEB: woff2, CSS, dynamic-subset (for npm/CDN)
+# =================================================================================
+
+web: $(DISTDIR)/web/.ok $(DISTDIR)/web/dynamic-subset/.ok
 
 $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf/.ok | $(DISTDIR)/web
 	python3 -m fontTools ttLib.woff2 compress $(DISTDIR)/InterCJKVariable.ttf \
@@ -56,13 +65,9 @@ $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf/.ok | 
 		python3 -m fontTools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
 	done
 	cp misc/inter-cjk.css $(DISTDIR)/web/inter-cjk.css
+	python3 misc/gen-weight-css.py $(DISTDIR)/web
 	python3 -c "import re,sys;f=open(sys.argv[1]);c=f.read();f.close();m=re.sub(r'/\*[^*]*\*+(?:[^/*][^*]*\*+)*/','',c);m=re.sub(r'\s+',' ',m).strip();open(sys.argv[1].replace('.css','.min.css'),'w').write(m)" $(DISTDIR)/web/inter-cjk.css
 	touch $@
-
-# ---------------------------------------------------------------------------------
-# Dynamic subset (unicode-range split for fast web loading)
-
-dynamic-subset: $(DISTDIR)/web/dynamic-subset/.ok
 
 $(DISTDIR)/web/dynamic-subset/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-dynamic-subset.py | $(DISTDIR)/web/dynamic-subset
 	python3 misc/gen-dynamic-subset.py \
@@ -73,11 +78,27 @@ $(DISTDIR)/web/dynamic-subset/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-dyna
 		"inter-cjk-variable-dynamic-subset.css"
 	touch $@
 
-$(DISTDIR)/web/dynamic-subset:
-	mkdir -p $@
+# =================================================================================
+# DIST: npm publish-ready
+# =================================================================================
 
-# ---------------------------------------------------------------------------------
-# Package
+dist: all
+	rm -rf dist
+	mkdir -p dist/variable dist/static/ttf dist/static/otf dist/web/dynamic-subset
+	cp $(DISTDIR)/InterCJKVariable.ttf dist/variable/
+	cp $(DISTDIR)/InterCJK.ttc dist/variable/
+	cp $(DISTDIR)/extras/ttf/*.ttf dist/static/ttf/
+	cp $(DISTDIR)/extras/ttf/*.otf dist/static/otf/
+	cp $(DISTDIR)/web/*.woff2 dist/web/
+	cp $(DISTDIR)/web/*.css dist/web/
+	cp -r $(DISTDIR)/web/dynamic-subset/* dist/web/dynamic-subset/
+	cp LICENSE.txt dist/
+	mkdir -p packages/next/dist/fonts
+	cp dist/web/InterCJKVariable.woff2 packages/next/dist/fonts/
+
+# =================================================================================
+# PACKAGE: zip for GitHub release
+# =================================================================================
 
 package: all $(DISTDIR)/LICENSE.txt $(DISTDIR)/help.txt
 	cd build && zip -r InterCJK-$(VERSION).zip InterCJK-$(VERSION)/
@@ -88,15 +109,21 @@ $(DISTDIR)/LICENSE.txt: LICENSE.txt | $(DISTDIR)
 $(DISTDIR)/help.txt: misc/help.txt | $(DISTDIR)
 	cp $< $@
 
-# ---------------------------------------------------------------------------------
-# Setup
+# =================================================================================
+# CHECK: QA validation
+# =================================================================================
+
+check: $(DISTDIR)/InterCJKVariable.ttf
+	python3 misc/check-font.py $<
+	python3 -m fontbakery check-universal $< --no-progress --succinct 2>&1 | tail -5
+
+# =================================================================================
+# SETUP / CLEAN
+# =================================================================================
 
 setup:
 	git submodule update --init --depth 1
 	pip install -r requirements.txt
-
-# ---------------------------------------------------------------------------------
-# Directories
 
 build:
 	mkdir -p $@
@@ -110,35 +137,10 @@ $(DISTDIR)/extras/ttf:
 $(DISTDIR)/web:
 	mkdir -p $@
 
-# ---------------------------------------------------------------------------------
-# Validate
-
-check: variable
-	python3 misc/check-font.py $(DISTDIR)/InterCJKVariable.ttf
-	python3 -m fontbakery check-universal $(DISTDIR)/InterCJKVariable.ttf \
-		--no-progress --succinct 2>&1 | tail -5
-
-# ---------------------------------------------------------------------------------
-# npm dist
-
-dist: all
-	rm -rf dist
-	mkdir -p dist/variable dist/static/ttf dist/static/otf dist/web/dynamic-subset
-	cp $(DISTDIR)/InterCJKVariable.ttf dist/variable/
-	cp $(DISTDIR)/extras/ttf/*.ttf dist/static/ttf/
-	cp $(DISTDIR)/extras/ttf/*.otf dist/static/otf/
-	cp $(DISTDIR)/web/*.woff2 dist/web/
-	cp $(DISTDIR)/web/inter-cjk.css dist/web/
-	cp $(DISTDIR)/web/inter-cjk.min.css dist/web/ 2>/dev/null || true
-	cp -r $(DISTDIR)/web/dynamic-subset/* dist/web/dynamic-subset/
-	cp LICENSE.txt dist/
-	mkdir -p packages/next/dist/fonts
-	cp dist/web/InterCJKVariable.woff2 packages/next/dist/fonts/
-
-# ---------------------------------------------------------------------------------
-# Clean
+$(DISTDIR)/web/dynamic-subset:
+	mkdir -p $@
 
 clean:
 	rm -rf build dist
 
-.PHONY: default all variable static web dynamic-subset package setup dist check clean
+.PHONY: default all fonts web dist package check setup clean
