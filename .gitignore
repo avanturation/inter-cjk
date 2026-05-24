@@ -1,5 +1,6 @@
 build/
 dist/
+!packages/next/dist/
 *.pyc
 __pycache__/
 .DS_Store
