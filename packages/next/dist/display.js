@@ -5,7 +5,10 @@ const InterCJKDisplay = localFont.default({
   variable: "--font-inter-cjk-display",
   weight: "100 900",
   display: "swap",
-  adjustFontFallback: "Arial",
+  fallback: [
+    "-apple-system", "BlinkMacSystemFont", "Apple SD Gothic Neo",
+    "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "sans-serif",
+  ],
 });
 
 module.exports = { InterCJKDisplay };
