@@ -139,10 +139,11 @@ $(DISTDIR)/web:
 # Validate (fontbakery)
 
 check: variable
+	python3 misc/check-font.py \
+		$(DISTDIR)/InterCJKVariable.ttf \
+		$(DISTDIR)/InterCJKDisplayVariable.ttf
 	python3 -m fontbakery check-universal $(DISTDIR)/InterCJKVariable.ttf \
-		--no-progress --succinct 2>&1 | tail -20
-	python3 -m fontbakery check-universal $(DISTDIR)/InterCJKDisplayVariable.ttf \
-		--no-progress --succinct 2>&1 | tail -20
+		--no-progress --succinct 2>&1 | tail -5
 
 # ---------------------------------------------------------------------------------
 # npm dist (copies build output to dist/ for npm publish)

@@ -1,0 +1,170 @@
+"""Inter CJK 자동 QA 검증 스크립트.
+
+검증 항목:
+- rclt 작동 (harfbuzz shaping)
+- Vertical metrics 정합성
+- 모든 weight에서 CJK 글리프 변형
+- Display vs Text width 차이
+- 글리프 수 검증
+- OpenType feature 존재 확인
+"""
+import sys
+import os
+import math
+from fontTools.ttLib import TTFont
+from fontTools.varLib.instancer import instantiateVariableFont
+
+PASS = "\033[92m✓\033[0m"
+FAIL = "\033[91m✗\033[0m"
+failures = []
+
+
+def check(condition, name):
+    if condition:
+        print(f"  {PASS} {name}")
+    else:
+        print(f"  {FAIL} {name}")
+        failures.append(name)
+
+
+def check_metrics(font_path):
+    font = TTFont(font_path)
+    os2 = font['OS/2']
+    hhea = font['hhea']
+    upm = font['head'].unitsPerEm
+
+    typo_total = os2.sTypoAscender - os2.sTypoDescender
+    win_total = os2.usWinAscent + os2.usWinDescent
+    hhea_total = hhea.ascent - hhea.descent
+
+    check(typo_total == 2304, f"typo total = 2304 (got {typo_total})")
+    check(win_total == 2304, f"win total = 2304 (got {win_total})")
+    check(hhea_total == 2304, f"hhea total = 2304 (got {hhea_total})")
+    check(os2.sTypoAscender == 1897, f"sTypoAscender = 1897 (got {os2.sTypoAscender})")
+    check(os2.sTypoDescender == -407, f"sTypoDescender = -407 (got {os2.sTypoDescender})")
+    check(bool(os2.fsSelection & (1 << 7)), "USE_TYPO_METRICS set")
+    check(os2.achVendID == "ICJK", f"vendorID = ICJK (got '{os2.achVendID}')")
+
+
+def check_rclt(font_path):
+    try:
+        import uharfbuzz as hb
+    except ImportError:
+        print(f"  - rclt 검증 스킵 (uharfbuzz 미설치)")
+        return
+
+    blob = hb.Blob.from_file_path(font_path)
+    face = hb.Face(blob)
+    hb_font = hb.Font(face)
+    hb_font.scale = (2048, 2048)
+
+    ft = TTFont(font_path)
+    go = ft.getGlyphOrder()
+    at_case_id = go.index('at.case') if 'at.case' in go else None
+
+    if at_case_id is None:
+        check(False, "at.case 글리프 존재")
+        return
+
+    def shape(text):
+        buf = hb.Buffer()
+        buf.add_str(text)
+        buf.guess_segment_properties()
+        hb.shape(hb_font, buf)
+        return [i.codepoint for i in buf.glyph_infos]
+
+    ids_kr = shape("가@나")
+    ids_en = shape("a@b")
+
+    check(at_case_id in ids_kr, "rclt: 가@나 → @.case 치환됨")
+    check(at_case_id not in ids_en, "rclt: a@b → @ 원본 유지")
+
+
+def check_weight_variation(font_path):
+    for wght in [100, 900]:
+        font = TTFont(font_path)
+        for tag in ['MVAR', 'HVAR', 'GDEF']:
+            if tag in font:
+                del font[tag]
+        inst = instantiateVariableFont(font, {"wght": wght}, inplace=True, overlap=True)
+        cmap = inst.getBestCmap()
+
+        ga_name = cmap.get(0xAC00)
+        if ga_name:
+            g = inst['glyf'][ga_name]
+            has_coords = hasattr(g, 'coordinates') and len(g.coordinates) > 0
+            check(has_coords, f"wght={wght}: 가 글리프 좌표 존재")
+
+
+def check_display_diff(text_path, display_path):
+    t = TTFont(text_path)
+    d = TTFont(display_path)
+
+    t_w = t['hmtx']['H'][0]
+    d_w = d['hmtx']['H'][0]
+
+    check(t_w != d_w, f"Text H={t_w} ≠ Display H={d_w}")
+    check(d_w < t_w, f"Display가 Text보다 좁음 ({d_w} < {t_w})")
+
+
+def check_glyph_count(font_path):
+    font = TTFont(font_path)
+    count = len(font.getGlyphOrder())
+    check(count > 20000, f"글리프 수 > 20000 (got {count})")
+
+
+def check_features(font_path):
+    font = TTFont(font_path)
+    gsub = font['GSUB'].table
+    features = set(fr.FeatureTag for fr in gsub.FeatureList.FeatureRecord)
+
+    required = ['calt', 'ccmp', 'case', 'dlig', 'frac', 'tnum',
+                'zero', 'rclt', 'ss01', 'ss05', 'ss06', 'ss07', 'ss08']
+    for f in required:
+        check(f in features, f"GSUB feature '{f}' 존재")
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 misc/check-font.py <text.ttf> [display.ttf]")
+        sys.exit(1)
+
+    text_path = sys.argv[1]
+    display_path = sys.argv[2] if len(sys.argv) > 2 else None
+
+    print(f"\n{'='*50}")
+    print(f"Inter CJK QA: {os.path.basename(text_path)}")
+    print(f"{'='*50}\n")
+
+    print("[Metrics]")
+    check_metrics(text_path)
+
+    print("\n[rclt 컨텍스트 치환]")
+    check_rclt(text_path)
+
+    print("\n[Weight 변형]")
+    check_weight_variation(text_path)
+
+    print("\n[글리프 수]")
+    check_glyph_count(text_path)
+
+    print("\n[OpenType Features]")
+    check_features(text_path)
+
+    if display_path:
+        print(f"\n[Display vs Text]")
+        check_display_diff(text_path, display_path)
+
+    print(f"\n{'='*50}")
+    if failures:
+        print(f"{FAIL} {len(failures)}개 실패:")
+        for f in failures:
+            print(f"  - {f}")
+        sys.exit(1)
+    else:
+        print(f"{PASS} 모든 검증 통과")
+        sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
