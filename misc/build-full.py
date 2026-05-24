@@ -414,7 +414,7 @@ def merge(inter_ttf, pretendard_ttf, output_path):
     inter['fvar'].instances = []
     max_nid = max(r.nameID for r in name_table.names)
     nid = max_nid + 1
-    for opsz_val in [14.0, 32.0]:
+    for opsz_val in [14.0]:
         for wght_val, wght_name in WEIGHTS:
             inst = NamedInstance()
             inst.subfamilyNameID = nid

@@ -62,7 +62,9 @@ def _generate_one(args):
     out_path = os.path.join(out_dir, f"{prefix}-{weight_name}.ttf")
     instance.save(out_path)
 
-    otf_path = os.path.join(out_dir, f"{prefix}-{weight_name}.otf")
+    otf_dir = os.path.join(out_dir, "..", "otf")
+    os.makedirs(otf_dir, exist_ok=True)
+    otf_path = os.path.join(otf_dir, f"{prefix}-{weight_name}.otf")
     instance.flavor = None
     instance.save(otf_path)
 
