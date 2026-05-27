@@ -27,10 +27,8 @@
     "packages/next/font.d.ts"
   ],
   "exports": {
-    ".": "./dist/web/inter-cjk-variable.css",
+    ".": "./dist/web/inter-cjk.css",
     "./css": "./dist/web/inter-cjk.css",
-    "./css/display": "./dist/web/inter-cjk-display.css",
-    "./css/variable": "./dist/web/inter-cjk-variable.css",
     "./css/dynamic-subset": "./dist/web/dynamic-subset/inter-cjk-variable-dynamic-subset.css",
     "./variable": "./dist/variable/InterCJKVariable.ttf",
     "./font": "./packages/next/dist/font.js",
