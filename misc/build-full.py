@@ -451,6 +451,28 @@ def merge(inter_ttf, pretendard_ttf, output_path):
                             if hasattr(cov, 'glyphs') and cov.glyphs:
                                 cov.glyphs = sorted(cov.glyphs, key=lambda g: glyph_to_idx.get(g, 999999))
 
+    # Shorten glyph names > 31 chars (fontbakery valid_glyphnames)
+    final_order = inter.getGlyphOrder()
+    rename_map = {}
+    for g in final_order:
+        if len(g) > 31:
+            short = g[:28] + g[-3:]
+            rename_map[g] = short
+    if rename_map:
+        for old, new in rename_map.items():
+            if old in inter_glyf.glyphs:
+                inter_glyf.glyphs[new] = inter_glyf.glyphs.pop(old)
+            if old in inter_hmtx.metrics:
+                inter_hmtx.metrics[new] = inter_hmtx.metrics.pop(old)
+            if old in inter_gvar.variations:
+                inter_gvar.variations[new] = inter_gvar.variations.pop(old)
+        final_order = [rename_map.get(g, g) for g in final_order]
+        inter.setGlyphOrder(final_order)
+        for lookup in inter['GSUB'].table.LookupList.Lookup:
+            for st in lookup.SubTable:
+                if hasattr(st, 'mapping'):
+                    st.mapping = {rename_map.get(s, s): rename_map.get(d, d) for s, d in st.mapping.items()}
+
     inter.save(output_path)
     size = os.path.getsize(output_path) / 1024 / 1024
     print(f"\nSaved: {output_path} ({size:.1f} MB)")
