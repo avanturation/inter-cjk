@@ -93,6 +93,45 @@ def check_rclt(font_path):
     check(at_case_id not in ids_en, "rclt: a@b → @ 원본 유지")
 
 
+def check_ss05(font_path):
+    try:
+        import uharfbuzz as hb
+    except ImportError:
+        print(f"  - ss05 검증 스킵 (uharfbuzz 미설치)")
+        return
+
+    blob = hb.Blob.from_file_path(font_path)
+    face = hb.Face(blob)
+    hb_font = hb.Font(face)
+    hb_font.scale = (2048, 2048)
+
+    ft = TTFont(font_path)
+    go = ft.getGlyphOrder()
+    hang_id = go.index('ellipsis.hang') if 'ellipsis.hang' in go else None
+
+    if hang_id is None:
+        check(False, "ellipsis.hang 글리프 존재")
+        return
+
+    def shape(text, features=None):
+        buf = hb.Buffer()
+        buf.add_str(text)
+        buf.guess_segment_properties()
+        if features:
+            hb.shape(hb_font, buf, features)
+        else:
+            hb.shape(hb_font, buf)
+        return [i.codepoint for i in buf.glyph_infos]
+
+    kr_on = shape("가…나", {"ss05": True})
+    kr_off = shape("가…나")
+    en_on = shape("a…b", {"ss05": True})
+
+    check(hang_id in kr_on, "ss05: 가…나 → ellipsis.hang (한글 컨텍스트)")
+    check(hang_id not in kr_off, "ss05: 가…나 OFF → ellipsis 원본 유지")
+    check(hang_id not in en_on, "ss05: a…b → 영어에서는 변형 없음")
+
+
 def check_weight_variation(font_path):
     for wght in [100, 900]:
         font = TTFont(font_path)
@@ -160,6 +199,9 @@ def main():
 
     print("\n[rclt 컨텍스트 치환]")
     check_rclt(text_path)
+
+    print("\n[ss05 한국 현지화]")
+    check_ss05(text_path)
 
     print("\n[Weight 변형]")
     check_weight_variation(text_path)
