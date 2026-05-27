@@ -398,6 +398,16 @@ def merge(inter_ttf, pretendard_ttf, output_path):
 
     inter['OS/2'].achVendID = "ICJK"
 
+    # Add Pretendard ss features (ss05, ss06, ss10-ss16)
+    print("  Adding Pretendard ss features (ss05, ss06, ss10-ss16)...")
+    sys.path.insert(0, os.path.dirname(__file__))
+    from importlib import import_module
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("add_ss", os.path.join(os.path.dirname(__file__), "add-ss-features.py"))
+    add_ss_mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(add_ss_mod)
+    add_ss_mod.add_pretendard_ss_features(inter, pretendard, glyph_order)
+
     print("  Setting named instances...")
     for record in name_table.names:
         try:
