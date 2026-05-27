@@ -473,6 +473,61 @@ def merge(inter_ttf, pretendard_ttf, output_path):
                 if hasattr(st, 'mapping'):
                     st.mapping = {rename_map.get(s, s): rename_map.get(d, d) for s, d in st.mapping.items()}
 
+    # Fix font_version mismatch (head.fontRevision must match name ID 5)
+    inter['head'].fontRevision = 0.1
+
+
+    # Add smart dropout control (fontbakery smart_dropout)
+    from fontTools.ttLib.tables._g_a_s_p import table__g_a_s_p
+    gasp = table__g_a_s_p()
+    gasp.version = 1
+    gasp.gaspRange = {0xFFFF: 0x000F}
+    inter['gasp'] = gasp
+
+    from fontTools.ttLib.tables._p_r_e_p import table__p_r_e_p
+    from fontTools.ttLib.tables.ttProgram import Program
+    prep = table__p_r_e_p()
+    prep.program = Program()
+    prep.program.fromAssembly(['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'])
+    inter['prep'] = prep
+
+    # Fix STAT table (add axis values for fvar/STAT consistency)
+    if 'STAT' in inter:
+        stat = inter['STAT'].table
+        stat.AxisValueArray = otTables.AxisValueArray()
+        stat.AxisValueArray.AxisValue = []
+
+
+        # opsz axis values (short names to stay under 31 char limit)
+        av_text = otTables.AxisValue()
+        av_text.Format = 1
+        av_text.AxisIndex = 0
+        av_text.Flags = 2
+        av_text.Value = 14.0
+        av_text.ValueNameID = inter['name'].addName("14pt")
+        stat.AxisValueArray.AxisValue.append(av_text)
+
+        av_display = otTables.AxisValue()
+        av_display.Format = 1
+        av_display.AxisIndex = 0
+        av_display.Flags = 0
+        av_display.Value = 32.0
+        av_display.ValueNameID = inter['name'].addName("32pt")
+        stat.AxisValueArray.AxisValue.append(av_display)
+
+        # wght axis values
+        for wght_val, wght_name in WEIGHTS:
+            av = otTables.AxisValue()
+            av.Format = 1
+            av.AxisIndex = 1
+            av.Flags = 2 if wght_val == 400 else 0
+            av.Value = float(wght_val)
+            av.ValueNameID = inter['name'].addName(wght_name)
+            stat.AxisValueArray.AxisValue.append(av)
+
+    # Remove Mac name entries (fontbakery no_mac_entries) — must be last before save
+    inter['name'].names = [r for r in inter['name'].names if r.platformID != 1]
+
     inter.save(output_path)
     size = os.path.getsize(output_path) / 1024 / 1024
     print(f"\nSaved: {output_path} ({size:.1f} MB)")
