@@ -65,7 +65,11 @@ $(DISTDIR)/web/.ok: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf/.ok | 
 		python3 -m fontTools ttLib.woff2 compress "$$f" -o "$(DISTDIR)/web/$$name.woff2"; \
 	done
 	cp misc/inter-cjk.css $(DISTDIR)/web/inter-cjk.css
+	cp misc/inter-cjk-display.css $(DISTDIR)/web/inter-cjk-display.css
+	cp misc/inter-cjk-variable.css $(DISTDIR)/web/inter-cjk-variable.css
 	python3 -c "import re,sys;f=open(sys.argv[1]);c=f.read();f.close();m=re.sub(r'/\*[^*]*\*+(?:[^/*][^*]*\*+)*/','',c);m=re.sub(r'\s+',' ',m).strip();open(sys.argv[1].replace('.css','.min.css'),'w').write(m)" $(DISTDIR)/web/inter-cjk.css
+	python3 -c "import re,sys;f=open(sys.argv[1]);c=f.read();f.close();m=re.sub(r'/\*[^*]*\*+(?:[^/*][^*]*\*+)*/','',c);m=re.sub(r'\s+',' ',m).strip();open(sys.argv[1].replace('.css','.min.css'),'w').write(m)" $(DISTDIR)/web/inter-cjk-display.css
+	python3 -c "import re,sys;f=open(sys.argv[1]);c=f.read();f.close();m=re.sub(r'/\*[^*]*\*+(?:[^/*][^*]*\*+)*/','',c);m=re.sub(r'\s+',' ',m).strip();open(sys.argv[1].replace('.css','.min.css'),'w').write(m)" $(DISTDIR)/web/inter-cjk-variable.css
 	touch $@
 
 $(DISTDIR)/web/dynamic-subset/.ok: $(DISTDIR)/InterCJKVariable.ttf misc/gen-dynamic-subset.py | $(DISTDIR)/web/dynamic-subset
