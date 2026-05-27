@@ -435,7 +435,22 @@ def merge(inter_ttf, pretendard_ttf, output_path):
             inter['fvar'].instances.append(inst)
             nid += 1
 
-    # Save
+    # Sort all GSUB/GPOS coverages by glyph order to suppress fonttools warning
+    glyph_to_idx = {g: i for i, g in enumerate(inter.getGlyphOrder())}
+    for table_tag in ['GSUB', 'GPOS']:
+        if table_tag in inter:
+            for lookup in inter[table_tag].table.LookupList.Lookup:
+                for st in lookup.SubTable:
+                    for attr in ['Coverage', 'BacktrackCoverage', 'InputCoverage', 'LookAheadCoverage']:
+                        covs = getattr(st, attr, None)
+                        if covs is None:
+                            continue
+                        if not isinstance(covs, list):
+                            covs = [covs]
+                        for cov in covs:
+                            if hasattr(cov, 'glyphs') and cov.glyphs:
+                                cov.glyphs = sorted(cov.glyphs, key=lambda g: glyph_to_idx.get(g, 999999))
+
     inter.save(output_path)
     size = os.path.getsize(output_path) / 1024 / 1024
     print(f"\nSaved: {output_path} ({size:.1f} MB)")
