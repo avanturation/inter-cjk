@@ -145,3 +145,98 @@ def add_pretendard_ss_features(inter, pretendard_font, glyph_order):
                     sr.Script.DefaultLangSys.FeatureCount = len(sr.Script.DefaultLangSys.FeatureIndex)
 
         print(f"    {tag}: {len(mapping)} substitution pairs")
+
+
+def add_ss05_chain_context(inter, glyph_order):
+    gsub = inter['GSUB'].table
+    inter_glyph_set = set(glyph_order)
+
+    cjk_glyphs = sorted([g for g in glyph_order if g.startswith('uni') and len(g) == 7
+                          and int(g[3:], 16) >= 0x3000],
+                         key=lambda g: glyph_order.index(g))
+
+    input_glyphs = [g for g in ['ellipsis', 'twodotenleader'] if g in inter_glyph_set]
+    hang_mapping = {g: g + '.hang' for g in input_glyphs if g + '.hang' in inter_glyph_set}
+
+    if not hang_mapping:
+        print("    ss05: no .hang glyphs found, skipping ChainContext")
+        return
+
+    import copy
+
+    single_st = otTables.SingleSubst()
+    single_st.mapping = hang_mapping
+    single_lookup = otTables.Lookup()
+    single_lookup.LookupType = 1
+    single_lookup.LookupFlag = 0
+    single_lookup.SubTable = [single_st]
+    single_lookup.SubTableCount = 1
+    single_idx = len(gsub.LookupList.Lookup)
+    gsub.LookupList.Lookup.append(single_lookup)
+
+    input_cov = otTables.Coverage()
+    input_cov.Format = 1
+    input_cov.glyphs = input_glyphs
+
+    cjk_cov = otTables.Coverage()
+    cjk_cov.Format = 1
+    cjk_cov.glyphs = cjk_glyphs
+
+    slr = otTables.SubstLookupRecord()
+    slr.SequenceIndex = 0
+    slr.LookupListIndex = single_idx
+
+    st1 = otTables.ChainContextSubst()
+    st1.Format = 3
+    st1.BacktrackCoverage = [copy.deepcopy(cjk_cov)]
+    st1.BacktrackCount = 1
+    st1.InputCoverage = [copy.deepcopy(input_cov)]
+    st1.InputCount = 1
+    st1.LookAheadCoverage = []
+    st1.LookAheadCount = 0
+    st1.SubstLookupRecord = [copy.deepcopy(slr)]
+    st1.SubstCount = 1
+
+    st2 = otTables.ChainContextSubst()
+    st2.Format = 3
+    st2.BacktrackCoverage = []
+    st2.BacktrackCount = 0
+    st2.InputCoverage = [copy.deepcopy(input_cov)]
+    st2.InputCount = 1
+    st2.LookAheadCoverage = [copy.deepcopy(cjk_cov)]
+    st2.LookAheadCount = 1
+    st2.SubstLookupRecord = [copy.deepcopy(slr)]
+    st2.SubstCount = 1
+
+    hang_glyphs = [g + '.hang' for g in input_glyphs if g + '.hang' in inter_glyph_set]
+    ellipsis_cov = otTables.Coverage()
+    ellipsis_cov.Format = 1
+    ellipsis_cov.glyphs = input_glyphs + hang_glyphs
+
+    st3 = otTables.ChainContextSubst()
+    st3.Format = 3
+    st3.BacktrackCoverage = [copy.deepcopy(ellipsis_cov), copy.deepcopy(cjk_cov)]
+    st3.BacktrackCount = 2
+    st3.InputCoverage = [copy.deepcopy(input_cov)]
+    st3.InputCount = 1
+    st3.LookAheadCoverage = []
+    st3.LookAheadCount = 0
+    st3.SubstLookupRecord = [copy.deepcopy(slr)]
+    st3.SubstCount = 1
+
+    chain_lookup = otTables.Lookup()
+    chain_lookup.LookupType = 6
+    chain_lookup.LookupFlag = 0
+    chain_lookup.SubTable = [st1, st2, st3]
+    chain_lookup.SubTableCount = 3
+    chain_idx = len(gsub.LookupList.Lookup)
+    gsub.LookupList.Lookup.append(chain_lookup)
+    gsub.LookupList.LookupCount = len(gsub.LookupList.Lookup)
+
+    for fr in gsub.FeatureList.FeatureRecord:
+        if fr.FeatureTag == 'ss05':
+            fr.Feature.LookupListIndex = [chain_idx]
+            fr.Feature.LookupCount = 1
+            break
+
+    print(f"    ss05: ChainContextSubst added ({len(hang_mapping)} substitutions, contextual)")

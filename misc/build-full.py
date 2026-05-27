@@ -407,6 +407,7 @@ def merge(inter_ttf, pretendard_ttf, output_path):
     add_ss_mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(add_ss_mod)
     add_ss_mod.add_pretendard_ss_features(inter, pretendard, glyph_order)
+    add_ss_mod.add_ss05_chain_context(inter, glyph_order)
 
     print("  Setting named instances...")
     for record in name_table.names:
