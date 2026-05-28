@@ -161,7 +161,7 @@ def add_pretendard_ss_features(inter, pretendard_font, glyph_order):
         print(f"    {tag}: {len(mapping)} substitution pairs")
 
 
-def add_ss05_chain_context(inter, glyph_order):
+def add_ss05_chain_context(inter, glyph_order, pretendard_font):
     gsub = inter['GSUB'].table
     inter_glyph_set = set(glyph_order)
 
@@ -247,10 +247,40 @@ def add_ss05_chain_context(inter, glyph_order):
     gsub.LookupList.Lookup.append(chain_lookup)
     gsub.LookupList.LookupCount = len(gsub.LookupList.Lookup)
 
+    # Add CJK localization lookup (한자 지역화, Pretendard Lookup[28])
+    locl_mapping = {}
+    for fr in pretendard_font['GSUB'].table.FeatureList.FeatureRecord:
+        if fr.FeatureTag == 'ss05':
+            for li in fr.Feature.LookupListIndex:
+                lookup = pretendard_font['GSUB'].table.LookupList.Lookup[li]
+                if lookup.LookupType == 1:
+                    for st in lookup.SubTable:
+                        if hasattr(st, 'mapping'):
+                            for src, dst in st.mapping.items():
+                                if '.locl' in dst and src in inter_glyph_set and dst in inter_glyph_set:
+                                    locl_mapping[src] = dst
+            break
+
+    locl_lookup_idx = None
+    if locl_mapping:
+        locl_st = otTables.SingleSubst()
+        locl_st.mapping = locl_mapping
+        locl_lookup = otTables.Lookup()
+        locl_lookup.LookupType = 1
+        locl_lookup.LookupFlag = 0
+        locl_lookup.SubTable = [locl_st]
+        locl_lookup.SubTableCount = 1
+        locl_lookup_idx = len(gsub.LookupList.Lookup)
+        gsub.LookupList.Lookup.append(locl_lookup)
+        gsub.LookupList.LookupCount = len(gsub.LookupList.Lookup)
+
     for fr in gsub.FeatureList.FeatureRecord:
         if fr.FeatureTag == 'ss05':
             fr.Feature.LookupListIndex = [chain_idx]
-            fr.Feature.LookupCount = 1
+            if locl_lookup_idx is not None:
+                fr.Feature.LookupListIndex.append(locl_lookup_idx)
+            fr.Feature.LookupCount = len(fr.Feature.LookupListIndex)
             break
 
-    print(f"    ss05: ChainContextSubst added ({len(hang_mapping)} substitutions, contextual)")
+    locl_count = len(locl_mapping) if locl_mapping else 0
+    print(f"    ss05: ChainContextSubst ({len(hang_mapping)} ellipsis) + localization ({locl_count} kanji)")
