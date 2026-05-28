@@ -81,6 +81,17 @@ def add_pretendard_ss_features(inter, pretendard_font, glyph_order):
     inter.setGlyphOrder(glyph_order)
     inter['maxp'].numGlyphs = len(glyph_order)
 
+    # Match .hang glyph widths to their base glyphs (prevent spacing jump on substitution)
+    for base_name in ['ellipsis', 'twodotenleader']:
+        hang_name = base_name + '.hang'
+        if base_name in inter_hmtx.metrics and hang_name in inter_hmtx.metrics:
+            base_w = inter_hmtx[base_name][0]
+            hang_w, hang_lsb = inter_hmtx[hang_name]
+            if hang_w != base_w:
+                extra = base_w - hang_w
+                new_lsb = hang_lsb + extra // 2
+                inter_hmtx[hang_name] = (base_w, new_lsb)
+
     # Build ss lookup mappings from Pretendard
     gsub = inter['GSUB'].table
     inter_glyph_set = set(glyph_order)
