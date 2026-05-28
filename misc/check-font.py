@@ -172,9 +172,62 @@ def check_features(font_path):
     features = set(fr.FeatureTag for fr in gsub.FeatureList.FeatureRecord)
 
     required = ['calt', 'ccmp', 'case', 'dlig', 'frac', 'tnum',
-                'zero', 'rclt', 'ss01', 'ss05', 'ss06', 'ss07', 'ss08']
+                'zero', 'rclt', 'ss01', 'ss02', 'ss05', 'ss06',
+                'ss07', 'ss08', 'ss09', 'ss10']
     for f in required:
         check(f in features, f"GSUB feature '{f}' 존재")
+
+
+def check_features_work(font_path):
+    try:
+        import uharfbuzz as hb
+    except ImportError:
+        print(f"  - OpenType 작동 검증 스킵 (uharfbuzz 미설치)")
+        return
+
+    blob = hb.Blob.from_file_path(font_path)
+    face = hb.Face(blob)
+    hb_font = hb.Font(face)
+    hb_font.scale = (2048, 2048)
+
+    ft = TTFont(font_path)
+    go = ft.getGlyphOrder()
+
+    def shape(text, features=None):
+        buf = hb.Buffer()
+        buf.add_str(text)
+        buf.guess_segment_properties()
+        if features:
+            hb.shape(hb_font, buf, features)
+        else:
+            hb.shape(hb_font, buf)
+        return [i.codepoint for i in buf.glyph_infos]
+
+    def differs(text, tag):
+        on = shape(text, {tag: True})
+        off = shape(text, {tag: False})
+        return on != off
+
+    tests = [
+        ("calt", "->", "화살표 합자"),
+        ("dlig", "?!", "interrobang"),
+        ("frac", "1/3", "분수"),
+        ("tnum", "1111", "고정폭 숫자"),
+        ("zero", "0", "슬래시 0"),
+        ("ss01", "69", "Open Digits"),
+        ("ss02", "Il", "Inter Disambiguation"),
+        ("ss05", "가…나", "Korean ellipsis"),
+        ("ss06", "Il1", "Pretendard Disambiguation"),
+        ("ss09", "ABC", "Circled/Squared"),
+        ("ss10", "①", "Medium symbols"),
+        ("cv01", "1", "대체 1"),
+        ("cv08", "I", "I 세리프"),
+        ("cv11", "a", "단층 a"),
+    ]
+
+    for tag, text, desc in tests:
+        works = differs(text, tag)
+        check(works, f"{tag}: {desc} 작동")
 
 
 def main():
@@ -211,6 +264,9 @@ def main():
 
     print("\n[OpenType Features]")
     check_features(text_path)
+
+    print("\n[OpenType 작동 검증]")
+    check_features_work(text_path)
 
     print(f"\n{'='*50}")
     if failures:
