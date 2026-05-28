@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Inter CJK — Font Comparison</title>
+<style>
+@font-face { font-family: 'Inter CJK'; src: url('../fonts/InterCJKVariable.ttf'); font-weight: 100 900; }
+@font-face { font-family: 'Inter'; src: url('../build/inter-variable.ttf'); font-weight: 100 900; }
+@font-face { font-family: 'Pretendard JP'; src: url('../build/pretendard-variable.ttf'); font-weight: 100 900; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: system-ui; background:#fff; color:#111; padding:24px; font-size:14px; }
+.controls { position:sticky; top:0; background:#fff; border-bottom:1px solid #eee; padding:12px 0; z-index:10; display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+.controls label { font-size:12px; color:#666; display:flex; align-items:center; gap:4px; }
+.controls input[type="range"] { width:100px; }
+h2 { font-size:12px; font-weight:600; color:#999; margin:32px 0 12px; text-transform:uppercase; letter-spacing:0.5px; }
+.grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:1px; background:#eee; border-radius:8px; overflow:hidden; margin-bottom:24px; }
+.grid > div { background:#fff; padding:16px; }
+.grid .label { font-size:11px; color:#999; margin-bottom:6px; font-family:system-ui; }
+.grid .sample { font-size:var(--size, 20px); font-weight:var(--weight, 400); line-height:1.5; }
+.inter-cjk .sample { font-family:'Inter CJK', sans-serif; }
+.inter .sample { font-family:'Inter', sans-serif; }
+.pretendard .sample { font-family:'Pretendard JP', sans-serif; }
+.feature-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:12px; margin-bottom:24px; }
+.card { border:1px solid #eee; border-radius:8px; padding:12px; }
+.card .tag { font:11px/1 monospace; color:#666; margin-bottom:6px; }
+.card .row { display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; }
+.card .row > div { font-size:18px; line-height:1.4; }
+.card .row .lbl { font-size:10px; color:#aaa; }
+.pass { color:#22c55e; } .fail { color:#ef4444; }
+table { width:100%; border-collapse:collapse; font-size:12px; margin-bottom:24px; }
+th,td { padding:6px 8px; border:1px solid #eee; text-align:left; }
+th { background:#f9f9f9; font-weight:600; }
+</style>
+</head>
+<body>
+<h1 style="font-size:24px;margin-bottom:8px;">Inter CJK — Font Comparison</h1>
+<p style="color:#666;margin-bottom:24px;">Inter CJK vs Inter vs Pretendard JP — OpenType 기능 및 렌더링 비교</p>
+
+<div class="controls">
+  <label>Size: <input type="range" id="size" min="12" max="48" value="20"><span id="sv">20</span>px</label>
+  <label>Weight: <input type="range" id="weight" min="100" max="900" step="100" value="400"><span id="wv">400</span></label>
+</div>
+
+<h2>Korean + Latin Mixed</h2>
+<div class="grid">
+  <div class="inter-cjk"><div class="label">Inter CJK</div><div class="sample">안녕하세요 Hello World</div></div>
+  <div class="inter"><div class="label">Inter (CJK 없음)</div><div class="sample">안녕하세요 Hello World</div></div>
+  <div class="pretendard"><div class="label">Pretendard JP</div><div class="sample">안녕하세요 Hello World</div></div>
+</div>
+
+<h2>UI Text</h2>
+<div class="grid">
+  <div class="inter-cjk"><div class="label">Inter CJK</div><div class="sample">₩1,234,567 결제하기 → 배송비 무료</div></div>
+  <div class="inter"><div class="label">Inter</div><div class="sample">₩1,234,567 결제하기 → 배송비 무료</div></div>
+  <div class="pretendard"><div class="label">Pretendard JP</div><div class="sample">₩1,234,567 결제하기 → 배송비 무료</div></div>
+</div>
+
+<h2>rclt — Contextual Symbol Alignment (한글 옆 기호 .case)</h2>
+<div class="grid">
+  <div class="inter-cjk"><div class="label">Inter CJK (rclt 작동)</div><div class="sample">가@나 한→글 가:나 한-글</div></div>
+  <div class="inter"><div class="label">Inter (rclt 없음)</div><div class="sample">가@나 한→글 가:나 한-글</div></div>
+  <div class="pretendard"><div class="label">Pretendard JP</div><div class="sample">가@나 한→글 가:나 한-글</div></div>
+</div>
+
+<h2>OpenType Features</h2>
+<div class="feature-grid">
+  <div class="card">
+    <div class="tag">tnum — 고정폭 숫자</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample" style="font-feature-settings:'tnum';">₩1,111,111<br>₩7,777,777</div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample" style="font-feature-settings:'tnum';">₩1,111,111<br>₩7,777,777</div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample" style="font-feature-settings:'tnum';">₩1,111,111<br>₩7,777,777</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="tag">ss05 — 한국 현지화 (줄임표)</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample" style="font-feature-settings:'ss05';">…저기… 있잖아…</div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample" style="font-feature-settings:'ss05';">…저기… 있잖아…</div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample" style="font-feature-settings:'ss05';">…저기… 있잖아…</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="tag">ss06 — Disambiguation (I/l/1 구분)</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample" style="font-feature-settings:'ss06';">Il1 Illegal 일리노이</div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample" style="font-feature-settings:'ss02';">Il1 Illegal</div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample" style="font-feature-settings:'ss06';">Il1 Illegal 일리노이</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="tag">zero — 슬래시 0</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample" style="font-feature-settings:'zero';">0123456789</div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample" style="font-feature-settings:'zero';">0123456789</div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample" style="font-feature-settings:'zero';">0123456789</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="tag">frac — 분수</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample" style="font-feature-settings:'frac';">1/3 3/4 1/5</div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample" style="font-feature-settings:'frac';">1/3 3/4 1/5</div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample" style="font-feature-settings:'frac';">1/3 3/4 1/5</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="tag">case — 대문자 맞춤 기호</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample">(HELLO) [WORLD] {가나다}</div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample">(HELLO) [WORLD]</div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample">(HELLO) [WORLD] {가나다}</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="tag">ss10 — 중간 크기 심벌</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample" style="font-feature-settings:'ss10';">①②③④⑤</div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample" style="font-feature-settings:'ss10';">①②③④⑤</div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample" style="font-feature-settings:'ss10';">①②③④⑤</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="tag">calt — 화살표 합자 (->)</div>
+    <div class="row">
+      <div class="inter-cjk"><div class="lbl">Inter CJK</div><div class="sample">-> --> <-> =></div></div>
+      <div class="inter"><div class="lbl">Inter</div><div class="sample">-> --> <-> =></div></div>
+      <div class="pretendard"><div class="lbl">Pretendard</div><div class="sample">-> --> <-> =></div></div>
+    </div>
+  </div>
+</div>
+
+<h2>Vertical Metrics — Button Centering</h2>
+<div class="grid">
+  <div class="inter-cjk"><div class="label">Inter CJK</div><div class="sample"><span style="display:inline-block;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">로그인</span> <span style="display:inline-block;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">Sign Up</span></div></div>
+  <div class="inter"><div class="label">Inter</div><div class="sample"><span style="display:inline-block;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">Sign Up</span></div></div>
+  <div class="pretendard"><div class="label">Pretendard JP</div><div class="sample"><span style="display:inline-block;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">로그인</span> <span style="display:inline-block;background:#000;color:#fff;padding:8px 16px;border-radius:6px;">Sign Up</span></div></div>
+</div>
+
+<h2>Weight Ramp</h2>
+<div class="grid" id="weight-ramp"></div>
+
+<h2>Japanese</h2>
+<div class="grid">
+  <div class="inter-cjk"><div class="label">Inter CJK</div><div class="sample">東京タワー Tokyo Tower こんにちは</div></div>
+  <div class="inter"><div class="label">Inter</div><div class="sample">東京タワー Tokyo Tower こんにちは</div></div>
+  <div class="pretendard"><div class="label">Pretendard JP</div><div class="sample">東京タワー Tokyo Tower こんにちは</div></div>
+</div>
+
+<h2>fontbakery 비교</h2>
+<table>
+<tr><th>Check</th><th>Inter</th><th>Pretendard JP</th><th>SUIT</th><th>Inter CJK</th></tr>
+<tr><td>FAIL 수</td><td class="fail">8</td><td class="fail">7</td><td>2</td><td class="pass">5</td></tr>
+<tr><td>base_has_width</td><td class="fail">FAIL</td><td>PASS</td><td>PASS</td><td class="fail">FAIL</td></tr>
+<tr><td>case_mapping</td><td class="fail">FAIL</td><td class="fail">FAIL</td><td>PASS</td><td class="fail">FAIL</td></tr>
+<tr><td>file_size</td><td>PASS</td><td class="fail">FAIL</td><td>PASS</td><td class="fail">FAIL</td></tr>
+<tr><td>nested_components</td><td class="fail">FAIL</td><td class="fail">FAIL</td><td>PASS</td><td class="fail">FAIL</td></tr>
+<tr><td>transformed_components</td><td class="fail">FAIL</td><td class="fail">FAIL</td><td>PASS</td><td class="fail">FAIL</td></tr>
+<tr><td>smart_dropout</td><td class="fail">FAIL</td><td class="fail">FAIL</td><td class="fail">FAIL</td><td class="pass">PASS ✓</td></tr>
+<tr><td>no_mac_entries</td><td>PASS</td><td class="fail">FAIL</td><td>PASS</td><td class="pass">PASS ✓</td></tr>
+<tr><td>fvar_STAT</td><td class="fail">FAIL</td><td>PASS</td><td>PASS</td><td class="pass">PASS ✓</td></tr>
+<tr><td>duplicate_instances</td><td class="fail">FAIL</td><td>PASS</td><td>PASS</td><td class="pass">PASS ✓</td></tr>
+<tr><td>chws feature</td><td>—</td><td>WARN</td><td>WARN</td><td class="pass">PASS ✓</td></tr>
+</table>
+
+<script>
+const s=document.getElementById('size'),w=document.getElementById('weight');
+const sv=document.getElementById('sv'),wv=document.getElementById('wv');
+function u(){document.body.style.setProperty('--size',s.value+'px');document.body.style.setProperty('--weight',w.value);sv.textContent=s.value;wv.textContent=w.value;}
+s.addEventListener('input',u);w.addEventListener('input',u);
+
+const ramp=document.getElementById('weight-ramp');
+[100,400,700,900].forEach(wt=>{
+  ['inter-cjk','inter','pretendard'].forEach(cls=>{
+    const d=document.createElement('div');d.className=cls;
+    d.innerHTML=`<div class="label">${cls} ${wt}</div><div class="sample" style="font-weight:${wt}">안녕 Hello 가격 ₩1,000</div>`;
+    ramp.appendChild(d);
+  });
+});
+</script>
+</body>
+</html>
