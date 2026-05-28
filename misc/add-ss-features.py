@@ -136,7 +136,10 @@ def add_pretendard_ss_features(inter, pretendard_font, glyph_order):
                 break
 
         if existing:
-            existing.Feature.LookupListIndex.append(lookup_idx)
+            if tag == 'ss06':
+                existing.Feature.LookupListIndex = [lookup_idx]
+            else:
+                existing.Feature.LookupListIndex.append(lookup_idx)
             existing.Feature.LookupCount = len(existing.Feature.LookupListIndex)
         else:
             new_fr = otTables.FeatureRecord()
