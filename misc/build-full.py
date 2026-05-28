@@ -462,10 +462,10 @@ def merge(inter_ttf, pretendard_ttf, output_path):
             inter['fvar'].instances.append(inst)
             nid += 1
 
-    # Fix xAvgCharWidth
+    # Fix xAvgCharWidth (fontbakery expects average of ALL glyph widths)
     cmap_final = inter.getBestCmap()
-    latin_widths = [inter_hmtx[cmap_final[ord(c)]][0] for c in 'abcdefghijklmnopqrstuvwxyz' if ord(c) in cmap_final]
-    inter['OS/2'].xAvgCharWidth = sum(latin_widths) // len(latin_widths)
+    all_widths = [inter_hmtx[g][0] for g in inter.getGlyphOrder() if inter_hmtx[g][0] > 0]
+    inter['OS/2'].xAvgCharWidth = round(sum(all_widths) / len(all_widths))
 
     # Fix GDEF: mark uni0488, uni0489 as combining marks (class 3)
     if 'GDEF' in inter:
