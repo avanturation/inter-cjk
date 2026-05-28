@@ -351,14 +351,14 @@ def merge(inter_ttf, pretendard_ttf, output_path):
     print("  Setting vertical metrics (ratio 1.125, total=2304)...")
     os2 = inter['OS/2']
     hhea = inter['hhea']
-    os2.sTypoAscender = 1930
-    os2.sTypoDescender = -374
+    os2.sTypoAscender = 1897
+    os2.sTypoDescender = -407
     os2.sTypoLineGap = 0
-    os2.usWinAscent = 1930
-    os2.usWinDescent = 374
+    os2.usWinAscent = 1897
+    os2.usWinDescent = 407
     os2.fsSelection |= (1 << 7)
-    hhea.ascent = 1930
-    hhea.descent = -374
+    hhea.ascent = 1897
+    hhea.descent = -407
     hhea.lineGap = 0
 
     # OS/2 ranges
