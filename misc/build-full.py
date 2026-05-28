@@ -351,14 +351,14 @@ def merge(inter_ttf, pretendard_ttf, output_path):
     print("  Setting vertical metrics (ratio 1.125, total=2304)...")
     os2 = inter['OS/2']
     hhea = inter['hhea']
-    os2.sTypoAscender = 1897
-    os2.sTypoDescender = -407
+    os2.sTypoAscender = 2024
+    os2.sTypoDescender = -532
     os2.sTypoLineGap = 0
-    os2.usWinAscent = 1897
-    os2.usWinDescent = 407
+    os2.usWinAscent = 2024
+    os2.usWinDescent = 532
     os2.fsSelection |= (1 << 7)
-    hhea.ascent = 1897
-    hhea.descent = -407
+    hhea.ascent = 2024
+    hhea.descent = -532
     hhea.lineGap = 0
 
     # OS/2 ranges
@@ -494,6 +494,53 @@ def merge(inter_ttf, pretendard_ttf, output_path):
             params.UINameID = inter['name'].addName(ss_descriptions[fr.FeatureTag])
             fr.Feature.FeatureParams = params
 
+
+    # Decompose transformed components (Inter's --flatten handles its own, this catches Pretendard's)
+    from fontTools.pens.recordingPen import DecomposingRecordingPen
+    from fontTools.pens.ttGlyphPen import TTGlyphPen
+    glyphset = inter.getGlyphSet()
+    decomposed = 0
+    for gname in list(inter_glyf.glyphs.keys()):
+        if not inter_glyf[gname].isComposite():
+            continue
+        try:
+            rec = DecomposingRecordingPen(glyphset)
+            glyphset[gname].draw(rec)
+            if not any(op == 'addComponent' for op, _ in rec.value):
+                pen = TTGlyphPen(None)
+                rec.replay(pen)
+                new_g = pen.glyph()
+                if not new_g.isComposite():
+                    inter_glyf.glyphs[gname] = new_g
+                    inter_gvar.variations[gname] = []
+                    decomposed += 1
+        except:
+            pass
+    print(f"  Decomposed {decomposed} transformed components")
+
+    # Sort GSUB/GPOS feature and script records alphabetically (OTS requirement)
+    for table_tag in ['GSUB', 'GPOS']:
+        if table_tag in inter:
+            table = inter[table_tag].table
+            if table.ScriptList:
+                table.ScriptList.ScriptRecord.sort(key=lambda r: r.ScriptTag)
+                table.ScriptList.ScriptCount = len(table.ScriptList.ScriptRecord)
+            if table.FeatureList:
+                old_order = list(range(len(table.FeatureList.FeatureRecord)))
+                table.FeatureList.FeatureRecord.sort(key=lambda r: r.FeatureTag)
+                new_order = [old_order[table.FeatureList.FeatureRecord.index(r)] for r in sorted(table.FeatureList.FeatureRecord, key=lambda r: r.FeatureTag)]
+                # Remap feature indices in script records
+                idx_map = {}
+                sorted_records = sorted(enumerate(table.FeatureList.FeatureRecord), key=lambda x: x[1].FeatureTag)
+                for new_idx, (old_idx, _) in enumerate(sorted_records):
+                    idx_map[old_idx] = new_idx
+                table.FeatureList.FeatureRecord = [r for _, r in sorted_records]
+                table.FeatureList.FeatureCount = len(table.FeatureList.FeatureRecord)
+                for sr in table.ScriptList.ScriptRecord:
+                    if sr.Script.DefaultLangSys:
+                        sr.Script.DefaultLangSys.FeatureIndex = sorted([idx_map.get(i, i) for i in sr.Script.DefaultLangSys.FeatureIndex])
+                        sr.Script.DefaultLangSys.FeatureCount = len(sr.Script.DefaultLangSys.FeatureIndex)
+
     # Sort all GSUB/GPOS coverages by glyph order to suppress fonttools warning
     glyph_to_idx = {g: i for i, g in enumerate(inter.getGlyphOrder())}
     for table_tag in ['GSUB', 'GPOS']:
@@ -563,15 +610,15 @@ def merge(inter_ttf, pretendard_ttf, output_path):
         av_text.AxisIndex = 0
         av_text.Flags = 2
         av_text.Value = 14.0
-        av_text.ValueNameID = inter['name'].addName("14pt")
+        av_text.ValueNameID = inter['name'].addName("Text")
         stat.AxisValueArray.AxisValue.append(av_text)
 
         av_display = otTables.AxisValue()
         av_display.Format = 1
         av_display.AxisIndex = 0
-        av_display.Flags = 0
+        av_display.Flags = 2
         av_display.Value = 32.0
-        av_display.ValueNameID = inter['name'].addName("32pt")
+        av_display.ValueNameID = inter['name'].addName("Display")
         stat.AxisValueArray.AxisValue.append(av_display)
 
         # wght axis values

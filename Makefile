@@ -20,6 +20,8 @@ build/inter-variable.ttf: $(INTER_SRC) | build
 	cd src/inter && python3 -m fontmake -g src/Inter-Roman.glyphspackage \
 		-o variable \
 		--output-path ../../$@ \
+		--flatten-components \
+		--filter DecomposeTransformedComponentsFilter \
 		--verbose WARNING
 
 build/pretendard-variable.ttf: | build
