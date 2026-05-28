@@ -399,6 +399,33 @@ def merge(inter_ttf, pretendard_ttf, output_path):
     inter['OS/2'].achVendID = "ICJK"
 
     # Add Pretendard ss features (ss05, ss06, ss10-ss16)
+    # First, move Inter's ss05(Circled) + ss06(Squared) to ss09
+    print("  Moving Inter ss05+ss06 (Circled/Squared) to ss09...")
+    gsub_table = inter['GSUB'].table
+    ss09_lookups = []
+    for fr in gsub_table.FeatureList.FeatureRecord:
+        if fr.FeatureTag in ('ss05', 'ss06'):
+            ss09_lookups.extend(fr.Feature.LookupListIndex)
+
+    if ss09_lookups:
+        ss09_fr = otTables.FeatureRecord()
+        ss09_fr.FeatureTag = 'ss09'
+        ss09_fr.Feature = otTables.Feature()
+        ss09_fr.Feature.LookupListIndex = ss09_lookups
+        ss09_fr.Feature.LookupCount = len(ss09_lookups)
+        from fontTools.ttLib.tables.otTables import FeatureParamsStylisticSet
+        params = FeatureParamsStylisticSet()
+        params.Version = 0
+        params.UINameID = inter['name'].addName("Circled and Squared Characters")
+        ss09_fr.Feature.FeatureParams = params
+        feat_idx = len(gsub_table.FeatureList.FeatureRecord)
+        gsub_table.FeatureList.FeatureRecord.append(ss09_fr)
+        gsub_table.FeatureList.FeatureCount = len(gsub_table.FeatureList.FeatureRecord)
+        for sr in gsub_table.ScriptList.ScriptRecord:
+            if sr.Script.DefaultLangSys:
+                sr.Script.DefaultLangSys.FeatureIndex.append(feat_idx)
+                sr.Script.DefaultLangSys.FeatureCount = len(sr.Script.DefaultLangSys.FeatureIndex)
+
     print("  Adding Pretendard ss features (ss05, ss06, ss10-ss16)...")
     sys.path.insert(0, os.path.dirname(__file__))
     from importlib import import_module
