@@ -37,6 +37,7 @@ fonts: $(DISTDIR)/InterCJKVariable.ttf $(DISTDIR)/extras/ttf/.ok $(DISTDIR)/Inte
 
 $(DISTDIR)/InterCJKVariable.ttf: build/InterCJKVariable.ttf | $(DISTDIR)
 	cp $< $@
+	python3 -c "import asyncio; from pathlib import Path; import east_asian_spacing as chws; asyncio.run(chws.Builder(Path('$@')).build_and_save(Path('$@')))"
 
 $(DISTDIR)/extras/ttf/.ok: build/InterCJKVariable.ttf misc/gen-static.py | $(DISTDIR)/extras/ttf
 	python3 misc/gen-static.py $< $(DISTDIR)/extras/ttf

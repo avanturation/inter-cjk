@@ -435,6 +435,38 @@ def merge(inter_ttf, pretendard_ttf, output_path):
             inter['fvar'].instances.append(inst)
             nid += 1
 
+    # Fix xAvgCharWidth
+    cmap_final = inter.getBestCmap()
+    latin_widths = [inter_hmtx[cmap_final[ord(c)]][0] for c in 'abcdefghijklmnopqrstuvwxyz' if ord(c) in cmap_final]
+    inter['OS/2'].xAvgCharWidth = sum(latin_widths) // len(latin_widths)
+
+    # Fix GDEF: mark uni0488, uni0489 as combining marks (class 3)
+    if 'GDEF' in inter:
+        gdef = inter['GDEF'].table
+        if gdef.GlyphClassDef:
+            gdef.GlyphClassDef.classDefs['uni0488'] = 3
+            gdef.GlyphClassDef.classDefs['uni0489'] = 3
+
+    # Add ss descriptions (fontbakery stylisticset_description)
+    ss_descriptions = {
+        'ss05': 'Korean Localization',
+        'ss06': 'Disambiguation',
+        'ss10': 'Medium Symbols',
+        'ss11': 'Outlined Symbols',
+        'ss12': 'Circled Symbols',
+        'ss13': 'Squared Symbols',
+        'ss14': 'Filled Symbols',
+        'ss15': 'Small Symbols',
+        'ss16': 'Large Symbols',
+    }
+    for fr in inter['GSUB'].table.FeatureList.FeatureRecord:
+        if fr.FeatureTag in ss_descriptions and fr.Feature.FeatureParams is None:
+            from fontTools.ttLib.tables.otTables import FeatureParamsStylisticSet
+            params = FeatureParamsStylisticSet()
+            params.Version = 0
+            params.UINameID = inter['name'].addName(ss_descriptions[fr.FeatureTag])
+            fr.Feature.FeatureParams = params
+
     # Sort all GSUB/GPOS coverages by glyph order to suppress fonttools warning
     glyph_to_idx = {g: i for i, g in enumerate(inter.getGlyphOrder())}
     for table_tag in ['GSUB', 'GPOS']:
