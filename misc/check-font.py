@@ -37,11 +37,11 @@ def check_metrics(font_path):
     win_total = os2.usWinAscent + os2.usWinDescent
     hhea_total = hhea.ascent - hhea.descent
 
-    check(typo_total == 2304, f"typo total = 2304 (got {typo_total})")
-    check(win_total == 2304, f"win total = 2304 (got {win_total})")
-    check(hhea_total == 2304, f"hhea total = 2304 (got {hhea_total})")
-    check(os2.sTypoAscender == 2024, f"sTypoAscender = 1897 (got {os2.sTypoAscender})")
-    check(os2.sTypoDescender == -532, f"sTypoDescender = -407 (got {os2.sTypoDescender})")
+    check(typo_total == 2556, f"typo total = 2556 (got {typo_total})")
+    check(win_total == 2556, f"win total = 2556 (got {win_total})")
+    check(hhea_total == 2556, f"hhea total = 2556 (got {hhea_total})")
+    check(os2.sTypoAscender == 2024, f"sTypoAscender = 2024 (got {os2.sTypoAscender})")
+    check(os2.sTypoDescender == -532, f"sTypoDescender = -532 (got {os2.sTypoDescender})")
     check(bool(os2.fsSelection & (1 << 7)), "USE_TYPO_METRICS set")
     check(os2.achVendID == "ICJK", f"vendorID = ICJK (got '{os2.achVendID}')")
 
